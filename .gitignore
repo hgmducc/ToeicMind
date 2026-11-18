@@ -1,0 +1,50 @@
+# Local environment and secrets
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+*.local
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+/ToeicMind/Docs/## Cấu hình (Sandbox).txt
+
+# Dependencies and generated files
+node_modules/
+dist/
+dist-ssr/
+[Bb]in/
+[Oo]bj/
+artifacts/
+coverage/
+test-results/
+playwright-report/
+TestResults/
+*.coverage
+*.coveragexml
+__pycache__/
+*.pyc
+
+# IDE and local temporary files
+.vs/
+.idea/
+/.vscode/*
+!/.vscode/extensions.json
+*.user
+*.suo
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local logs, SQL Server data and backups
+logs/
+*.log
+*.mdf
+*.ldf
+*.bak

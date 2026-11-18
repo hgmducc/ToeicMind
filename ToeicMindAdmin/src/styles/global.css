@@ -1,0 +1,20 @@
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+button { color: inherit; }
+input { min-width: 0; }
+h1, h2, h3, h4, h5, p { margin: 0; }
+/* Tiêu đề và nội dung đều dùng Manrope (--font-heading = --font-sans); tiêu đề màu --color-heading. */
+h1, h2, h3, h4, h5, .page-title, .card-title, .section-title, .hero-title, .auth-title, .stat-value, .score-big { font-family: var(--font-heading); color: var(--color-heading); letter-spacing: -0.01em; }
+svg { flex-shrink: 0; vertical-align: middle; }
+::selection { color: var(--color-ink); background: var(--color-accent); }
+:focus-visible { outline: 3px solid var(--color-focus-ring); outline-offset: 3px; }
+.skip-link { position: fixed; z-index: 10; top: -80px; left: 24px; padding: 12px 20px; background: var(--color-heading); color: var(--color-on-primary); border-radius: 8px; }
+.skip-link:focus { top: 20px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

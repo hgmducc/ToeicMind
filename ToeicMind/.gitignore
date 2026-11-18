@@ -1,0 +1,46 @@
+# Thư mục đề mẫu để thử nhập (không đẩy lên git)
+Docs/test_*/
+Docs/Test_*/
+
+# Build, IDE and coverage artifacts
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+coverage/
+__pycache__/
+*.pyc
+*.coverage
+*.coveragexml
+artifacts/
+
+# Local secrets; only the empty template is shared
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local logs, databases and backups
+logs/
+*.log
+*.mdf
+*.ldf
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local Cloudflare credentials supplied alongside the design documents
+**/note_key*Cloudflare*R2*

@@ -1,0 +1,102 @@
+/* Lộ trình cá nhân và kiểm tra đầu vào (CHG-007). Dùng token chung trong tokens.css. */
+.rec-list { display: grid; gap: var(--space-3); }
+.rec-card { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--space-3); padding: var(--space-3) var(--space-4); border: 1px solid var(--color-border); border-radius: var(--radius-card); background: var(--color-surface); }
+.rec-card[data-kind='PLACEMENT'], .rec-card[data-kind='PROFILE'] { border-color: var(--color-accent-border); background: var(--color-hover); }
+.rec-card[data-kind='WEAK_TOPIC'] .rec-icon { background: var(--color-danger-bg); color: var(--color-danger); }
+.rec-icon { display: grid; place-items: center; width: 42px; height: 42px; flex: none; border-radius: 12px; background: var(--color-panel); color: var(--color-primary); }
+.rec-body { display: grid; gap: 4px; min-width: 0; }
+.rec-title { font-size: var(--text-base); font-weight: 800; line-height: 1.4; overflow-wrap: anywhere; }
+.rec-reason { color: var(--color-muted); font-size: var(--text-xs); line-height: 1.6; }
+.rec-action { align-self: center; }
+
+.plan-placement { display: flex; align-items: center; gap: var(--space-4); flex-wrap: wrap; }
+.plan-placement--cta { border-color: var(--color-accent-border); background: linear-gradient(120deg, var(--color-hover), var(--color-surface)); }
+.plan-placement--cta .card-title { margin-bottom: 4px; }
+.plan-placement--cta .rec-icon { width: 52px; height: 52px; background: var(--color-primary); color: var(--color-accent); }
+
+/* Bố cục trang Lộ trình (18/11/2026):
+   1) hàng tổng quan Mục tiêu | Kết quả kiểm tra đầu vào | Trình độ, các thẻ cao bằng nhau, chân thẻ dồn xuống đáy;
+   2) hai cột: việc cần làm (Kế hoạch hôm nay, Gợi ý thêm) | phân tích (Part, chủ điểm).
+   Số cột tự giảm theo bề rộng: 3 → 2 (thẻ Trình độ trải cả hàng) → 1. */
+.plan-overview { display: grid; gap: var(--space-4); grid-template-columns: repeat(var(--plan-cols, 3), minmax(0, 1fr)); align-items: stretch; }
+.plan-overview[data-count='2'] { --plan-cols: 2; }
+.plan-overview > .card, .plan-layout .card { margin: 0; }
+.plan-card { display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.plan-card .card-title { margin-bottom: 0; }
+.plan-card-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2) var(--space-3); }
+.plan-layout > .plan-col > .card > .plan-card-head { margin-bottom: var(--space-4); }
+.plan-card-foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); margin-top: auto; padding-top: var(--space-2); }
+.plan-scores { display: grid; grid-template-columns: repeat(3, minmax(0, auto)); justify-content: start; gap: var(--space-2) var(--space-6); margin: 0; }
+.plan-scores > div { display: grid; align-content: start; justify-items: start; gap: 4px; }
+.plan-scores dt { color: var(--color-muted); font-size: var(--text-xs); }
+.plan-scores dd { margin: 0; }
+.plan-goal-progress { display: grid; gap: 6px; }
+.plan-layout { display: grid; gap: var(--space-4); grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); align-items: start; }
+.plan-col { display: grid; gap: var(--space-4); min-width: 0; }
+.plan-parts { display: grid; gap: var(--space-3); }
+.plan-parts .part-progress { margin-bottom: 0; }
+.plan-parts .part-progress > .row { flex-wrap: nowrap; }
+.plan-parts .part-progress .pill { flex: none; }
+.plan-part-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.plan-part-num { flex: none; min-width: 64px; text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 1100px) {
+  .plan-overview { --plan-cols: 2; }
+  .plan-overview[data-count='3'] > .plan-card--skills { grid-column: 1 / -1; }
+  .plan-overview[data-count='3'] > .plan-card--skills .plan-skills { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); column-gap: var(--space-6); }
+}
+@media (max-width: 900px) {
+  .plan-layout { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .plan-overview, .plan-overview[data-count='2'] { --plan-cols: 1; }
+  .plan-scores { gap: var(--space-2) var(--space-4); }
+  .plan-part-num { min-width: 0; }
+}
+
+.plan-score-row, .plan-goal { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-6); }
+.plan-score-row { margin-bottom: var(--space-3); }
+.plan-goal { align-items: center; }
+.plan-score { font-size: var(--text-4xl); font-weight: 800; letter-spacing: -1.5px; line-height: 1.1; color: var(--color-primary); }
+.plan-score--sm { font-size: var(--text-3xl); letter-spacing: -.8px; color: var(--color-ink); }
+.plan-score--goal { color: var(--color-ink); }
+.plan-skills { display: grid; gap: var(--space-4); }
+.plan-skill { display: grid; gap: 6px; }
+.plan-skill-score { font-size: var(--text-lg); }
+.plan-topics { display: grid; gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
+.plan-topics li { display: grid; gap: 6px; padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-panel); }
+.plan-topics li:last-child { padding-bottom: 0; border-bottom: 0; }
+.plan-rules { display: grid; gap: 6px; margin: var(--space-4) 0; padding-left: 20px; color: var(--color-muted); font-size: var(--text-sm); }
+.result-levels { margin-top: 6px; }
+
+@media (max-width: 640px) {
+  .rec-card { grid-template-columns: auto minmax(0, 1fr); }
+  .rec-action { grid-column: 1 / -1; justify-self: stretch; }
+  .plan-placement--cta .btn { width: 100%; }
+  .plan-score { font-size: var(--text-4xl); }
+  .plan-score-row, .plan-goal { gap: var(--space-4); }
+}
+
+/* --- Thiết lập mục tiêu ban đầu (/welcome, bắt buộc với tài khoản chưa có mục tiêu) --- */
+.welcome { display: grid; gap: var(--space-5); max-width: 640px; margin: 0 auto; }
+.welcome-head { display: flex; align-items: center; gap: var(--space-3); }
+.welcome-steps { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-5); padding: 0; list-style: none; }
+.welcome-steps li { display: flex; align-items: center; gap: 8px; color: var(--color-muted); font-size: var(--text-sm); font-weight: 700; }
+.welcome-steps li[data-state='current'] { color: var(--color-ink); }
+.welcome-steps li[data-state='done'] { color: var(--color-success); }
+.welcome-step-dot { display: grid; place-items: center; width: 28px; height: 28px; border: 2px solid var(--color-border); border-radius: 50%; background: var(--color-surface); font-size: var(--text-xs); }
+.welcome-steps li[data-state='current'] .welcome-step-dot { border-color: var(--color-primary); background: var(--color-primary); color: var(--color-on-primary); }
+.welcome-steps li[data-state='done'] .welcome-step-dot { border-color: var(--color-success); background: var(--color-success-bg); }
+.welcome-card { display: grid; gap: var(--space-3); padding: var(--space-6); }
+.welcome-eyebrow { color: var(--color-primary); font-size: var(--text-xs); font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.welcome-title { max-inline-size: 28ch; text-wrap: balance; }
+.welcome-card form { display: grid; gap: var(--space-1); margin-top: var(--space-2); }
+.welcome-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-3); }
+.welcome-actions .btn-primary { min-height: 44px; }
+.welcome-saved { display: flex; align-items: center; gap: 8px; color: var(--color-success); font-weight: 800; }
+.welcome-facts { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-5); padding: 0; list-style: none; font-weight: 700; }
+.welcome-facts li { display: flex; align-items: center; gap: 6px; }
+.required-mark { color: var(--color-danger); font-weight: 800; }
+@media (max-width: 640px) {
+  .welcome-card { padding: var(--space-4); }
+  .welcome-actions .btn { width: 100%; }
+}

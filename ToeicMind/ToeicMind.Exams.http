@@ -1,0 +1,169 @@
+@baseUrl = http://localhost:5078
+@adminToken = REPLACE_WITH_ADMIN_ACCESS_TOKEN
+@learnerToken = REPLACE_WITH_LEARNER_ACCESS_TOKEN
+@examSetId = 1
+@examId = 1
+@groupId = 1
+@questionId = 1
+@mediaId = 1
+# Thay bằng CategoryId có PartNo=5 và IsLeaf=true từ GET /api/exam-catalogs.
+@part5CategoryId = 0
+
+### Tạo bộ đề; lấy examSetId từ response
+POST {{baseUrl}}/api/admin/exam-sets
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "name": "ETS 2024",
+  "description": "Bộ đề ETS"
+}
+
+### Tạo đề Nháp; lấy examId từ response
+POST {{baseUrl}}/api/admin/exams
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "examSetId": {{examSetId}},
+  "examCode": "ETSTest1",
+  "title": "ETS Test 1",
+  "description": "Đề mẫu 200 câu; nội dung nhập ở đợt tiếp theo"
+}
+
+### Danh sách bộ đề và số đề
+GET {{baseUrl}}/api/admin/exam-sets?page=1&pageSize=20
+Authorization: Bearer {{adminToken}}
+
+### Tìm/lọc đề Nháp trong bộ
+GET {{baseUrl}}/api/admin/exams?examSetId={{examSetId}}&status=DRAFT&search=ETS&page=1&pageSize=20
+Authorization: Bearer {{adminToken}}
+
+### Thông tin đề
+GET {{baseUrl}}/api/admin/exams/{{examId}}
+Authorization: Bearer {{adminToken}}
+
+### Sửa thông tin đề
+PUT {{baseUrl}}/api/admin/exams/{{examId}}
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "examSetId": {{examSetId}},
+  "examCode": "ETSTest1",
+  "title": "ETS Test 1",
+  "description": "Mô tả đã sửa"
+}
+
+### Xóa mềm đề
+DELETE {{baseUrl}}/api/admin/exams/{{examId}}
+Authorization: Bearer {{adminToken}}
+
+### Thùng rác
+GET {{baseUrl}}/api/admin/exams?isDeleted=true
+Authorization: Bearer {{adminToken}}
+
+### Khôi phục đề
+POST {{baseUrl}}/api/admin/exams/{{examId}}/restore
+Authorization: Bearer {{adminToken}}
+
+### Xóa bộ; trả 409 và danh sách nếu còn đề
+DELETE {{baseUrl}}/api/admin/exam-sets/{{examSetId}}
+Authorization: Bearer {{adminToken}}
+
+### Khôi phục bộ
+POST {{baseUrl}}/api/admin/exam-sets/{{examSetId}}/restore
+Authorization: Bearer {{adminToken}}
+
+### Ai cũng xem được (không cần token): chỉ thấy bộ có đề xuất bản
+GET {{baseUrl}}/api/exam-sets
+
+### Ai cũng xem được: chỉ thấy đề xuất bản
+GET {{baseUrl}}/api/exams?examSetId={{examSetId}}
+
+### Danh mục để chọn đúng loại lá/Part/Level/cờ (công khai)
+GET {{baseUrl}}/api/exam-catalogs
+
+### Tạo đề để server tự sinh mã (chỉ ví dụ thử API)
+POST {{baseUrl}}/api/admin/exams
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "examSetId": {{examSetId}},
+  "title": "Đề thử mã tự sinh"
+}
+
+### Tạo nhóm Part 5 với một câu tổng hợp để thử API; lấy groupId/questionId từ response
+POST {{baseUrl}}/api/admin/exams/{{examId}}/groups
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "partNo": 5,
+  "categoryId": {{part5CategoryId}},
+  "translationVi": "Cuộc họp sẽ bắt đầu lúc 9 giờ sáng.",
+  "questions": [
+    {
+      "questionNo": 101,
+      "levelNo": 1,
+      "questionText": "The meeting will begin ___ 9 a.m.",
+      "explanation": "Dùng at trước giờ cụ thể.",
+      "optionExplanations": "A: at — Đúng, dùng trước giờ cụ thể.\nB: in — Sai, không dùng trước giờ cụ thể.\nC: on — Sai, dùng trước ngày.\nD: to — Sai, không phù hợp với câu.",
+      "options": [
+        { "optionLabel": "A", "optionText": "at", "isCorrect": true },
+        { "optionLabel": "B", "optionText": "in", "isCorrect": false },
+        { "optionLabel": "C", "optionText": "on", "isCorrect": false },
+        { "optionLabel": "D", "optionText": "to", "isCorrect": false }
+      ]
+    }
+  ]
+}
+
+### Nội dung nhóm (ADMIN)
+GET {{baseUrl}}/api/admin/exams/{{examId}}/groups?partNo=5
+Authorization: Bearer {{adminToken}}
+
+### Hướng dẫn hiệu lực (ghi đè theo đề hoặc mặc định)
+GET {{baseUrl}}/api/admin/directions?examId={{examId}}&effective=true
+Authorization: Bearer {{adminToken}}
+
+### Seed 9 hướng dẫn mặc định (idempotent – gọi lại an toàn)
+### Trả về: { inserted, total, directions[] }
+POST {{baseUrl}}/api/admin/directions/seed
+Authorization: Bearer {{adminToken}}
+
+### Tạo hướng dẫn riêng Part 1
+POST {{baseUrl}}/api/admin/directions
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "examId": {{examId}},
+  "directionKind": "PART",
+  "partNo": 1,
+  "directionsEn": "Select the statement that best describes the photograph."
+}
+
+### Upload media: dùng Swagger chọn file cho POST /api/admin/exams/{examId}/groups/{groupId}/media
+### URL ký xem trước media đã upload (ADMIN)
+GET {{baseUrl}}/api/admin/media/{{mediaId}}/url
+Authorization: Bearer {{adminToken}}
+
+### Kiểm tra xuất bản; nhóm ví dụ ở trên chưa đủ 200 câu nên sẽ báo các mục còn thiếu
+GET {{baseUrl}}/api/admin/exams/{{examId}}/publish-check
+Authorization: Bearer {{adminToken}}
+
+### Xuất bản khi toàn bộ kiểm tra đạt
+PUT {{baseUrl}}/api/admin/exams/{{examId}}/status
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "status": "PUBLISHED" }
+
+### Chuyển về Nháp; lịch sử có sẵn vẫn khóa sửa nội dung
+PUT {{baseUrl}}/api/admin/exams/{{examId}}/status
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "status": "DRAFT" }

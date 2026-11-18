@@ -1,0 +1,10 @@
+@import './styles/tokens.css';
+@import './styles/global.css';
+@import './styles/auth.css';
+@import './styles/components.css';
+@import './styles/learner.css';
+@import './styles/vocab.css';
+@import './styles/exam.css';
+@import './styles/study.css';
+@import './styles/dictation.css';
+@import './styles/plan.css';

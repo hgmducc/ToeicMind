@@ -1,0 +1,12 @@
+/* Thiết lập bài kiểm tra đầu vào (CHG-007). Dùng token chung trong tokens.css. */
+.placement-nowrap { white-space: nowrap; }
+.placement-preview { max-width: 520px; font-size: var(--text-xs); line-height: 1.5; overflow-wrap: anywhere; }
+.placement-warning { margin-top: 4px; color: var(--color-danger); font-size: var(--text-xs); font-weight: 700; }
+.admin-table tr[data-unavailable='true'] td { background: var(--color-danger-bg); }
+.placement-quotas { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; margin: 12px 0; }
+.placement-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.placement-inline { margin-top: 8px; }
+.admin-shell label.placement-check { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+.placement-row-actions { min-width: 0 !important; flex-wrap: nowrap; }
+.placement-footer { position: sticky; bottom: 0; z-index: 5; padding: 12px 16px; border: 1px solid var(--color-border); border-radius: 12px; background: var(--color-surface); box-shadow: 0 -6px 20px color-mix(in srgb, var(--color-ink) 7%, transparent); }
+@media (max-width: 1100px) { .placement-quotas { grid-template-columns: repeat(4, minmax(0, 1fr)); } }

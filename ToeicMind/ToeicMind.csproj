@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ToeicMind-9ce97e62-6cdc-4567-b4a2-3b61b5df8b4d</UserSecretsId>
+    <DefaultItemExcludes>$(DefaultItemExcludes);artifacts/**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <!-- Thư viện NuGet -->
+  <ItemGroup>
+    <!-- Cơ sở dữ liệu -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.14">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+
+    <!-- Đăng nhập, mật khẩu, email -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.14" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.69.0" />
+    <PackageReference Include="MailKit" Version="4.18.2" />
+    <!-- Không có mã nào gọi trực tiếp; được ghim phiên bản để thư viện phụ thuộc (MailKit/MimeKit) dùng bản này. Giữ nguyên nếu chưa kiểm tra. -->
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="11.0.0-rc.3.26522.148" />
+
+    <!-- Lưu trữ media (Cloudflare R2 dùng giao thức S3) và làm sạch HTML -->
+    <PackageReference Include="AWSSDK.S3" Version="4.0.104.8" />
+    <PackageReference Include="HtmlSanitizer" Version="9.2.1039" />
+
+    <!-- Cấu hình và tài liệu API -->
+    <PackageReference Include="DotNetEnv" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.3.1" />
+  </ItemGroup>
+
+  <!-- Tài liệu và file bí mật local không được đưa vào output hoặc bản publish. -->
+  <ItemGroup>
+    <Content Remove="Docs/**;**/note_key*" />
+    <None Remove="Docs/**;**/note_key*" />
+    <Content Remove=".env;.env.*;*.env;*.env.*;**/.env;**/.env.*;**/*.env;**/*.env.*;appsettings.Local.json;appsettings.*.Local.json;**/secrets.json;**/*.pfx;**/*.p12;**/*.pem;**/*.key" />
+    <None Remove=".env;.env.*;*.env;*.env.*;**/.env;**/.env.*;**/*.env;**/*.env.*;appsettings.Local.json;appsettings.*.Local.json;**/secrets.json;**/*.pfx;**/*.p12;**/*.pem;**/*.key" />
+  </ItemGroup>
+
+  <!-- using dùng chung cho toàn dự án (không cần khai báo lại ở từng file) -->
+  <ItemGroup>
+    <Using Include="ToeicMind.Models.Identity" />
+    <Using Include="ToeicMind.Models.Learning" />
+    <Using Include="ToeicMind.DTOs.Learning.Request" />
+    <Using Include="ToeicMind.DTOs.Learning.Response" />
+    <Using Include="ToeicMind.DTOs.Auth.Request" />
+    <Using Include="ToeicMind.DTOs.Auth.Response" />
+    <Using Include="ToeicMind.DTOs.Users" />
+  </ItemGroup>
+
+</Project>

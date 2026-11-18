@@ -1,0 +1,231 @@
+@host = https://localhost:7000
+@token = <dán accessToken của Người học>
+@adminToken = <dán accessToken của ADMIN>
+
+# Công khai (không cần token): danh sách đề, bộ đề, danh mục, cấu trúc đề, thẻ ngân hàng, ngữ pháp, danh sách nghe chép, tổng quan/bài học từ vựng.
+# Cần đăng nhập: làm bài, nội dung Part/media/hướng dẫn, chi tiết clip nghe chép, học/ôn từ vựng, lưu tiến độ, /api/me, /api/reports.
+
+### --- Công khai: bộ đề và đề đã xuất bản ---
+GET {{host}}/api/exam-sets
+
+###
+GET {{host}}/api/exams?examSetId=1
+
+### Cấu trúc đề và chế độ làm bài (Luyện thi / Luyện tập), kèm dàn ý nhóm theo Part; có ETag (công khai)
+GET {{host}}/api/exams/1/modes
+
+### Chữ của Part 5, không kèm media (nhanh nhất)
+GET {{host}}/api/exams/1/parts/5?media=false
+Authorization: Bearer {{token}}
+
+### Link media đã ký của Part 1
+GET {{host}}/api/exams/1/parts/1/media
+Authorization: Bearer {{token}}
+
+### Hướng dẫn hiệu lực của đề
+GET {{host}}/api/exams/1/directions
+Authorization: Bearer {{token}}
+
+### Bắt đầu Luyện thi một Part với thời gian tự đặt
+POST {{host}}/api/attempts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "examId": 1, "mode": "EXAM", "scope": "PART", "partNos": [5], "timeLimitSeconds": 600 }
+
+### Lưu đáp án (đổi 1/55 theo dữ liệu thật)
+PUT {{host}}/api/attempts/1/answers/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "optionId": 1 }
+
+### Nộp bài
+POST {{host}}/api/attempts/1/submit
+Authorization: Bearer {{token}}
+
+### Kết quả
+GET {{host}}/api/attempts/1/result
+Authorization: Bearer {{token}}
+
+### Kết quả kèm xem lại từng câu (không dành cho Luyện thi)
+GET {{host}}/api/attempts/1/result?includeReview=true
+Authorization: Bearer {{token}}
+
+### Lịch sử làm bài
+GET {{host}}/api/attempts?page=1&pageSize=20
+Authorization: Bearer {{token}}
+
+### Ngân hàng: thẻ của Part 5 (công khai; gửi token để có tiến độ)
+GET {{host}}/api/bank/parts/5/cards
+
+### Ngân hàng: học 20 câu chưa luyện của một thẻ
+POST {{host}}/api/bank/attempts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "partNo": 5, "cardKey": "level-1", "pick": "NEW" }
+
+### Luyện thi nhiều Part tự chọn, giờ tự đặt
+POST {{host}}/api/attempts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "examId": 1, "mode": "EXAM", "scope": "PART", "partNos": [3, 4, 7], "timeLimitSeconds": 3000 }
+
+### Ngân hàng: Part 5 lọc chủ điểm (công khai)
+GET {{host}}/api/bank/parts/5/cards?categoryId=1
+
+### Ngân hàng: luyện ngẫu nhiên cả Part
+POST {{host}}/api/bank/attempts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "partNo": 5, "cardKey": "all", "pick": "NEW" }
+
+### Ngữ pháp: chủ điểm (Part 5) (công khai)
+GET {{host}}/api/grammar/topics
+
+### Nghe chép: các bộ đề (công khai)
+GET {{host}}/api/dictation/sets
+
+### Nghe chép: các đề trong bộ (công khai)
+GET {{host}}/api/dictation/sets/1/exams
+
+### Nghe chép: theo chủ đề (công khai)
+GET {{host}}/api/dictation/topics?partNo=1
+
+### Nghe chép: danh sách bộ clip (câu cần luyện cần token mới có kết quả, Part 2) (công khai)
+GET {{host}}/api/dictation/items?partNo=2&status=NEEDS_PRACTICE&page=1&pageSize=20
+Authorization: Bearer {{token}}
+
+### Nghe chép: chi tiết một bộ clip (cần đăng nhập)
+GET {{host}}/api/dictation/items/1
+Authorization: Bearer {{token}}
+
+### Nghe chép: ghi một lượt luyện
+POST {{host}}/api/dictation/items/1/progress
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "mode": "HIDE_SOME", "accuracyPercent": 85 }
+
+### Từ vựng: tổng quan, đề của bộ đề (công khai), danh sách từ (cần đăng nhập)
+GET {{host}}/api/vocab/overview
+
+###
+GET {{host}}/api/vocab/sets/1/exams
+
+###
+GET {{host}}/api/vocab/words?examSetId=1&examId=1&partNo=5&status=NEW&page=1&pageSize=30
+Authorization: Bearer {{token}}
+
+### Từ vựng: phiên học (đến hạn trước, từ mới sau)
+GET {{host}}/api/vocab/study?examSetId=1&mode=MIXED&limit=20&newLimit=10
+
+### Luyện tự do (mọi từ, kể cả chưa đến hạn) và lọc CEFR
+GET {{host}}/api/vocab/study?examSetId=1&mode=PRACTICE&limit=10&cefrLevel=B2
+
+### Các bài học nhỏ (10 từ/bài) của một bộ đề (công khai)
+GET {{host}}/api/vocab/lessons?examSetId=1&size=10
+
+### Từ vựng: ghi lượt ôn (0 Quên, 1 Khó, 2 Nhớ, 3 Dễ)
+POST {{host}}/api/vocab/100/review
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "grade": 2 }
+
+### Từ vựng: xóa tiến độ để học lại
+DELETE {{host}}/api/vocab/100/progress
+Authorization: Bearer {{token}}
+
+### Tổng quan học tập (gồm tiến độ Part, 84 ngày học gần nhất, đường điểm 20 bài gần nhất)
+GET {{host}}/api/me/dashboard?days=84&scoreLimit=20
+Authorization: Bearer {{token}}
+
+### Các báo lỗi tôi đã gửi
+GET {{host}}/api/reports?page=1&pageSize=20
+Authorization: Bearer {{token}}
+
+### Báo lỗi câu hỏi
+POST {{host}}/api/reports
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "targetType": "QUESTION", "questionId": 1, "errorType": "WRONG_ANSWER", "description": "Đáp án đúng phải là B" }
+
+### --- Admin: trang tổng quan (summary, activity, popularExams, hardestQuestions trong một phản hồi) ---
+GET {{host}}/api/admin/dashboard?days=30&limit=5&minAnswers=5
+Authorization: Bearer {{adminToken}}
+
+###
+GET {{host}}/api/admin/users/2/stats
+Authorization: Bearer {{adminToken}}
+
+###
+GET {{host}}/api/admin/reports?status=NEW
+Authorization: Bearer {{adminToken}}
+
+###
+PUT {{host}}/api/admin/reports/1
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "status": "RESOLVED", "adminNote": "Đã sửa đáp án" }
+
+### --- VIP & thanh toán VNPay ---
+# Quyền Miễn phí/VIP đặt theo bộ đề (examAccess, vocabAccess, listeningAccess, readingAccess) và theo đề (accessLevel). Nội dung VIP trả 402 VIP_REQUIRED nếu chưa có VIP.
+### Các gói VIP đang bán (công khai)
+GET {{host}}/api/vip/plans
+
+### Trạng thái VIP của tôi
+GET {{host}}/api/vip/me
+Authorization: Bearer {{token}}
+
+### Tạo đơn mua gói và nhận paymentUrl (mở URL này để thanh toán trên VNPay sandbox)
+POST {{host}}/api/vip/orders
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "planCode": "VIP_1M" }
+
+### Lịch sử đơn của tôi
+GET {{host}}/api/vip/orders?page=1&pageSize=10
+Authorization: Bearer {{token}}
+
+### Admin: gói, đơn, cấp/thu hồi VIP
+GET {{host}}/api/admin/vip/plans
+Authorization: Bearer {{adminToken}}
+
+###
+POST {{host}}/api/admin/vip/plans
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "code": "VIP_6M", "name": "VIP 6 tháng", "description": "Gói 6 tháng", "durationDays": 180, "priceVnd": 449000, "isActive": true, "sortOrder": 4 }
+
+###
+GET {{host}}/api/admin/vip/orders?status=PAID&page=1&pageSize=20
+Authorization: Bearer {{adminToken}}
+
+### Cấp VIP đến một ngày (null để thu hồi)
+PUT {{host}}/api/admin/vip/users/2
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "expiresAt": "2027-01-01T00:00:00Z" }
+
+### Đặt quyền của bộ đề: đề VIP, từ vựng miễn phí, Nghe VIP, Đọc miễn phí
+PUT {{host}}/api/admin/exam-sets/1
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "name": "ETS Test", "description": null, "examAccess": "VIP", "vocabAccess": "FREE", "listeningAccess": "VIP", "readingAccess": "FREE" }
+
+### Ghi đè quyền làm đề cho một đề (FREE/VIP; bỏ trống để theo bộ đề)
+PUT {{host}}/api/admin/exams/1
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{ "examSetId": 1, "title": "ETS Test 1", "accessLevel": "FREE" }

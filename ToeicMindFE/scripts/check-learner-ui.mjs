@@ -1,0 +1,586 @@
+// Kiểm thử giao diện người học bằng Chromium thật + backend GIẢ (mock-learner-api.mjs / mock-learner-content.mjs).
+// Phủ: đăng nhập/điều hướng, trang chủ, đề thi (Luyện tập, Luyện thi liền mạch), ngân hàng câu hỏi, nghe chép, lịch sử,
+// từ của tôi, báo lỗi, VIP, lọc HTML, 320px không tràn ngang. Không dùng backend thật.
+import assert from 'node:assert/strict'
+import { contentHandler } from './mock-learner-content.mjs'
+import { API, WEB, launch } from './ui-harness.mjs'
+
+const h = await launch({ extraHandlers: [contentHandler] })
+const { page, problems, state } = h
+const step = (name) => console.log(`✓ ${name}`)
+const dialog = () => page.locator('dialog[open]')
+const nav = (name) => page.locator('.learner-nav').getByRole('link', { name, exact: true })
+const noOverflow = async (label) => assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), `${label} tràn ngang`)
+
+async function loginAt(path) {
+  await page.goto(`${WEB}${path}`)
+  await page.locator('input[name=email]').fill('learner@example.com')
+  await page.locator('input[name=password]').fill('secret123')
+  await page.locator('form.auth-form .submit-button').click()
+}
+
+try {
+  // ---------- Đăng nhập, quay lại trang định mở, điều hướng ----------
+  await loginAt('/vocab')
+  await page.waitForURL(`${WEB}/vocab`)
+  await page.getByText('Từ đến hạn ôn').first().waitFor()
+  assert.equal(await page.locator('.learner-nav-item').count(), 8)   // gồm "Lộ trình" (CHG-007)
+  assert.equal(await page.locator('.learner-nav-item[aria-current=page]').innerText(), 'Từ vựng')
+  await page.reload()
+  await page.getByText('Từ đến hạn ôn').first().waitFor()
+  step('đăng nhập → về đúng trang đang mở, giữ phiên sau khi tải lại')
+
+  await nav('Trang chủ').click()
+  await page.getByRole('heading', { name: /Xin chào, Học viên thử/ }).waitFor()
+  await page.waitForFunction(() => document.activeElement?.id === 'learner-main')   // đổi trang → focus vào nội dung chính (mục 14.3)
+  assert.ok(await page.locator('svg.score-chart').count() === 1)
+  assert.ok(await page.locator('.heat i').count() >= 84)
+  assert.match(await page.locator('.callout').innerText(), /Bạn đang làm dở/)
+  assert.ok(await page.locator('.part-progress').count() === 7)
+  step('trang chủ: số liệu, biểu đồ điểm, lịch học, bài đang làm dở')
+
+  await page.locator('.user-button').click()
+  await page.getByRole('menuitem', { name: 'Tài khoản' }).click()
+  await page.getByRole('heading', { name: 'Thông tin tài khoản' }).waitFor()
+  assert.ok(await page.getByText('learner@example.com').first().isVisible())
+  // Không còn dữ liệu kỹ thuật: JSON UserDto, hạn token.
+  const accountText = await page.locator('.account-page').innerText()
+  assert.equal(await page.locator('.account-page pre, details.account-dto').count(), 0)
+  for (const banned of ['UserDto', 'Access token', 'Refresh token', 'Phiên đã xác thực', 'mock-access', '"userId"']) assert.ok(!accountText.includes(banned), `trang tài khoản còn "${banned}"`)
+  // Tự sửa tên hiển thị: kiểm tra bắt buộc ở client, chỉ gửi { username }, menu người dùng đổi tên ngay.
+  const nameInput = page.getByLabel('Tên hiển thị')
+  assert.equal(await page.getByRole('button', { name: 'Lưu thay đổi' }).isDisabled(), true, 'chưa đổi thì chưa lưu được')
+  await nameInput.fill('   ')
+  await page.getByRole('button', { name: 'Lưu thay đổi' }).click()
+  await page.getByText('Vui lòng nhập tên hiển thị.').waitFor()
+  assert.equal(await nameInput.evaluate((e) => e === document.activeElement), true)
+  await nameInput.fill('  Học viên mới ')
+  await page.getByRole('button', { name: 'Lưu thay đổi' }).click()
+  await page.getByText('Đã lưu tên hiển thị.').waitFor()
+  assert.match(await page.locator('.user-button').innerText(), /Học viên mới/)
+  assert.equal(await page.locator('.account-name').innerText(), 'Học viên mới')
+  // Đổi mật khẩu: sai mật khẩu hiện tại (backend trả 401) báo lỗi tại ô, KHÔNG đăng xuất; đúng thì giữ phiên (tự đăng nhập lại).
+  await page.getByLabel('Mật khẩu hiện tại').fill('sai-mat-khau')
+  await page.getByLabel('Mật khẩu mới', { exact: true }).fill('NewPass123')
+  await page.getByLabel('Nhập lại mật khẩu mới').fill('NewPass123')
+  await page.getByRole('button', { name: 'Đổi mật khẩu' }).click()
+  await page.getByText('Mật khẩu hiện tại không đúng.').waitFor()
+  assert.equal(new URL(page.url()).pathname, '/account', 'sai mật khẩu hiện tại không làm mất phiên')
+  await page.getByLabel('Mật khẩu hiện tại').fill('secret123')
+  await page.getByLabel('Mật khẩu mới', { exact: true }).fill('NewPass123')
+  await page.getByLabel('Nhập lại mật khẩu mới').fill('NewPass1234')
+  await page.getByRole('button', { name: 'Đổi mật khẩu' }).click()
+  await page.getByText('Mật khẩu xác nhận chưa khớp.').waitFor()
+  await page.getByLabel('Nhập lại mật khẩu mới').fill('NewPass123')
+  await page.getByRole('button', { name: 'Đổi mật khẩu' }).click()
+  await page.getByText('Đã đổi mật khẩu. Các thiết bị khác đã được đăng xuất.').waitFor()
+  assert.equal(await page.locator('.user-button').count(), 1, 'vẫn đăng nhập sau khi đổi mật khẩu')
+  const accountBodies = await (await fetch(`${API}/api/__mock/account-bodies`)).json()
+  assert.deepEqual(accountBodies.map((b) => b.body), [
+    { username: 'Học viên mới' },
+    { oldPassword: 'sai-mat-khau', newPassword: 'NewPass123', confirmNewPassword: 'NewPass123' },
+    { oldPassword: 'secret123', newPassword: 'NewPass123', confirmNewPassword: 'NewPass123' },
+  ])
+  await nameInput.fill('Học viên thử')                                         // trả lại tên cho các bước sau
+  await page.getByRole('button', { name: 'Lưu thay đổi' }).click()
+  await page.getByText('Đã lưu tên hiển thị.').waitFor()
+  await noOverflow('tài khoản')
+  step('tài khoản: không còn JSON/hạn token, tự sửa tên hiển thị, đổi mật khẩu (sai mật khẩu hiện tại không đăng xuất), giữ phiên')
+
+  // ---------- Đề thi → Luyện tập ----------
+  await nav('Đề thi').click()
+  await page.getByRole('heading', { name: /Làm đề/ }).waitFor()
+  await page.locator('.exam-card', { hasText: 'Test 1' }).getByRole('button', { name: /Chọn chế độ/ }).click()
+  await dialog().getByRole('tab', { name: /Luyện tập/ }).click()
+  await dialog().locator('.pick', { hasText: 'Part 1' }).click()
+  await dialog().locator('.pick', { hasText: 'Part 5' }).click()
+  await dialog().locator('.pick', { hasText: 'Part 7' }).click()
+  await dialog().getByRole('button', { name: /Bắt đầu/ }).last().click()
+  await page.waitForURL(/\/attempt\/\d+$/)
+  await page.locator('.study-q').first().waitFor()
+  assert.equal(await page.locator('.learner-topbar').count(), 0, 'làm bài ẩn thanh điều hướng')
+  assert.equal(await page.locator('.study-split').count(), 1, 'hai khung: ngữ cảnh | câu hỏi')
+  // Mở bảng câu hỏi và chuyển tới câu n (bảng câu hỏi dạng ngăn bên phải).
+  const jumpTo = async (n) => {
+    await page.getByRole('button', { name: /^Danh sách câu hỏi/ }).click()
+    await dialog().getByRole('button', { name: new RegExp(`^Câu ${n}:`) }).click()
+    await dialog().waitFor({ state: 'detached' })
+  }
+  // Part 1: chỉ hiện (A)–(D), có thanh âm thanh + phím tắt; bật "Hiện chữ" thì thấy nội dung.
+  assert.equal(await page.locator('#q1001 .option--letter').count(), 4)
+  assert.equal(await page.locator('#q1001 .option-text').count(), 0)
+  assert.equal(await page.locator('.audio-bar [role=slider]').count(), 1, 'Luyện tập tua được trên sóng âm')
+  assert.ok(await page.locator('.study-keys kbd', { hasText: 'P' }).count() === 1)
+  await page.getByRole('button', { name: /Hiện chữ Part 1–2/ }).click()
+  assert.equal(await page.locator('#q1001 .option-text').first().isVisible(), true)
+  // Phím → sang nhóm câu kế (Câu 2).
+  await page.locator('.study-pane--questions').click({ position: { x: 5, y: 5 } })
+  await page.keyboard.press('ArrowRight')
+  await page.locator('#q1002').waitFor()
+  // Part 5 (Câu 4): chấm ngay, khóa đáp án, 3 khối Bản dịch/Giải thích/Từ vựng bật tắt được.
+  await jumpTo(4)
+  const q4 = page.locator('#q1005')
+  await q4.waitFor()
+  await q4.locator('.option').nth(1).click()
+  await q4.locator('.explain-result').waitFor()
+  assert.equal(await q4.locator('.option[data-state=correct]').count(), 1)
+  assert.equal(await q4.locator('.option').first().isDisabled(), true, 'đáp án khóa sau khi chọn')
+  assert.match(await q4.locator('.explain-result').innerText(), /Chính xác/)
+  const panels = page.locator('.study-panels')
+  assert.equal(await panels.locator('.detail-card[data-kind=explain] .step-label').count(), 3)
+  assert.equal(await panels.locator('.detail-card[data-kind=explain] .detail-tip').count(), 1)
+  assert.equal(await panels.locator('.analysis-list li').count(), 4)
+  assert.equal(await panels.locator('.analysis-list li[data-verdict=correct]').count(), 1)
+  assert.equal(await panels.locator('.vocab-card').count(), 0, 'Từ vựng mặc định tắt')
+  await page.getByRole('switch', { name: /Từ vựng nên học/ }).click()
+  assert.equal(await panels.locator('.vocab-card').count(), 3)
+  await page.getByRole('switch', { name: /Script & bản dịch|Bản dịch/ }).click()
+  await panels.locator('.transcript-pairs li').first().waitFor()
+  await page.getByRole('button', { name: 'Lưu vào bộ từ: manager' }).click()   // tên đọc chứa chữ hiển thị (WCAG 2.5.3)
+  await page.getByText('Đã lưu “manager” vào bộ từ của bạn.').waitFor()
+  await page.getByRole('button', { name: 'Đã lưu vào bộ từ: manager' }).waitFor()
+  await page.getByRole('button', { name: 'Lưu tất cả (2)' }).click()
+  await page.getByText('Đã lưu 2 từ vào bộ từ của bạn.').waitFor()
+  assert.equal(await panels.locator('.vocab-card[data-saved=true]').count(), 3)
+  // Đánh dấu sao → bảng câu hỏi hiện ô đánh dấu.
+  await q4.getByRole('button', { name: 'Đánh dấu câu 4' }).click()
+  assert.equal(await q4.getByRole('button', { name: 'Bỏ đánh dấu câu 4' }).getAttribute('aria-pressed'), 'true')
+  await page.getByRole('button', { name: 'Câu tiếp' }).click()
+  await page.locator('#q1006 .option').first().click()   // sai
+  await page.locator('#q1006 .explain-result').waitFor()
+  assert.match(await page.locator('#q1006 .explain-result').innerText(), /Chưa đúng/)
+  await page.getByRole('button', { name: /^Danh sách câu hỏi/ }).click()
+  assert.match(await dialog().locator('.nav-counts').innerText(), /1 Đúng.*1 Sai/s)
+  assert.equal(await dialog().getByRole('button', { name: /^Câu 4:/ }).getAttribute('data-marked'), 'true')
+  assert.equal(await dialog().getByRole('button', { name: /^Câu 5:/ }).getAttribute('data-current'), 'true')
+  await page.keyboard.press('Escape')
+  // Báo lỗi một câu.
+  await page.locator('#q1006').getByRole('button', { name: /Báo lỗi câu/ }).click()
+  await dialog().locator('select').selectOption('OTHER')
+  await dialog().getByRole('button', { name: 'Gửi báo lỗi' }).click()
+  await dialog().getByText('Vui lòng mô tả lỗi.').waitFor()
+  await dialog().locator('textarea').fill('Đáp án sai thử')
+  await dialog().getByRole('button', { name: 'Gửi báo lỗi' }).click()
+  await page.getByText('Đã gửi báo lỗi, cảm ơn bạn!').waitFor()
+  assert.equal(state && (await (await fetch(`${API}/api/__mock/content`)).json()).reports.length, 1)
+  // Part 7 (nhóm câu 6–7): đoạn văn ở khung trái, HTML độc hại bị lọc.
+  await page.getByRole('button', { name: 'Câu tiếp' }).click()
+  await page.locator('.study-passage').waitFor()
+  assert.match(await page.locator('.study-group-label').innerText(), /Nhóm câu 6–7/)
+  assert.equal(await page.evaluate(() => window.__xss), undefined, 'script trong đoạn văn phải bị lọc')
+  assert.equal(await page.locator('.passage script').count(), 0)
+  // Tắt "Hiện đáp án ngay": chọn chưa chấm, đổi được; "Xem đáp án" từng câu và "Xem đáp án các câu đã chọn" không cần nộp bài.
+  const instantSwitch = page.getByRole('switch', { name: 'Hiện đáp án ngay' })
+  assert.equal(await instantSwitch.getAttribute('aria-checked'), 'true')
+  await instantSwitch.click()
+  assert.equal(await instantSwitch.getAttribute('aria-checked'), 'false')
+  const q8 = page.locator('#q1008'), q9 = page.locator('#q1009')
+  await q8.locator('.option').nth(0).click()
+  await q8.locator('.option[data-state=selected]').waitFor()
+  assert.equal(await q8.locator('.explain-result').count(), 0, 'chưa hiện đáp án')
+  await q8.locator('.option').nth(2).click()                                   // đổi lựa chọn
+  await page.waitForFunction(() => document.querySelector('#q1008 .option:nth-child(3)')?.getAttribute('data-state') === 'selected')
+  assert.equal(await q8.locator('.option[data-state=selected]').count(), 1)
+  await q8.getByRole('button', { name: 'Xem đáp án' }).click()
+  await q8.locator('.explain-result').waitFor()
+  assert.match(await q8.locator('.explain-result').innerText(), /Chưa đúng/)       // chọn C, đáp án B
+  assert.equal(await q8.locator('.option[data-state=correct]').count(), 1)
+  assert.equal(await q8.locator('.option').first().isDisabled(), true, 'khóa sau khi xem đáp án')
+  await q9.locator('.option').nth(1).click()
+  await page.getByRole('button', { name: 'Xem đáp án các câu đã chọn (1)' }).click()
+  await q9.locator('.explain-result').waitFor()
+  assert.match(await q9.locator('.explain-result').innerText(), /Chính xác/)
+  assert.equal(await page.getByRole('button', { name: /Xem đáp án các câu đã chọn/ }).count(), 0)
+  const bodies = (await (await fetch(`${API}/api/__mock/content`)).json()).answerBodies.filter((b) => b.qid === 1008)
+  assert.deepEqual(bodies.map((b) => b.reveal ?? true), [false, false, true], 'lưu tạm 2 lần rồi mới chấm')
+  await page.reload()                                                          // tùy chọn và vị trí được nhớ
+  await page.locator('#q1008').waitFor()
+  assert.equal(await instantSwitch.getAttribute('aria-checked'), 'false')
+  await instantSwitch.click()
+  await noOverflow('luyện tập')
+  // Kết thúc → kết quả → xem lại.
+  await page.getByRole('button', { name: 'Kết thúc' }).first().click()
+  await dialog().getByRole('button', { name: 'Kết thúc' }).click()
+  await page.waitForURL(/\/result\/\d+$/)
+  await page.getByText('câu đúng').first().waitFor()
+  assert.ok(await page.locator('.answer-cell').count() >= 1, 'luyện tập có bảng đáp án')
+  await page.getByRole('link', { name: 'Xem đáp án & giải thích chi tiết' }).click()
+  await page.locator('.study[data-mode=review]').waitFor()
+  assert.equal(await page.locator('.learner-nav').count(), 0, 'đáp án chi tiết chạy toàn màn hình')
+  await page.locator('.review-filters').getByRole('button', { name: /^Sai\s*\d+$/ }).click()
+  await page.locator('.study-q[data-review=wrong]').first().waitFor()
+  assert.equal(await page.locator('.study-q:not([data-review=wrong])').count() <= await page.locator('.study-q').count() - 1, true, 'bộ lọc Sai mở nhóm có câu sai')
+  step('Luyện tập (không gian học 2 khung): Part 1 chỉ (A)–(D), âm thanh tua được, phím ←/→, bảng câu hỏi + đánh dấu, chấm ngay + 3 khối bật/tắt, lưu từ, báo lỗi, lọc HTML, tắt hiện đáp án ngay, nhớ vị trí, kết quả, xem lại')
+
+  // Đáp án chi tiết chạy toàn màn hình: thoát về trang kết quả rồi mới dùng thanh điều hướng.
+  await page.getByRole('button', { name: 'Kết quả', exact: true }).click()
+  await page.waitForURL(/\/result\/\d+$/)
+
+  // ---------- Luyện thi liền mạch: Thi Listening (tự phát âm thanh, tự chuyển câu) ----------
+  await nav('Đề thi').click()
+  await page.locator('.exam-card', { hasText: 'Test 1' }).getByRole('button', { name: /Chọn chế độ/ }).click()
+  await dialog().locator('.mode-card', { hasText: 'Thi Listening' }).getByRole('button', { name: /Bắt đầu/ }).click()
+  await page.waitForURL(/\/attempt\/\d+$/)
+  await page.locator('.study-solo-title', { hasText: 'Listening Test' }).waitFor()
+  // Hướng dẫn chỉ tiếng Anh: không còn bản dịch tiếng Việt dù API có directionsVi.
+  assert.equal(await page.locator('.study-solo').getByText('Phần Nghe.').count(), 0)
+  assert.equal(await page.locator('.study-solo summary', { hasText: 'Bản dịch' }).count(), 0)
+  assert.match(await page.locator('.study-note').innerText(), /không tính vào giờ làm bài/)
+  assert.equal(await page.locator('.exam-clock').count(), 1, 'có đồng hồ ở thanh trên')
+  // Hướng dẫn có audio: hết audio tự chuyển (700ms) → hướng dẫn Part 1 (không audio) → bấm Tiếp tục.
+  await page.locator('.study-solo-title', { hasText: 'Part 1' }).first().waitFor({ timeout: 8000 })
+  await page.getByRole('button', { name: 'Tiếp tục' }).click()
+  // Nhóm câu Part 1: chỉ hiện (A)–(D); audio tự phát (không tua) rồi tự sang câu kế.
+  await page.locator('.option--letter').first().waitFor()
+  assert.equal(await page.locator('.option--letter').count(), 4)
+  assert.equal(await page.locator('.study-q .option-text').count(), 0, 'Part 1–2 ẩn nội dung đáp án')
+  assert.equal(await page.locator('.audio-bar [role=slider]').count(), 0, 'Luyện thi không tua âm thanh')
+  await page.keyboard.press('b')                         // phím B chọn đáp án B
+  await page.locator('.option--letter[data-state=selected]').waitFor()
+  await page.getByRole('heading', { name: /Câu 2/ }).waitFor({ timeout: 8000 })   // tự chuyển khi hết audio
+  await page.locator('.option--letter').nth(0).click()
+  // Bảng câu hỏi của Luyện thi chỉ để theo dõi: không bấm chuyển được, không lộ đúng/sai.
+  await page.getByRole('button', { name: /^Danh sách câu hỏi/ }).click()
+  assert.equal(await dialog().locator('.nav-cell:not(:disabled)').count(), 0)
+  assert.equal(await dialog().locator('.nav-cell[data-state=correct], .nav-cell[data-state=wrong]').count(), 0)
+  await page.keyboard.press('Escape')
+  await page.getByRole('heading', { name: /Câu 3/ }).waitFor({ timeout: 8000 })
+  await page.locator('.option--letter').nth(2).click()
+  await page.getByText('Bạn đã hoàn thành phần thi').waitFor({ timeout: 8000 })
+  const content = await (await fetch(`${API}/api/__mock/content`)).json()
+  assert.ok(content.requests.some((r) => /direction-time$/.test(r)), 'thời gian xem hướng dẫn được cộng bù')
+  await page.getByRole('button', { name: 'Nộp bài' }).last().click()
+  await page.waitForURL(/\/result\/\d+$/)
+  // Sau khi nộp Luyện thi: bảng đáp án (đáp án đúng + lựa chọn sai bị gạch) và mở được đáp án chi tiết.
+  await page.getByRole('heading', { name: 'Đáp án', exact: true }).waitFor()
+  const cells = page.locator('.answer-cell')
+  assert.equal(await cells.count(), 3, 'mỗi câu một ô đáp án')
+  assert.equal(await cells.nth(0).getAttribute('data-state'), 'correct')
+  assert.equal((await cells.nth(0).locator('.answer-key').innerText()).trim(), 'B')
+  const wrongCell = page.locator('.answer-cell[data-state=wrong]').first()
+  assert.match(await wrongCell.locator('s.answer-mine').innerText(), /^[A-D]$/, 'câu sai hiện lựa chọn của người học')
+  const href = await wrongCell.getAttribute('href')
+  await wrongCell.click()
+  // Đáp án chi tiết dạng không gian học: mở đúng nhóm của câu bấm từ bảng đáp án.
+  await page.waitForURL(/\/review\/\d+#q-\d+$/)
+  const targetId = href.split('#q-')[1]
+  const card = page.locator(`#q${targetId}`)
+  await card.waitFor()
+  assert.equal(await card.getAttribute('data-review'), 'wrong')
+  await card.locator('.study-q-status').getByText('Sai').waitFor()
+  assert.equal(await card.locator('.study-option[data-state=correct]').count(), 1, 'tô đáp án đúng')
+  assert.equal(await card.locator('.study-option[data-state=wrong]').count(), 1, 'tô lựa chọn sai')
+  assert.equal(await card.locator('.study-option:not(:disabled)').count(), 0, 'xem lại không chọn lại được')
+  assert.match(await page.locator('.study-title').innerText(), /Test 1 · Xem lại kết quả/)
+  assert.match(await page.locator('.review-score').innerText(), /\d+\s+\d+\s+\d+/)
+  // Khung trái: câu dẫn, âm thanh có tua 3s/5s và tốc độ; khung phải: các khối bật/tắt.
+  await page.locator('.study-instruction').waitFor()
+  await page.getByRole('button', { name: 'Tua lại 3 giây' }).waitFor()
+  await page.getByRole('button', { name: /^Tốc độ phát/ }).waitFor()
+  const scriptSwitch = page.getByRole('switch', { name: /Script & bản dịch/ })
+  if (await scriptSwitch.getAttribute('aria-checked') === 'false') await scriptSwitch.click()
+  assert.equal(await page.locator('.transcript-pairs li').first().locator('.analysis-label').innerText(), 'A')
+  const explainSwitch = page.getByRole('switch', { name: /Giải thích chi tiết/ })
+  if (await explainSwitch.getAttribute('aria-checked') === 'false') await explainSwitch.click()
+  assert.ok(await page.locator('.study-panels .detail-card').count() >= 1, 'có giải thích chi tiết')
+  // Bảng chọn câu: đúng/sai/bỏ trống, bấm số câu để chuyển; tải lại giữ đúng câu (#q-…).
+  await page.locator('.study-counter').click()
+  await dialog().getByText('Bỏ trống').first().waitFor()
+  const cellsInNav = dialog().locator('.nav-cell')
+  assert.equal(await cellsInNav.count(), 3)
+  await cellsInNav.first().click()
+  await page.waitForFunction(() => location.hash !== '')
+  const firstHash = await page.evaluate(() => location.hash)
+  await page.keyboard.press('ArrowRight')
+  await page.waitForFunction((h) => location.hash !== h, firstHash)
+  const movedHash = await page.evaluate(() => location.hash)
+  await page.reload()
+  await page.locator(`#q${movedHash.slice(3)}`).waitFor()
+  await page.getByRole('button', { name: 'Câu trước' }).click()
+  await page.waitForFunction((h) => location.hash === h, firstHash)
+  await noOverflow('đáp án chi tiết')
+  step('Luyện thi (không gian học): hướng dẫn tự phát/tự chuyển, (A)–(D), không tua, bảng câu hỏi chỉ xem, phím tắt, cộng bù thời gian, nộp bài, bảng đáp án + đáp án chi tiết dạng không gian học (nhãn Đúng/Sai, âm thanh tua được, khối bật/tắt, bảng chọn câu, phím ←/→, giữ vị trí khi tải lại)')
+
+  await page.getByRole('button', { name: 'Kết quả', exact: true }).click()
+  await page.waitForURL(/\/result\/\d+$/)
+
+  // ---------- Thi Reading: bấm "Câu tiếp", không có nút lùi ----------
+  await nav('Đề thi').click()
+  await page.locator('.exam-card', { hasText: 'Test 1' }).getByRole('button', { name: /Chọn chế độ/ }).click()
+  await dialog().locator('.mode-card', { hasText: 'Thi Reading' }).getByRole('button', { name: /Bắt đầu/ }).click()
+  await page.waitForURL(/\/attempt\/\d+$/)
+  await page.getByRole('button', { name: 'Tiếp tục' }).click()    // hướng dẫn phần Đọc (không audio)
+  await page.locator('.study-q').waitFor()
+  assert.equal(await page.getByRole('button', { name: /Quay lại|Câu trước/ }).count(), 0)
+  await page.locator('.study-q .option').nth(1).click()
+  await page.locator('.study-q .option[data-state=selected]').waitFor()
+  await page.locator('.study-q .option').nth(1).click()    // bấm lại = bỏ chọn
+  await page.locator('.study-q .option[data-state=selected]').waitFor({ state: 'detached' })
+  await page.getByRole('button', { name: 'Câu tiếp' }).click()
+  await page.getByRole('heading', { name: /Câu 2/ }).waitFor()   // bài thi một phần đánh số lại 1..N
+  await page.getByRole('button', { name: 'Thoát' }).click()
+  await dialog().getByRole('button', { name: 'Thoát' }).click()
+  await page.getByRole('heading', { name: /Xin chào/ }).waitFor()
+  step('Luyện thi Reading: bấm lại để bỏ chọn, không quay lại, thoát giữ bài làm dở')
+
+  // ---------- Đề VIP: máy chủ trả 402 → hộp thoại mời nâng cấp ----------
+  await nav('Đề thi').click()
+  await page.locator('.exam-card', { hasText: 'Test 2' }).getByRole('button', { name: /Chọn chế độ/ }).click()
+  await dialog().getByText('Đề này dành cho tài khoản VIP').waitFor()
+  await dialog().locator('.mode-card', { hasText: 'Thi Reading' }).getByRole('button', { name: /Bắt đầu/ }).click()
+  await page.getByRole('heading', { name: 'Nội dung dành cho VIP' }).waitFor()
+  await page.getByRole('button', { name: 'Để sau' }).click()
+  await page.keyboard.press('Escape')
+  step('đề VIP: báo trước + hộp thoại mời nâng cấp khi máy chủ trả 402')
+
+  // ---------- Ngân hàng câu hỏi / Ngữ pháp ----------
+  await page.goto(`${WEB}/listen/2`)
+  await page.getByRole('heading', { name: /Chinh phục TOEIC/ }).waitFor()
+  await page.locator('.study-card').first().waitFor()
+  assert.equal(await page.locator('.seg-tab[aria-current=page]').innerText(), 'Part 2')
+  await noOverflow('listen/2')
+  await page.locator('.study-card').first().getByRole('button', { name: 'Học ngay' }).click()
+  await page.waitForURL(/\/attempt\/\d+$/)
+  await page.locator('.study-title', { hasText: 'Luyện theo ngân hàng câu hỏi' }).waitFor()
+  assert.match(await page.locator('.study-counter').innerText(), /^1\//, 'ngân hàng đánh số lại từ 1')
+  await page.goto(`${WEB}/read/grammar`)
+  await page.locator('.study-card', { hasText: 'Thì hiện tại' }).waitFor()
+  step('ngân hàng câu hỏi: thẻ Level/chủ điểm, bắt đầu lượt học (đánh số lại 1..N), ngữ pháp')
+
+  // ---------- UC-18: bài học tương tác — học đến đâu có ví dụ và "Thử ngay" đến đó; mục lục ✓ và tiến độ; lọc HTML; báo lỗi bài ----------
+  await page.locator('.study-card', { hasText: 'Thì hiện tại' }).getByRole('link', { name: 'Đọc bài học' }).click()
+  await page.waitForURL(/\/read\/grammar\/topics\/3$/)
+  await page.getByRole('heading', { name: 'Thì hiện tại đơn' }).waitFor()
+  assert.deepEqual(await page.locator('.grammar-toc button').allTextContents(), ['1. Cách dùng', '2. Dấu hiệu', 'Mẹo TOEIC'])
+  assert.equal(await page.locator('.grammar-quiz').count(), 2, 'chỉ khối có danh sách lựa chọn mới thành bài tập tương tác')
+  await page.getByText('Bài cũ dạng details').waitFor()                     // dạng cũ vẫn hiển thị như HTML
+  // Thứ tự trong bài: lý thuyết → ví dụ → câu thử ngay của phần 1, rồi mới tới phần 2.
+  const order = await page.locator('.grammar-content').evaluate((el) => [...el.querySelectorAll('h2, .grammar-example, .grammar-quiz')].map((n) => n.tagName === 'H2' ? n.textContent : n.className.split(' ')[0]))
+  assert.deepEqual(order, ['1. Cách dùng', 'grammar-example', 'grammar-quiz', '2. Dấu hiệu', 'grammar-example', 'grammar-quiz', 'Mẹo TOEIC'])
+  const quiz1 = page.locator('.grammar-quiz').first()
+  assert.equal(await quiz1.locator('.grammar-quiz-explain').count(), 0, 'giải thích ẩn trước khi chọn')
+  await quiz1.getByRole('button', { name: /^A\s*work$/ }).click()             // chọn sai
+  await quiz1.getByText('Chưa đúng. Đáp án đúng là (B).').waitFor()
+  await quiz1.getByText('Chủ ngữ số ít she: works.').waitFor()
+  assert.equal(await quiz1.locator('[data-state="correct"]').innerText().then((t) => t.includes('works')), true)
+  assert.equal(await quiz1.getByRole('button', { name: /works/ }).isDisabled(), true, 'khóa lựa chọn sau khi trả lời')
+  assert.match(await page.locator('.grammar-toc-progress').innerText(), /Đã làm 1\/2 · đúng 0/)
+  await quiz1.getByRole('button', { name: /Làm lại câu này/ }).click()
+  await quiz1.getByRole('button', { name: /^B\s*works$/ }).click()            // làm lại, chọn đúng
+  await quiz1.getByText('Chính xác!').waitFor()
+  assert.equal(await page.locator('.grammar-toc button[data-done]').allTextContents().then((t) => t.join('|')), '1. Cách dùng')
+  await page.locator('.grammar-toc').getByRole('button', { name: '2. Dấu hiệu' }).click()
+  await page.locator('.grammar-quiz').nth(1).getByRole('button', { name: /walk$/ }).first().click()
+  await page.getByText('Bạn làm đúng 2/2 câu trong bài.').waitFor()
+  assert.equal(await page.evaluate(() => window.__xss), undefined, 'HTML bài ngữ pháp phải được lọc')
+  await page.getByRole('button', { name: /Báo lỗi bài/ }).click()
+  await dialog().getByRole('heading', { name: 'Báo lỗi bài ngữ pháp' }).waitFor()
+  await dialog().getByRole('button', { name: 'Gửi báo lỗi' }).click()
+  await page.getByText('Đã gửi báo lỗi, cảm ơn bạn!').waitFor()
+  const grammarReport = (await (await fetch(`${API}/api/__mock/content`)).json()).reports.at(-1)
+  assert.deepEqual([grammarReport.targetType, grammarReport.articleId, grammarReport.errorType], ['GRAMMAR_ARTICLE', 31, 'WRONG_EXPLANATION'])
+  await page.goto(`${WEB}/read/grammar/topics/4`)
+  await page.getByText('Chủ điểm này chưa có bài học.').waitFor()
+  step('bài ngữ pháp tương tác: lý thuyết → ví dụ → thử ngay theo từng phần, chọn sai/đúng hiện giải thích, làm lại, mục lục ✓ + tiến độ, lọc HTML, "Đang cập nhật", báo lỗi bài')
+
+  // ---------- Nghe chép ----------
+  await page.goto(`${WEB}/listen/dictation`)
+  await page.locator('.dcard', { hasText: 'Part 2' }).waitFor()
+  await page.locator('.dcard', { hasText: 'Part 2' }).getByRole('link', { name: /Luyện tập/ }).click()
+  await page.getByRole('heading', { name: 'Chọn bộ clip để luyện' }).waitFor()
+  await page.locator('.dcard').first().getByRole('link', { name: /Luyện tập/ }).click()
+  await page.locator('.wave').waitFor()
+  // Nghe chép: ẩn 50% — điền đúng các từ ẩn.
+  const clips = [['When', 'is', 'the', 'next', 'meeting', 'scheduled?'], ['It', 'is', 'scheduled', 'for', 'Monday', 'morning.']]
+  for (let c = 0; c < 2; c++) {
+    const inputs = page.locator('.dict-input')
+    await inputs.first().waitFor()
+    const slots = await page.locator('.dict-slot').evaluateAll((els, words) => els.map((el) => { const all = [...el.parentElement.children]; return words[all.indexOf(el)] }), clips[c])
+    for (let i = 0; i < slots.length; i++) await inputs.nth(i).fill(slots[i].replace(/[^\p{L}]/gu, ''))
+    await page.getByRole('button', { name: 'Kiểm tra' }).click()
+    assert.match(await page.locator('.dict-score').innerText(), /Đúng \d+\/\d+ từ · 100%/)
+    await page.locator('.dict-box .btn-primary', { hasText: /Câu tiếp theo|Hoàn thành/ }).click()
+  }
+  await page.getByRole('heading', { name: 'Hoàn thành bộ clip!' }).waitFor()
+  await page.getByText('100%').first().waitFor()
+  const dict1 = (await (await fetch(`${API}/api/__mock/content`)).json()).dictProgress
+  assert.equal(dict1.at(-1).mode, 'HIDE_SOME')
+  assert.equal(dict1.at(-1).accuracyPercent, 100)
+  // Nghe full không chấm điểm.
+  await page.getByRole('button', { name: /Luyện lại/ }).click()
+  await page.getByRole('tab', { name: 'Nghe full' }).click()
+  await page.getByRole('button', { name: 'Nghe toàn bộ' }).click()
+  await page.getByRole('heading', { name: 'Hoàn thành bộ clip!' }).waitFor({ timeout: 10000 })
+  const dict2 = (await (await fetch(`${API}/api/__mock/content`)).json()).dictProgress
+  assert.equal(dict2.at(-1).mode, 'SHADOW')
+  assert.equal(dict2.at(-1).accuracyPercent, null)
+  step('nghe chép: ẩn 50% chấm đúng/sai, hoàn thành lưu tiến độ HIDE_SOME, Nghe full SHADOW không chấm')
+
+  // ---------- UC-28 TH2: bộ clip sưu tầm trong Nghe chép; UC-14: báo lỗi bộ clip ----------
+  await page.goto(`${WEB}/listen/dictation`)
+  await page.getByRole('link', { name: 'Clip sưu tầm (1)' }).click()
+  await page.locator('.dcard', { hasText: 'Hội thoại văn phòng (sưu tầm)' }).waitFor()
+  assert.match(await page.locator('.dcard').first().innerText(), /Clip sưu tầm · Văn phòng/)
+  await page.locator('.dcard').first().getByRole('link', { name: /Luyện tập/ }).click()
+  await page.locator('.dict-box').waitFor()   // tab đang nhớ từ bước trước là "Nghe full" (không có sóng âm)
+  await page.getByText('Hội thoại văn phòng (sưu tầm)').first().waitFor()
+  await page.getByRole('button', { name: 'Báo lỗi bộ clip này' }).click()
+  await dialog().locator('select').selectOption('MEDIA_ERROR')
+  await dialog().getByRole('button', { name: 'Gửi báo lỗi' }).click()
+  await page.getByText('Đã gửi báo lỗi, cảm ơn bạn!').waitFor()
+  const clipReport = (await (await fetch(`${API}/api/__mock/content`)).json()).reports.at(-1)
+  assert.deepEqual([clipReport.targetType, clipReport.listeningItemId, clipReport.errorType], ['LISTENING_ITEM', 90, 'MEDIA_ERROR'])
+  step('nghe chép: bộ clip sưu tầm hiện ở mục riêng, mở luyện được, báo lỗi bộ clip')
+
+  // ---------- Lịch sử, từ của tôi, báo lỗi, VIP ----------
+  await page.goto(`${WEB}/history`)
+  await page.locator('.data-table tbody tr').first().waitFor()
+  const before = await page.locator('.data-table tbody tr').count()
+  await page.locator('.data-table tbody tr').filter({ hasText: 'Đã nộp' }).first().locator('[aria-label="Xóa khỏi lịch sử"]').click({ trial: true }).catch(() => {})
+  const deletable = page.locator('.data-table [aria-label="Xóa khỏi lịch sử"]').first()
+  await deletable.click()
+  await dialog().getByRole('button', { name: 'Xóa' }).click()
+  await page.getByText('Đã xóa.').waitFor()
+  await page.waitForFunction((n) => document.querySelectorAll('.data-table tbody tr').length === n - 1, before)
+  step('lịch sử: danh sách, xóa có xác nhận')
+
+  await page.goto(`${WEB}/vocab/mine`)
+  await page.getByRole('button', { name: 'Thêm từ' }).click()
+  await dialog().getByRole('button', { name: 'Lưu từ' }).click()
+  await dialog().getByText('Nhập từ và nghĩa.').waitFor()
+  await dialog().locator('input').nth(1).fill('xin chào')
+  await dialog().locator('input').first().fill('hello')
+  await dialog().getByRole('button', { name: 'Lưu từ' }).click()
+  await page.locator('.data-table', { hasText: 'hello' }).waitFor()
+  await page.locator('tr', { hasText: 'hello' }).locator('[aria-label^="Xóa từ"]').click()
+  await dialog().getByRole('button', { name: 'Xóa' }).click()
+  await page.waitForFunction(() => !document.body.innerText.includes('xin chào'))
+  step('từ của tôi: thêm (kiểm tra bắt buộc), xóa có xác nhận')
+
+  await page.goto(`${WEB}/reports`)
+  await page.getByText('Đáp án sai thử').waitFor()
+  step('báo lỗi của tôi')
+
+  // ---------- Thanh toán VIP đầu-cuối: FE → cổng thanh toán giả → (backend) 302 → trang kết quả của FE ----------
+  await page.goto(`${WEB}/vip`)
+  await page.getByText('Tài khoản miễn phí').first().waitFor()
+  await page.locator('.user-button').click()
+  assert.match(await page.locator('.menu-plan').innerText(), /Tài khoản miễn phí/)
+  await page.getByRole('menuitem', { name: 'Nâng cấp VIP' }).waitFor()
+  await page.keyboard.press('Escape')
+  await page.getByRole('button', { name: /Mua gói này/ }).click()
+  await page.waitForURL(/\/vip\/result\?status=PAID&txnRef=MOCK1/)          // đã đi qua origin khác rồi quay về
+  await page.getByRole('heading', { name: 'Thanh toán thành công' }).waitFor()
+  await page.getByText(/VIP đến/).waitFor()
+  await page.getByText('MOCK1').waitFor()
+  assert.equal(await page.locator('.vip-tag').count(), 1, 'hiện nhãn VIP sau khi thanh toán')
+  await page.locator('.user-button').click()
+  assert.match(await page.locator('.menu-plan').innerText(), /VIP · còn 30 ngày/)
+  await page.keyboard.press('Escape')
+  await page.getByRole('link', { name: 'Về trang VIP' }).click()
+  await page.getByRole('heading', { name: /Bạn đang là VIP/ }).waitFor()
+  assert.match(await page.locator('.data-table').innerText(), /Đã thanh toán/)
+  assert.ok(await page.getByRole('button', { name: /Gia hạn gói này/ }).count() >= 1)
+  // Lịch sử VIP: lần mua vừa rồi; VIP do quản trị viên tặng chỉ nằm ở Lịch sử VIP, không thành đơn thanh toán 0đ.
+  assert.match(await page.locator('.vip-history-item[data-kind=PURCHASE]').innerText(), /Mua Gói 1 tháng[\s\S]*99\.000[\s\S]*MOCK1/)
+  await fetch(`${API}/api/__mock/vip-grant`)
+  await page.reload()
+  const granted = page.locator('.vip-history-item[data-kind=ADMIN_GRANT]')
+  await granted.waitFor()
+  assert.match(await granted.innerText(), /Được quản trị viên tặng 15 ngày VIP[\s\S]*Miễn phí[\s\S]*Hạn VIP mới/)
+  assert.equal(await page.locator('.vip-history-item').count(), 2)
+  assert.equal(await page.locator('.data-table tbody tr').count(), 1, 'VIP được tặng không tạo dòng thanh toán')
+  step('VIP: mua gói → cổng thanh toán → quay về kết quả PAID, nhãn VIP, lịch sử đơn, gia hạn; Lịch sử VIP tách khỏi thanh toán')
+
+  // Thanh toán thất bại/hủy: đơn FAILED, không có VIP mới.
+  await fetch(`${API}/api/__mock/outcome?value=FAILED`)
+  await page.getByRole('button', { name: /Gia hạn gói này/ }).first().click()
+  await page.waitForURL(/\/vip\/result\?status=FAILED&txnRef=MOCK2/)
+  await page.getByRole('heading', { name: 'Thanh toán chưa hoàn tất' }).waitFor()
+  assert.match(await page.locator('.state-box').innerText(), /chưa bị trừ tiền/)
+  for (const [status, title] of [['INVALID', 'Dữ liệu không hợp lệ'], ['NOT_FOUND', 'Không tìm thấy đơn'], ['PENDING', 'Đang chờ xác nhận'], ['BAD', 'Dữ liệu không hợp lệ']]) {
+    await page.goto(`${WEB}/vip/result?status=${status}&txnRef=X1`)
+    await page.getByRole('heading', { name: title }).waitFor()
+  }
+  step('VIP: kết quả FAILED/INVALID/NOT_FOUND/PENDING và giá trị lạ đều hiển thị đúng')
+
+  // Liên kết hash của giao diện HTML cũ (FrontendResultUrl cũ) vẫn mở đúng trang kết quả.
+  await page.goto(`${WEB}/#/vip/result?status=PAID&txnRef=MOCK1`)
+  await page.getByRole('heading', { name: 'Thanh toán thành công' }).waitFor()
+  assert.equal(new URL(page.url()).pathname, '/vip/result')
+  // Mất phiên giữa chừng: về trang kết quả → đăng nhập → quay lại đúng trang kết quả.
+  await page.evaluate(() => localStorage.clear())
+  await loginAt('/vip/result?status=PAID&txnRef=MOCK1')
+  await page.waitForURL(/\/vip\/result\?status=PAID&txnRef=MOCK1/)
+  await page.getByRole('heading', { name: 'Thanh toán thành công' }).waitFor()
+  step('VIP: liên kết hash cũ được chuyển đúng; hết phiên thì đăng nhập xong quay lại trang kết quả')
+
+  // ---------- Đăng xuất ----------
+  await page.locator('.user-button').click()
+  await page.getByRole('menuitem', { name: 'Đăng xuất' }).click()
+  await page.locator('input[name=email]').waitFor()
+  assert.equal(await page.evaluate(() => localStorage.getItem('toeicmind_fe_session')), null)
+  await page.goto(`${WEB}/tests`)
+  await page.locator('input[name=email]').waitFor()
+  step('đăng xuất xóa phiên và chặn các trang cần đăng nhập')
+
+  // ---------- Tài khoản mới (chưa có mục tiêu): bắt buộc thiết lập trước khi dùng ----------
+  await fetch(`${API}/api/__mock/profile-reset`)
+  await page.evaluate(() => Object.keys(localStorage).filter((k) => k.startsWith('toeicmind_fe_profile_ok_')).forEach((k) => localStorage.removeItem(k)))
+  await loginAt('/tests')
+  await page.waitForURL(`${WEB}/welcome`)
+  await page.getByRole('heading', { name: /Hãy đặt mục tiêu học/ }).waitFor()
+  assert.equal(await page.locator('.learner-topbar').count(), 0, 'ẩn điều hướng khi đang thiết lập')
+  await page.goto(`${WEB}/vocab`)                                              // không đi vòng qua được
+  await page.waitForURL(`${WEB}/welcome`)
+  await page.getByRole('heading', { name: /Hãy đặt mục tiêu học/ }).waitFor()
+  await page.locator('#welcome-daily').fill('')
+  await page.getByRole('button', { name: 'Lưu và tiếp tục' }).click()
+  await page.getByText('Hãy chọn hoặc nhập điểm TOEIC mục tiêu.').waitFor()
+  await page.getByText('Hãy chọn số phút học mỗi ngày.').waitFor()
+  assert.equal(await page.evaluate(() => document.activeElement?.id), 'welcome-target', 'con trỏ về ô lỗi đầu tiên')
+  assert.equal(await page.locator('#welcome-target').getAttribute('aria-describedby'), 'welcome-target-error')
+  assert.equal((await (await fetch(`${API}/api/__mock/profile-bodies`)).json()).length, 0, 'không gửi khi thiếu thông tin')
+  await noOverflow('thiết lập mục tiêu')
+  await page.getByRole('button', { name: '650', exact: true }).click()
+  await page.getByRole('button', { name: '45 phút', exact: true }).click()
+  await page.getByRole('button', { name: 'Lưu và tiếp tục' }).click()
+  await page.getByText('Đã lưu mục tiêu của bạn').waitFor()
+  assert.deepEqual(await (await fetch(`${API}/api/__mock/profile-bodies`)).json(), [{ targetScore: 650, examDate: null, dailyMinutes: 45 }])
+  await page.getByRole('button', { name: 'Làm bài kiểm tra đầu vào' }).waitFor()          // bước 2: mời kiểm tra đầu vào
+  await page.getByRole('button', { name: 'Để sau, vào Trang chủ' }).click()
+  await page.waitForURL(`${WEB}/vocab`)                                        // về trang định mở
+  await page.reload()
+  await page.getByText('Từ đến hạn ôn').first().waitFor()                     // không còn bị chặn
+  await page.goto(`${WEB}/welcome`)
+  await page.waitForURL(`${WEB}/plan`)                                         // đã thiết lập thì /welcome chuyển tới Lộ trình
+  // Lộ trình: hàng tổng quan 3 thẻ (Mục tiêu | Kết quả kiểm tra đầu vào | Trình độ) rồi hai cột việc cần làm | phân tích.
+  await page.locator('.plan-overview[data-count="3"]').waitFor()
+  assert.deepEqual(await page.locator('.plan-overview > .card .card-title').allInnerTexts(), ['Mục tiêu', 'Kết quả kiểm tra đầu vào', 'Trình độ theo kỹ năng'])
+  assert.deepEqual(await page.locator('.plan-layout > .plan-col').nth(0).locator('.card-title').allInnerTexts(), ['Kế hoạch hôm nay', 'Gợi ý thêm'])
+  assert.deepEqual(await page.locator('.plan-layout > .plan-col').nth(1).locator('.card-title').allInnerTexts(), ['Phân tích theo Part', 'Chủ điểm cần củng cố'])
+  assert.match(await page.getByRole('progressbar', { name: 'Tiến độ tới điểm mục tiêu' }).getAttribute('aria-valuenow'), /^\d+$/)
+  step('tài khoản mới: bắt buộc đặt mục tiêu (ẩn điều hướng, không đi vòng, lỗi tại ô), lưu → mời kiểm tra đầu vào → về trang định mở; bố cục Lộ trình')
+
+  // ---------- 320px: không tràn ngang (vẫn đăng nhập từ bước thiết lập mục tiêu) ----------
+  await page.goto(`${WEB}/`)
+  await page.getByRole('heading', { name: /Xin chào/ }).waitFor()
+  await page.setViewportSize({ width: 320, height: 640 })
+  for (const path of ['/', '/plan', '/tests', '/listen/dictation', '/listen/2', '/read/grammar', '/read/grammar/topics/3', '/history', '/vocab', '/vocab/learn', '/vocab/mine', '/reports', '/vip', '/account', '/dictation/items', '/dictation/item/1']) {
+    await page.goto(`${WEB}${path}`)
+    await page.locator('.learner-main').waitFor()
+    await page.waitForTimeout(350)
+    await noOverflow(path)
+  }
+  step('320px: không trang nào tràn ngang')
+
+  assert.deepEqual(problems, [], problems.join('\n'))
+  console.log('check-learner-ui: ĐẠT (backend giả, Chromium thật)')
+} catch (error) {
+  console.error(error)
+  await page.screenshot({ path: 'scripts/.last-failure.png', fullPage: true }).catch(() => {})
+  console.error('URL lúc lỗi:', page.url(), '\nvấn đề console:', problems)
+  process.exitCode = 1
+} finally {
+  await h.close()
+}

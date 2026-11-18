@@ -1,0 +1,120 @@
+@ToeicMind_HostAddress = http://localhost:5078
+
+### Đăng ký: luôn tạo LEARNER
+POST {{ToeicMind_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "Nguyen Van A",
+  "email": "learner@example.com",
+  "password": "Example-password-123!",
+  "confirmPassword": "Example-password-123!"
+}
+
+### Đăng nhập
+POST {{ToeicMind_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "learner@example.com",
+  "password": "Example-password-123!"
+}
+
+### Điền token từ kết quả login/refresh; không lưu token thật vào source control
+@accessToken = REPLACE_WITH_ACCESS_TOKEN
+@refreshToken = REPLACE_WITH_REFRESH_TOKEN
+
+### Thông tin người dùng từ JWT hiện tại
+GET {{ToeicMind_HostAddress}}/api/auth/me
+Authorization: Bearer {{accessToken}}
+
+### Refresh: token cũ chỉ dùng một lần, nhận và lưu cặp token mới
+POST {{ToeicMind_HostAddress}}/api/auth/refresh
+Content-Type: application/json
+
+{
+  "refreshToken": "{{refreshToken}}"
+}
+
+### Logout: gọi với refresh token mới nhất, sau đó xóa cả hai token phía client
+POST {{ToeicMind_HostAddress}}/api/auth/logout
+Content-Type: application/json
+
+{
+  "refreshToken": "{{refreshToken}}"
+}
+
+###
+
+### Thiết lập mật khẩu lần đầu (cho tài khoản Google chưa có mật khẩu)
+POST {{ToeicMind_HostAddress}}/api/auth/set-password
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "newPassword": "New-password-123!",
+  "confirmNewPassword": "New-password-123!"
+}
+
+### Đổi mật khẩu
+PUT {{ToeicMind_HostAddress}}/api/auth/change-password
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "oldPassword": "Example-password-123!",
+  "newPassword": "New-password-123!",
+  "confirmNewPassword": "New-password-123!"
+}
+
+### Đăng nhập / Đăng ký qua Google
+POST {{ToeicMind_HostAddress}}/api/auth/google-login
+Content-Type: application/json
+
+{
+  "idToken": "GOOGLE_ID_TOKEN_HERE"
+}
+
+
+### ===== Quản trị người dùng (cần access token ADMIN) =====
+
+### Danh sách học viên
+GET {{ToeicMind_HostAddress}}/api/admin/users?role=LEARNER&page=1&pageSize=20&search=
+Authorization: Bearer {{accessToken}}
+
+### Tổng quan
+GET {{ToeicMind_HostAddress}}/api/admin/users/summary
+Authorization: Bearer {{accessToken}}
+
+### Tạo tài khoản
+POST {{ToeicMind_HostAddress}}/api/admin/users
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "username": "Học viên A",
+  "email": "learner.a@example.com",
+  "password": "Example-password-123!",
+  "role": "LEARNER"
+}
+
+### Đổi vai trò
+PUT {{ToeicMind_HostAddress}}/api/admin/users/2/role
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "role": "ADMIN" }
+
+### Khóa tài khoản (LOCKED) / mở khóa (ACTIVE)
+PUT {{ToeicMind_HostAddress}}/api/admin/users/2/status
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "status": "LOCKED" }
+
+###
+PUT {{ToeicMind_HostAddress}}/api/admin/users/2/status
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{ "status": "ACTIVE" }

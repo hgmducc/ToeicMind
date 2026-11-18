@@ -1,0 +1,79 @@
+<!-- Bài học tương tác chủ điểm DANH TỪ (Part 5). Tiêu đề gợi ý: "Danh từ: vị trí, phân loại và dấu hiệu nhận biết". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<h2>1. Danh từ là gì và đứng ở đâu?</h2>
+<p><strong>Danh từ (noun)</strong> là từ chỉ người, vật, sự việc, khái niệm: <em>manager, invoice, delivery, satisfaction</em>. Trong Part 5, câu hỏi về danh từ thường yêu cầu nhận ra <strong>chỗ trống cần một danh từ</strong> giữa các từ cùng gốc (động từ, tính từ, trạng từ).</p>
+<p>Danh từ có 4 chức năng chính trong câu:</p>
+<ul>
+<li><strong>Chủ ngữ:</strong> <u>The proposal</u> was approved yesterday.</li>
+<li><strong>Tân ngữ của động từ:</strong> Please submit <u>your application</u> by Friday.</li>
+<li><strong>Tân ngữ của giới từ:</strong> The report is ready for <u>review</u>.</li>
+<li><strong>Bổ ngữ sau to be / become:</strong> Mr. Lee became <u>the new director</u>.</li>
+</ul>
+<p class="grammar-structure">a/an/the · this/these · my/its/their + (trạng từ) + (tính từ) + DANH TỪ</p>
+<p class="grammar-structure">Giới từ + (a/the…) + DANH TỪ &nbsp;·&nbsp; DANH TỪ + of + DANH TỪ</p>
+<blockquote class="grammar-example"><p><strong>Ví dụ:</strong> The <u>renovation</u> of the lobby will be completed next month. <em>(Việc cải tạo sảnh sẽ hoàn tất vào tháng sau.)</em> → sau <em>the</em>, trước <em>of</em>: cần danh từ.</p></blockquote>
+<blockquote class="grammar-example"><p><strong>Ví dụ:</strong> Guests will receive a welcome kit upon <u>arrival</u>. <em>(Khách sẽ nhận bộ quà chào mừng khi đến nơi.)</em> → sau giới từ <em>upon</em>: cần danh từ.</p></blockquote>
+<div class="grammar-exercise"><p>The marketing team submitted its ______ for the new campaign last Friday.</p><ol class="grammar-options"><li>propose</li><li>proposed</li><li class="grammar-correct">proposal</li><li>proposing</li></ol><div class="grammar-explain"><p>Sau tính từ sở hữu <em>its</em> cần một danh từ làm tân ngữ của <em>submitted</em>. Trong 4 lựa chọn chỉ <em>proposal</em> là danh từ (hậu tố <em>-al</em>).</p></div></div>
+<h2>2. Nhận diện danh từ qua hậu tố</h2>
+<p>Khi không chắc nghĩa, hãy nhìn <strong>đuôi từ</strong>. Các hậu tố dưới đây gần như luôn tạo thành danh từ:</p>
+<table>
+<thead><tr><th>Hậu tố</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>-tion, -sion</td><td>registration, decision, expansion</td></tr>
+<tr><td>-ment</td><td>agreement, management, shipment</td></tr>
+<tr><td>-ance, -ence</td><td>maintenance, attendance, reference</td></tr>
+<tr><td>-ity, -ty</td><td>availability, capacity, safety</td></tr>
+<tr><td>-ness, -ship</td><td>effectiveness, partnership, ownership</td></tr>
+<tr><td>-er, -or, -ant, -ee, -ist (chỉ người)</td><td>manager, supervisor, assistant, trainee, specialist</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip"><p><strong>Cẩn thận với -al:</strong> có thể là danh từ (<em>approval, arrival, proposal, renewal, rental, referral</em>) hoặc tính từ (<em>additional, financial, annual</em>). Hãy kiểm tra vị trí trong câu, đừng chỉ nhìn đuôi.</p></div>
+<blockquote class="grammar-example"><p><strong>Ví dụ:</strong> The contract requires the <u>approval</u> of the board. <em>(Hợp đồng cần sự phê duyệt của hội đồng.)</em> → <em>approval</em> là danh từ đuôi -al.</p></blockquote>
+<div class="grammar-exercise"><p>Employees must obtain ______ from their supervisor before working overtime.</p><ol class="grammar-options"><li>approve</li><li class="grammar-correct">approval</li><li>approved</li><li>approving</li></ol><div class="grammar-explain"><p>Ngoại động từ <em>obtain</em> cần một danh từ làm tân ngữ: <em>obtain approval</em> (xin được sự chấp thuận). <em>approve</em> là động từ, <em>approved/approving</em> là phân từ.</p></div></div>
+<h2>3. Đếm được hay không đếm được?</h2>
+<ul>
+<li><strong>Đếm được:</strong> có số ít và số nhiều (<em>a client → clients</em>). Danh từ đếm được số ít <strong>không đứng một mình</strong>: luôn cần <em>a/an/the, this, my, each…</em> đi trước.</li>
+<li><strong>Không đếm được:</strong> không có <em>a/an</em>, không thêm <em>-s</em>, động từ chia số ít. Hay gặp trong TOEIC: <em>information, equipment, furniture, advice, luggage, merchandise, machinery, stationery, feedback, research, access, permission, clothing, experience (kinh nghiệm)</em>.</li>
+</ul>
+<table>
+<thead><tr><th>Từ hạn định</th><th>Đi với</th></tr></thead>
+<tbody>
+<tr><td>a / an, each, every, another</td><td>danh từ đếm được số ít</td></tr>
+<tr><td>many, few, several, a number of, various, both</td><td>danh từ đếm được số nhiều</td></tr>
+<tr><td>much, little, an amount of, a great deal of</td><td>danh từ không đếm được</td></tr>
+<tr><td>some, any, most, all, a lot of, the</td><td>số nhiều hoặc không đếm được</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example"><p><strong>Ví dụ:</strong> The office will purchase new <u>equipment</u> for the design team. <em>(Văn phòng sẽ mua thiết bị mới cho nhóm thiết kế.)</em> → không nói <em>equipments</em>.</p></blockquote>
+<div class="grammar-exercise"><p>Please send any ______ regarding the new policy to the human resources department.</p><ol class="grammar-options"><li class="grammar-correct">feedback</li><li>feedbacks</li><li>feeding</li><li>fed</li></ol><div class="grammar-explain"><p>Sau <em>any</em> cần danh từ. <em>feedback</em> là danh từ không đếm được nên không có dạng <em>feedbacks</em>.</p></div></div>
+<div class="grammar-exercise"><p>The office manager will order new ______ for the conference room next week.</p><ol class="grammar-options"><li class="grammar-correct">furniture</li><li>furnitures</li><li>furnish</li><li>furnishes</li></ol><div class="grammar-explain"><p>Sau tính từ <em>new</em> cần danh từ. <em>furniture</em> (đồ nội thất) không đếm được, không thêm <em>-s</em>. <em>furnish</em> là động từ.</p></div></div>
+<h2>4. Danh từ chỉ người hay chỉ sự việc?</h2>
+<p>Nhiều câu cho cả hai danh từ cùng gốc. Hãy hỏi: chỗ trống nói về <strong>một người</strong> hay <strong>một hoạt động, sự việc</strong>? Sau đó kiểm tra số ít/số nhiều.</p>
+<table>
+<thead><tr><th>Động từ</th><th>Chỉ người</th><th>Chỉ sự việc / hoạt động</th></tr></thead>
+<tbody>
+<tr><td>apply</td><td>applicant</td><td>application</td></tr>
+<tr><td>employ</td><td>employee, employer</td><td>employment</td></tr>
+<tr><td>attend</td><td>attendee</td><td>attendance</td></tr>
+<tr><td>consult</td><td>consultant</td><td>consultation</td></tr>
+<tr><td>analyze</td><td>analyst</td><td>analysis</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example"><p><strong>Ví dụ:</strong> All <u>applicants</u> must attach a copy of their résumé. <em>(Tất cả ứng viên phải đính kèm sơ yếu lý lịch.)</em> → người nộp hồ sơ, số nhiều sau <em>All</em>.</p></blockquote>
+<div class="grammar-exercise"><p>Ms. Tanaka was praised for her careful ______ of the quarterly budget.</p><ol class="grammar-options"><li>analyze</li><li>analytical</li><li class="grammar-correct">analysis</li><li>analyst</li></ol><div class="grammar-explain"><p>Cấu trúc <em>her + careful + DANH TỪ + of</em>. Cần danh từ chỉ hoạt động "sự phân tích" là <em>analysis</em>. <em>analyst</em> là người phân tích, sai nghĩa.</p></div></div>
+<div class="grammar-exercise"><p>______ at the annual conference has increased by 20 percent this year.</p><ol class="grammar-options"><li>Attend</li><li>Attendees</li><li class="grammar-correct">Attendance</li><li>Attended</li></ol><div class="grammar-explain"><p>Động từ <em>has increased</em> chia số ít nên chủ ngữ là danh từ không đếm được <em>Attendance</em> (số người tham dự). <em>Attendees</em> là số nhiều, phải đi với <em>have</em>.</p></div></div>
+<h2>5. Danh từ ghép</h2>
+<p>Hai danh từ đứng cạnh nhau tạo thành một danh từ ghép; danh từ đứng trước đóng vai trò như tính từ và thường ở <strong>dạng số ít</strong>.</p>
+<p class="grammar-structure">DANH TỪ (số ít) + DANH TỪ chính</p>
+<p>Hay gặp: <em>application form, sales representative, safety regulations, customer satisfaction survey, expiration date, job opening, office supplies</em>.</p>
+<blockquote class="grammar-example"><p><strong>Ví dụ:</strong> Please check the <u>expiration date</u> before using the product. <em>(Vui lòng kiểm tra hạn sử dụng trước khi dùng sản phẩm.)</em></p></blockquote>
+<div class="grammar-exercise"><p>Please fill out the ______ form and return it to the front desk.</p><ol class="grammar-options"><li>apply</li><li>applicant</li><li class="grammar-correct">application</li><li>applied</li></ol><div class="grammar-explain"><p>Danh từ ghép <em>application form</em> (mẫu đơn đăng ký). Chỗ trống đứng trước danh từ <em>form</em> và nói về loại mẫu đơn, không phải người nộp, nên chọn <em>application</em>.</p></div></div>
+<h2>Mẹo làm bài TOEIC</h2>
+<div class="grammar-tip"><p><strong>Mẹo 1 – Nhìn hai bên chỗ trống:</strong> trước là <em>a/an/the, my/its/their</em>, tính từ hoặc giới từ; sau là <em>of</em>, động từ chính hoặc dấu câu → gần như chắc chắn cần <strong>danh từ</strong>.</p></div>
+<div class="grammar-tip"><p><strong>Mẹo 2 – Nhiều đáp án là danh từ:</strong> phân biệt người hay sự việc, rồi xét số ít/số nhiều qua từ hạn định và động từ chia (<em>has</em> hay <em>have</em>). Danh từ đếm được số ít không có <em>a/an/the</em> đi trước thường là đáp án sai.</p></div>
+<div class="grammar-tip"><p><strong>Mẹo 3 – Danh từ không đếm được:</strong> dạng có <em>-s</em> như <em>equipments, informations, advices</em> luôn sai. Muốn đếm thì dùng <em>a piece of equipment, an item of furniture</em>.</p></div>
+<div class="grammar-tip"><p><strong>Mẹo 4 – Từ đuôi -ive cũng có thể là danh từ:</strong> <em>representative, objective, alternative, initiative</em>.</p></div>
+<h2>Bài tập tổng hợp</h2>
+<div class="grammar-exercise"><p>All ______ must present a valid photo ID at the reception desk.</p><ol class="grammar-options"><li>visit</li><li class="grammar-correct">visitors</li><li>visiting</li><li>visited</li></ol><div class="grammar-explain"><p>Chỗ trống là chủ ngữ của <em>must present</em>, đứng sau <em>All</em> nên cần danh từ số nhiều chỉ người: <em>visitors</em>.</p></div></div>
+<div class="grammar-exercise"><p>Several ______ have requested a refund for the canceled event.</p><ol class="grammar-options"><li>customer</li><li class="grammar-correct">customers</li><li>custom</li><li>customize</li></ol><div class="grammar-explain"><p><em>Several</em> đi với danh từ đếm được số nhiều, và động từ <em>have</em> cũng chia số nhiều nên chọn <em>customers</em>.</p></div></div>
+<div class="grammar-exercise"><p>Due to the high ______ for the product, delivery may be delayed.</p><ol class="grammar-options"><li class="grammar-correct">demand</li><li>demanding</li><li>demanded</li><li>demands</li></ol><div class="grammar-explain"><p>Sau <em>the high</em> cần danh từ; cụm cố định <em>high demand for</em> (nhu cầu cao về). <em>demanding</em> là tính từ "khắt khe".</p></div></div>
+<div class="grammar-exercise"><p>Mr. Park has extensive ______ in project management.</p><ol class="grammar-options"><li class="grammar-correct">experience</li><li>experiences</li><li>experienced</li><li>experiencing</li></ol><div class="grammar-explain"><p>Sau tính từ <em>extensive</em> cần danh từ. Với nghĩa "kinh nghiệm", <em>experience</em> không đếm được nên không thêm <em>-s</em>.</p></div></div>
