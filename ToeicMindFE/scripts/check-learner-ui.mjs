@@ -524,6 +524,20 @@ try {
   await page.locator('input[name=email]').waitFor()
   step('đăng xuất xóa phiên và chặn các trang cần đăng nhập')
 
+  // Tự đăng xuất ở trang Tài khoản → đăng nhập lại về trang chủ (không quay lại /account).
+  await loginAt('/account')
+  await page.waitForURL(`${WEB}/account`)
+  await page.locator('.account-logout').click()
+  await page.locator('input[name=email]').waitFor()
+  await page.locator('input[name=email]').fill('learner@example.com')
+  await page.locator('input[name=password]').fill('secret123')
+  await page.locator('form.auth-form .submit-button').click()
+  await page.waitForURL(`${WEB}/`)
+  await page.locator('.user-button').click()
+  await page.getByRole('menuitem', { name: 'Đăng xuất' }).click()
+  await page.locator('input[name=email]').waitFor()
+  step('tự đăng xuất ở /account rồi đăng nhập lại thì về trang chủ')
+
   // ---------- Tài khoản mới (chưa có mục tiêu): bắt buộc thiết lập trước khi dùng ----------
   await fetch(`${API}/api/__mock/profile-reset`)
   await page.evaluate(() => Object.keys(localStorage).filter((k) => k.startsWith('toeicmind_fe_profile_ok_')).forEach((k) => localStorage.removeItem(k)))

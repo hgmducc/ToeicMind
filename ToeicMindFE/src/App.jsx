@@ -11,6 +11,9 @@ import { isAuthSession, readSession, sessionData, writeSession } from './feature
 import { getClientSession, onSessionExpired, onSessionRefreshed, setClientSession } from './lib/apiClient.js'
 import LearnerRoutes from './routes/LearnerRoutes.jsx'
 
+// Trang đang mở (kèm query và #) để đăng nhập lại xong quay về đúng chỗ.
+const currentPath = () => `${window.location.pathname}${window.location.search}${window.location.hash}`
+
 function loadSavedSession() {
   try { return readSession(window.localStorage) } catch { return null }
 }
@@ -22,6 +25,17 @@ export default function App() {
   const [restoring, setRestoring] = useState(!!session)
   const [notice, setNotice] = useState(null)
   const [passwordModal, setPasswordModal] = useState(false)
+  // Mất phiên ngoài ý muốn (hết hạn, mở liên kết khi chưa đăng nhập) → nhớ trang để quay lại.
+  // Tự bấm Đăng xuất → không nhớ, đăng nhập/đăng ký lại sẽ về trang chủ.
+  const [rememberPage, setRememberPage] = useState(true)
+
+  // Router đổi trang trong transition nên có thể còn một lần vẽ ở trang cũ sau khi phiên đã bị xóa;
+  // rememberPage được cập nhật cùng lượt với phiên để route "*" bên dưới không ghi nhầm trang cũ làm `from`.
+  const toLogin = useCallback((keepPage) => {
+    setRememberPage(keepPage)
+    const from = keepPage ? currentPath() : null
+    navigate('/login', { replace: true, state: from ? { from } : null })
+  }, [navigate])
 
   function persist(next) {
     setClientSession(next)
@@ -48,24 +62,24 @@ export default function App() {
       persist(null)
       setRestoring(false)
       setNotice(error.status === 401 ? 'Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.' : error.message)
-      navigate('/login', { replace: true })
+      toLogin(true)
     })
     return () => { active = false }
     // Khôi phục phiên chỉ chạy một lần khi mở ứng dụng.
     // eslint-disable-next-line
   }, [])
 
-  const handleLogout = useCallback((message) => {
+  const handleLogout = useCallback((message, { keepPage = false } = {}) => {
     const refreshToken = getClientSession()?.refreshToken
     setSession(null)
     persist(null)
     setPasswordModal(false)
     setNotice(typeof message === 'string' ? message : null)
-    navigate('/login', { replace: true })
+    toLogin(keepPage)
     if (refreshToken) void logout(refreshToken).catch(() => {})
     window.google?.accounts?.id?.disableAutoSelect?.()
     // eslint-disable-next-line
-  }, [navigate])
+  }, [toLogin])
 
   useEffect(() => {
     const offRefresh = onSessionRefreshed((next) => setSession(next))
@@ -73,10 +87,10 @@ export default function App() {
       setSession(null)
       setPasswordModal(false)
       setNotice('Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.')
-      navigate('/login', { replace: true })
+      toLogin(true)
     })
     return () => { offRefresh(); offExpired() }
-  }, [navigate])
+  }, [toLogin])
 
   function handleAuthSuccess(result, { provider, registered } = {}) {
     if (!isAuthSession(result)) return
@@ -85,6 +99,7 @@ export default function App() {
     setSession(next)
     persist(next)
     setPasswordModal(next.pendingPasswordPrompt)
+    setRememberPage(true)
     // Việc chuyển tới trang định mở do route /login của khu vực đã đăng nhập đảm nhiệm (một cơ chế duy nhất, không tranh chấp).
   }
 
@@ -102,7 +117,7 @@ export default function App() {
     persist(next)
   }
 
-  const expire = (message) => handleLogout(message)
+  const expire = (message) => handleLogout(message, { keepPage: true })
 
   if (restoring) {
     return <AuthLayout variant={APP_AUDIENCE}><p role="status">Đang kiểm tra phiên đăng nhập…</p></AuthLayout>
@@ -115,7 +130,7 @@ export default function App() {
         <Routes>
           <Route path="/login" element={<AuthPage onForgotPassword={() => navigate('/forgot-password')} onAuthSuccess={handleAuthSuccess} />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage onBack={() => navigate('/login')} />} />
-          <Route path="*" element={<Navigate to="/login" replace state={{ from: `${location.pathname}${location.search}` }} />} />
+          <Route path="*" element={<Navigate to="/login" replace state={rememberPage ? { from: `${location.pathname}${location.search}${location.hash}` } : null} />} />
         </Routes>
       </AuthLayout>
     )
