@@ -1,0 +1,322 @@
+<!-- Bài học tương tác chủ điểm CHỦ ĐỘNG – BỊ ĐỘNG (Part 5 · nhóm Động từ · mã active_passive_voice). Tiêu đề gợi ý: "Chủ động hay bị động: nhìn tân ngữ để chọn nhanh". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Câu chủ động (active)</strong>: chủ ngữ <strong>thực hiện</strong> hành động (<em>The team prepared the report</em>). <strong>Câu bị động (passive)</strong>: chủ ngữ <strong>nhận</strong> hành động (<em>The report was prepared by the team</em>). Part 5 rất hay cho cùng một động từ ở dạng chủ động và bị động; dấu hiệu quyết định thường là <strong>có tân ngữ sau chỗ trống hay không</strong>.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>be + V3 · có tân ngữ → chủ động, không có tân ngữ → bị động · bị động theo thì</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>be required/expected/asked to V · be located/equipped/based… · nội động từ không có bị động</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Bị động có tân ngữ (be given + O) · phân từ rút gọn · have something done</td></tr>
+</tbody>
+</table>
+<h2>1. Nhận diện bị động</h2>
+<p class="grammar-structure">S (người/vật nhận hành động) + be + V3 + (by + người thực hiện)</p>
+<ul>
+<li><em>be</em> mang thì và số; V3 mang nghĩa.</li>
+<li><em>by + tác nhân</em> thường bị lược khi không quan trọng.</li>
+<li>Chỉ <strong>ngoại động từ</strong> (động từ có tân ngữ) mới chuyển sang bị động.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The report <u>is prepared</u> by the finance team. <em>(Báo cáo được nhóm tài chính soạn.)</em></p>
+<p><strong>Phân tích:</strong> báo cáo không tự soạn được → bị động; <em>by the finance team</em> chỉ người làm.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The quarterly sales report ______ by the finance team at the end of every March.</p>
+<ol class="grammar-options"><li>prepares</li><li class="grammar-correct">is prepared</li><li>preparing</li><li>has prepared</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. is prepared</p>
+<p><strong>Câu hoàn chỉnh:</strong> The quarterly sales report is prepared by the finance team at the end of every March.<br><strong>Dịch:</strong> Báo cáo doanh số quý được nhóm tài chính soạn vào cuối tháng Ba hằng năm.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống không có tân ngữ mà có <em>by + người làm</em>; báo cáo nhận hành động → bị động; <em>every March</em> → hiện tại đơn.</p>
+<ul>
+<li><strong>A. prepares:</strong> chủ động – báo cáo không tự soạn; thiếu tân ngữ.</li>
+<li><strong>C. preparing:</strong> không phải động từ chia.</li>
+<li><strong>D. has prepared:</strong> chủ động, thiếu tân ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỉ nhìn chủ ngữ số ít rồi chọn <em>prepares</em>. <strong>Ghi nhớ:</strong> by + người làm → bị động.</p>
+</div>
+</div>
+<h2>2. Chủ động hay bị động?</h2>
+<table>
+<thead><tr><th>Sau chỗ trống</th><th>Chọn</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Có tân ngữ (cụm danh từ)</td><td>Chủ động</td><td>will launch <u>a new campaign</u></td></tr>
+<tr><td>Không có tân ngữ (giới từ, trạng từ, dấu chấm, by…)</td><td>Bị động</td><td>will be launched <u>next month</u></td></tr>
+<tr><td>to V</td><td>Thường bị động: be required/asked/expected to V</td><td>are required <u>to sign in</u></td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Kiểm tra lại bằng nghĩa:</strong> chủ ngữ có tự làm hành động được không? Người làm → chủ động; vật/việc chịu tác động → bị động.</p>
+</div>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> The company <u>will launch</u> a new product. · A new product <u>will be launched</u> in May. <em>(Công ty sẽ ra mắt sản phẩm mới. · Sản phẩm mới sẽ được ra mắt vào tháng Năm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The marketing department ______ a new advertising campaign for the X3 headphones next month.</p>
+<ol class="grammar-options"><li class="grammar-correct">will launch</li><li>will be launched</li><li>launching</li><li>is launched</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. will launch</p>
+<p><strong>Câu hoàn chỉnh:</strong> The marketing department will launch a new advertising campaign for the X3 headphones next month.<br><strong>Dịch:</strong> Phòng marketing sẽ triển khai chiến dịch quảng cáo mới cho tai nghe X3 vào tháng sau.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống có tân ngữ <em>a new advertising campaign</em> → chủ động; <em>next month</em> → tương lai.</p>
+<ul>
+<li><strong>B. will be launched:</strong> bị động không đi với tân ngữ trực tiếp.</li>
+<li><strong>C. launching:</strong> không phải động từ chia.</li>
+<li><strong>D. is launched:</strong> bị động và sai thì.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy chủ ngữ là phòng ban (không phải người) nên chọn bị động. <strong>Ghi nhớ:</strong> có tân ngữ → chủ động.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>All visitors ______ to sign in at the reception desk upon arrival.</p>
+<ol class="grammar-options"><li>require</li><li class="grammar-correct">are required</li><li>requiring</li><li>have required</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. are required</p>
+<p><strong>Câu hoàn chỉnh:</strong> All visitors are required to sign in at the reception desk upon arrival.<br><strong>Dịch:</strong> Mọi khách tham quan phải đăng ký ở quầy lễ tân khi đến.</p>
+<p><strong>Vì sao đúng:</strong> Khách là người <strong>bị yêu cầu</strong>; sau chỗ trống là <em>to V</em>, không có tân ngữ → <em>be required to V</em>.</p>
+<ul>
+<li><strong>A. require:</strong> chủ động "khách yêu cầu (ai)" – thiếu tân ngữ, sai nghĩa.</li>
+<li><strong>C. requiring:</strong> không phải động từ chia.</li>
+<li><strong>D. have required:</strong> chủ động, thiếu tân ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chủ ngữ là người nên chọn chủ động. <strong>Ghi nhớ:</strong> be required/asked/expected/encouraged/advised to V.</p>
+</div>
+</div>
+<h2>3. Bị động theo thì</h2>
+<table>
+<thead><tr><th>Thì</th><th>Bị động</th></tr></thead>
+<tbody>
+<tr><td>Hiện tại đơn / quá khứ đơn</td><td>is/are + V3 · was/were + V3</td></tr>
+<tr><td>Tiếp diễn</td><td>is/are/was being + V3</td></tr>
+<tr><td>Hoàn thành</td><td>has/have/had been + V3</td></tr>
+<tr><td>Tương lai, động từ khuyết thiếu</td><td>will/can/must/should + be + V3</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">be → <em>being</em> sau is/are/was · <em>been</em> sau have/has/had · <em>be</em> sau will/can/must</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The road <u>is being repaired</u>. · The road <u>has been repaired</u>. · The road <u>must be repaired</u>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The main elevator is currently ______ repaired, so please use the stairs on the east side.</p>
+<ol class="grammar-options"><li>been</li><li>be</li><li class="grammar-correct">being</li><li>to be</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. being</p>
+<p><strong>Câu hoàn chỉnh:</strong> The main elevator is currently being repaired, so please use the stairs on the east side.<br><strong>Dịch:</strong> Thang máy chính hiện đang được sửa, vui lòng dùng cầu thang phía đông.</p>
+<p><strong>Vì sao đúng:</strong> <em>is + being + V3</em> = bị động tiếp diễn; <em>currently</em> xác nhận việc đang diễn ra.</p>
+<ul>
+<li><strong>A. been:</strong> chỉ đi sau have/has/had.</li>
+<li><strong>B. be:</strong> chỉ đi sau động từ khuyết thiếu/will.</li>
+<li><strong>D. to be:</strong> <em>is to be repaired</em> nghĩa "sẽ được sửa (theo kế hoạch)", không đi với <em>currently</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm ba dạng be/been/being. <strong>Ghi nhớ:</strong> is being V3 (đang được), has been V3 (đã được), will be V3 (sẽ được).</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The new safety rules must ______ by all factory workers without exception.</p>
+<ol class="grammar-options"><li>follow</li><li>following</li><li>been followed</li><li class="grammar-correct">be followed</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. be followed</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new safety rules must be followed by all factory workers without exception.<br><strong>Dịch:</strong> Mọi công nhân nhà máy phải tuân thủ các quy định an toàn mới, không có ngoại lệ.</p>
+<p><strong>Vì sao đúng:</strong> Quy định được tuân thủ (bị động), có <em>by + người làm</em>; sau <em>must</em> → <em>be + V3</em>.</p>
+<ul>
+<li><strong>A. follow:</strong> chủ động – quy định không tự tuân thủ; thiếu tân ngữ.</li>
+<li><strong>B. following:</strong> không đứng sau <em>must</em>.</li>
+<li><strong>C. been followed:</strong> <em>been</em> không đứng sau động từ khuyết thiếu.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>follow</em> vì sau <em>must</em> là V nguyên mẫu. <strong>Ghi nhớ:</strong> modal + be + V3.</p>
+</div>
+</div>
+<h2>4. Nội động từ</h2>
+<p><strong>Nội động từ</strong> không có tân ngữ nên <strong>không có dạng bị động</strong>. Hay gặp: <em>occur, happen, arise, rise, fall, expire, remain, arrive, appear, exist, emerge, last, take place, consist of, belong to</em>.</p>
+<blockquote class="grammar-example">
+<p><strong>Đúng:</strong> The meeting <u>took place</u> in Room 5. · <strong>Sai:</strong> The meeting <u>was taken place</u>. <em>(Cuộc họp diễn ra ở phòng 5.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Our current office lease ______ at the end of this month, so we are looking for a new location.</p>
+<ol class="grammar-options"><li class="grammar-correct">expires</li><li>is expired</li><li>will be expired</li><li>expiring</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. expires</p>
+<p><strong>Câu hoàn chỉnh:</strong> Our current office lease expires at the end of this month, so we are looking for a new location.<br><strong>Dịch:</strong> Hợp đồng thuê văn phòng hiện tại hết hạn vào cuối tháng này, nên chúng tôi đang tìm địa điểm mới.</p>
+<p><strong>Vì sao đúng:</strong> <em>expire</em> là nội động từ, không có bị động; lịch cố định → hiện tại đơn <em>expires</em>.</p>
+<ul>
+<li><strong>B. is expired:</strong> nội động từ không dùng bị động.</li>
+<li><strong>C. will be expired:</strong> cùng lỗi bị động.</li>
+<li><strong>D. expiring:</strong> không phải động từ chia.</li>
+</ul>
+<p><strong>Bẫy:</strong> "hợp đồng bị hết hạn" khiến người học chọn bị động. <strong>Ghi nhớ:</strong> expire, occur, take place, arise không có bị động.</p>
+</div>
+</div>
+<h2>5. Bị động + to V / tân ngữ</h2>
+<ul>
+<li><strong>be + V3 + to V:</strong> be required/expected/asked/encouraged/advised/allowed/permitted to V.</li>
+<li><strong>Động từ hai tân ngữ</strong> (give, send, offer, award, grant): bị động vẫn còn một tân ngữ: <em>She <u>was given</u> an award.</em></li>
+<li>Vì vậy "có tân ngữ → chủ động" có ngoại lệ với nhóm động từ này: xét nghĩa.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> New employees <u>are offered</u> a relocation package. <em>(Nhân viên mới được đề nghị gói hỗ trợ chuyển nơi ở.)</em></p>
+<p><strong>Phân tích:</strong> có tân ngữ <em>a relocation package</em> nhưng nhân viên là người <strong>nhận</strong> → bị động.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Ms. Ito ______ an award for her outstanding sales performance at last night's banquet.</p>
+<ol class="grammar-options"><li class="grammar-correct">was given</li><li>gave</li><li>has given</li><li>giving</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. was given</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Ito was given an award for her outstanding sales performance at last night's banquet.<br><strong>Dịch:</strong> Cô Ito được trao giải nhờ thành tích bán hàng xuất sắc tại buổi tiệc tối qua.</p>
+<p><strong>Vì sao đúng:</strong> Cô Ito nhận giải vì thành tích <strong>của cô</strong> → người nhận → bị động của động từ hai tân ngữ <em>give</em>; <em>last night</em> → quá khứ.</p>
+<ul>
+<li><strong>B. gave:</strong> "cô Ito trao giải" – mâu thuẫn với <em>for her performance</em>.</li>
+<li><strong>C. has given:</strong> chủ động và không đi với <em>last night</em>.</li>
+<li><strong>D. giving:</strong> không phải động từ chia.</li>
+</ul>
+<p><strong>Bẫy:</strong> có tân ngữ <em>an award</em> nên chọn chủ động. <strong>Ghi nhớ:</strong> be given/awarded/offered/sent + tân ngữ.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Employees are ______ to submit their timesheets by 5 P.M. every Friday.</p>
+<ol class="grammar-options"><li>encourage</li><li>encouraging</li><li class="grammar-correct">encouraged</li><li>encouragement</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. encouraged</p>
+<p><strong>Câu hoàn chỉnh:</strong> Employees are encouraged to submit their timesheets by 5 P.M. every Friday.<br><strong>Dịch:</strong> Nhân viên được khuyến khích nộp bảng chấm công trước 5 giờ chiều thứ Sáu hằng tuần.</p>
+<p><strong>Vì sao đúng:</strong> <em>are ______ to V</em> → bị động <em>be encouraged to V</em>.</p>
+<ul>
+<li><strong>A. encourage:</strong> nguyên mẫu không đứng sau <em>are</em>.</li>
+<li><strong>B. encouraging:</strong> <em>are encouraging</em> là chủ động tiếp diễn, cần tân ngữ người.</li>
+<li><strong>D. encouragement:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>are + V-ing</em> trông quen. <strong>Ghi nhớ:</strong> be + V3 + to V khi chủ ngữ được yêu cầu/khuyến khích.</p>
+</div>
+</div>
+<h2>6. Bị động + giới từ</h2>
+<table>
+<thead><tr><th>Cụm</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>be located in/at/near · be based in</td><td>nằm ở · có trụ sở ở</td></tr>
+<tr><td>be equipped with · be filled with</td><td>được trang bị · đầy</td></tr>
+<tr><td>be satisfied/pleased with · be interested in</td><td>hài lòng · quan tâm</td></tr>
+<tr><td>be committed/dedicated to + N/V-ing</td><td>cam kết, tận tâm</td></tr>
+<tr><td>be involved in · be known for · be made of/from</td><td>tham gia · nổi tiếng về · làm bằng</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Every room <u>is equipped with</u> a coffee maker. <em>(Mọi phòng đều có máy pha cà phê.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The hotel is conveniently ______ near the central train station and the convention center.</p>
+<ol class="grammar-options"><li>locating</li><li class="grammar-correct">located</li><li>locates</li><li>location</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. located</p>
+<p><strong>Câu hoàn chỉnh:</strong> The hotel is conveniently located near the central train station and the convention center.<br><strong>Dịch:</strong> Khách sạn nằm ở vị trí thuận tiện gần ga trung tâm và trung tâm hội nghị.</p>
+<p><strong>Vì sao đúng:</strong> <em>be located near</em> = nằm gần; trạng từ <em>conveniently</em> chen giữa be và V3.</p>
+<ul>
+<li><strong>A. locating:</strong> chủ động, cần tân ngữ.</li>
+<li><strong>C. locates:</strong> không đứng sau <em>is</em>.</li>
+<li><strong>D. location:</strong> danh từ, không đứng sau trạng từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> trạng từ chen giữa làm mất dấu <em>is</em>. <strong>Ghi nhớ:</strong> be conveniently located; be centrally located.</p>
+</div>
+</div>
+<h2>7. Phân từ rút gọn</h2>
+<p class="grammar-structure">N + V3 (… được làm) &nbsp;·&nbsp; N + V-ing (… đang/có làm)</p>
+<ul>
+<li><em>Applications <u>received</u> after May 1</em> = applications which are received… (bị động).</li>
+<li><em>Employees <u>working</u> overtime</em> = employees who work… (chủ động).</li>
+<li>Câu đã có động từ chính thì chỗ trống sau danh từ là phân từ, không phải động từ chia. Xem bài <strong>Dạng động từ</strong>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The documents <u>attached</u> to this e-mail <u>are</u> confidential. <em>(Các tài liệu đính kèm email này là tài liệu mật.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Applications ______ after the May 1 deadline will not be considered.</p>
+<ol class="grammar-options"><li>receive</li><li>receiving</li><li class="grammar-correct">received</li><li>receives</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. received</p>
+<p><strong>Câu hoàn chỉnh:</strong> Applications received after the May 1 deadline will not be considered.<br><strong>Dịch:</strong> Hồ sơ nhận được sau hạn 1/5 sẽ không được xem xét.</p>
+<p><strong>Vì sao đúng:</strong> Động từ chính là <em>will not be considered</em>; chỗ trống bổ nghĩa cho <em>Applications</em>. Hồ sơ <strong>được nhận</strong> → V3.</p>
+<ul>
+<li><strong>A. receive:</strong> câu sẽ có hai động từ chính.</li>
+<li><strong>B. receiving:</strong> nghĩa chủ động "hồ sơ nhận (cái gì)" – sai.</li>
+<li><strong>D. receives:</strong> động từ chia, thừa động từ chính và sai số.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ chỗ trống là động từ chính. <strong>Ghi nhớ:</strong> câu đã có động từ chính → chỗ trống sau danh từ là V3/V-ing.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Ý nghĩa</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>have/get + O + V3</td><td>nhờ/thuê người khác làm</td><td>have the carpets <u>cleaned</u></td></tr>
+<tr><td>have + người + V</td><td>bảo ai làm</td><td>have the technician <u>check</u> it</td></tr>
+<tr><td>get + V3</td><td>bị/được (văn nói)</td><td>get promoted</td></tr>
+<tr><td>by + tác nhân / by + thời hạn</td><td><em>by Friday</em> không phải dấu hiệu bị động</td><td>submit the form by Friday</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We will have the air conditioner <u>repaired</u> tomorrow. <em>(Ngày mai chúng tôi sẽ cho người sửa máy lạnh.)</em></p>
+<p><strong>Phân tích:</strong> máy lạnh được sửa (bị động) bởi người khác → have + O + V3.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The hotel manager will have all the lobby carpets ______ before the conference guests arrive.</p>
+<ol class="grammar-options"><li>clean</li><li>cleaning</li><li>to clean</li><li class="grammar-correct">cleaned</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. cleaned</p>
+<p><strong>Câu hoàn chỉnh:</strong> The hotel manager will have all the lobby carpets cleaned before the conference guests arrive.<br><strong>Dịch:</strong> Quản lý khách sạn sẽ cho giặt toàn bộ thảm sảnh trước khi khách hội nghị đến.</p>
+<p><strong>Vì sao đúng:</strong> <em>have + vật + V3</em>: thảm <strong>được</strong> giặt bởi người khác.</p>
+<ul>
+<li><strong>A. clean:</strong> <em>have + O + V</em> chỉ dùng khi O là người thực hiện (have the staff clean…).</li>
+<li><strong>B. cleaning:</strong> nghĩa chủ động, thảm không tự giặt.</li>
+<li><strong>C. to clean:</strong> <em>have</em> (nhờ làm) không đi với to V.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn nguyên mẫu vì nhớ "have someone do". <strong>Ghi nhớ:</strong> have + người + V · have + vật + V3.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> thư xác nhận đơn hàng, thông báo bảo trì dùng bị động dày đặc: <em>has been processed, will be shipped, is being renovated</em>. Đọc câu trước để chọn thì.</li>
+<li><strong>Part 7:</strong> bị động giấu chủ thể – câu hỏi "Who will…?" cần tìm <em>by…</em> hoặc ngữ cảnh khác.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The survey <u>was conducted</u> by an outside agency. <em>(Khảo sát do một công ty bên ngoài thực hiện.)</em> → "Who conducted the survey?" → an outside agency.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Email xác nhận)</em> Thank you for shopping with Brightline. Your order has been processed and ______ within three business days.</p>
+<p>You will receive a tracking number by e-mail once it leaves our warehouse.</p>
+<ol class="grammar-options"><li>will ship</li><li>shipping</li><li>ships</li><li class="grammar-correct">will be shipped</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. will be shipped</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> … Your order has been processed and will be shipped within three business days. You will receive a tracking number…<br><strong>Dịch:</strong> Đơn hàng của quý khách đã được xử lý và sẽ được giao trong ba ngày làm việc. Quý khách sẽ nhận mã theo dõi…</p>
+<p><strong>Vì sao đúng:</strong> Đơn hàng được gửi đi (bị động), không có tân ngữ; việc gửi xảy ra sau (<em>within three business days</em>, câu sau dùng <em>will</em>) → <em>will be shipped</em>.</p>
+<ul>
+<li><strong>A. will ship:</strong> chủ động; "đơn hàng sẽ gửi (cái gì)" thiếu tân ngữ.</li>
+<li><strong>B. shipping:</strong> không phải động từ chia.</li>
+<li><strong>C. ships:</strong> chủ động, hiện tại đơn.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>ship</em> đôi khi dùng nội động (<em>The item ships in 2 days</em>) nhưng song song với <em>has been processed</em> thì bị động là chuẩn. <strong>Ghi nhớ:</strong> hai động từ nối bằng <em>and</em> thường cùng dạng chủ động/bị động.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> có cả V và be V3 → câu chủ động/bị động.</li>
+<li><strong>Nhìn sau chỗ trống:</strong> có tân ngữ → chủ động; không có → bị động (trừ động từ hai tân ngữ).</li>
+<li><strong>Kiểm tra nghĩa:</strong> chủ ngữ tự làm hay bị/được làm?</li>
+<li><strong>Chọn dạng be</strong> theo thì: being/been/be.</li>
+<li><strong>Loại nội động từ</strong> ở dạng bị động.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Hành động</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>______ + cụm danh từ</td><td>Chủ động</td><td>5–10 giây</td></tr>
+<tr><td>______ + by/giới từ/trạng từ/dấu chấm</td><td>Bị động</td><td>5–10 giây</td></tr>
+<tr><td>be ______ to V</td><td>be + V3 + to V</td><td>5 giây</td></tr>
+<tr><td>Câu đã có động từ chính, chỗ trống sau danh từ</td><td>V3 (bị động) hoặc V-ing (chủ động)</td><td>10–20 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> <em>by Friday, by 5 P.M.</em> là hạn chót, không phải dấu hiệu bị động.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Bị động = be + V3; be chia theo thì và chủ ngữ.</li>
+<li>Có tân ngữ → chủ động; không tân ngữ → bị động (trừ give/send/offer/award + O).</li>
+<li>is being V3 · has been V3 · will/must be V3.</li>
+<li>Nội động từ (occur, expire, take place, arise) không có bị động.</li>
+<li>N + V3 = được làm; N + V-ing = đang/có làm.</li>
+<li>have + vật + V3 = nhờ người khác làm.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> be required/expected/asked to · be located in · be equipped with · be committed to · be based in · be satisfied with · be known for · be scheduled for · be entitled to.</p>

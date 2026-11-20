@@ -19,6 +19,7 @@ import { QuestionNavigator } from './workspace/QuestionNavigator.jsx'
 import { StudyBottom, StudyLayout, StudySplit } from './workspace/StudyLayout.jsx'
 import { groupInstruction } from './workspace/studyModel.js'
 import { useAudioPlayer } from './workspace/useAudioPlayer.js'
+import { useStudyPanels } from './workspace/useStudyPanels.js'
 
 // [giá trị, nhãn, biểu tượng, tông] của bộ lọc ở thanh dưới.
 const FILTERS = [['all', 'Tất cả', 'grid'], ['wrong', 'Sai', 'alert-circle', 'danger'], ['right', 'Đúng', 'circle-check', 'success'], ['skipped', 'Bỏ trống', 'info', 'muted'], ['marked', 'Đánh dấu', 'star', 'warning']]
@@ -32,6 +33,7 @@ const noop = () => {}
 function ReviewWorkspace({ data, attemptId }) {
   const navigate = useNavigate()
   const { hash } = useLocation()
+  const panels = useStudyPanels()
   const { groups, numbers, answers } = useMemo(() => reviewModel(data), [data])
   const content = useMemo(() => Object.fromEntries((data.groups || []).map((group) => [group.groupId, group])), [data])
   const [media, setMedia] = useState(() => mediaMap(data.groups))
@@ -122,7 +124,8 @@ function ReviewWorkspace({ data, attemptId }) {
         ) : (
           <StudySplit
             left={<ContextPane instruction={groupInstruction(group.partNo, first, last)} audio={audioBar} shortcuts={shortcuts}
-              media={groupMedia} passageHtml={groupData.passageHtml} onMediaError={refreshMedia} />}
+              media={groupMedia} passageHtml={groupData.passageHtml} passageTranslation={groupData.translationVi}
+              passageKey={`${attemptId}_${group.groupId}`} panels={panels} onMediaError={refreshMedia} />}
             right={<>
               <div className="study-q-toolbar">
                 <span className="study-group-label">{group.questionIds.length > 1 ? <>Nhóm câu {first}–{last} <span className="muted">({group.questionIds.length} câu hỏi)</span></> : `Câu ${first}`}</span>
@@ -131,9 +134,10 @@ function ReviewWorkspace({ data, attemptId }) {
               {questions.map((question) => (
                 <QuestionCard key={question.questionId} question={question} number={numbers.get(question.questionId)} answer={answers[question.questionId]}
                   status={answers[question.questionId].review} marked={marks.has(question.questionId)} onPick={noop}
+                  grouped={group.questionIds.length > 1} panels={panels}
                   onMark={() => toggleMark(question.questionId)} onReport={() => setDialog({ type: 'report', questionId: question.questionId })} />
               ))}
-              <RevealPanels group={group} questions={questions} answers={answers} numbers={numbers} />
+              <RevealPanels questions={questions} answers={answers} hasPassage={Boolean(groupData.passageHtml)} panels={panels} />
             </>}
           />
         )}

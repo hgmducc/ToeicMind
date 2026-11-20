@@ -1,0 +1,272 @@
+<!-- Bài học tương tác chủ điểm CÂU MỆNH LỆNH (Part 5 · nhóm Động từ · mã imperative). Tiêu đề gợi ý: "Câu mệnh lệnh và câu giả định: động từ nguyên mẫu trong TOEIC". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Câu mệnh lệnh (imperative)</strong> dùng để yêu cầu, hướng dẫn, nhắc nhở: <em>Please submit your timesheet by Friday.</em> Câu không có chủ ngữ và động từ luôn ở <strong>dạng nguyên mẫu</strong>. Đây là kiểu câu rất phổ biến trong thông báo, email, hướng dẫn của TOEIC. Bài này cũng gồm <strong>câu giả định</strong> (<em>request that he submit…</em>) vì cũng dùng động từ nguyên mẫu.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>(Please) + V nguyên mẫu · Do not + V</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>If…, please + V · Be sure to / Make sure · Let us + V</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Câu giả định: recommend/request/require that + S + V nguyên mẫu · It is essential that…</td></tr>
+</tbody>
+</table>
+<h2>1. Cấu trúc cơ bản</h2>
+<p class="grammar-structure">(Please) + V NGUYÊN MẪU + (tân ngữ) + …</p>
+<ul>
+<li>Không có chủ ngữ (ngầm hiểu là <em>you</em>), động từ không thêm -s/-ed/-ing.</li>
+<li><em>Please</em> đứng đầu hoặc cuối câu, không làm thay đổi dạng động từ.</li>
+<li>Câu bắt đầu bằng chỗ trống mà sau đó không có động từ chính nào khác → thường là câu mệnh lệnh.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please <u>attach</u> all receipts to your expense report. <em>(Vui lòng đính kèm mọi hóa đơn vào báo cáo chi phí.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Please ______ all original receipts to your expense report before submitting it.</p>
+<ol class="grammar-options"><li class="grammar-correct">attach</li><li>attaches</li><li>attaching</li><li>attached</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. attach</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please attach all original receipts to your expense report before submitting it.<br><strong>Dịch:</strong> Vui lòng đính kèm mọi hóa đơn gốc vào báo cáo chi phí trước khi nộp.</p>
+<p><strong>Vì sao đúng:</strong> <em>Please + V nguyên mẫu</em>; câu không có chủ ngữ.</p>
+<ul>
+<li><strong>B. attaches:</strong> có -s nhưng không có chủ ngữ ngôi ba số ít.</li>
+<li><strong>C. attaching:</strong> V-ing không làm động từ chính.</li>
+<li><strong>D. attached:</strong> V2/V3, câu thiếu chủ ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>Please</em> là chủ ngữ số ít. <strong>Ghi nhớ:</strong> Please + V nguyên mẫu.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>______ the instruction manual carefully before assembling the bookshelf.</p>
+<ol class="grammar-options"><li>Reads</li><li>Reading</li><li class="grammar-correct">Read</li><li>To read</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. Read</p>
+<p><strong>Câu hoàn chỉnh:</strong> Read the instruction manual carefully before assembling the bookshelf.<br><strong>Dịch:</strong> Hãy đọc kỹ sách hướng dẫn trước khi lắp ráp kệ sách.</p>
+<p><strong>Vì sao đúng:</strong> Câu không có chủ ngữ và không có động từ chính nào khác (<em>assembling</em> nằm sau giới từ) → câu mệnh lệnh, động từ nguyên mẫu.</p>
+<ul>
+<li><strong>A. Reads:</strong> thiếu chủ ngữ cho động từ chia.</li>
+<li><strong>B. Reading:</strong> cụm V-ing làm chủ ngữ nhưng câu không có động từ chính.</li>
+<li><strong>D. To read:</strong> cụm to V, câu vẫn thiếu động từ chính.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn V-ing vì nghĩ chỗ trống là chủ ngữ. <strong>Ghi nhớ:</strong> đầu câu + không có động từ chính khác → V nguyên mẫu.</p>
+</div>
+</div>
+<h2>2. Mệnh lệnh phủ định</h2>
+<p class="grammar-structure">Do not / Don't / Never + V nguyên mẫu &nbsp;·&nbsp; Please do not + V</p>
+<ul>
+<li>Văn bản trang trọng (biển báo, quy định) dùng <em>Do not</em>.</li>
+<li>Lịch sự hơn: <em>Kindly…, Please refrain from + V-ing</em> (không được làm gì).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Do not leave</u> personal items in the meeting room. <em>(Không để đồ cá nhân trong phòng họp.)</em> · Please <u>refrain from using</u> mobile phones. <em>(Vui lòng không sử dụng điện thoại.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Do not ______ the cutting machine unless you have completed the required safety training.</p>
+<ol class="grammar-options"><li>operating</li><li class="grammar-correct">operate</li><li>to operate</li><li>operated</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. operate</p>
+<p><strong>Câu hoàn chỉnh:</strong> Do not operate the cutting machine unless you have completed the required safety training.<br><strong>Dịch:</strong> Không vận hành máy cắt trừ khi bạn đã hoàn thành khóa đào tạo an toàn bắt buộc.</p>
+<p><strong>Vì sao đúng:</strong> <em>Do not + V nguyên mẫu</em>.</p>
+<ul>
+<li><strong>A. operating:</strong> sau <em>do not</em> không dùng V-ing.</li>
+<li><strong>C. to operate:</strong> sau trợ động từ <em>do</em> không dùng to V.</li>
+<li><strong>D. operated:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm với <em>refrain from + V-ing</em>. <strong>Ghi nhớ:</strong> do/does/did (not) + V nguyên mẫu.</p>
+</div>
+</div>
+<h2>3. Kèm mệnh đề điều kiện</h2>
+<p class="grammar-structure">If / When / Once + S + V(hiện tại), (please) + V nguyên mẫu</p>
+<ul>
+<li>Câu hướng dẫn thường nêu điều kiện trước, mệnh lệnh sau.</li>
+<li>Dạng trang trọng: <em>Should you have any questions, please contact…</em> (= If you have…).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> If the printer jams, <u>turn</u> it off and <u>call</u> the help desk. <em>(Nếu máy in kẹt giấy, hãy tắt máy và gọi bộ phận hỗ trợ.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>If you have any questions about your monthly bill, please ______ our customer service team.</p>
+<ol class="grammar-options"><li>contacted</li><li>contacting</li><li>to contact</li><li class="grammar-correct">contact</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. contact</p>
+<p><strong>Câu hoàn chỉnh:</strong> If you have any questions about your monthly bill, please contact our customer service team.<br><strong>Dịch:</strong> Nếu có thắc mắc về hóa đơn hằng tháng, vui lòng liên hệ đội chăm sóc khách hàng.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề chính sau dấu phẩy là câu mệnh lệnh: <em>please + V nguyên mẫu</em>.</p>
+<ul>
+<li><strong>A. contacted:</strong> V2/V3, mệnh đề chính thiếu chủ ngữ.</li>
+<li><strong>B. contacting:</strong> không phải động từ chính.</li>
+<li><strong>C. to contact:</strong> <em>please to contact</em> sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy mệnh đề <em>If</em> nên nghĩ cần <em>will</em>. <strong>Ghi nhớ:</strong> If…, please + V.</p>
+</div>
+</div>
+<h2>4. Mệnh lệnh hay chủ ngữ?</h2>
+<table>
+<thead><tr><th>Câu</th><th>Phân tích</th></tr></thead>
+<tbody>
+<tr><td><u>Keep</u> your badge visible.</td><td>Không có động từ chính khác → mệnh lệnh</td></tr>
+<tr><td><u>Keeping</u> your badge visible <u>is</u> mandatory.</td><td>Có động từ chính <em>is</em> → V-ing làm chủ ngữ</td></tr>
+</tbody>
+</table>
+<p>Quy tắc: tìm động từ chính trước. Nếu câu đã có động từ chính, chỗ trống đầu câu là chủ ngữ (V-ing/danh từ); nếu không có, đó là câu mệnh lệnh.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Return</u> the form to Human Resources by May 1. <em>(Hãy gửi lại mẫu đơn cho phòng Nhân sự trước 1/5.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ your identification badge visible at all times while on the factory floor.</p>
+<ol class="grammar-options"><li>Keeping</li><li>Kept</li><li class="grammar-correct">Keep</li><li>Keeps</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. Keep</p>
+<p><strong>Câu hoàn chỉnh:</strong> Keep your identification badge visible at all times while on the factory floor.<br><strong>Dịch:</strong> Luôn để thẻ nhận dạng ở chỗ dễ thấy khi ở trong xưởng.</p>
+<p><strong>Vì sao đúng:</strong> Câu không có động từ chính nào khác → mệnh lệnh; <em>keep + O + adj</em>.</p>
+<ul>
+<li><strong>A. Keeping:</strong> nếu là chủ ngữ thì câu thiếu động từ chính.</li>
+<li><strong>B. Kept:</strong> V2/V3, thiếu chủ ngữ.</li>
+<li><strong>D. Keeps:</strong> động từ chia nhưng không có chủ ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn V-ing vì thấy câu dài như cụm chủ ngữ. <strong>Ghi nhớ:</strong> không có động từ chính → câu mệnh lệnh.</p>
+</div>
+</div>
+<h2>5. Câu giả định</h2>
+<p class="grammar-structure">S + recommend / request / require / suggest / insist / ask / propose + that + S + V NGUYÊN MẪU</p>
+<p class="grammar-structure">It is essential / important / necessary / vital / imperative + that + S + V NGUYÊN MẪU</p>
+<ul>
+<li>Động từ trong mệnh đề <em>that</em> giữ nguyên mẫu với mọi chủ ngữ: <em>that he <u>submit</u></em> (không <em>submits</em>), không chia theo thì của động từ chính.</li>
+<li>Bị động: <em>that + S + <u>be</u> + V3</em>. Phủ định: <em>that + S + <u>not</u> + V</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The doctor recommended that Mr. Lee <u>take</u> a week off. <em>(Bác sĩ khuyên ông Lee nghỉ một tuần.)</em></p>
+<p><strong>Phân tích:</strong> dù chủ ngữ số ít và động từ chính ở quá khứ, <em>take</em> vẫn nguyên mẫu.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The project manager requested that every team member ______ a progress report by Friday.</p>
+<ol class="grammar-options"><li>submits</li><li>submitted</li><li class="grammar-correct">submit</li><li>submitting</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. submit</p>
+<p><strong>Câu hoàn chỉnh:</strong> The project manager requested that every team member submit a progress report by Friday.<br><strong>Dịch:</strong> Quản lý dự án yêu cầu mỗi thành viên nộp báo cáo tiến độ trước thứ Sáu.</p>
+<p><strong>Vì sao đúng:</strong> <em>request that + S + V nguyên mẫu</em> (câu giả định).</p>
+<ul>
+<li><strong>A. submits:</strong> chia theo <em>every team member</em> – sai trong câu giả định.</li>
+<li><strong>B. submitted:</strong> lùi thì theo <em>requested</em> – sai trong câu giả định.</li>
+<li><strong>D. submitting:</strong> không phải động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> áp dụng hòa hợp chủ ngữ hoặc lùi thì. <strong>Ghi nhớ:</strong> request/require/recommend/suggest that + S + V nguyên mẫu.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>It is essential that protective goggles ______ worn at all times in the chemistry laboratory.</p>
+<ol class="grammar-options"><li>are</li><li>were</li><li>being</li><li class="grammar-correct">be</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. be</p>
+<p><strong>Câu hoàn chỉnh:</strong> It is essential that protective goggles be worn at all times in the chemistry laboratory.<br><strong>Dịch:</strong> Bắt buộc phải luôn đeo kính bảo hộ trong phòng thí nghiệm hóa học.</p>
+<p><strong>Vì sao đúng:</strong> <em>It is essential that + S + V nguyên mẫu</em>; kính <strong>được</strong> đeo → bị động <em>be worn</em>.</p>
+<ul>
+<li><strong>A. are:</strong> dạng chia thường, sai trong câu giả định theo chuẩn TOEIC.</li>
+<li><strong>B. were:</strong> quá khứ, sai.</li>
+<li><strong>C. being:</strong> không làm động từ chính.</li>
+</ul>
+<p><strong>Bẫy:</strong> chia <em>are</em> theo <em>goggles</em> số nhiều. <strong>Ghi nhớ:</strong> It is essential/important/necessary that + S + (be) + V.</p>
+</div>
+</div>
+<h2>6. Let, have, make + V</h2>
+<p class="grammar-structure">Let + O + V nguyên mẫu &nbsp;·&nbsp; have/make + người + V nguyên mẫu</p>
+<ul>
+<li><em>Let us help you…</em> / <em>Let's begin…</em>: lời mời, đề nghị trong quảng cáo, thư.</li>
+<li><em>help + O + (to) V</em>: cả hai dạng đều đúng.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Let</u> our experts <u>design</u> your kitchen. <em>(Hãy để chuyên gia của chúng tôi thiết kế căn bếp của bạn.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Let our experienced agents ______ you choose the insurance plan that best fits your needs.</p>
+<ol class="grammar-options"><li>helps</li><li class="grammar-correct">help</li><li>helping</li><li>to help</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. help</p>
+<p><strong>Câu hoàn chỉnh:</strong> Let our experienced agents help you choose the insurance plan that best fits your needs.<br><strong>Dịch:</strong> Hãy để đội ngũ nhân viên giàu kinh nghiệm của chúng tôi giúp bạn chọn gói bảo hiểm phù hợp nhất.</p>
+<p><strong>Vì sao đúng:</strong> <em>Let + O + V nguyên mẫu</em>.</p>
+<ul>
+<li><strong>A. helps:</strong> động từ chia sai sau <em>let + O</em>.</li>
+<li><strong>C. helping:</strong> <em>let</em> không đi với V-ing.</li>
+<li><strong>D. to help:</strong> <em>let</em> không đi với to V.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm với <em>allow + O + to V</em>. <strong>Ghi nhớ:</strong> let/make/have + O + V; allow/ask/encourage + O + to V.</p>
+</div>
+</div>
+<h2>7. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Cụm cố định</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>Please be advised that…</td><td>Xin lưu ý rằng…</td></tr>
+<tr><td>Please be sure to + V · Make sure (that)…</td><td>Nhớ/đảm bảo…</td></tr>
+<tr><td>Please find attached / enclosed…</td><td>Vui lòng xem tệp đính kèm…</td></tr>
+<tr><td>Please be seated · Please be informed</td><td>Mệnh lệnh dạng bị động: be + V3</td></tr>
+<tr><td>Feel free to + V · Do not hesitate to + V</td><td>Cứ tự nhiên… · Đừng ngần ngại…</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please <u>be advised</u> that the office will close early on Friday. <em>(Xin lưu ý văn phòng sẽ đóng cửa sớm vào thứ Sáu.)</em></p>
+<p><strong>Phân tích:</strong> người đọc <strong>được</strong> thông báo → mệnh lệnh bị động <em>be + V3</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Please be ______ that the north parking lot will be closed for repaving on Saturday.</p>
+<ol class="grammar-options"><li class="grammar-correct">advised</li><li>advise</li><li>advising</li><li>advice</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. advised</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please be advised that the north parking lot will be closed for repaving on Saturday.<br><strong>Dịch:</strong> Xin lưu ý bãi đỗ xe phía bắc sẽ đóng cửa để trải lại mặt đường vào thứ Bảy.</p>
+<p><strong>Vì sao đúng:</strong> <em>Please be advised that…</em> là cụm cố định: người nghe được thông báo → <em>be + V3</em>.</p>
+<ul>
+<li><strong>B. advise:</strong> <em>be advise</em> sai cấu trúc.</li>
+<li><strong>C. advising:</strong> <em>be advising</em> chủ động, sai nghĩa.</li>
+<li><strong>D. advice:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>advice/advise</em>. <strong>Ghi nhớ:</strong> Please be advised/informed/reminded that…</p>
+</div>
+</div>
+<h2>8. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> thông báo, email kết thúc bằng lời yêu cầu: <em>Please contact…, Be sure to…, Do not hesitate to…</em> – chỗ trống ở đầu câu thường là động từ nguyên mẫu.</li>
+<li><strong>Part 7:</strong> câu mệnh lệnh chứa đáp án cho "What are readers asked to do?" / "What should employees do?".</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Bring</u> a valid photo ID to the registration desk. <em>(Mang theo giấy tờ tùy thân có ảnh đến bàn đăng ký.)</em> → "What are attendees asked to do?" → Bring identification.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo hội thảo)</em> Registration opens at 8:30 A.M. on the first floor of the Lakeside Hotel.</p>
+<p>______ sure to bring a valid photo ID, as it will be required to receive your name badge.</p>
+<ol class="grammar-options"><li>Being</li><li>Been</li><li>To be</li><li class="grammar-correct">Be</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. Be</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> Registration opens at 8:30 A.M. on the first floor of the Lakeside Hotel. Be sure to bring a valid photo ID, as it will be required to receive your name badge.<br><strong>Dịch:</strong> Đăng ký bắt đầu lúc 8:30 sáng tại tầng một khách sạn Lakeside. Nhớ mang theo giấy tờ tùy thân có ảnh vì cần nó để nhận thẻ tên.</p>
+<p><strong>Vì sao đúng:</strong> Câu không có chủ ngữ và không có động từ chính khác → mệnh lệnh <em>Be sure to + V</em>.</p>
+<ul>
+<li><strong>A. Being:</strong> câu sẽ thiếu động từ chính.</li>
+<li><strong>B. Been:</strong> phân từ, không đứng đầu câu mệnh lệnh.</li>
+<li><strong>C. To be:</strong> câu sẽ thiếu động từ chính.</li>
+</ul>
+<p><strong>Bẫy:</strong> câu bắt đầu bằng tính từ <em>sure</em> sau chỗ trống khiến người học bối rối. <strong>Ghi nhớ:</strong> Be sure to + V = nhớ làm gì.</p>
+</div>
+</div>
+<h2>9. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> V / V-s / V-ing / to V và chỗ trống đứng đầu câu hoặc sau <em>Please, Do not, Let</em>.</li>
+<li><strong>Tìm động từ chính:</strong> không có → câu mệnh lệnh → V nguyên mẫu.</li>
+<li><strong>Thấy recommend/request/require/It is essential + that</strong> → V nguyên mẫu, bị động là <em>be + V3</em>.</li>
+<li><strong>Không áp dụng hòa hợp chủ ngữ</strong> trong câu giả định.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Chọn</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>Please / Do not / Let + O + ______</td><td>V nguyên mẫu</td><td>5 giây</td></tr>
+<tr><td>______ đầu câu, không có động từ chính khác</td><td>V nguyên mẫu</td><td>10 giây</td></tr>
+<tr><td>request/require… that + S + ______</td><td>V nguyên mẫu (be V3)</td><td>10 giây</td></tr>
+<tr><td>Please be ______ that</td><td>advised/informed/reminded</td><td>5 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> câu giả định đúng cả khi động từ chính ở quá khứ (<em>requested that he submit</em>). Đừng lùi thì.</p>
+</div>
+<h2>10. Tổng kết, ôn tập</h2>
+<ul>
+<li>Câu mệnh lệnh: (Please) + V nguyên mẫu; phủ định: Do not + V.</li>
+<li>Không có động từ chính khác → chỗ trống đầu câu là V nguyên mẫu.</li>
+<li>If…, please + V; Should you…, please + V.</li>
+<li>Let/make/have + O + V nguyên mẫu.</li>
+<li>recommend/request/require/suggest/insist that + S + V nguyên mẫu; It is essential that + S + be V3.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> Please be advised that · Be sure to · Make sure that · Feel free to · Do not hesitate to · Please refrain from + V-ing · Please find attached · Kindly + V.</p>

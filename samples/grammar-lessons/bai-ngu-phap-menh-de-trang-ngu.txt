@@ -1,0 +1,267 @@
+<!-- Bài học tương tác chủ điểm MỆNH ĐỀ TRẠNG NGỮ (Part 5 · nhóm Ngữ pháp khác · mã adverbial_clause). Tiêu đề gợi ý: "Mệnh đề trạng ngữ: thời gian, lý do, nhượng bộ, mục đích và dạng rút gọn". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Mệnh đề trạng ngữ (adverbial clause)</strong> là mệnh đề phụ bắt đầu bằng một liên từ (<em>when, because, although, so that…</em>) và bổ sung thông tin thời gian, lý do, nhượng bộ, mục đích cho mệnh đề chính. Part 5 kiểm tra: chọn <strong>liên từ đúng nghĩa</strong>, phân biệt liên từ với giới từ, và <strong>dạng rút gọn</strong> (<em>When completing…, Once signed…</em>). Câu điều kiện (if, unless) được học riêng trong bài <strong>Câu điều kiện</strong>.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Liên từ + S + V · nhóm thời gian, lý do, nhượng bộ</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>so that · so/such…that · thì hiện tại trong mệnh đề thời gian</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Rút gọn: liên từ + V-ing/V3 · while/whereas · now that, once</td></tr>
+</tbody>
+</table>
+<h2>1. Nhận diện mệnh đề</h2>
+<p class="grammar-structure">LIÊN TỪ + S + V, S + V (chính) &nbsp;·&nbsp; S + V (chính) + LIÊN TỪ + S + V</p>
+<ul>
+<li>Mệnh đề trạng ngữ đứng đầu câu → có dấu phẩy ngăn cách; đứng sau → thường không có dấu phẩy.</li>
+<li>Sau chỗ trống là <strong>S + V</strong> → liên từ; là <strong>cụm danh từ</strong> → giới từ (xem bài <strong>Liên từ, giới từ</strong>).</li>
+<li><em>since</em> vừa là liên từ (vì, kể từ khi) vừa là giới từ (kể từ).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Since</u> the new system was installed, complaints <u>have decreased</u>. <em>(Kể từ khi hệ thống mới được lắp, khiếu nại đã giảm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ the new booking system was installed, customer complaints have decreased significantly.</p>
+<ol class="grammar-options"><li class="grammar-correct">Since</li><li>During</li><li>Despite</li><li>Because of</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. Since</p>
+<p><strong>Câu hoàn chỉnh:</strong> Since the new booking system was installed, customer complaints have decreased significantly.<br><strong>Dịch:</strong> Kể từ khi hệ thống đặt chỗ mới được lắp đặt, khiếu nại của khách hàng đã giảm đáng kể.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là mệnh đề (<em>the system was installed</em>) → liên từ; mệnh đề chính dùng hiện tại hoàn thành → <em>Since</em> (kể từ khi).</p>
+<ul>
+<li><strong>B. During:</strong> giới từ, cần danh từ.</li>
+<li><strong>C. Despite:</strong> giới từ, nghĩa nhượng bộ.</li>
+<li><strong>D. Because of:</strong> giới từ, cần danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> ba giới từ đều đúng nghĩa "trong/vì". <strong>Ghi nhớ:</strong> Since + S + V2, S + have/has V3.</p>
+</div>
+</div>
+<h2>2. Thời gian</h2>
+<table>
+<thead><tr><th>Liên từ</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>when, while, as</td><td>khi, trong khi</td></tr>
+<tr><td>before, after, until</td><td>trước khi, sau khi, cho đến khi</td></tr>
+<tr><td>as soon as, once</td><td>ngay khi, một khi</td></tr>
+<tr><td>by the time, since</td><td>trước lúc, kể từ khi</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">Liên từ thời gian + HIỆN TẠI ĐƠN (nghĩa tương lai), S + will + V</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Once</u> you receive your badge, you <u>will be able</u> to enter. <em>(Một khi nhận thẻ, bạn sẽ vào được.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ you receive your employee ID card, you will be able to use the parking garage.</p>
+<ol class="grammar-options"><li>During</li><li>Prior to</li><li class="grammar-correct">Once</li><li>Upon</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. Once</p>
+<p><strong>Câu hoàn chỉnh:</strong> Once you receive your employee ID card, you will be able to use the parking garage.<br><strong>Dịch:</strong> Một khi nhận thẻ nhân viên, bạn sẽ được sử dụng nhà để xe.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là mệnh đề <em>you receive…</em> → liên từ; nghĩa "một khi, ngay khi" → <em>Once</em>.</p>
+<ul>
+<li><strong>A. During:</strong> giới từ.</li>
+<li><strong>B. Prior to:</strong> giới từ "trước", cũng sai nghĩa.</li>
+<li><strong>D. Upon:</strong> giới từ, cần danh từ/V-ing (<em>upon receiving</em>).</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>Upon</em> cùng nghĩa "ngay khi". <strong>Ghi nhớ:</strong> once/as soon as + S + V; upon + N/V-ing.</p>
+</div>
+</div>
+<h2>3. Lý do, kết quả</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>because, since, as, now that + S + V</td><td>vì, bởi vì, vì giờ đây</td></tr>
+<tr><td>so + adj/adv + that + S + V</td><td>quá… đến nỗi</td></tr>
+<tr><td>such + (a) + adj + N + that + S + V</td><td>quá… đến nỗi (có danh từ)</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> The workshop was <u>so</u> popular that… · It was <u>such</u> a popular workshop that…</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The time-management workshop was ______ popular that the organizers added a second session.</p>
+<ol class="grammar-options"><li>very</li><li class="grammar-correct">so</li><li>such</li><li>too</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. so</p>
+<p><strong>Câu hoàn chỉnh:</strong> The time-management workshop was so popular that the organizers added a second session.<br><strong>Dịch:</strong> Buổi hội thảo quản lý thời gian đông người đến mức ban tổ chức phải mở thêm buổi thứ hai.</p>
+<p><strong>Vì sao đúng:</strong> <em>so + tính từ + that + mệnh đề kết quả</em>.</p>
+<ul>
+<li><strong>A. very:</strong> không đi với <em>that</em> chỉ kết quả.</li>
+<li><strong>C. such:</strong> cần danh từ: <em>such a popular workshop that</em>.</li>
+<li><strong>D. too:</strong> đi với <em>to V</em> và mang nghĩa tiêu cực.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm so/such. <strong>Ghi nhớ:</strong> so + adj + that; such + (a) adj + N + that.</p>
+</div>
+</div>
+<h2>4. Nhượng bộ, tương phản</h2>
+<table>
+<thead><tr><th>Liên từ</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>although, even though, though</td><td>mặc dù</td></tr>
+<tr><td>even if</td><td>cho dù (giả định)</td></tr>
+<tr><td>while, whereas</td><td>trong khi (đối lập hai ý)</td></tr>
+</tbody>
+</table>
+<p>Không dùng <em>although … but</em> trong cùng một câu. <em>However</em> là trạng từ liên kết, không nối mệnh đề bằng dấu phẩy.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Although</u> the hotel is far from downtown, it is always full. <em>(Dù xa trung tâm, khách sạn luôn kín phòng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ the Seaside Hotel is located far from downtown, it remains popular with business travelers.</p>
+<ol class="grammar-options"><li>Despite</li><li>However</li><li>Because</li><li class="grammar-correct">Although</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. Although</p>
+<p><strong>Câu hoàn chỉnh:</strong> Although the Seaside Hotel is located far from downtown, it remains popular with business travelers.<br><strong>Dịch:</strong> Dù khách sạn Seaside nằm xa trung tâm, nơi đây vẫn được khách công tác ưa chuộng.</p>
+<p><strong>Vì sao đúng:</strong> Hai mệnh đề trong một câu, ý tương phản (xa trung tâm – vẫn được ưa chuộng) → liên từ <em>Although</em>.</p>
+<ul>
+<li><strong>A. Despite:</strong> giới từ, cần danh từ.</li>
+<li><strong>B. However:</strong> trạng từ liên kết, không nối mệnh đề bằng dấu phẩy.</li>
+<li><strong>C. Because:</strong> quan hệ lý do, sai logic.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>Despite</em> và <em>However</em> cùng nghĩa tương phản. <strong>Ghi nhớ:</strong> xét cấu trúc trước, nghĩa sau.</p>
+</div>
+</div>
+<h2>5. Mục đích</h2>
+<p class="grammar-structure">S + V + so that / in order that + S + can/will/could + V</p>
+<ul>
+<li><em>so that</em> + mệnh đề (thường có can/will/could); <em>in order to</em> + V nguyên mẫu.</li>
+<li>Phân biệt: <em>, so</em> (vì vậy – kết quả) và <em>so that</em> (để – mục đích).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We moved the meeting <u>so that</u> everyone <u>could</u> attend. <em>(Chúng tôi dời cuộc họp để mọi người có thể tham dự.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The staff meeting has been moved to the auditorium ______ all department members can attend.</p>
+<ol class="grammar-options"><li>in order to</li><li>because</li><li>although</li><li class="grammar-correct">so that</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. so that</p>
+<p><strong>Câu hoàn chỉnh:</strong> The staff meeting has been moved to the auditorium so that all department members can attend.<br><strong>Dịch:</strong> Cuộc họp nhân viên được chuyển sang hội trường để toàn bộ thành viên các phòng có thể tham dự.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là mệnh đề có <em>can</em>; ý mục đích → <em>so that</em>.</p>
+<ul>
+<li><strong>A. in order to:</strong> cần V nguyên mẫu, không cần chủ ngữ.</li>
+<li><strong>B. because:</strong> chỉ lý do, không hợp nghĩa.</li>
+<li><strong>C. although:</strong> chỉ nhượng bộ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>in order to</em> cùng nghĩa "để". <strong>Ghi nhớ:</strong> so that + S + can/could + V.</p>
+</div>
+</div>
+<h2>6. Rút gọn mệnh đề</h2>
+<p class="grammar-structure">Liên từ + V-ing (chủ động) / V3 (bị động), S + V &nbsp;(hai mệnh đề cùng chủ ngữ)</p>
+<ul>
+<li>Áp dụng với: <em>when, while, before, after, since, once, unless, if, although, until</em>.</li>
+<li>Chủ ngữ ngầm = chủ ngữ mệnh đề chính. Chủ ngữ đó tự làm → V-ing; được làm → V3.</li>
+<li>Câu mệnh lệnh: chủ ngữ ngầm là <em>you</em>: <em>When completing the form, please use black ink.</em></li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Once approved</u>, the budget will be sent to all managers. <em>(Một khi được duyệt, ngân sách sẽ được gửi đến các quản lý.)</em></p>
+<p><strong>Phân tích:</strong> ngân sách <strong>được</strong> duyệt → V3.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>When ______ the application form, please use black ink and write clearly.</p>
+<ol class="grammar-options"><li class="grammar-correct">completing</li><li>complete</li><li>completed</li><li>completes</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. completing</p>
+<p><strong>Câu hoàn chỉnh:</strong> When completing the application form, please use black ink and write clearly.<br><strong>Dịch:</strong> Khi điền đơn, vui lòng dùng mực đen và viết rõ ràng.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề rút gọn sau <em>When</em>; chủ ngữ ngầm (bạn) tự điền đơn, có tân ngữ <em>the application form</em> → V-ing.</p>
+<ul>
+<li><strong>B. complete:</strong> thiếu chủ ngữ cho động từ chia.</li>
+<li><strong>C. completed:</strong> nghĩa bị động, nhưng sau chỗ trống có tân ngữ.</li>
+<li><strong>D. completes:</strong> thiếu chủ ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>When</em> luôn cần mệnh đề đầy đủ. <strong>Ghi nhớ:</strong> When/While/Before/After + V-ing + tân ngữ.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Once ______, the revised contracts will be forwarded to the legal department for final review.</p>
+<ol class="grammar-options"><li>sign</li><li>signing</li><li class="grammar-correct">signed</li><li>signs</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. signed</p>
+<p><strong>Câu hoàn chỉnh:</strong> Once signed, the revised contracts will be forwarded to the legal department for final review.<br><strong>Dịch:</strong> Một khi được ký, các hợp đồng sửa đổi sẽ được chuyển cho phòng pháp chế duyệt lần cuối.</p>
+<p><strong>Vì sao đúng:</strong> Chủ ngữ ngầm là <em>the revised contracts</em>; hợp đồng <strong>được</strong> ký → V3 (= Once they are signed).</p>
+<ul>
+<li><strong>A. sign:</strong> thiếu chủ ngữ.</li>
+<li><strong>B. signing:</strong> nghĩa chủ động "hợp đồng ký (cái gì)" – sai.</li>
+<li><strong>D. signs:</strong> thiếu chủ ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> vừa học "When + V-ing" nên chọn V-ing. <strong>Ghi nhớ:</strong> không có tân ngữ + chủ ngữ được làm → V3.</p>
+</div>
+</div>
+<h2>7. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách xử lý</th></tr></thead>
+<tbody>
+<tr><td>Liên từ – giới từ cùng nghĩa</td><td>while/during, because/because of, although/despite: nhìn sau chỗ trống</td></tr>
+<tr><td>Rút gọn sai chủ ngữ</td><td>Chủ ngữ ngầm phải trùng chủ ngữ mệnh đề chính</td></tr>
+<tr><td>although … but</td><td>Chỉ dùng một trong hai</td></tr>
+<tr><td>as nhiều nghĩa</td><td>khi / vì / như – xét ngữ cảnh</td></tr>
+<tr><td>so (kết quả) / so that (mục đích)</td><td>so that thường đi với can/could/will</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>While</u> working at the front desk, staff must wear badges. · <u>During</u> their shift, staff must wear badges.</p>
+<p><strong>Phân tích:</strong> V-ing đi được với liên từ rút gọn <em>while</em>; danh từ đi với giới từ <em>during</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ working at the front desk, all staff members must wear their name badges.</p>
+<ol class="grammar-options"><li>During</li><li>Despite</li><li class="grammar-correct">While</li><li>Because</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. While</p>
+<p><strong>Câu hoàn chỉnh:</strong> While working at the front desk, all staff members must wear their name badges.<br><strong>Dịch:</strong> Khi làm việc ở quầy lễ tân, mọi nhân viên phải đeo thẻ tên.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề rút gọn chỉ thời gian: <em>While + V-ing</em> (= while they are working).</p>
+<ul>
+<li><strong>A. During:</strong> giới từ chỉ đi với danh từ (<em>during their shift</em>), không đi với V-ing.</li>
+<li><strong>B. Despite:</strong> nghĩa nhượng bộ, sai logic.</li>
+<li><strong>D. Because:</strong> liên từ lý do, không dùng dạng rút gọn này.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>During</em> cùng nghĩa "trong khi". <strong>Ghi nhớ:</strong> while + V-ing; during + N.</p>
+</div>
+</div>
+<h2>8. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> thông báo bảo trì, đổi lịch dùng nhiều mệnh đề thời gian: <em>While the elevators are being repaired, …</em>, <em>Until the work is complete, …</em></li>
+<li><strong>Part 7:</strong> liên từ cho biết quan hệ – <em>because/since</em> trả lời "Why…?", <em>once/after</em> trả lời "When…?", <em>although</em> báo hiệu thông tin trái chiều.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Because</u> the venue was too small, the event was moved. <em>(Vì địa điểm quá nhỏ nên sự kiện được chuyển.)</em> → "Why was the event moved?" → The venue was too small.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo tòa nhà)</em> We apologize for any inconvenience.</p>
+<p>______ the main elevators are being repaired, please use the stairs on the east side of the building.</p>
+<ol class="grammar-options"><li>During</li><li class="grammar-correct">While</li><li>Despite</li><li>Unless</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. While</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> We apologize for any inconvenience. While the main elevators are being repaired, please use the stairs on the east side of the building.<br><strong>Dịch:</strong> Chúng tôi xin lỗi vì sự bất tiện. Trong khi thang máy chính đang được sửa, vui lòng dùng cầu thang phía đông tòa nhà.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là mệnh đề (<em>the elevators are being repaired</em>) → liên từ; nghĩa "trong thời gian" → <em>While</em>.</p>
+<ul>
+<li><strong>A. During:</strong> giới từ, cần danh từ.</li>
+<li><strong>C. Despite:</strong> giới từ, nghĩa nhượng bộ.</li>
+<li><strong>D. Unless:</strong> "trừ khi" – sai nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>During</em> theo nghĩa. <strong>Ghi nhớ:</strong> while + mệnh đề tiếp diễn chỉ khoảng thời gian.</p>
+</div>
+</div>
+<h2>9. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> liên từ lẫn giới từ, trạng từ liên kết → câu cấu trúc + nghĩa.</li>
+<li><strong>Nhìn sau chỗ trống:</strong> S + V → liên từ; N → giới từ; V-ing/V3 → liên từ rút gọn (when, while, once…) hoặc giới từ + V-ing.</li>
+<li><strong>Xét quan hệ ý</strong> giữa hai mệnh đề: thời gian, lý do, tương phản, mục đích.</li>
+<li><strong>Rút gọn:</strong> chủ ngữ mệnh đề chính tự làm → V-ing; được làm → V3.</li>
+</ol>
+<table>
+<thead><tr><th>Quan hệ</th><th>Liên từ</th></tr></thead>
+<tbody>
+<tr><td>Thời gian</td><td>when, while, before, after, once, as soon as, until, since</td></tr>
+<tr><td>Lý do</td><td>because, since, as, now that</td></tr>
+<tr><td>Tương phản</td><td>although, even though, while, whereas</td></tr>
+<tr><td>Mục đích</td><td>so that, in order that</td></tr>
+<tr><td>Kết quả</td><td>so … that, such … that</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Thời gian luyện tập:</strong> 10–20 giây/câu. Loại theo cấu trúc trước (5 giây), sau đó mới xét nghĩa.</p>
+</div>
+<h2>10. Tổng kết, ôn tập</h2>
+<ul>
+<li>Liên từ + S + V; giới từ + N/V-ing.</li>
+<li>Mệnh đề thời gian nói về tương lai dùng hiện tại đơn.</li>
+<li>so + adj + that; such + (a) adj + N + that; so that + S + can + V.</li>
+<li>although/even though + mệnh đề; không dùng although … but.</li>
+<li>Rút gọn: when/while/once/before/after + V-ing (chủ động) / V3 (bị động), chung chủ ngữ.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> as soon as · once approved · when completing · while working · now that · even though · so that … can · such a … that · by the time.</p>

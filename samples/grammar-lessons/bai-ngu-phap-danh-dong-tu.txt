@@ -1,0 +1,307 @@
+<!-- Bài học tương tác chủ điểm DANH ĐỘNG TỪ (Part 5 · nhóm Động từ · mã gerund). Tiêu đề gợi ý: "Danh động từ (V-ing): sau giới từ, sau động từ và các cụm cố định". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Danh động từ (gerund)</strong> là động từ thêm <em>-ing</em> và dùng như một danh từ: <em>Booking early saves money.</em> Điểm khác danh từ thường: danh động từ vẫn <strong>nhận tân ngữ trực tiếp</strong> và trạng từ (<em>reviewing <u>the files</u> <u>carefully</u></em>). Part 5 kiểm tra V-ing sau giới từ, sau một số động từ, sau <em>to</em> là giới từ và trong cụm cố định.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>V-ing làm chủ ngữ, tân ngữ · giới từ + V-ing</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>Động từ + V-ing (avoid, consider, recommend…) · <em>to</em> là giới từ (look forward to…)</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>V-ing hay danh từ · V-ing hay to V đổi nghĩa · V-ing bị động (being V3)</td></tr>
+</tbody>
+</table>
+<h2>1. V-ing làm danh từ</h2>
+<table>
+<thead><tr><th>Chức năng</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Chủ ngữ (động từ số ít)</td><td><u>Reviewing</u> contracts <u>takes</u> time.</td></tr>
+<tr><td>Tân ngữ của động từ</td><td>We considered <u>hiring</u> more staff.</td></tr>
+<tr><td>Sau giới từ</td><td>Thank you for <u>attending</u>.</td></tr>
+<tr><td>Bổ ngữ sau be</td><td>Our goal is <u>reducing</u> costs.</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">V-ing + (tân ngữ) + (trạng từ) &nbsp;=&nbsp; một cụm danh từ</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Preparing</u> the budget requires input from every department. <em>(Việc lập ngân sách cần ý kiến của mọi phòng ban.)</em></p>
+<p><strong>Phân tích:</strong> chủ ngữ là cụm <em>Preparing the budget</em>; <em>the budget</em> là tân ngữ của V-ing.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ the annual budget requires input from every department manager.</p>
+<ol class="grammar-options"><li>Prepare</li><li class="grammar-correct">Preparing</li><li>Prepared</li><li>Preparation</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. Preparing</p>
+<p><strong>Câu hoàn chỉnh:</strong> Preparing the annual budget requires input from every department manager.<br><strong>Dịch:</strong> Việc lập ngân sách năm cần ý kiến của mọi trưởng phòng.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống mở đầu chủ ngữ và có tân ngữ <em>the annual budget</em> theo sau → V-ing (danh động từ).</p>
+<ul>
+<li><strong>A. Prepare:</strong> câu sẽ thành câu mệnh lệnh có hai động từ chính.</li>
+<li><strong>C. Prepared:</strong> V3, không làm chủ ngữ có tân ngữ.</li>
+<li><strong>D. Preparation:</strong> danh từ không nhận tân ngữ trực tiếp (phải là <em>Preparation of the budget</em>).</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn danh từ <em>-tion</em> vì vị trí chủ ngữ. <strong>Ghi nhớ:</strong> chủ ngữ + tân ngữ ngay sau → V-ing.</p>
+</div>
+</div>
+<h2>2. Giới từ + V-ing</h2>
+<p class="grammar-structure">before / after / by / without / upon / for / in / of / instead of / despite + V-ing</p>
+<ul>
+<li>Sau giới từ <strong>không</strong> dùng động từ nguyên mẫu hay to V.</li>
+<li><em>by + V-ing</em> = bằng cách; <em>without + V-ing</em> = mà không; <em>upon + V-ing</em> = ngay khi.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> You can save 10 percent by <u>ordering</u> online. <em>(Bạn tiết kiệm 10% bằng cách đặt hàng trực tuyến.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Please read the safety instructions carefully before ______ the device for the first time.</p>
+<ol class="grammar-options"><li>operation</li><li>operated</li><li>operate</li><li class="grammar-correct">operating</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. operating</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please read the safety instructions carefully before operating the device for the first time.<br><strong>Dịch:</strong> Vui lòng đọc kỹ hướng dẫn an toàn trước khi vận hành thiết bị lần đầu.</p>
+<p><strong>Vì sao đúng:</strong> Sau giới từ <em>before</em> và có tân ngữ <em>the device</em> → V-ing.</p>
+<ul>
+<li><strong>A. operation:</strong> danh từ không nhận tân ngữ trực tiếp.</li>
+<li><strong>B. operated:</strong> V3 không đứng sau giới từ với tân ngữ theo sau.</li>
+<li><strong>C. operate:</strong> nguyên mẫu không đứng sau giới từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>before</em> là liên từ nên cần mệnh đề. <strong>Ghi nhớ:</strong> before/after + V-ing + tân ngữ.</p>
+</div>
+</div>
+<h2>3. Động từ + V-ing</h2>
+<table>
+<thead><tr><th>Nhóm</th><th>Động từ</th></tr></thead>
+<tbody>
+<tr><td>Cân nhắc, đề xuất</td><td>consider, recommend, suggest, propose (đề xuất việc)</td></tr>
+<tr><td>Tránh, trì hoãn, dừng</td><td>avoid, postpone, delay, put off, finish, quit, discontinue</td></tr>
+<tr><td>Khác</td><td>enjoy, mind, keep, involve, include, risk, deny, anticipate, practice, appreciate</td></tr>
+</tbody>
+</table>
+<p>Đối chiếu nhóm + to V (bài <strong>Dạng động từ</strong>): <em>plan, decide, agree, hope, expect, intend, need, want, offer, refuse, fail, manage</em>.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The firm decided <u>to postpone</u> <u>hiring</u> new staff. <em>(Công ty quyết định hoãn tuyển thêm nhân viên.)</em></p>
+<p><strong>Phân tích:</strong> <em>decide + to V</em>, <em>postpone + V-ing</em> – mỗi động từ quyết định dạng theo sau.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The organizing committee is considering ______ the annual conference to a larger venue.</p>
+<ol class="grammar-options"><li>move</li><li>to move</li><li class="grammar-correct">moving</li><li>moved</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. moving</p>
+<p><strong>Câu hoàn chỉnh:</strong> The organizing committee is considering moving the annual conference to a larger venue.<br><strong>Dịch:</strong> Ban tổ chức đang cân nhắc chuyển hội nghị thường niên sang địa điểm lớn hơn.</p>
+<p><strong>Vì sao đúng:</strong> <em>consider + V-ing</em>.</p>
+<ul>
+<li><strong>A. move:</strong> nguyên mẫu không theo sau <em>consider</em>.</li>
+<li><strong>B. to move:</strong> <em>consider</em> không đi với to V.</li>
+<li><strong>D. moved:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> phản xạ dùng to V sau động từ. <strong>Ghi nhớ:</strong> consider/avoid/recommend/suggest + V-ing.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>We recommend ______ your tickets at least two weeks before the performance.</p>
+<ol class="grammar-options"><li class="grammar-correct">booking</li><li>book</li><li>to book</li><li>booked</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. booking</p>
+<p><strong>Câu hoàn chỉnh:</strong> We recommend booking your tickets at least two weeks before the performance.<br><strong>Dịch:</strong> Chúng tôi khuyên quý khách đặt vé ít nhất hai tuần trước buổi biểu diễn.</p>
+<p><strong>Vì sao đúng:</strong> <em>recommend + V-ing</em> (khi không có tân ngữ người).</p>
+<ul>
+<li><strong>B. book:</strong> chỉ dùng trong <em>recommend that you book</em>.</li>
+<li><strong>C. to book:</strong> <em>recommend</em> không đi trực tiếp với to V.</li>
+<li><strong>D. booked:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "khuyên đặt" sang to V. <strong>Ghi nhớ:</strong> recommend V-ing · recommend that S + V nguyên mẫu.</p>
+</div>
+</div>
+<h2>4. "to" là giới từ</h2>
+<p class="grammar-structure">look forward to · be committed/dedicated to · be used/accustomed to · contribute to · object to · in addition to + V-ing</p>
+<p>Ở các cụm này <em>to</em> là <strong>giới từ</strong>, nên theo sau là danh từ hoặc V-ing, không phải động từ nguyên mẫu. Cách thử: thay bằng một danh từ – nếu được (<em>look forward to the meeting</em>) thì <em>to</em> là giới từ.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We are committed to <u>providing</u> excellent service. <em>(Chúng tôi cam kết cung cấp dịch vụ xuất sắc.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>We look forward to ______ with you on future construction projects.</p>
+<ol class="grammar-options"><li>work</li><li>worked</li><li>works</li><li class="grammar-correct">working</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. working</p>
+<p><strong>Câu hoàn chỉnh:</strong> We look forward to working with you on future construction projects.<br><strong>Dịch:</strong> Chúng tôi mong được hợp tác với quý vị trong các dự án xây dựng sắp tới.</p>
+<p><strong>Vì sao đúng:</strong> <em>to</em> trong <em>look forward to</em> là giới từ → V-ing.</p>
+<ul>
+<li><strong>A. work:</strong> nhầm <em>to</em> là to V.</li>
+<li><strong>B. worked:</strong> V3 sai cấu trúc.</li>
+<li><strong>C. works:</strong> động từ chia, không đứng sau giới từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>to</em> là chọn nguyên mẫu. <strong>Ghi nhớ:</strong> look forward to + V-ing (câu kết thư rất hay gặp).</p>
+</div>
+</div>
+<h2>5. V-ing hay danh từ?</h2>
+<table>
+<thead><tr><th>Sau chỗ trống</th><th>Chọn</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Tân ngữ (the/a/our + N)</td><td>V-ing</td><td>by <u>analyzing</u> the data</td></tr>
+<tr><td><em>of</em>, hoặc trước có a/the/adj</td><td>Danh từ</td><td>the <u>analysis</u> of the data</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> <u>Construction</u> of the warehouse will begin soon. · <u>Constructing</u> the warehouse will take a year.</p>
+<p><strong>Phân tích:</strong> có <em>of</em> → danh từ; có tân ngữ <em>the warehouse</em> → V-ing.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>By ______ customer feedback regularly, the company has greatly improved its online services.</p>
+<ol class="grammar-options"><li>analysis</li><li>analyze</li><li class="grammar-correct">analyzing</li><li>analyst</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. analyzing</p>
+<p><strong>Câu hoàn chỉnh:</strong> By analyzing customer feedback regularly, the company has greatly improved its online services.<br><strong>Dịch:</strong> Nhờ thường xuyên phân tích phản hồi của khách hàng, công ty đã cải thiện đáng kể dịch vụ trực tuyến.</p>
+<p><strong>Vì sao đúng:</strong> Sau giới từ <em>By</em>, có tân ngữ <em>customer feedback</em> và trạng từ <em>regularly</em> → V-ing.</p>
+<ul>
+<li><strong>A. analysis:</strong> danh từ không nhận tân ngữ, không đi với trạng từ <em>regularly</em>.</li>
+<li><strong>B. analyze:</strong> nguyên mẫu không đứng sau giới từ.</li>
+<li><strong>D. analyst:</strong> danh từ chỉ người.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhớ "sau giới từ là danh từ". <strong>Ghi nhớ:</strong> có tân ngữ hoặc trạng từ đi kèm → V-ing.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>______ of the new distribution center will begin in March and is expected to take a year.</p>
+<ol class="grammar-options"><li class="grammar-correct">Construction</li><li>Constructing</li><li>Construct</li><li>Constructed</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. Construction</p>
+<p><strong>Câu hoàn chỉnh:</strong> Construction of the new distribution center will begin in March and is expected to take a year.<br><strong>Dịch:</strong> Việc xây dựng trung tâm phân phối mới sẽ bắt đầu vào tháng Ba và dự kiến kéo dài một năm.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là <em>of</em>, không có tân ngữ trực tiếp → danh từ <em>Construction</em>.</p>
+<ul>
+<li><strong>B. Constructing:</strong> V-ing sẽ nhận tân ngữ trực tiếp (<em>Constructing the center…</em>), không đi với <em>of</em>.</li>
+<li><strong>C. Construct:</strong> động từ.</li>
+<li><strong>D. Constructed:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> vừa học "chủ ngữ hành động → V-ing" nên chọn B. <strong>Ghi nhớ:</strong> ______ of → danh từ; ______ + the N → V-ing.</p>
+</div>
+</div>
+<h2>6. V-ing hay to V?</h2>
+<table>
+<thead><tr><th>Động từ</th><th>+ to V</th><th>+ V-ing</th></tr></thead>
+<tbody>
+<tr><td>remember / forget</td><td>nhớ/quên <strong>phải làm</strong> (chưa làm)</td><td>nhớ/quên <strong>đã làm</strong></td></tr>
+<tr><td>stop</td><td>dừng lại <strong>để</strong> làm việc khác</td><td>thôi, ngừng làm việc đó</td></tr>
+<tr><td>try</td><td>cố gắng</td><td>thử làm</td></tr>
+<tr><td>need</td><td>cần làm (chủ động)</td><td>cần được làm (nghĩa bị động): <em>The printer needs repairing.</em></td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please remember <u>to lock</u> the door. · I remember <u>locking</u> the door. <em>(Nhớ khóa cửa nhé. · Tôi nhớ là đã khóa cửa.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Please remember ______ off all the lights before leaving the office on Friday.</p>
+<ol class="grammar-options"><li>turning</li><li class="grammar-correct">to turn</li><li>turned</li><li>turn</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. to turn</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please remember to turn off all the lights before leaving the office on Friday.<br><strong>Dịch:</strong> Vui lòng nhớ tắt hết đèn trước khi rời văn phòng vào thứ Sáu.</p>
+<p><strong>Vì sao đúng:</strong> Việc tắt đèn chưa xảy ra, là việc <strong>phải làm</strong> → <em>remember + to V</em>.</p>
+<ul>
+<li><strong>A. turning:</strong> "nhớ đã tắt" – sai với lời nhắc trong tương lai.</li>
+<li><strong>C. turned:</strong> V3 sai cấu trúc.</li>
+<li><strong>D. turn:</strong> nguyên mẫu không theo sau <em>remember</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>before leaving</em> (V-ing) nên chọn V-ing. <strong>Ghi nhớ:</strong> lời nhắc → remember to V.</p>
+</div>
+</div>
+<h2>7. Cụm cố định với V-ing</h2>
+<ul>
+<li><strong>spend</strong> time/money + V-ing · <strong>have difficulty/trouble</strong> (in) + V-ing</li>
+<li><strong>be worth</strong> + V-ing · <strong>be busy</strong> + V-ing · <strong>it is no use</strong> + V-ing</li>
+<li><strong>feel like</strong> + V-ing · <strong>can't help</strong> + V-ing · <strong>go</strong> + V-ing (go shopping)</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The team spent three days <u>testing</u> the software. <em>(Nhóm mất ba ngày thử nghiệm phần mềm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Many new employees have difficulty ______ the company's online filing system at first.</p>
+<ol class="grammar-options"><li>understand</li><li>to understand</li><li class="grammar-correct">understanding</li><li>understood</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. understanding</p>
+<p><strong>Câu hoàn chỉnh:</strong> Many new employees have difficulty understanding the company's online filing system at first.<br><strong>Dịch:</strong> Lúc đầu, nhiều nhân viên mới gặp khó khăn khi hiểu hệ thống lưu trữ hồ sơ trực tuyến của công ty.</p>
+<p><strong>Vì sao đúng:</strong> <em>have difficulty (in) + V-ing</em> là cụm cố định.</p>
+<ul>
+<li><strong>A. understand:</strong> nguyên mẫu sai cấu trúc.</li>
+<li><strong>B. to understand:</strong> cụm này không đi với to V.</li>
+<li><strong>D. understood:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "khó để hiểu" nên chọn to V. <strong>Ghi nhớ:</strong> have difficulty/trouble + V-ing; spend time + V-ing.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Điểm cần nhớ</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>V-ing bị động: being + V3</td><td>They appreciate <u>being informed</u>.</td></tr>
+<tr><td>V-ing hoàn thành: having + V3</td><td>after <u>having reviewed</u> the file</td></tr>
+<tr><td>Phủ định: not + V-ing</td><td>for <u>not attending</u></td></tr>
+<tr><td>Sở hữu + V-ing</td><td>We appreciate <u>your</u> <u>responding</u> quickly.</td></tr>
+<tr><td>V-ing chủ ngữ → động từ số ít</td><td>Hiring new staff <u>is</u> costly.</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Customers dislike <u>being kept</u> on hold. <em>(Khách hàng không thích bị bắt chờ máy.)</em></p>
+<p><strong>Phân tích:</strong> khách <strong>bị</strong> giữ chờ → V-ing bị động.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Job candidates appreciate ______ informed about the status of their applications.</p>
+<ol class="grammar-options"><li>to be</li><li>be</li><li>been</li><li class="grammar-correct">being</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. being</p>
+<p><strong>Câu hoàn chỉnh:</strong> Job candidates appreciate being informed about the status of their applications.<br><strong>Dịch:</strong> Ứng viên đánh giá cao việc được thông báo về tình trạng hồ sơ của họ.</p>
+<p><strong>Vì sao đúng:</strong> <em>appreciate + V-ing</em>; ứng viên <strong>được</strong> thông báo → V-ing bị động <em>being informed</em>.</p>
+<ul>
+<li><strong>A. to be:</strong> <em>appreciate</em> không đi với to V.</li>
+<li><strong>B. be:</strong> nguyên mẫu sai cấu trúc.</li>
+<li><strong>C. been:</strong> chỉ đứng sau have/has/had.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>informed</em> (V3) nên nghĩ đến <em>to be informed</em>. <strong>Ghi nhớ:</strong> động từ + V-ing + nghĩa bị động → being V3.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> câu mở và kết của thư hay dùng V-ing: <em>Thank you for choosing…, We look forward to hearing from you, We apologize for any inconvenience caused by…</em></li>
+<li><strong>Part 7:</strong> <em>by + V-ing</em> trả lời câu hỏi "How can customers…?"; <em>instead of + V-ing</em> cho biết lựa chọn thay thế.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Customers can avoid delays <u>by renewing</u> online. <em>(Khách có thể tránh chậm trễ bằng cách gia hạn trực tuyến.)</em> → "How can customers avoid delays?" → By renewing online.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Email khảo sát)</em> Thank you for ______ our customer satisfaction survey.</p>
+<p>As a token of our appreciation, a 15 percent discount code has been sent to your e-mail address.</p>
+<ol class="grammar-options"><li class="grammar-correct">completing</li><li>complete</li><li>completion</li><li>completed</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. completing</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> Thank you for completing our customer satisfaction survey. As a token of our appreciation, a 15 percent discount code has been sent…<br><strong>Dịch:</strong> Cảm ơn quý khách đã hoàn thành khảo sát mức độ hài lòng. Để tri ân, chúng tôi đã gửi mã giảm giá 15% đến email của quý khách.</p>
+<p><strong>Vì sao đúng:</strong> Sau giới từ <em>for</em>, có tân ngữ <em>our customer satisfaction survey</em> → V-ing.</p>
+<ul>
+<li><strong>B. complete:</strong> nguyên mẫu không đứng sau giới từ.</li>
+<li><strong>C. completion:</strong> danh từ không nhận tân ngữ (phải là <em>completion of</em>).</li>
+<li><strong>D. completed:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn danh từ vì sau giới từ. <strong>Ghi nhớ:</strong> Thank you for + V-ing + tân ngữ.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> V / to V / V-ing / V3 hoặc V-ing / danh từ → câu dạng động từ.</li>
+<li><strong>Nhìn từ đứng trước:</strong> giới từ (kể cả <em>to</em> giới từ) → V-ing; động từ nhóm consider/avoid → V-ing.</li>
+<li><strong>Nhìn sau chỗ trống:</strong> có tân ngữ → V-ing; có <em>of</em> → danh từ.</li>
+<li><strong>Xét nghĩa</strong> với remember/forget/stop/try và V-ing bị động.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Chọn</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>giới từ + ______ + tân ngữ</td><td>V-ing</td><td>5 giây</td></tr>
+<tr><td>consider/avoid/recommend + ______</td><td>V-ing</td><td>5 giây</td></tr>
+<tr><td>look forward to/committed to + ______</td><td>V-ing</td><td>5 giây</td></tr>
+<tr><td>______ + of</td><td>Danh từ</td><td>5 giây</td></tr>
+<tr><td>remember/stop/try + ______</td><td>Xét nghĩa</td><td>15–20 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Thử nhanh "to" là giới từ:</strong> thay phần sau <em>to</em> bằng <em>it</em> hoặc một danh từ. <em>I look forward to it</em> đúng → <em>to</em> là giới từ.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>V-ing làm chủ ngữ (động từ số ít), tân ngữ, đứng sau giới từ.</li>
+<li>V-ing nhận tân ngữ trực tiếp; danh từ cần <em>of</em>.</li>
+<li>consider, avoid, recommend, suggest, postpone, finish, enjoy, mind, appreciate + V-ing.</li>
+<li>look forward to, be committed to, be used to, contribute to + V-ing.</li>
+<li>remember/forget/stop/try đổi nghĩa với to V và V-ing.</li>
+<li>being + V3 = V-ing bị động.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> Thank you for + V-ing · by + V-ing · without + V-ing · instead of + V-ing · have difficulty + V-ing · spend time + V-ing · be worth + V-ing · look forward to + V-ing · in addition to + V-ing.</p>

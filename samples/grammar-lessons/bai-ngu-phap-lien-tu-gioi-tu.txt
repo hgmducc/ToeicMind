@@ -1,0 +1,296 @@
+<!-- Bài học tương tác chủ điểm LIÊN TỪ, GIỚI TỪ (Part 5 · nhóm Ngữ pháp khác · mã conjunction_preposition). Tiêu đề gợi ý: "Liên từ hay giới từ: nhìn phía sau chỗ trống để chọn". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Giới từ (preposition)</strong> đứng trước danh từ/V-ing: <em>despite the rain</em>. <strong>Liên từ (conjunction)</strong> nối hai mệnh đề hoặc hai thành phần ngang nhau: <em>although it rained</em>. Part 5 rất hay đặt cặp cùng nghĩa (<em>because / because of</em>, <em>although / despite</em>) vào bốn đáp án; nhìn <strong>phía sau chỗ trống</strong> là cụm danh từ hay mệnh đề sẽ loại ngay một nửa.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Giới từ + N/V-ing · liên từ + mệnh đề · cặp because/because of, although/despite, while/during</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>and/but/or/so · both…and, either…or · by/until, for/since/within</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>however/therefore và liên từ · cụm cố định on behalf of, in accordance with · now that, provided that</td></tr>
+</tbody>
+</table>
+<h2>1. Giới từ hay liên từ?</h2>
+<table>
+<thead><tr><th>Ý nghĩa</th><th>Giới từ (+ N/V-ing)</th><th>Liên từ (+ S + V)</th></tr></thead>
+<tbody>
+<tr><td>Lý do</td><td>because of, due to, owing to</td><td>because, since, as</td></tr>
+<tr><td>Nhượng bộ</td><td>despite, in spite of, notwithstanding</td><td>although, even though, though</td></tr>
+<tr><td>Thời gian</td><td>during, prior to, following, upon</td><td>while, when, before, after, once</td></tr>
+<tr><td>Điều kiện</td><td>in case of, without</td><td>if, unless, in case</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">______ + cụm danh từ → GIỚI TỪ &nbsp;·&nbsp; ______ + S + V → LIÊN TỪ</p>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> <u>Despite</u> the rain, … · <u>Although</u> it rained, … <em>(Dù trời mưa, …)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ the heavy rain, the outdoor concert went ahead as planned.</p>
+<ol class="grammar-options"><li class="grammar-correct">Despite</li><li>Although</li><li>Because</li><li>Even though</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. Despite</p>
+<p><strong>Câu hoàn chỉnh:</strong> Despite the heavy rain, the outdoor concert went ahead as planned.<br><strong>Dịch:</strong> Dù mưa lớn, buổi hòa nhạc ngoài trời vẫn diễn ra theo kế hoạch.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là cụm danh từ <em>the heavy rain</em> → giới từ; nghĩa nhượng bộ → <em>Despite</em>.</p>
+<ul>
+<li><strong>B. Although:</strong> liên từ, cần mệnh đề.</li>
+<li><strong>C. Because:</strong> liên từ, và nghĩa lý do không hợp.</li>
+<li><strong>D. Even though:</strong> liên từ, cần mệnh đề.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn theo nghĩa "mặc dù" mà không xét cấu trúc. <strong>Ghi nhớ:</strong> despite/in spite of + N; although + S + V.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The flight to Denver was delayed ______ the pilot reported a minor mechanical problem.</p>
+<ol class="grammar-options"><li>because of</li><li>due to</li><li class="grammar-correct">because</li><li>owing to</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. because</p>
+<p><strong>Câu hoàn chỉnh:</strong> The flight to Denver was delayed because the pilot reported a minor mechanical problem.<br><strong>Dịch:</strong> Chuyến bay đến Denver bị hoãn vì phi công báo một sự cố kỹ thuật nhỏ.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là mệnh đề <em>the pilot reported…</em> (S + V) → liên từ <em>because</em>.</p>
+<ul>
+<li><strong>A. because of:</strong> giới từ, cần danh từ.</li>
+<li><strong>B. due to:</strong> giới từ, cần danh từ.</li>
+<li><strong>D. owing to:</strong> giới từ, cần danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> ba đáp án cùng nghĩa "vì". <strong>Ghi nhớ:</strong> có động từ chia sau chỗ trống → liên từ.</p>
+</div>
+</div>
+<h2>2. Liên từ kết hợp</h2>
+<table>
+<thead><tr><th>Liên từ</th><th>Quan hệ</th></tr></thead>
+<tbody>
+<tr><td>and</td><td>bổ sung, cùng chiều</td></tr>
+<tr><td>but, yet</td><td>tương phản</td></tr>
+<tr><td>or</td><td>lựa chọn; "nếu không thì"</td></tr>
+<tr><td>so</td><td>kết quả (chỉ nối mệnh đề)</td></tr>
+<tr><td>nor</td><td>"cũng không" (sau câu phủ định, đảo ngữ)</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">Mệnh đề 1, + and/but/or/so/yet + mệnh đề 2</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The hotel is small, <u>but</u> its service is excellent. <em>(Khách sạn nhỏ nhưng dịch vụ rất tốt.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The Harbor Inn has only twelve guest rooms, ______ it is known for its excellent service.</p>
+<ol class="grammar-options"><li>so</li><li>or</li><li class="grammar-correct">but</li><li>nor</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. but</p>
+<p><strong>Câu hoàn chỉnh:</strong> The Harbor Inn has only twelve guest rooms, but it is known for its excellent service.<br><strong>Dịch:</strong> Nhà nghỉ Harbor chỉ có mười hai phòng nhưng nổi tiếng về dịch vụ xuất sắc.</p>
+<p><strong>Vì sao đúng:</strong> Hai mệnh đề tương phản (<em>only twelve rooms</em> – <em>excellent service</em>) → <em>but</em>.</p>
+<ul>
+<li><strong>A. so:</strong> chỉ kết quả, không hợp logic.</li>
+<li><strong>B. or:</strong> chỉ lựa chọn.</li>
+<li><strong>D. nor:</strong> dùng sau mệnh đề phủ định.</li>
+</ul>
+<p><strong>Bẫy:</strong> cả bốn đều nối được hai mệnh đề. <strong>Ghi nhớ:</strong> khi cấu trúc giống nhau, xét quan hệ ý.</p>
+</div>
+</div>
+<h2>3. Liên từ tương quan</h2>
+<p class="grammar-structure">both A and B · either A or B · neither A nor B · not only A but (also) B · whether A or B</p>
+<ul>
+<li>Hai vế A và B cùng loại (danh từ – danh từ, động từ – động từ).</li>
+<li>Nhìn từ thứ nhất để chọn từ thứ hai: <em>both → and</em>, <em>either → or</em>, <em>neither → nor</em>.</li>
+<li>Chia động từ: both…and → số nhiều; các cặp còn lại → theo B.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> You can pay <u>either</u> online <u>or</u> at the front desk. <em>(Bạn có thể thanh toán trực tuyến hoặc tại quầy.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Applicants must submit both a current résumé ______ two letters of reference.</p>
+<ol class="grammar-options"><li>or</li><li>nor</li><li class="grammar-correct">and</li><li>but</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. and</p>
+<p><strong>Câu hoàn chỉnh:</strong> Applicants must submit both a current résumé and two letters of reference.<br><strong>Dịch:</strong> Ứng viên phải nộp cả sơ yếu lý lịch cập nhật lẫn hai thư giới thiệu.</p>
+<p><strong>Vì sao đúng:</strong> <em>both</em> luôn đi với <em>and</em>.</p>
+<ul>
+<li><strong>A. or:</strong> đi với <em>either</em>.</li>
+<li><strong>B. nor:</strong> đi với <em>neither</em>.</li>
+<li><strong>D. but:</strong> đi với <em>not only</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>both</em> nằm xa chỗ trống. <strong>Ghi nhớ:</strong> nhìn từ đầu cặp để chọn từ thứ hai.</p>
+</div>
+</div>
+<h2>4. Giới từ thời gian</h2>
+<table>
+<thead><tr><th>Giới từ</th><th>Cách dùng</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>at / on / in</td><td>giờ / ngày, thứ / tháng, năm, mùa</td><td>at 9 A.M., on Friday, in May</td></tr>
+<tr><td>by</td><td>hạn chót (không muộn hơn)</td><td>submit <u>by</u> Friday</td></tr>
+<tr><td>until</td><td>kéo dài đến (hành động liên tục)</td><td>open <u>until</u> 9 P.M.</td></tr>
+<tr><td>for / since</td><td>khoảng thời gian / mốc bắt đầu</td><td>for three years, since 2019</td></tr>
+<tr><td>during / throughout</td><td>trong suốt (+ N)</td><td>during the meeting</td></tr>
+<tr><td>within</td><td>trong vòng (không quá)</td><td>within 30 days</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> Return the form <u>by</u> Friday. · The office is open <u>until</u> 6 P.M.</p>
+<p><strong>Phân tích:</strong> nộp (một lần, trước hạn) → <em>by</em>; mở cửa (kéo dài) → <em>until</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>All expense reports for the first quarter must be submitted ______ Friday, April 5.</p>
+<ol class="grammar-options"><li>until</li><li class="grammar-correct">by</li><li>since</li><li>during</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. by</p>
+<p><strong>Câu hoàn chỉnh:</strong> All expense reports for the first quarter must be submitted by Friday, April 5.<br><strong>Dịch:</strong> Mọi báo cáo chi phí quý một phải được nộp chậm nhất vào thứ Sáu, ngày 5/4.</p>
+<p><strong>Vì sao đúng:</strong> Hạn chót cho một hành động xảy ra một lần (nộp) → <em>by</em>.</p>
+<ul>
+<li><strong>A. until:</strong> dùng cho hành động kéo dài liên tục.</li>
+<li><strong>C. since:</strong> mốc bắt đầu, đi với hiện tại hoàn thành.</li>
+<li><strong>D. during:</strong> "trong suốt" một khoảng, không đi với một ngày làm hạn chót.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "cho đến" nên chọn <em>until</em>. <strong>Ghi nhớ:</strong> submit/complete/return + by + hạn chót.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>During the holiday season, the downtown store will remain open ______ 9 P.M. every evening.</p>
+<ol class="grammar-options"><li>by</li><li>for</li><li>within</li><li class="grammar-correct">until</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. until</p>
+<p><strong>Câu hoàn chỉnh:</strong> During the holiday season, the downtown store will remain open until 9 P.M. every evening.<br><strong>Dịch:</strong> Trong mùa lễ, cửa hàng trung tâm sẽ mở cửa đến 9 giờ tối mỗi ngày.</p>
+<p><strong>Vì sao đúng:</strong> <em>remain open</em> là trạng thái kéo dài → <em>until</em> + mốc kết thúc.</p>
+<ul>
+<li><strong>A. by:</strong> hạn chót cho hành động một lần.</li>
+<li><strong>B. for:</strong> đi với khoảng thời gian, không với giờ cụ thể.</li>
+<li><strong>C. within:</strong> "trong vòng" một khoảng thời gian.</li>
+</ul>
+<p><strong>Bẫy:</strong> vừa học "by + hạn chót". <strong>Ghi nhớ:</strong> remain/stay/wait + until.</p>
+</div>
+</div>
+<h2>5. Cụm giới từ cố định</h2>
+<table>
+<thead><tr><th>Cụm</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>on behalf of</td><td>thay mặt cho</td></tr>
+<tr><td>in charge of · in addition to</td><td>phụ trách · ngoài ra còn</td></tr>
+<tr><td>according to · in accordance with</td><td>theo (nguồn tin) · theo, tuân thủ (quy định)</td></tr>
+<tr><td>regardless of · in terms of</td><td>bất kể · về mặt</td></tr>
+<tr><td>as of · effective + ngày</td><td>kể từ (ngày)</td></tr>
+<tr><td>throughout · among · between</td><td>khắp · giữa (nhiều) · giữa (hai)</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>On behalf of</u> the company, I thank you. <em>(Thay mặt công ty, tôi xin cảm ơn quý vị.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Dr. Chen will accept the innovation award ______ behalf of the entire research team.</p>
+<ol class="grammar-options"><li>in</li><li>at</li><li>by</li><li class="grammar-correct">on</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. on</p>
+<p><strong>Câu hoàn chỉnh:</strong> Dr. Chen will accept the innovation award on behalf of the entire research team.<br><strong>Dịch:</strong> Tiến sĩ Chen sẽ thay mặt cả nhóm nghiên cứu nhận giải thưởng đổi mới.</p>
+<p><strong>Vì sao đúng:</strong> <em>on behalf of</em> là cụm cố định.</p>
+<ul>
+<li><strong>A. in:</strong> <em>in behalf of</em> không dùng trong tiếng Anh chuẩn hiện nay.</li>
+<li><strong>B. at:</strong> không tạo cụm.</li>
+<li><strong>C. by:</strong> không tạo cụm.</li>
+</ul>
+<p><strong>Bẫy:</strong> không có quy tắc, phải thuộc cụm. <strong>Ghi nhớ:</strong> on behalf of, in charge of, in accordance with.</p>
+</div>
+</div>
+<h2>6. Liên từ hay trạng từ liên kết?</h2>
+<table>
+<thead><tr><th>Liên từ (nối trong một câu)</th><th>Trạng từ liên kết (sau dấu chấm/chấm phẩy)</th></tr></thead>
+<tbody>
+<tr><td>although, though</td><td>however, nevertheless</td></tr>
+<tr><td>because, so</td><td>therefore, consequently, as a result</td></tr>
+<tr><td>and</td><td>moreover, in addition, furthermore</td></tr>
+<tr><td>if…not, unless</td><td>otherwise</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">LIÊN TỪ + S + V, S + V &nbsp;·&nbsp; S + V. TRẠNG TỪ LIÊN KẾT, S + V</p>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> <u>Although</u> sales rose, profits fell. · Sales rose. <u>However</u>, profits fell.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ the company's profits rose last quarter, management decided to delay hiring new staff.</p>
+<ol class="grammar-options"><li>However</li><li>Despite</li><li>Therefore</li><li class="grammar-correct">Although</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. Although</p>
+<p><strong>Câu hoàn chỉnh:</strong> Although the company's profits rose last quarter, management decided to delay hiring new staff.<br><strong>Dịch:</strong> Dù lợi nhuận công ty tăng trong quý trước, ban lãnh đạo vẫn quyết định hoãn tuyển thêm nhân viên.</p>
+<p><strong>Vì sao đúng:</strong> Một câu có hai mệnh đề nối bằng dấu phẩy → cần liên từ; ý tương phản → <em>Although</em>.</p>
+<ul>
+<li><strong>A. However:</strong> trạng từ liên kết, không nối hai mệnh đề trong một câu bằng dấu phẩy.</li>
+<li><strong>B. Despite:</strong> giới từ, cần danh từ.</li>
+<li><strong>C. Therefore:</strong> trạng từ liên kết và nghĩa kết quả.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>However</em> cùng nghĩa tương phản. <strong>Ghi nhớ:</strong> ______ + mệnh đề, + mệnh đề → liên từ phụ thuộc.</p>
+</div>
+</div>
+<h2>7. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Từ</th><th>Loại và cách dùng</th></tr></thead>
+<tbody>
+<tr><td>now that, given that, provided that, as long as, so that, in case</td><td>Liên từ (+ mệnh đề)</td></tr>
+<tr><td>due to, owing to, prior to, instead of, regardless of</td><td>Giới từ (+ N/V-ing)</td></tr>
+<tr><td>since, as</td><td>Vừa là liên từ (vì, khi) vừa là giới từ (since + mốc thời gian)</td></tr>
+<tr><td>before, after, until</td><td>Vừa là giới từ vừa là liên từ</td></tr>
+<tr><td>except / besides</td><td>ngoại trừ / ngoài ra còn</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Now that</u> the system is installed, we can track orders online. <em>(Vì hệ thống đã được lắp đặt, giờ chúng ta có thể theo dõi đơn hàng trực tuyến.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ that the kitchen renovation is complete, the restaurant will reopen on Friday.</p>
+<ol class="grammar-options"><li class="grammar-correct">Now</li><li>Since</li><li>Because</li><li>As</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. Now</p>
+<p><strong>Câu hoàn chỉnh:</strong> Now that the kitchen renovation is complete, the restaurant will reopen on Friday.<br><strong>Dịch:</strong> Giờ việc cải tạo bếp đã xong, nhà hàng sẽ mở cửa lại vào thứ Sáu.</p>
+<p><strong>Vì sao đúng:</strong> <em>Now that</em> (vì giờ đây) là liên từ cố định; chỗ trống đứng ngay trước <em>that</em>.</p>
+<ul>
+<li><strong>B. Since:</strong> <em>Since that</em> không phải liên từ.</li>
+<li><strong>C. Because:</strong> <em>Because that</em> sai.</li>
+<li><strong>D. As:</strong> <em>As that</em> sai.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn theo nghĩa "vì" mà bỏ qua <em>that</em>. <strong>Ghi nhớ:</strong> now that, given that, provided that, so that, in order that.</p>
+</div>
+</div>
+<h2>8. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> câu đầu đoạn hay hỏi trạng từ liên kết (<em>However, In addition, As a result</em>) – phải đọc câu trước để biết quan hệ.</li>
+<li><strong>Part 7:</strong> liên từ cho biết quan hệ nguyên nhân, điều kiện, nhượng bộ – thường là mấu chốt câu hỏi "Why…?" và "What is required…?".</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Refunds are available <u>provided that</u> items are unused. <em>(Được hoàn tiền với điều kiện hàng chưa qua sử dụng.)</em> → "What is required for a refund?" → The item must be unused.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo giao thông)</em> The Elm Street Bridge will be closed for repairs ______ the month of July.</p>
+<p>Drivers are advised to use Route 4 as an alternative.</p>
+<ol class="grammar-options"><li>while</li><li class="grammar-correct">during</li><li>when</li><li>unless</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. during</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> The Elm Street Bridge will be closed for repairs during the month of July. Drivers are advised to use Route 4 as an alternative.<br><strong>Dịch:</strong> Cầu Elm sẽ đóng để sửa chữa trong suốt tháng Bảy. Tài xế nên đi đường số 4 thay thế.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là cụm danh từ <em>the month of July</em> → giới từ thời gian <em>during</em>.</p>
+<ul>
+<li><strong>A. while:</strong> liên từ, cần mệnh đề.</li>
+<li><strong>C. when:</strong> liên từ, cần mệnh đề.</li>
+<li><strong>D. unless:</strong> liên từ điều kiện, sai cấu trúc và nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>while</em> cùng nghĩa "trong khi". <strong>Ghi nhớ:</strong> during + N; while + S + V (hoặc V-ing rút gọn).</p>
+</div>
+</div>
+<h2>9. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> có cả giới từ và liên từ cùng nghĩa → câu cấu trúc.</li>
+<li><strong>Nhìn sau chỗ trống:</strong> cụm danh từ/V-ing → giới từ; S + V chia → liên từ.</li>
+<li><strong>Nhìn dấu câu:</strong> trước chỗ trống có dấu chấm/chấm phẩy, sau có dấu phẩy → trạng từ liên kết.</li>
+<li><strong>Còn nhiều đáp án:</strong> xét quan hệ ý (lý do, nhượng bộ, thời gian, điều kiện).</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Chọn</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>______ + the/a/N</td><td>Giới từ</td><td>5–10 giây</td></tr>
+<tr><td>______ + S + V</td><td>Liên từ</td><td>5–10 giây</td></tr>
+<tr><td>. / ; + ______ ,</td><td>Trạng từ liên kết</td><td>10 giây</td></tr>
+<tr><td>both/either/neither … ______</td><td>and/or/nor</td><td>5 giây</td></tr>
+<tr><td>Hạn chót / kéo dài</td><td>by / until</td><td>10 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> V-ing sau chỗ trống có thể đi với giới từ (<em>despite having</em>) hoặc với liên từ rút gọn (<em>while working</em>, <em>before leaving</em>). Xem bài <strong>Mệnh đề trạng ngữ</strong>.</p>
+</div>
+<h2>10. Tổng kết, ôn tập</h2>
+<ul>
+<li>Giới từ + N/V-ing; liên từ + mệnh đề.</li>
+<li>because/because of, although/despite, while/during, if/in case of.</li>
+<li>both…and, either…or, neither…nor, not only…but also.</li>
+<li>by = hạn chót; until = kéo dài đến; within = trong vòng.</li>
+<li>however/therefore đứng sau dấu chấm/chấm phẩy, không nối mệnh đề bằng dấu phẩy.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> on behalf of · in charge of · in accordance with · according to · regardless of · in addition to · prior to · as of · now that · provided that · as long as · in case.</p>

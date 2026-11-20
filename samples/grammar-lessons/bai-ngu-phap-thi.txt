@@ -1,0 +1,314 @@
+<!-- Bài học tương tác chủ điểm THÌ (Part 5 · nhóm Động từ · mã tense). Tiêu đề gợi ý: "Thì động từ trong TOEIC: dấu hiệu thời gian và cách chọn nhanh". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Thì (tense)</strong> cho biết hành động xảy ra khi nào: hiện tại, quá khứ hay tương lai, đã xong hay đang diễn ra. Câu hỏi về thì trong Part 5 thường cho bốn dạng của cùng một động từ (<em>signs / signed / has signed / will sign</em>). Cách giải nhanh nhất là tìm <strong>dấu hiệu thời gian</strong> trong câu, rồi kiểm tra chủ ngữ và chủ động/bị động.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Hiện tại đơn · quá khứ đơn · tương lai · dấu hiệu thời gian</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>Hiện tại hoàn thành (since, for, over the past…) · hiện tại tiếp diễn</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Quá khứ hoàn thành · tương lai hoàn thành · thì trong mệnh đề thời gian/điều kiện</td></tr>
+</tbody>
+</table>
+<h2>1. Hiện tại đơn</h2>
+<p class="grammar-structure">S + V(s/es) &nbsp;·&nbsp; S + am/is/are</p>
+<ul>
+<li><strong>Dùng cho:</strong> thói quen, việc lặp lại, sự thật, lịch trình cố định (giờ tàu, giờ mở cửa).</li>
+<li><strong>Dấu hiệu:</strong> every day/week/year, usually, always, often, regularly, each month, on weekdays.</li>
+<li>Chủ ngữ số ít → động từ thêm <em>-s/-es</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The store <u>opens</u> at 9 A.M. on weekdays. <em>(Cửa hàng mở cửa lúc 9 giờ sáng các ngày trong tuần.)</em></p>
+<p><strong>Phân tích:</strong> lịch cố định, lặp lại → hiện tại đơn; chủ ngữ số ít → <em>opens</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The airport shuttle bus ______ the hotel entrance every 30 minutes.</p>
+<ol class="grammar-options"><li>leave</li><li class="grammar-correct">leaves</li><li>leaving</li><li>have left</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. leaves</p>
+<p><strong>Câu hoàn chỉnh:</strong> The airport shuttle bus leaves the hotel entrance every 30 minutes.<br><strong>Dịch:</strong> Xe đưa đón sân bay rời cổng khách sạn 30 phút một chuyến.</p>
+<p><strong>Vì sao đúng:</strong> <em>every 30 minutes</em> → lịch lặp lại → hiện tại đơn; chủ ngữ số ít <em>bus</em> → <em>leaves</em>.</p>
+<ul>
+<li><strong>A. leave:</strong> không thêm -s, sai với chủ ngữ số ít.</li>
+<li><strong>C. leaving:</strong> V-ing không làm động từ chính khi thiếu <em>be</em>.</li>
+<li><strong>D. have left:</strong> số nhiều và sai thì.</li>
+</ul>
+<p><strong>Bẫy:</strong> quên chia số ít. <strong>Ghi nhớ:</strong> every/each + thời gian → hiện tại đơn.</p>
+</div>
+</div>
+<h2>2. Hiện tại tiếp diễn</h2>
+<p class="grammar-structure">S + am/is/are + V-ing</p>
+<ul>
+<li><strong>Dùng cho:</strong> việc đang diễn ra; việc tạm thời trong giai đoạn này; kế hoạch tương lai đã sắp xếp.</li>
+<li><strong>Dấu hiệu:</strong> now, currently, at the moment, this week/month, at present.</li>
+<li>Không dùng tiếp diễn với động từ trạng thái: <em>belong, contain, include, need, know, consist</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Our technicians <u>are currently upgrading</u> the network. <em>(Kỹ thuật viên hiện đang nâng cấp hệ thống mạng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Ms. Lopez ______ a client in Tokyo this week, so she cannot attend Thursday's meeting.</p>
+<ol class="grammar-options"><li>visits</li><li>visited</li><li class="grammar-correct">is visiting</li><li>has visited</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. is visiting</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Lopez is visiting a client in Tokyo this week, so she cannot attend Thursday's meeting.<br><strong>Dịch:</strong> Tuần này cô Lopez đang đi gặp khách hàng ở Tokyo, nên không thể dự cuộc họp thứ Năm.</p>
+<p><strong>Vì sao đúng:</strong> <em>this week</em> + việc tạm thời đang diễn ra, kéo theo hệ quả hiện tại (<em>cannot attend</em>) → hiện tại tiếp diễn.</p>
+<ul>
+<li><strong>A. visits:</strong> chỉ thói quen, không hợp với một chuyến đi trong tuần này.</li>
+<li><strong>B. visited:</strong> quá khứ, mâu thuẫn với <em>this week … cannot attend</em>.</li>
+<li><strong>D. has visited:</strong> nhấn mạnh việc đã xong, không giải thích việc vắng mặt.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỉ thấy <em>visits</em> chia số ít là chọn. <strong>Ghi nhớ:</strong> this week/currently + việc tạm thời → be + V-ing.</p>
+</div>
+</div>
+<h2>3. Hiện tại hoàn thành</h2>
+<p class="grammar-structure">S + have/has + V3</p>
+<ul>
+<li><strong>Dùng cho:</strong> việc bắt đầu trong quá khứ kéo dài đến nay; việc vừa xảy ra, có kết quả ở hiện tại; kinh nghiệm tính đến nay.</li>
+<li><strong>Dấu hiệu:</strong> since + mốc/mệnh đề quá khứ, for + khoảng thời gian, so far, recently, already, yet, over/in the past/last + khoảng thời gian.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The company <u>has expanded</u> into five new markets since 2020. <em>(Từ năm 2020, công ty đã mở rộng sang năm thị trường mới.)</em></p>
+<p><strong>Phân tích:</strong> <em>since 2020</em> → từ quá khứ đến hiện tại → hiện tại hoàn thành.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Since its founding in 2010, Medcore Labs ______ more than 40 new medical products.</p>
+<ol class="grammar-options"><li class="grammar-correct">has developed</li><li>develops</li><li>developed</li><li>will develop</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. has developed</p>
+<p><strong>Câu hoàn chỉnh:</strong> Since its founding in 2010, Medcore Labs has developed more than 40 new medical products.<br><strong>Dịch:</strong> Từ khi thành lập năm 2010, Medcore Labs đã phát triển hơn 40 sản phẩm y tế mới.</p>
+<p><strong>Vì sao đúng:</strong> <em>Since + mốc quá khứ</em> → khoảng thời gian kéo đến hiện tại → hiện tại hoàn thành.</p>
+<ul>
+<li><strong>B. develops:</strong> hiện tại đơn, không đi với <em>since</em>.</li>
+<li><strong>C. developed:</strong> quá khứ đơn chỉ thời điểm đã kết thúc, không hợp với <em>since</em>.</li>
+<li><strong>D. will develop:</strong> tương lai.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>2010</em> (năm quá khứ) nên chọn quá khứ đơn. <strong>Ghi nhớ:</strong> since/for/so far/over the past → have/has + V3.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Ms. Kwon ______ at Delta Bank since she graduated from university.</p>
+<ol class="grammar-options"><li>works</li><li>worked</li><li class="grammar-correct">has worked</li><li>is working</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. has worked</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Kwon has worked at Delta Bank since she graduated from university.<br><strong>Dịch:</strong> Cô Kwon đã làm việc tại ngân hàng Delta từ khi tốt nghiệp đại học.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề chính dùng hiện tại hoàn thành; mệnh đề <em>since</em> dùng quá khứ đơn chỉ mốc bắt đầu.</p>
+<ul>
+<li><strong>A. works:</strong> hiện tại đơn, không đi với <em>since</em>.</li>
+<li><strong>B. worked:</strong> quá khứ đơn, hàm ý đã nghỉ, không hợp với <em>since</em>.</li>
+<li><strong>D. is working:</strong> hiện tại tiếp diễn, không đi với <em>since</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>graduated</em> (quá khứ) nên chọn quá khứ. <strong>Ghi nhớ:</strong> S + have/has + V3 + since + S + V2.</p>
+</div>
+</div>
+<h2>4. Quá khứ đơn</h2>
+<p class="grammar-structure">S + V2/V-ed &nbsp;·&nbsp; S + was/were</p>
+<ul>
+<li><strong>Dùng cho:</strong> việc đã xảy ra và kết thúc tại thời điểm xác định trong quá khứ.</li>
+<li><strong>Dấu hiệu:</strong> yesterday, last week/month/year, ago, in + năm quá khứ, when + mệnh đề quá khứ.</li>
+<li>Có mốc quá khứ cụ thể (<em>ago, last, yesterday</em>) thì <strong>không</strong> dùng hiện tại hoàn thành.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> We <u>launched</u> the app two years ago. · We <u>have launched</u> three apps so far. <em>(Chúng tôi ra mắt ứng dụng cách đây hai năm. · Đến nay chúng tôi đã ra mắt ba ứng dụng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Mr. Grant ______ the lease agreement two days ago, and the tenants will move in next week.</p>
+<ol class="grammar-options"><li class="grammar-correct">signed</li><li>signs</li><li>has signed</li><li>will sign</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. signed</p>
+<p><strong>Câu hoàn chỉnh:</strong> Mr. Grant signed the lease agreement two days ago, and the tenants will move in next week.<br><strong>Dịch:</strong> Ông Grant đã ký hợp đồng thuê hai ngày trước, và người thuê sẽ dọn vào tuần sau.</p>
+<p><strong>Vì sao đúng:</strong> <em>two days ago</em> là mốc quá khứ xác định → quá khứ đơn.</p>
+<ul>
+<li><strong>B. signs:</strong> hiện tại đơn.</li>
+<li><strong>C. has signed:</strong> hiện tại hoàn thành không đi với <em>ago</em>.</li>
+<li><strong>D. will sign:</strong> tương lai, mâu thuẫn với <em>ago</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>next week</em> ở vế sau là dấu hiệu của vế khác. <strong>Ghi nhớ:</strong> mỗi mệnh đề xét dấu hiệu thời gian của riêng nó.</p>
+</div>
+</div>
+<h2>5. Quá khứ hoàn thành</h2>
+<p class="grammar-structure">S + had + V3 (việc xảy ra trước) … + V2 (việc xảy ra sau)</p>
+<ul>
+<li><strong>Dùng cho:</strong> việc đã xong <strong>trước</strong> một mốc hoặc một việc khác trong quá khứ.</li>
+<li><strong>Dấu hiệu:</strong> by the time + V2, before + V2, after + had V3, already (trong ngữ cảnh quá khứ).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> By the time we arrived, the presentation <u>had ended</u>. <em>(Khi chúng tôi đến thì bài thuyết trình đã kết thúc.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>By the time the director arrived at the conference center, the keynote speech ______.</p>
+<ol class="grammar-options"><li class="grammar-correct">had already started</li><li>has already started</li><li>already starts</li><li>will have started</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. had already started</p>
+<p><strong>Câu hoàn chỉnh:</strong> By the time the director arrived at the conference center, the keynote speech had already started.<br><strong>Dịch:</strong> Khi giám đốc đến trung tâm hội nghị thì bài phát biểu chính đã bắt đầu.</p>
+<p><strong>Vì sao đúng:</strong> <em>By the time + quá khứ đơn</em> → việc ở mệnh đề chính xảy ra trước đó → quá khứ hoàn thành.</p>
+<ul>
+<li><strong>B. has already started:</strong> hiện tại hoàn thành, không khớp mốc quá khứ <em>arrived</em>.</li>
+<li><strong>C. already starts:</strong> hiện tại đơn.</li>
+<li><strong>D. will have started:</strong> tương lai hoàn thành, dùng khi <em>by the time</em> + hiện tại đơn.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm với cặp <em>by the time + hiện tại → will have V3</em>. <strong>Ghi nhớ:</strong> by the time + V2 → had V3.</p>
+</div>
+</div>
+<h2>6. Tương lai</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Dùng khi</th><th>Dấu hiệu</th></tr></thead>
+<tbody>
+<tr><td>will + V</td><td>dự đoán, quyết định, thông báo kế hoạch</td><td>tomorrow, next…, soon, upcoming</td></tr>
+<tr><td>be going to + V</td><td>dự định có sẵn, dự đoán có căn cứ</td><td>next…</td></tr>
+<tr><td>be + V-ing</td><td>lịch đã sắp xếp</td><td>this Friday, next week</td></tr>
+<tr><td>will have + V3</td><td>sẽ xong trước một mốc tương lai</td><td>by + mốc tương lai, by the time + hiện tại đơn</td></tr>
+<tr><td>will be + V-ing</td><td>sẽ đang diễn ra tại một lúc trong tương lai</td><td>at this time tomorrow</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> By next June, we <u>will have opened</u> ten stores. <em>(Đến tháng Sáu năm sau, chúng tôi sẽ mở xong mười cửa hàng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The board of directors ______ the expansion proposal at next Monday's meeting.</p>
+<ol class="grammar-options"><li>discussed</li><li>has discussed</li><li>discussing</li><li class="grammar-correct">will discuss</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. will discuss</p>
+<p><strong>Câu hoàn chỉnh:</strong> The board of directors will discuss the expansion proposal at next Monday's meeting.<br><strong>Dịch:</strong> Hội đồng quản trị sẽ thảo luận đề xuất mở rộng tại cuộc họp thứ Hai tuần sau.</p>
+<p><strong>Vì sao đúng:</strong> <em>next Monday</em> → tương lai.</p>
+<ul>
+<li><strong>A. discussed:</strong> quá khứ.</li>
+<li><strong>B. has discussed:</strong> hiện tại hoàn thành.</li>
+<li><strong>C. discussing:</strong> thiếu <em>be</em>, không làm động từ chính.</li>
+</ul>
+<p><strong>Bẫy:</strong> không đáng kể – câu lấy điểm nhờ dấu hiệu <em>next</em>. <strong>Ghi nhớ:</strong> next/tomorrow/upcoming/soon → will + V.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>By the end of next month, the construction company ______ work on the new headquarters.</p>
+<ol class="grammar-options"><li>completes</li><li>completed</li><li>has completed</li><li class="grammar-correct">will have completed</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. will have completed</p>
+<p><strong>Câu hoàn chỉnh:</strong> By the end of next month, the construction company will have completed work on the new headquarters.<br><strong>Dịch:</strong> Đến cuối tháng sau, công ty xây dựng sẽ hoàn tất việc thi công trụ sở mới.</p>
+<p><strong>Vì sao đúng:</strong> <em>By + mốc tương lai</em> → việc sẽ xong trước mốc đó → tương lai hoàn thành.</p>
+<ul>
+<li><strong>A. completes:</strong> hiện tại đơn.</li>
+<li><strong>B. completed:</strong> quá khứ, mâu thuẫn với <em>next month</em>.</li>
+<li><strong>C. has completed:</strong> hiện tại hoàn thành không nói về mốc tương lai.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>completed</em> trong mọi đáp án dạng V3. <strong>Ghi nhớ:</strong> by + mốc tương lai → will have V3.</p>
+</div>
+</div>
+<h2>7. Thì trong mệnh đề phụ</h2>
+<p class="grammar-structure">when / after / before / as soon as / once / until / if + HIỆN TẠI ĐƠN, S + will + V</p>
+<ul>
+<li>Trong mệnh đề thời gian và điều kiện nói về tương lai, <strong>không dùng will</strong>; dùng hiện tại đơn (hoặc hiện tại hoàn thành để nhấn mạnh đã xong).</li>
+<li>Mệnh đề chính vẫn dùng tương lai hoặc câu mệnh lệnh.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We will ship your order as soon as payment <u>is</u> received. <em>(Chúng tôi sẽ giao hàng ngay khi nhận được thanh toán.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Please call the front desk as soon as the repair technician ______.</p>
+<ol class="grammar-options"><li>will arrive</li><li>arriving</li><li>arrived</li><li class="grammar-correct">arrives</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. arrives</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please call the front desk as soon as the repair technician arrives.<br><strong>Dịch:</strong> Vui lòng gọi lễ tân ngay khi kỹ thuật viên sửa chữa đến.</p>
+<p><strong>Vì sao đúng:</strong> <em>as soon as</em> mở mệnh đề thời gian nói về tương lai → dùng hiện tại đơn; chủ ngữ số ít → <em>arrives</em>.</p>
+<ul>
+<li><strong>A. will arrive:</strong> không dùng <em>will</em> trong mệnh đề thời gian.</li>
+<li><strong>B. arriving:</strong> không phải động từ chia.</li>
+<li><strong>C. arrived:</strong> quá khứ, không hợp với yêu cầu ở hiện tại/tương lai.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "sẽ đến" nên chọn <em>will arrive</em>. <strong>Ghi nhớ:</strong> when/after/once/as soon as/until + hiện tại đơn (nghĩa tương lai).</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách nhận ra và xử lý</th></tr></thead>
+<tbody>
+<tr><td>Dấu hiệu nằm ở mệnh đề khác</td><td>Xét dấu hiệu thời gian của chính mệnh đề chứa chỗ trống</td></tr>
+<tr><td>last + khoảng thời gian</td><td><em>last year</em> → quá khứ đơn; <em>over the last five years</em> → hiện tại hoàn thành</td></tr>
+<tr><td>recently</td><td>đi được với cả quá khứ đơn và hiện tại hoàn thành → xét thêm chủ ngữ, bị động</td></tr>
+<tr><td>Động từ trạng thái</td><td>contain, include, belong, need không dùng tiếp diễn</td></tr>
+<tr><td>Thì đúng nhưng sai chủ ngữ/bị động</td><td>Sau khi chọn thì, kiểm tra số ít/số nhiều và chủ động/bị động</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Over the past decade, online sales <u>have grown</u> rapidly. <em>(Trong mười năm qua, doanh số trực tuyến tăng nhanh.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Over the last five years, the number of employees working remotely ______ dramatically.</p>
+<ol class="grammar-options"><li>increases</li><li class="grammar-correct">has increased</li><li>will increase</li><li>increasing</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. has increased</p>
+<p><strong>Câu hoàn chỉnh:</strong> Over the last five years, the number of employees working remotely has increased dramatically.<br><strong>Dịch:</strong> Trong năm năm qua, số nhân viên làm việc từ xa đã tăng mạnh.</p>
+<p><strong>Vì sao đúng:</strong> <em>Over the last five years</em> → khoảng thời gian kéo đến hiện tại → hiện tại hoàn thành; <em>the number of</em> → động từ số ít <em>has</em>.</p>
+<ul>
+<li><strong>A. increases:</strong> hiện tại đơn, không hợp với khoảng thời gian kéo đến nay.</li>
+<li><strong>C. will increase:</strong> tương lai.</li>
+<li><strong>D. increasing:</strong> không phải động từ chia.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>last</em> nên chọn quá khứ; <em>employees</em> số nhiều gần động từ. <strong>Ghi nhớ:</strong> over/in the last/past + khoảng thời gian → have/has V3.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> câu chứa chỗ trống thường không có dấu hiệu thời gian; phải đọc câu trước/sau và ngày tháng của email, thông báo để chọn thì.</li>
+<li><strong>Part 7:</strong> thì cho biết sự việc đã xảy ra hay sắp xảy ra – mấu chốt của câu hỏi "What will happen…?" và "What has the company done…?".</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Our new store <u>opened</u> last Monday. Since then, over 500 customers <u>have visited</u>. <em>(Cửa hàng mới khai trương thứ Hai tuần trước. Từ đó đến nay đã có hơn 500 khách ghé thăm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Bản tin nội bộ)</em> Our new branch on Elm Street ______ last Monday.</p>
+<p>Since then, more than 500 customers have visited, and sales have exceeded our expectations.</p>
+<ol class="grammar-options"><li>opens</li><li>will open</li><li class="grammar-correct">opened</li><li>has been opening</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. opened</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> Our new branch on Elm Street opened last Monday. Since then, more than 500 customers have visited…<br><strong>Dịch:</strong> Chi nhánh mới trên phố Elm khai trương thứ Hai tuần trước. Từ đó đến nay, hơn 500 khách đã ghé thăm…</p>
+<p><strong>Vì sao đúng:</strong> <em>last Monday</em> → quá khứ đơn; câu sau <em>Since then … have visited</em> xác nhận sự kiện đã xảy ra.</p>
+<ul>
+<li><strong>A. opens:</strong> hiện tại đơn.</li>
+<li><strong>B. will open:</strong> tương lai, mâu thuẫn với câu sau.</li>
+<li><strong>D. has been opening:</strong> khai trương là hành động tức thời, không kéo dài; không đi với <em>last Monday</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> câu sau dùng hiện tại hoàn thành khiến người học chọn theo. <strong>Ghi nhớ:</strong> mốc quá khứ cụ thể → quá khứ đơn; <em>since then</em> → hiện tại hoàn thành.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> cùng động từ khác thì → câu hỏi thì (có thể kèm hòa hợp, bị động).</li>
+<li><strong>Tìm dấu hiệu thời gian</strong> trong chính mệnh đề chứa chỗ trống.</li>
+<li><strong>Kiểm tra mệnh đề phụ:</strong> when/if/as soon as… + hiện tại đơn cho tương lai.</li>
+<li><strong>Kiểm tra chủ ngữ</strong> (số ít/số nhiều) và <strong>chủ động/bị động</strong>.</li>
+<li><strong>Không có dấu hiệu:</strong> đọc câu trước/sau (Part 6) hoặc xét logic.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Thì</th></tr></thead>
+<tbody>
+<tr><td>every, usually, each month</td><td>Hiện tại đơn</td></tr>
+<tr><td>currently, now, this week</td><td>Hiện tại tiếp diễn</td></tr>
+<tr><td>since, for, so far, over the past…</td><td>Hiện tại hoàn thành</td></tr>
+<tr><td>ago, last, yesterday, in 2019</td><td>Quá khứ đơn</td></tr>
+<tr><td>by the time + V2, before + V2</td><td>Quá khứ hoàn thành</td></tr>
+<tr><td>next, tomorrow, soon, upcoming</td><td>Tương lai đơn</td></tr>
+<tr><td>by + mốc tương lai</td><td>Tương lai hoàn thành</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Thời gian luyện tập:</strong> câu có dấu hiệu rõ 5–10 giây; câu cần xét mệnh đề phụ hoặc bị động 10–20 giây; câu Part 6 không có dấu hiệu cần đọc ngữ cảnh.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Tìm dấu hiệu thời gian trước, rồi kiểm tra chủ ngữ và chủ động/bị động.</li>
+<li>since/for/over the past → have/has V3; ago/last/yesterday → V2.</li>
+<li>by the time + V2 → had V3; by + mốc tương lai → will have V3.</li>
+<li>Mệnh đề thời gian/điều kiện nói về tương lai dùng hiện tại đơn, không dùng will.</li>
+<li>Part 6: xét ngữ cảnh đoạn văn khi câu không có dấu hiệu.</li>
+</ul>
+<table>
+<thead><tr><th>Thì</th><th>Chủ động</th><th>Bị động</th></tr></thead>
+<tbody>
+<tr><td>Hiện tại đơn</td><td>reviews</td><td>is reviewed</td></tr>
+<tr><td>Hiện tại tiếp diễn</td><td>is reviewing</td><td>is being reviewed</td></tr>
+<tr><td>Hiện tại hoàn thành</td><td>has reviewed</td><td>has been reviewed</td></tr>
+<tr><td>Quá khứ đơn</td><td>reviewed</td><td>was reviewed</td></tr>
+<tr><td>Quá khứ hoàn thành</td><td>had reviewed</td><td>had been reviewed</td></tr>
+<tr><td>Tương lai đơn</td><td>will review</td><td>will be reviewed</td></tr>
+<tr><td>Tương lai hoàn thành</td><td>will have reviewed</td><td>will have been reviewed</td></tr>
+</tbody>
+</table>

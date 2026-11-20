@@ -19,6 +19,7 @@ import { QuestionNavigator } from './workspace/QuestionNavigator.jsx'
 import { StudyBottom, StudyLayout, StudySplit, Switch } from './workspace/StudyLayout.jsx'
 import { buildGroupOrder, groupInstruction, isRevealed } from './workspace/studyModel.js'
 import { useAudioPlayer } from './workspace/useAudioPlayer.js'
+import { useStudyPanels } from './workspace/useStudyPanels.js'
 
 const mediaMap = (groups) => Object.fromEntries((groups || []).map((group) => [group.groupId, group.media || []]))
 const audioUrls = (list) => (list || []).filter((m) => m.mediaType === 'AUDIO').map((m) => m.url)
@@ -32,6 +33,7 @@ export default function PracticeRunner({ attempt: initial, title }) {
   const navigate = useNavigate()
   const confirm = useConfirm()
   const toast = useToast()
+  const panels = useStudyPanels()
 
   const { groups: order, numbers } = useMemo(
     () => buildGroupOrder(initial.questions, isBank ? (initial.content || []).map((g) => g.groupId) : null), [initial, isBank])
@@ -166,6 +168,9 @@ export default function PracticeRunner({ attempt: initial, title }) {
   }
 
   const questions = groupContent ? groupContent.questions.filter((q) => group.questionIds.includes(q.questionId)) : []
+  const passageTranslation = groupContent?.passageHtml
+    ? questions.map((q) => answers[q.questionId]?.feedback?.translationVi).find((text) => text?.trim())
+    : undefined
 
   // Phím tắt: 1–4 hoặc A–D chọn đáp án câu đầu chưa làm; ←/→ đổi nhóm câu; P phát/dừng, J tua lại 3s, R nghe lại.
   useHotkeys((event) => {
@@ -210,7 +215,8 @@ export default function PracticeRunner({ attempt: initial, title }) {
             : (
               <StudySplit
                 left={<ContextPane instruction={groupInstruction(group.partNo, first, last)} audio={audioBar} shortcuts={shortcuts}
-                  media={groupMedia} passageHtml={hideText ? null : groupContent.passageHtml} onMediaError={refreshMedia} />}
+                  media={groupMedia} passageHtml={hideText ? null : groupContent.passageHtml} passageTranslation={passageTranslation}
+                  passageKey={`${id}_${group.groupId}`} panels={panels} onMediaError={refreshMedia} />}
                 right={<>
                   <div className="study-q-toolbar">
                     <span className="study-group-label">{group.questionIds.length > 1 ? <>Nhóm câu {first}–{last} <span className="muted">({group.questionIds.length} câu hỏi)</span></> : `Câu ${first}`}</span>
@@ -222,9 +228,10 @@ export default function PracticeRunner({ attempt: initial, title }) {
                   {questions.map((question) => (
                     <QuestionCard key={question.questionId} question={question} number={numbers.get(question.questionId)} answer={answers[question.questionId]}
                       hideText={hideText} marked={marks.has(question.questionId)} busy={pendingIds.has(question.questionId)} showRevealButton={!instant}
+                      grouped={group.questionIds.length > 1} panels={panels}
                       onPick={pick} onReveal={reveal} onMark={() => toggleMark(question.questionId)} onReport={() => setDialog({ type: 'report', questionId: question.questionId })} />
                   ))}
-                  <RevealPanels group={group} questions={questions} answers={answers} numbers={numbers} />
+                  <RevealPanels questions={questions} answers={answers} hasPassage={Boolean(groupContent.passageHtml)} panels={panels} />
                 </>}
               />
             )}

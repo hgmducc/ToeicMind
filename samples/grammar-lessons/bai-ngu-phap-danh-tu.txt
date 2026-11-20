@@ -1,0 +1,435 @@
+<!-- Bài học tương tác chủ điểm DANH TỪ (Part 5 · nhóm Từ loại · mã noun). Tiêu đề gợi ý: "Danh từ trong TOEIC: vị trí, số lượng và bẫy thường gặp". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Danh từ (noun)</strong> gọi tên người, vật, sự việc, khái niệm: <em>manager, invoice, delivery, satisfaction</em>. Part 5 thường cho bốn đáp án cùng gốc (<em>decide / decisive / decision / decisively</em>) và hỏi chỗ trống cần từ loại nào. Khi chỗ trống cần danh từ, bạn còn phải chọn đúng <strong>số ít/số nhiều</strong>, <strong>đếm được hay không</strong>, <strong>người hay sự việc</strong>.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Vị trí cần danh từ · hậu tố danh từ · từ hạn định + danh từ · đếm được/không đếm được</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>Danh từ chỉ người/sự việc · danh từ ghép</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Cụm danh từ dài và chủ ngữ chính · danh từ hay V-ing · ngoại lệ hậu tố</td></tr>
+</tbody>
+</table>
+<h2>1. Vị trí cần danh từ</h2>
+<p class="grammar-structure">(a/the/my/this…) + (trạng từ) + (tính từ) + DANH TỪ + (of / giới từ / động từ / dấu câu)</p>
+<table>
+<thead><tr><th>Vị trí</th><th>Dấu hiệu</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Chủ ngữ</td><td>đứng trước động từ chính</td><td><u>Attendance</u> was high.</td></tr>
+<tr><td>Tân ngữ</td><td>sau ngoại động từ</td><td>submit <u>your application</u></td></tr>
+<tr><td>Sau giới từ</td><td>for / upon / without + (the)</td><td>ready for <u>review</u></td></tr>
+<tr><td>Bổ ngữ</td><td>be/become + a/the + (adj)</td><td>She became <u>the director</u>.</td></tr>
+<tr><td>Sau từ hạn định, sở hữu, tính từ</td><td>a, the, its, their, Noun's, careful…</td><td>careful <u>consideration</u></td></tr>
+<tr><td>Trước of</td><td>the ______ of</td><td>the <u>expansion</u> of the plant</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Chắc chắn là danh từ:</strong> <em>the ______ of</em>; <em>a/the/its + (adj) + ______ +</em> giới từ, động từ hoặc dấu câu.</p>
+<p><strong>Cần xét thêm:</strong> <em>the ______ + danh từ</em> → thường là tính từ (hoặc danh từ ghép, mục 5) · <em>be + ______</em> không có a/the → thường là tính từ · <em>giới từ + ______ + tân ngữ</em> → V-ing (mục 7).</p>
+</div>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The <u>construction</u> of the new branch office has been postponed. <em>(Việc xây dựng văn phòng chi nhánh mới đã bị hoãn.)</em></p>
+<p><strong>Phân tích:</strong> <em>The</em> trước, <em>of</em> sau, động từ chính <em>has been postponed</em> → chỗ trống là danh từ chính của chủ ngữ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The ______ of the new branch office has been postponed until March.</p>
+<ol class="grammar-options"><li>construct</li><li>constructive</li><li class="grammar-correct">construction</li><li>constructed</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. construction</p>
+<p><strong>Câu hoàn chỉnh:</strong> The construction of the new branch office has been postponed until March.<br><strong>Dịch:</strong> Việc xây dựng văn phòng chi nhánh mới đã bị hoãn đến tháng Ba.</p>
+<p><strong>Vì sao đúng:</strong> Khung <em>The ______ of …</em> + động từ chính <em>has been postponed</em> → cần danh từ chính của chủ ngữ. Chỉ <em>construction</em> (-tion) là danh từ.</p>
+<ul>
+<li><strong>A. construct:</strong> động từ.</li>
+<li><strong>B. constructive:</strong> tính từ, cần danh từ theo sau nhưng sau chỗ trống là <em>of</em>.</li>
+<li><strong>D. constructed:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> câu dài khiến người học dịch cả câu. <strong>Ghi nhớ:</strong> <em>the ______ of</em> → danh từ, giải trong khoảng 5 giây.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>We appreciate your continued ______ during the renovation of our main store.</p>
+<ol class="grammar-options"><li>patient</li><li>patiently</li><li class="grammar-correct">patience</li><li>patients</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. patience</p>
+<p><strong>Câu hoàn chỉnh:</strong> We appreciate your continued patience during the renovation of our main store.<br><strong>Dịch:</strong> Chúng tôi trân trọng sự kiên nhẫn của quý khách trong thời gian cải tạo cửa hàng chính.</p>
+<p><strong>Vì sao đúng:</strong> <em>your + continued + ______ + during</em> → cần danh từ. Có hai danh từ (<em>patience, patients</em>); chỉ <em>patience</em> (sự kiên nhẫn) hợp nghĩa với <em>appreciate</em>.</p>
+<ul>
+<li><strong>A. patient:</strong> tính từ "kiên nhẫn" hoặc danh từ "bệnh nhân" – đều không hợp.</li>
+<li><strong>B. patiently:</strong> trạng từ.</li>
+<li><strong>D. patients:</strong> "các bệnh nhân" – đúng từ loại, sai nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> dừng ở bước "cần danh từ" rồi chọn <em>patients</em>. <strong>Ghi nhớ:</strong> We appreciate your patience/cooperation/understanding.</p>
+</div>
+</div>
+<h2>2. Nhận diện qua hậu tố</h2>
+<table>
+<thead><tr><th>Loại</th><th>Hậu tố</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Sự việc, khái niệm</td><td>-tion/-sion, -ment, -ance/-ence, -ity, -ness, -ship, -ure, -age, -th, -sis</td><td>registration, shipment, maintenance, availability, procedure, shortage, growth, analysis</td></tr>
+<tr><td>Người</td><td>-er/-or, -ant/-ent, -ee, -ist/-ian</td><td>supervisor, applicant, employee, specialist, technician</td></tr>
+</tbody>
+</table>
+<ul>
+<li><strong>-al</strong> có thể là danh từ (<em>approval, arrival, proposal, renewal, rental</em>) hoặc tính từ (<em>additional, annual, financial</em>).</li>
+<li><strong>-ive</strong> đa số là tính từ, nhưng <em>representative, executive, alternative, initiative, incentive</em> là danh từ.</li>
+<li><strong>-ing</strong> có thể là danh từ thật: <em>meeting, opening, funding, training, accounting</em>.</li>
+<li><strong>Vừa là danh từ vừa là động từ:</strong> <em>request, increase, review, access, demand, delay, refund, survey</em> → từ hạn định đứng trước cho biết là danh từ.</li>
+<li><strong>Cặp dễ nhầm:</strong> <em>personnel</em> (n, nhân sự) – <em>personal</em> (adj, cá nhân).</li>
+</ul>
+<div class="grammar-tip">
+<p><strong>Mẹo:</strong> dùng hậu tố để <strong>loại nhanh</strong> đáp án chắc chắn không phải danh từ (-ly, -ize, -ify, -ed), sau đó xét vị trí để chốt. Hậu tố chỉ là gợi ý, vị trí mới là bằng chứng.</p>
+</div>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> A sales <u>representative</u> will contact you within two days. <em>(Một nhân viên kinh doanh sẽ liên hệ với bạn trong hai ngày.)</em></p>
+<p><strong>Phân tích:</strong> <em>representative</em> có đuôi <em>-ive</em> nhưng là danh từ chỉ người, làm chủ ngữ của <em>will contact</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>A ______ from the bank will contact you within two business days to verify your account details.</p>
+<ol class="grammar-options"><li class="grammar-correct">representative</li><li>represent</li><li>representation</li><li>represented</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. representative</p>
+<p><strong>Câu hoàn chỉnh:</strong> A representative from the bank will contact you within two business days to verify your account details.<br><strong>Dịch:</strong> Một nhân viên đại diện của ngân hàng sẽ liên hệ với bạn trong hai ngày làm việc để xác minh thông tin tài khoản.</p>
+<p><strong>Vì sao đúng:</strong> <em>A ______ from</em> → danh từ đếm được số ít làm chủ ngữ của <em>will contact</em>. Chỉ con người mới "liên hệ" được → <em>representative</em>.</p>
+<ul>
+<li><strong>B. represent:</strong> động từ.</li>
+<li><strong>C. representation:</strong> "sự đại diện" – đúng từ loại nhưng không thể liên hệ với khách.</li>
+<li><strong>D. represented:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> loại đáp án đúng vì nghĩ đuôi <em>-ive</em> là tính từ. <strong>Ghi nhớ:</strong> danh từ đuôi -ive: representative, executive, alternative, initiative, incentive.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>All laboratory ______ must wear identification badges at all times.</p>
+<ol class="grammar-options"><li>person</li><li>personal</li><li class="grammar-correct">personnel</li><li>personally</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. personnel</p>
+<p><strong>Câu hoàn chỉnh:</strong> All laboratory personnel must wear identification badges at all times.<br><strong>Dịch:</strong> Toàn bộ nhân viên phòng thí nghiệm phải luôn đeo thẻ nhận dạng.</p>
+<p><strong>Vì sao đúng:</strong> <em>All laboratory ______ + must</em> → chỗ trống là danh từ chính của chủ ngữ. <em>personnel</em> (nhân sự) là danh từ tập hợp, đi tự nhiên với <em>all</em>.</p>
+<ul>
+<li><strong>A. person:</strong> danh từ đếm được số ít; <em>all</em> không đi với danh từ đếm được số ít.</li>
+<li><strong>B. personal:</strong> tính từ "cá nhân".</li>
+<li><strong>D. personally:</strong> trạng từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>personnel</em> và <em>personal</em> gần giống nhau. <strong>Ghi nhớ:</strong> sau chỗ trống là động từ → danh từ <em>personnel</em>; có danh từ theo sau → tính từ <em>personal</em>.</p>
+</div>
+</div>
+<h2>3. Số ít, số nhiều</h2>
+<table>
+<thead><tr><th>Từ hạn định</th><th>Đi với</th></tr></thead>
+<tbody>
+<tr><td>a/an, each, every, another, one</td><td>Đếm được <strong>số ít</strong></td></tr>
+<tr><td>many, few, a few, several, various, both, a number of</td><td>Đếm được <strong>số nhiều</strong></td></tr>
+<tr><td>much, little, a little, an amount of, a great deal of</td><td><strong>Không đếm được</strong></td></tr>
+<tr><td>some, any, most, all, a lot of, no, more</td><td>Số nhiều hoặc không đếm được</td></tr>
+</tbody>
+</table>
+<ul>
+<li>Danh từ đếm được số ít <strong>không đứng một mình</strong>: cần a/the/my/each… đi trước.</li>
+<li>Danh từ không đếm được: không có <em>a/an</em>, không thêm <em>-s</em>, động từ chia số ít. Hay gặp: <em>equipment, furniture, information, advice, feedback, luggage, merchandise, machinery, research, access, permission</em>.</li>
+<li>Muốn đếm: <em>a piece of equipment/advice</em>, <em>an item of clothing</em>.</li>
+<li>Đổi nghĩa khi đếm được: <em>experience</em> (kinh nghiệm) / <em>experiences</em> (trải nghiệm); <em>work</em> (công việc) / <em>works</em> (tác phẩm).</li>
+<li><em>each/every + số ít</em> nhưng <em>each of the + số nhiều</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Đúng:</strong> The office will purchase new <u>equipment</u>. · <strong>Sai:</strong> … new <u>equipments</u>. <em>(Văn phòng sẽ mua thiết bị mới.)</em></p>
+<p><strong>Phân tích:</strong> <em>equipment</em> không đếm được nên dạng có <em>-s</em> luôn sai, loại ngay.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Several pieces of ______ in the fitness center will be replaced next month.</p>
+<ol class="grammar-options"><li>equip</li><li class="grammar-correct">equipment</li><li>equipments</li><li>equipped</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. equipment</p>
+<p><strong>Câu hoàn chỉnh:</strong> Several pieces of equipment in the fitness center will be replaced next month.<br><strong>Dịch:</strong> Một số thiết bị trong phòng tập sẽ được thay thế vào tháng tới.</p>
+<p><strong>Vì sao đúng:</strong> <em>pieces of</em> dùng để đếm danh từ không đếm được; <em>equipment</em> giữ nguyên dạng, không thêm <em>-s</em>.</p>
+<ul>
+<li><strong>A. equip:</strong> động từ.</li>
+<li><strong>C. equipments:</strong> dạng không tồn tại.</li>
+<li><strong>D. equipped:</strong> V2/V3 hoặc tính từ "được trang bị".</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>Several pieces</em> nên chọn dạng <em>-s</em>; số nhiều đã nằm ở <em>pieces</em>. <strong>Ghi nhớ:</strong> pieces/items of + danh từ không đếm được.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Each ______ in the leadership seminar will receive a certificate upon completion of the course.</p>
+<ol class="grammar-options"><li>participate</li><li>participation</li><li>participants</li><li class="grammar-correct">participant</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. participant</p>
+<p><strong>Câu hoàn chỉnh:</strong> Each participant in the leadership seminar will receive a certificate upon completion of the course.<br><strong>Dịch:</strong> Mỗi học viên của hội thảo lãnh đạo sẽ nhận chứng chỉ khi hoàn thành khóa học.</p>
+<p><strong>Vì sao đúng:</strong> <em>Each</em> + danh từ đếm được số ít; người nhận chứng chỉ → <em>participant</em>.</p>
+<ul>
+<li><strong>A. participate:</strong> động từ.</li>
+<li><strong>B. participation:</strong> "sự tham gia" – không thể nhận chứng chỉ.</li>
+<li><strong>C. participants:</strong> đúng người nhưng số nhiều, sai với <em>Each</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ "mỗi người trong nhiều người" nên chọn số nhiều. <strong>Ghi nhớ:</strong> each participant · each of the participants.</p>
+</div>
+</div>
+<h2>4. Người hay sự việc</h2>
+<table>
+<thead><tr><th>Người</th><th>Sự việc / hoạt động</th></tr></thead>
+<tbody>
+<tr><td>applicant (ứng viên)</td><td>application (đơn, sự ứng tuyển)</td></tr>
+<tr><td>employee (người làm thuê), employer (bên thuê)</td><td>employment (việc làm)</td></tr>
+<tr><td>attendee (người dự), attendant (nhân viên phục vụ)</td><td>attendance (sự/số người tham dự)</td></tr>
+<tr><td>consultant, participant, supervisor</td><td>consultation, participation, supervision</td></tr>
+<tr><td>recipient (người nhận), assistant</td><td>receipt (biên lai), assistance (không đếm được)</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">Tìm hành động liên quan → người hay vật làm/nhận hành động đó? → kiểm tra số ít/số nhiều</p>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> All <u>applicants</u> must submit two references. · All <u>applications</u> must be submitted by May 3. <em>(Ứng viên phải nộp… · Hồ sơ phải được nộp…)</em></p>
+<p><strong>Phân tích:</strong> người thì "nộp" (chủ động); hồ sơ thì "được nộp" (bị động). Dạng chủ động/bị động là manh mối nhanh.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Clients can schedule a free ______ with one of our financial advisors through our Web site.</p>
+<ol class="grammar-options"><li>consult</li><li>consultant</li><li class="grammar-correct">consultation</li><li>consulted</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. consultation</p>
+<p><strong>Câu hoàn chỉnh:</strong> Clients can schedule a free consultation with one of our financial advisors through our Web site.<br><strong>Dịch:</strong> Khách hàng có thể đặt lịch một buổi tư vấn miễn phí với chuyên viên tài chính qua trang web.</p>
+<p><strong>Vì sao đúng:</strong> <em>schedule</em> đi với một hoạt động; người tư vấn đã xuất hiện ở <em>with one of our advisors</em> → chỗ trống là buổi tư vấn.</p>
+<ul>
+<li><strong>A. consult:</strong> động từ.</li>
+<li><strong>B. consultant:</strong> người – "đặt lịch một chuyên viên với chuyên viên" vô nghĩa.</li>
+<li><strong>D. consulted:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> B và C đều là danh từ đếm được số ít. <strong>Ghi nhớ:</strong> schedule/book a consultation/an appointment.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Hartfield Industries is proud to be an equal opportunity ______.</p>
+<ol class="grammar-options"><li class="grammar-correct">employer</li><li>employment</li><li>employee</li><li>employ</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. employer</p>
+<p><strong>Câu hoàn chỉnh:</strong> Hartfield Industries is proud to be an equal opportunity employer.<br><strong>Dịch:</strong> Hartfield Industries tự hào là nhà tuyển dụng bảo đảm cơ hội bình đẳng.</p>
+<p><strong>Vì sao đúng:</strong> Bổ ngữ sau <em>be</em> chỉ chính chủ ngữ (một công ty) → bên thuê lao động = <em>employer</em>. Đây là cụm cố định trong tin tuyển dụng.</p>
+<ul>
+<li><strong>B. employment:</strong> không đếm được, không đi với <em>an</em>.</li>
+<li><strong>C. employee:</strong> người làm thuê – sai nghĩa.</li>
+<li><strong>D. employ:</strong> động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>employee</em> theo phản xạ. <strong>Ghi nhớ:</strong> -er: người làm (employer, trainer) · -ee: người nhận (employee, trainee).</p>
+</div>
+</div>
+<h2>5. Danh từ ghép</h2>
+<p class="grammar-structure">DANH TỪ bổ nghĩa (thường số ít) + DANH TỪ chính</p>
+<ul>
+<li>Danh từ đứng đầu nói về <strong>loại, chức năng</strong>; tính từ nói về <strong>tính chất</strong>: <em>a security system</em> (hệ thống an ninh) ≠ <em>a secure system</em> (hệ thống an toàn).</li>
+<li>Hay gặp: <em>application form, job opening, safety regulations, customer satisfaction, expiration date, office supplies, expense report, production costs, quality control, reservation number</em>.</li>
+<li>Ngoại lệ giữ <em>-s</em>: <em>sales manager, savings account, customs office, electronics store</em>.</li>
+<li>Khi đáp án có cả tính từ và danh từ cùng gốc trước một danh từ: <strong>phải xét nghĩa</strong>, không giải được chỉ bằng từ loại.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Visitors must follow all <u>safety</u> regulations. <em>(Khách phải tuân thủ mọi quy định an toàn.)</em></p>
+<p><strong>Phân tích:</strong> quy định <strong>về</strong> an toàn → danh từ <em>safety</em>. Tính từ <em>safe regulations</em> nghĩa là "những quy định không nguy hiểm" – không hợp lý.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Visitors must follow all ______ regulations while touring the production facility.</p>
+<ol class="grammar-options"><li>safe</li><li class="grammar-correct">safety</li><li>safely</li><li>safest</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. safety</p>
+<p><strong>Câu hoàn chỉnh:</strong> Visitors must follow all safety regulations while touring the production facility.<br><strong>Dịch:</strong> Khách tham quan phải tuân thủ mọi quy định an toàn khi tham quan cơ sở sản xuất.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống bổ nghĩa cho <em>regulations</em> theo nghĩa "quy định về an toàn" → danh từ ghép <em>safety regulations</em>.</p>
+<ul>
+<li><strong>A. safe:</strong> tính từ mô tả tính chất của bản thân quy định – sai nghĩa.</li>
+<li><strong>C. safely:</strong> trạng từ, không bổ nghĩa cho danh từ.</li>
+<li><strong>D. safest:</strong> so sánh nhất, vô nghĩa ở đây.</li>
+</ul>
+<p><strong>Bẫy:</strong> áp dụng máy móc "trước danh từ là tính từ". <strong>Ghi nhớ:</strong> safety regulations/inspection/standards/equipment.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Mr. Davis was promoted to regional ______ manager after exceeding his targets for three consecutive years.</p>
+<ol class="grammar-options"><li>sold</li><li>selling</li><li>sale</li><li class="grammar-correct">sales</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. sales</p>
+<p><strong>Câu hoàn chỉnh:</strong> Mr. Davis was promoted to regional sales manager after exceeding his targets for three consecutive years.<br><strong>Dịch:</strong> Anh Davis được thăng chức làm quản lý kinh doanh khu vực sau ba năm liên tiếp vượt chỉ tiêu.</p>
+<p><strong>Vì sao đúng:</strong> Lĩnh vực kinh doanh trong danh từ ghép luôn dùng <em>sales</em>: sales manager/department/figures.</p>
+<ul>
+<li><strong>A. sold:</strong> V3 "đã được bán".</li>
+<li><strong>B. selling:</strong> không phải cách nói chuẩn.</li>
+<li><strong>C. sale:</strong> "một lần bán, đợt giảm giá".</li>
+</ul>
+<p><strong>Bẫy:</strong> nhớ quy tắc "danh từ đầu ở số ít" nên chọn <em>sale</em>. <strong>Ghi nhớ:</strong> sales, savings, customs, electronics giữ <em>-s</em> trong danh từ ghép.</p>
+</div>
+</div>
+<h2>6. Tìm chủ ngữ chính</h2>
+<p class="grammar-structure">Từ hạn định … DANH TỪ CHÍNH [cụm giới từ / V-ing / V3 / who, which, that…] + ĐỘNG TỪ CHÍNH</p>
+<ul>
+<li>Chỉ <strong>danh từ chính</strong> quyết định số ít/số nhiều. Đặt ngoặc phần bổ nghĩa, nối thẳng danh từ chính với động từ.</li>
+<li>Danh từ chính = danh từ cuối cùng <strong>trước</strong> dấu hiệu bổ nghĩa đầu tiên (of, for, who, that, V-ing, V3…).</li>
+<li>Động từ trong mệnh đề <em>who/which/that</em> và V3 không có <em>be/have</em> đi trước không phải động từ chính.</li>
+<li>Ngoại lệ: <em>most of, some of, half of + N</em> → xét danh từ sau <em>of</em>. <em>A number of + N-s</em> → số nhiều; <em>the number of + N-s</em> → số ít.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The <u>instructions</u> [for assembling the shelving unit] <u>are</u> included in the box. <em>(Hướng dẫn lắp ráp kệ có trong hộp.)</em></p>
+<p><strong>Phân tích:</strong> <em>unit</em> số ít đứng sát động từ chỉ là "mồi nhử"; danh từ chính <em>instructions</em> số nhiều → <em>are</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The list of approved vendors for office supplies ______ updated every January.</p>
+<ol class="grammar-options"><li class="grammar-correct">is</li><li>are</li><li>were</li><li>have been</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. is</p>
+<p><strong>Câu hoàn chỉnh:</strong> The list of approved vendors for office supplies is updated every January.<br><strong>Dịch:</strong> Danh sách nhà cung cấp văn phòng phẩm được duyệt được cập nhật vào tháng Một hằng năm.</p>
+<p><strong>Vì sao đúng:</strong> Danh từ chính là <em>list</em> (số ít); <em>vendors, supplies</em> nằm trong cụm <em>of…</em>. <em>every January</em> → hiện tại đơn → <em>is updated</em>.</p>
+<ul>
+<li><strong>B. are:</strong> chia theo <em>vendors/supplies</em>.</li>
+<li><strong>C. were:</strong> số nhiều và quá khứ.</li>
+<li><strong>D. have been:</strong> số nhiều.</li>
+</ul>
+<p><strong>Bẫy:</strong> hai danh từ số nhiều nằm giữa chủ ngữ và động từ. <strong>Ghi nhớ:</strong> the list/price/cost of + N-s → động từ số ít.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The ______ that the board approved last week includes a 5 percent salary increase for all staff.</p>
+<ol class="grammar-options"><li>budgetary</li><li>budgets</li><li>budgeted</li><li class="grammar-correct">budget</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. budget</p>
+<p><strong>Câu hoàn chỉnh:</strong> The budget that the board approved last week includes a 5 percent salary increase for all staff.<br><strong>Dịch:</strong> Ngân sách hội đồng quản trị duyệt tuần trước có khoản tăng lương 5% cho toàn bộ nhân viên.</p>
+<p><strong>Vì sao đúng:</strong> <em>The ______ that…</em> → danh từ; động từ chính <em>includes</em> số ít → <em>budget</em>.</p>
+<ul>
+<li><strong>A. budgetary:</strong> tính từ.</li>
+<li><strong>B. budgets:</strong> số nhiều, không khớp <em>includes</em>.</li>
+<li><strong>C. budgeted:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>approved</em> là động từ chính. <strong>Ghi nhớ:</strong> bỏ mệnh đề <em>that/who/which</em> để thấy động từ chính.</p>
+</div>
+</div>
+<h2>7. Danh từ hay V-ing?</h2>
+<p class="grammar-structure">Giới từ + V-ing + tân ngữ &nbsp;·&nbsp; Giới từ + the/your + DANH TỪ (+ of …)</p>
+<ul>
+<li>Sau giới từ có thể là danh từ hoặc V-ing. Nếu ngay sau chỗ trống là <strong>tân ngữ</strong> (<em>the contract</em>) → V-ing, vì danh từ không nhận tân ngữ trực tiếp.</li>
+<li>Nếu trước chỗ trống có <em>the/a/your</em> hoặc sau có <em>of</em> → danh từ. Khi đã có danh từ thực sự (<em>signature, installation</em>), khung <em>the … of</em> ưu tiên danh từ.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> Before <u>signing</u> the lease, read the terms. · Your <u>signature</u> is required on page 3. <em>(Trước khi ký hợp đồng thuê… · Cần chữ ký của bạn ở trang 3.)</em></p>
+<p><strong>Phân tích:</strong> câu 1 có tân ngữ <em>the lease</em> → V-ing; câu 2 sau <em>Your</em>, trước động từ → danh từ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Before ______ the lease agreement, tenants should review all of its terms with a legal advisor.</p>
+<ol class="grammar-options"><li class="grammar-correct">signing</li><li>signature</li><li>signed</li><li>sign</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. signing</p>
+<p><strong>Câu hoàn chỉnh:</strong> Before signing the lease agreement, tenants should review all of its terms with a legal advisor.<br><strong>Dịch:</strong> Trước khi ký hợp đồng thuê, người thuê nên xem lại toàn bộ điều khoản với cố vấn pháp lý.</p>
+<p><strong>Vì sao đúng:</strong> Sau giới từ <em>Before</em> và có tân ngữ <em>the lease agreement</em> theo sau → cần V-ing.</p>
+<ul>
+<li><strong>B. signature:</strong> danh từ không nhận tân ngữ trực tiếp (phải là <em>before the signature of the lease</em>).</li>
+<li><strong>C. signed:</strong> V2/V3 không đứng sau giới từ trong cấu trúc này.</li>
+<li><strong>D. sign:</strong> động từ nguyên mẫu không đứng sau giới từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhớ "sau giới từ là danh từ" nên chọn <em>signature</em>. <strong>Ghi nhớ:</strong> giới từ + ______ + the/a + N → V-ing. Xem thêm bài <strong>Danh động từ</strong>.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách nhận ra và xử lý</th></tr></thead>
+<tbody>
+<tr><td>Nhìn hậu tố, bỏ qua vị trí</td><td>Bên phải chỗ trống là danh từ (<em>an ______ fee</em>) → cần tính từ, dù đáp án có đuôi -tion</td></tr>
+<tr><td>Danh từ gần động từ không phải chủ ngữ</td><td>Đặt ngoặc cụm of/for/who…, nối danh từ chính với động từ</td></tr>
+<tr><td>Thêm -s vào danh từ không đếm được</td><td>equipments, informations, advices → loại ngay</td></tr>
+<tr><td>Nhầm người/sự việc</td><td>Hỏi: ai/cái gì làm hoặc nhận hành động?</td></tr>
+<tr><td>Đúng ngữ pháp, sai collocation</td><td>Nhớ cụm: <em>high demand, make a decision, place an order, meet the deadline</em></td></tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Luôn có -s với nghĩa đó:</strong> premises (khuôn viên), earnings, savings, belongings, findings, goods.</li>
+<li><strong>Có -s nhưng là số ít/không đếm được:</strong> news, economics.</li>
+<li><strong>Số nhiều bất quy tắc:</strong> analysis → analyses, criterion → criteria, crisis → crises.</li>
+<li><strong>personnel</strong> thường đi với động từ số nhiều; <strong>staff</strong> muốn đếm thì dùng <em>staff members</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Smoking is not permitted on the company <u>premises</u>. <em>(Không được hút thuốc trong khuôn viên công ty.)</em></p>
+<p><strong>Phân tích:</strong> <em>premises</em> (khuôn viên) luôn có <em>-s</em>; <em>premise</em> số ít nghĩa là "tiền đề".</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Guests who check out after 12 noon will be charged an ______ fee of $30.</p>
+<ol class="grammar-options"><li>addition</li><li class="grammar-correct">additional</li><li>additionally</li><li>add</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. additional</p>
+<p><strong>Câu hoàn chỉnh:</strong> Guests who check out after 12 noon will be charged an additional fee of $30.<br><strong>Dịch:</strong> Khách trả phòng sau 12 giờ trưa sẽ bị tính phụ phí 30 đô la.</p>
+<p><strong>Vì sao đúng:</strong> Danh từ chính đã có (<em>fee</em>) → chỗ trống là tính từ bổ nghĩa: <em>additional fee</em>.</p>
+<ul>
+<li><strong>A. addition:</strong> danh từ; <em>an addition fee</em> không phải cụm tồn tại.</li>
+<li><strong>C. additionally:</strong> trạng từ.</li>
+<li><strong>D. add:</strong> động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>an</em> và đuôi <em>-tion</em> nên chọn danh từ. <strong>Ghi nhớ:</strong> luôn nhìn bên phải chỗ trống trước khi chọn danh từ.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Smoking is not permitted anywhere on the company ______, including the parking areas.</p>
+<ol class="grammar-options"><li>premise</li><li>promise</li><li>premised</li><li class="grammar-correct">premises</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. premises</p>
+<p><strong>Câu hoàn chỉnh:</strong> Smoking is not permitted anywhere on the company premises, including the parking areas.<br><strong>Dịch:</strong> Không được hút thuốc ở bất kỳ đâu trong khuôn viên công ty, kể cả bãi đỗ xe.</p>
+<p><strong>Vì sao đúng:</strong> Với nghĩa "khuôn viên, cơ sở của một tổ chức", tiếng Anh chỉ dùng dạng <em>premises</em>.</p>
+<ul>
+<li><strong>A. premise:</strong> "tiền đề, giả thuyết".</li>
+<li><strong>B. promise:</strong> "lời hứa".</li>
+<li><strong>C. premised:</strong> V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ danh từ sau <em>the company</em> phải số ít. <strong>Ghi nhớ:</strong> on/off the premises.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> <em>this/these + danh từ</em> thường tóm tắt ý câu trước (<em>this period, this change, these measures</em>) → đọc câu trước để chọn.</li>
+<li><strong>Part 7:</strong> tìm danh từ chính để biết "cái gì" được nói tới: <em>The <u>proposal</u> submitted by the design team was rejected</em> → thứ bị từ chối là đề xuất.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The <u>report</u> prepared by the consultants hired in March <u>recommends</u> closing two stores. <em>(Báo cáo do các chuyên gia được thuê hồi tháng Ba soạn đề xuất đóng hai cửa hàng.)</em></p>
+<p><strong>Phân tích:</strong> danh từ chính <em>report</em>, động từ chính <em>recommends</em>; thông tin "thuê hồi tháng Ba" nằm trong phần bổ nghĩa.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thư gửi khách hàng)</em> Our Westfield branch will be closed from June 3 to June 10 while we install new self-service machines.</p>
+<p>During this ______, customers are welcome to visit our Eastgate branch, which will extend its opening hours.</p>
+<ol class="grammar-options"><li>delay</li><li class="grammar-correct">period</li><li>location</li><li>payment</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. period</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> … During this period, customers are welcome to visit our Eastgate branch, which will extend its opening hours.<br><strong>Dịch:</strong> Trong thời gian này, quý khách có thể đến chi nhánh Eastgate, nơi sẽ kéo dài giờ mở cửa.</p>
+<p><strong>Vì sao đúng:</strong> <em>During</em> cần một khoảng thời gian; <em>this period</em> chỉ lại khoảng 3–10/6 ở câu trước.</p>
+<ul>
+<li><strong>A. delay:</strong> đoạn văn không nói về chậm trễ.</li>
+<li><strong>C. location:</strong> <em>during</em> không đi với địa điểm.</li>
+<li><strong>D. payment:</strong> không liên quan ngữ cảnh.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>location</em> gợi đến "chi nhánh". <strong>Ghi nhớ:</strong> During + this + danh từ thời gian.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> cùng gốc khác đuôi → từ loại; cùng danh từ khác số → số lượng; danh từ khác nghĩa → nghĩa/collocation.</li>
+<li><strong>Nhìn hai bên chỗ trống:</strong> từ hạn định, tính từ, giới từ bên trái; <em>of</em>, động từ, danh từ, dấu câu bên phải.</li>
+<li><strong>Xác định vị trí trong khung câu</strong> (chủ ngữ, tân ngữ, sau giới từ, bổ ngữ, bổ nghĩa cho danh từ khác).</li>
+<li><strong>Loại trừ</strong> đáp án sai từ loại, sai số lượng.</li>
+<li><strong>Chỉ dịch cụm nhỏ</strong> khi còn từ hai đáp án đúng ngữ pháp.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Hành động</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>the ______ of; adj + ______ + giới từ</td><td>Chọn danh từ, không cần dịch</td><td>5–10 giây</td></tr>
+<tr><td>Có N và N-s</td><td>Xem từ hạn định, rồi động từ chính</td><td>10–20 giây</td></tr>
+<tr><td>Chủ ngữ dài, đáp án là động từ</td><td>Tìm danh từ chính</td><td>10–20 giây</td></tr>
+<tr><td>Hai danh từ người/sự việc; N và adj trước danh từ</td><td>Xét hành động, nghĩa, collocation</td><td>20–30 giây</td></tr>
+<tr><td>Giới từ + ______ + tân ngữ</td><td>Chọn V-ing</td><td>5–10 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> thời gian chỉ là mục tiêu luyện tập. Không chọn theo độ dài đáp án hay "cảm giác"; mọi lựa chọn phải có lý do ngữ pháp hoặc ngữ nghĩa.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Danh từ đứng ở: chủ ngữ, tân ngữ, sau giới từ, sau <em>be a/the</em>, sau từ hạn định/sở hữu/tính từ, trước <em>of</em>.</li>
+<li>Đếm được số ít luôn cần từ hạn định; không đếm được không có <em>a/an</em>, không <em>-s</em>.</li>
+<li>Danh từ chính quyết định số ít/số nhiều; bỏ qua phần bổ nghĩa.</li>
+<li>Hậu tố chỉ là gợi ý; vị trí là bằng chứng.</li>
+</ul>
+<table>
+<thead><tr><th>Động từ</th><th>Danh từ (việc)</th><th>Danh từ (người)</th><th>Tính từ</th></tr></thead>
+<tbody>
+<tr><td>apply</td><td>application</td><td>applicant</td><td>applicable</td></tr>
+<tr><td>employ</td><td>employment</td><td>employer, employee</td><td>employed</td></tr>
+<tr><td>succeed</td><td>success, succession</td><td>successor</td><td>successful, successive</td></tr>
+<tr><td>produce</td><td>product, production, productivity</td><td>producer</td><td>productive</td></tr>
+<tr><td>analyze</td><td>analysis</td><td>analyst</td><td>analytical</td></tr>
+<tr><td>compete</td><td>competition</td><td>competitor</td><td>competitive</td></tr>
+</tbody>
+</table>
+<p><strong>Collocation:</strong> make a decision · place an order · meet the deadline/demand · high demand for · file a complaint · perform maintenance · have access to · attention to detail · a wide selection of · upon arrival/receipt · Thank you for your cooperation.</p>

@@ -1,0 +1,255 @@
+<!-- Bài học tương tác chủ điểm CÂU ĐIỀU KIỆN (Part 5 · nhóm Ngữ pháp khác · mã conditional_sentence). Tiêu đề gợi ý: "Câu điều kiện: ba loại cơ bản, unless, otherwise và đảo ngữ". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Câu điều kiện (conditional sentence)</strong> gồm mệnh đề <em>if</em> (điều kiện) và mệnh đề chính (kết quả). Part 5 kiểm tra việc <strong>ghép đúng thì</strong> giữa hai mệnh đề, các từ thay <em>if</em> (<em>unless, provided that, otherwise</em>) và <strong>đảo ngữ</strong> (<em>Should you…, Had we…</em>). Cách giải: nhìn thì ở mệnh đề còn lại để suy ra loại câu.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Loại 1: If + hiện tại, will/mệnh lệnh · không dùng will trong mệnh đề if</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>Loại 2, loại 3 · unless, provided that, as long as, otherwise</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Đảo ngữ Should/Were/Had · whether…or not</td></tr>
+</tbody>
+</table>
+<h2>1. Loại 0 và loại 1</h2>
+<table>
+<thead><tr><th>Loại</th><th>Mệnh đề if</th><th>Mệnh đề chính</th><th>Dùng khi</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>hiện tại đơn</td><td>hiện tại đơn</td><td>sự thật, quy định luôn đúng</td></tr>
+<tr><td>1</td><td>hiện tại đơn</td><td>will / can / may + V · câu mệnh lệnh</td><td>điều có thể xảy ra ở hiện tại/tương lai</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">If + S + V(hiện tại), S + will/can + V &nbsp;·&nbsp; If + S + V(hiện tại), please + V</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> If the item <u>is</u> out of stock, we <u>will</u> notify you. <em>(Nếu hết hàng, chúng tôi sẽ báo cho bạn.)</em></p>
+<p><strong>Phân tích:</strong> nói về tương lai nhưng mệnh đề if dùng hiện tại đơn.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>If the replacement parts ______ by Friday, we will cancel the order and request a full refund.</p>
+<ol class="grammar-options"><li class="grammar-correct">do not arrive</li><li>will not arrive</li><li>did not arrive</li><li>had not arrived</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. do not arrive</p>
+<p><strong>Câu hoàn chỉnh:</strong> If the replacement parts do not arrive by Friday, we will cancel the order and request a full refund.<br><strong>Dịch:</strong> Nếu linh kiện thay thế không đến trước thứ Sáu, chúng tôi sẽ hủy đơn và yêu cầu hoàn tiền toàn bộ.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề chính <em>will cancel</em> → loại 1 → mệnh đề if dùng hiện tại đơn.</p>
+<ul>
+<li><strong>B. will not arrive:</strong> không dùng will trong mệnh đề if.</li>
+<li><strong>C. did not arrive:</strong> quá khứ – dùng cho loại 2, không khớp <em>will</em>.</li>
+<li><strong>D. had not arrived:</strong> loại 3, không khớp.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "sẽ không đến". <strong>Ghi nhớ:</strong> If + hiện tại, … will.</p>
+</div>
+</div>
+<h2>2. Loại 2</h2>
+<p class="grammar-structure">If + S + V2/were, S + would/could + V</p>
+<ul>
+<li>Điều <strong>không có thật ở hiện tại</strong> hoặc khó xảy ra.</li>
+<li><em>were</em> dùng cho mọi ngôi trong văn trang trọng: <em>If I were you…</em></li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> If we <u>had</u> a larger budget, we <u>would hire</u> more staff. <em>(Nếu có ngân sách lớn hơn, chúng tôi sẽ tuyển thêm người.)</em> → thực tế ngân sách không lớn.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>If we ______ more storage space, we would order office supplies in larger quantities.</p>
+<ol class="grammar-options"><li>have</li><li class="grammar-correct">had</li><li>will have</li><li>had had</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. had</p>
+<p><strong>Câu hoàn chỉnh:</strong> If we had more storage space, we would order office supplies in larger quantities.<br><strong>Dịch:</strong> Nếu có thêm chỗ chứa, chúng tôi sẽ đặt văn phòng phẩm với số lượng lớn hơn.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề chính <em>would order</em> → loại 2 → mệnh đề if dùng quá khứ đơn.</p>
+<ul>
+<li><strong>A. have:</strong> loại 1, không khớp <em>would</em>.</li>
+<li><strong>C. will have:</strong> không dùng will trong mệnh đề if.</li>
+<li><strong>D. had had:</strong> loại 3, cần <em>would have + V3</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ quá khứ đơn chỉ thời gian quá khứ. <strong>Ghi nhớ:</strong> would + V ↔ If + V2.</p>
+</div>
+</div>
+<h2>3. Loại 3</h2>
+<p class="grammar-structure">If + S + had + V3, S + would/could have + V3</p>
+<ul>
+<li>Điều <strong>không có thật trong quá khứ</strong> (giả định ngược lại việc đã xảy ra).</li>
+<li>Thường dùng để nói về tiếc nuối, rút kinh nghiệm.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> If we <u>had booked</u> earlier, we <u>would have gotten</u> a discount. <em>(Nếu đặt sớm hơn thì chúng tôi đã được giảm giá.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>If the design team had started earlier, it ______ the brochure before the trade show.</p>
+<ol class="grammar-options"><li>would finish</li><li>will finish</li><li class="grammar-correct">would have finished</li><li>had finished</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. would have finished</p>
+<p><strong>Câu hoàn chỉnh:</strong> If the design team had started earlier, it would have finished the brochure before the trade show.<br><strong>Dịch:</strong> Nếu nhóm thiết kế bắt đầu sớm hơn thì đã hoàn thành tờ rơi trước hội chợ.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề if <em>had started</em> → loại 3 → mệnh đề chính <em>would have + V3</em>.</p>
+<ul>
+<li><strong>A. would finish:</strong> loại 2.</li>
+<li><strong>B. will finish:</strong> loại 1.</li>
+<li><strong>D. had finished:</strong> mệnh đề chính không dùng had + V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>had finished</em> cho "đồng bộ" với vế if. <strong>Ghi nhớ:</strong> If had V3 ↔ would have V3.</p>
+</div>
+</div>
+<h2>4. Unless, otherwise…</h2>
+<table>
+<thead><tr><th>Từ</th><th>Nghĩa</th><th>Cấu trúc</th></tr></thead>
+<tbody>
+<tr><td>unless</td><td>trừ khi (= if … not)</td><td>+ mệnh đề khẳng định</td></tr>
+<tr><td>provided (that) / providing / as long as / on condition that</td><td>miễn là, với điều kiện</td><td>+ mệnh đề</td></tr>
+<tr><td>in case</td><td>phòng khi</td><td>+ mệnh đề</td></tr>
+<tr><td>otherwise</td><td>nếu không thì</td><td>trạng từ: Câu 1; otherwise, câu 2</td></tr>
+<tr><td>without / but for</td><td>nếu không có</td><td>+ danh từ</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> You may return the item <u>as long as</u> it is unused. <em>(Bạn có thể trả hàng miễn là chưa sử dụng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Employees cannot enter the server room ______ they have written permission from the IT director.</p>
+<ol class="grammar-options"><li>if</li><li class="grammar-correct">unless</li><li>otherwise</li><li>provided</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. unless</p>
+<p><strong>Câu hoàn chỉnh:</strong> Employees cannot enter the server room unless they have written permission from the IT director.<br><strong>Dịch:</strong> Nhân viên không được vào phòng máy chủ trừ khi có giấy phép của giám đốc IT.</p>
+<p><strong>Vì sao đúng:</strong> "Không được vào… trừ khi có giấy phép" → <em>unless</em> (= if they do not have… thì không được vào).</p>
+<ul>
+<li><strong>A. if:</strong> "không được vào nếu có giấy phép" – ngược nghĩa.</li>
+<li><strong>C. otherwise:</strong> trạng từ, không nối hai mệnh đề trong câu này.</li>
+<li><strong>D. provided:</strong> = if, cũng ngược nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> cả bốn đều là từ điều kiện. <strong>Ghi nhớ:</strong> cannot … unless … = chỉ được khi.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Please submit the reimbursement form by Friday; ______, your payment may be delayed until next month.</p>
+<ol class="grammar-options"><li>unless</li><li>if</li><li>although</li><li class="grammar-correct">otherwise</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. otherwise</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please submit the reimbursement form by Friday; otherwise, your payment may be delayed until next month.<br><strong>Dịch:</strong> Vui lòng nộp mẫu hoàn tiền trước thứ Sáu; nếu không, khoản thanh toán có thể bị chậm đến tháng sau.</p>
+<p><strong>Vì sao đúng:</strong> Vị trí <em>; ______,</em> cần trạng từ liên kết; nghĩa "nếu không làm vậy thì" → <em>otherwise</em>.</p>
+<ul>
+<li><strong>A. unless:</strong> liên từ, không đứng giữa <em>;</em> và <em>,</em>.</li>
+<li><strong>B. if:</strong> liên từ, sai cấu trúc và nghĩa.</li>
+<li><strong>C. although:</strong> liên từ nhượng bộ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>unless</em> vì nghĩa gần. <strong>Ghi nhớ:</strong> Mệnh lệnh; otherwise, hậu quả.</p>
+</div>
+</div>
+<h2>5. Đảo ngữ</h2>
+<table>
+<thead><tr><th>Loại</th><th>Dạng thường</th><th>Đảo ngữ (bỏ if)</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>If you have any questions,</td><td><u>Should</u> you have any questions,</td></tr>
+<tr><td>2</td><td>If I were / If we had…</td><td><u>Were</u> I… / <u>Were</u> we to have…</td></tr>
+<tr><td>3</td><td>If we had known,</td><td><u>Had</u> we known,</td></tr>
+</tbody>
+</table>
+<p>Sau <em>Should/Had</em> đảo ngữ: chủ ngữ + V nguyên mẫu/V3. Đây là văn phong trang trọng, rất hay gặp trong thư từ TOEIC.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Should</u> you need assistance, please contact the front desk. <em>(Nếu cần hỗ trợ, vui lòng liên hệ quầy lễ tân.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ you have any questions about your order, please call our customer service line at 555-0100.</p>
+<ol class="grammar-options"><li>Would</li><li class="grammar-correct">Should</li><li>Had</li><li>Were</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. Should</p>
+<p><strong>Câu hoàn chỉnh:</strong> Should you have any questions about your order, please call our customer service line at 555-0100.<br><strong>Dịch:</strong> Nếu có thắc mắc về đơn hàng, vui lòng gọi tổng đài chăm sóc khách hàng 555-0100.</p>
+<p><strong>Vì sao đúng:</strong> Đảo ngữ loại 1: <em>Should + S + V nguyên mẫu</em> (= If you have…); mệnh đề chính là câu mệnh lệnh.</p>
+<ul>
+<li><strong>A. Would:</strong> tạo câu hỏi, không phải mệnh đề điều kiện.</li>
+<li><strong>C. Had:</strong> đảo ngữ loại 3 cần V3 (<em>Had you had</em>).</li>
+<li><strong>D. Were:</strong> đảo ngữ loại 2 cần <em>to V</em> hoặc tính từ/danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> không nhận ra câu điều kiện vì thiếu <em>if</em>. <strong>Ghi nhớ:</strong> Should you + V…, please + V.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>______ the company invested in new equipment earlier, it would have avoided several costly repairs.</p>
+<ol class="grammar-options"><li>Should</li><li>Were</li><li>If</li><li class="grammar-correct">Had</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. Had</p>
+<p><strong>Câu hoàn chỉnh:</strong> Had the company invested in new equipment earlier, it would have avoided several costly repairs.<br><strong>Dịch:</strong> Nếu công ty đầu tư thiết bị mới sớm hơn thì đã tránh được nhiều lần sửa chữa tốn kém.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề chính <em>would have avoided</em> → loại 3; <em>invested</em> là V3 sau chủ ngữ → đảo ngữ <em>Had + S + V3</em>.</p>
+<ul>
+<li><strong>A. Should:</strong> đảo ngữ loại 1, cần V nguyên mẫu.</li>
+<li><strong>B. Were:</strong> đảo ngữ loại 2.</li>
+<li><strong>C. If:</strong> <em>If the company invested</em> là loại 2, không khớp <em>would have avoided</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>If</em> theo phản xạ. <strong>Ghi nhớ:</strong> Had + S + V3, S + would have V3.</p>
+</div>
+</div>
+<h2>6. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách xử lý</th></tr></thead>
+<tbody>
+<tr><td>will trong mệnh đề if</td><td>Sai (trừ lời đề nghị lịch sự <em>if you will…</em>, hiếm trong đề)</td></tr>
+<tr><td>if or not</td><td>Sai – dùng <em>whether or not / whether … or not</em></td></tr>
+<tr><td>unless + phủ định</td><td>Thường thừa phủ định: <em>unless you do not…</em> sai nghĩa</td></tr>
+<tr><td>Ghép sai loại</td><td>Xác định loại theo mệnh đề đã cho, không theo nghĩa tiếng Việt</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please let us know <u>whether</u> or not you will attend. <em>(Vui lòng cho biết bạn có tham dự hay không.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Please let us know ______ or not you will attend the client reception on Thursday evening.</p>
+<ol class="grammar-options"><li class="grammar-correct">whether</li><li>if</li><li>unless</li><li>that</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. whether</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please let us know whether or not you will attend the client reception on Thursday evening.<br><strong>Dịch:</strong> Vui lòng cho chúng tôi biết bạn có tham dự buổi tiệc chiêu đãi khách hàng tối thứ Năm hay không.</p>
+<p><strong>Vì sao đúng:</strong> <em>whether or not</em> là cụm cố định; <em>if</em> không đứng ngay trước <em>or not</em>.</p>
+<ul>
+<li><strong>B. if:</strong> <em>if or not</em> sai.</li>
+<li><strong>C. unless:</strong> sai nghĩa và cấu trúc.</li>
+<li><strong>D. that:</strong> không dùng cho câu hỏi gián tiếp có/không.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>if</em> cũng mang nghĩa "liệu". <strong>Ghi nhớ:</strong> whether or not · whether … or not.</p>
+</div>
+</div>
+<h2>7. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> câu cuối thư thường là điều kiện + mệnh lệnh: <em>If you need to cancel, please…</em>, <em>Should you have questions, …</em></li>
+<li><strong>Part 7:</strong> mệnh đề điều kiện nêu yêu cầu, chính sách: "What must customers do to receive a refund?" → nội dung trong <em>if / provided that / as long as</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Refunds are issued <u>provided that</u> a receipt is presented. <em>(Hoàn tiền với điều kiện xuất trình hóa đơn.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Email xác nhận đặt phòng)</em> Your reservation at the Bayview Hotel is confirmed for May 12–14.</p>
+<p>If you ______ to cancel your reservation, please notify us at least 24 hours in advance.</p>
+<ol class="grammar-options"><li>will need</li><li>needed</li><li class="grammar-correct">need</li><li>would need</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. need</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> Your reservation at the Bayview Hotel is confirmed for May 12–14. If you need to cancel your reservation, please notify us at least 24 hours in advance.<br><strong>Dịch:</strong> Đặt phòng của quý khách tại khách sạn Bayview đã được xác nhận cho ngày 12–14/5. Nếu cần hủy, vui lòng báo trước ít nhất 24 giờ.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề chính là câu mệnh lệnh (<em>please notify</em>) → loại 1 → hiện tại đơn <em>need</em>.</p>
+<ul>
+<li><strong>A. will need:</strong> không dùng will trong mệnh đề if.</li>
+<li><strong>B. needed:</strong> loại 2, không hợp với mệnh lệnh.</li>
+<li><strong>D. would need:</strong> không dùng would trong mệnh đề if.</li>
+</ul>
+<p><strong>Bẫy:</strong> việc hủy ở tương lai nên chọn will. <strong>Ghi nhớ:</strong> If + hiện tại, please + V.</p>
+</div>
+</div>
+<h2>8. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn mệnh đề đã cho</strong> (if hoặc chính) để xác định loại câu.</li>
+<li><strong>Ghép đúng cặp thì:</strong> hiện tại – will · V2/were – would V · had V3 – would have V3.</li>
+<li><strong>Không có if nhưng có Should/Were/Had + S</strong> → đảo ngữ.</li>
+<li><strong>Đáp án là các từ điều kiện</strong> → xét cấu trúc (liên từ/trạng từ) rồi xét nghĩa (if/unless).</li>
+</ol>
+<table>
+<thead><tr><th>Đã cho</th><th>Chọn</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>…, will/please + V</td><td>If + hiện tại đơn</td><td>5–10 giây</td></tr>
+<tr><td>…, would + V</td><td>If + V2/were</td><td>5–10 giây</td></tr>
+<tr><td>…, would have V3</td><td>If + had V3 / Had + S + V3</td><td>10 giây</td></tr>
+<tr><td>______ you + V…, please…</td><td>Should</td><td>5 giây</td></tr>
+<tr><td>; ______, (hậu quả)</td><td>otherwise</td><td>10 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> đừng chọn thì theo nghĩa tiếng Việt ("sẽ"); hãy chọn theo cặp cấu trúc.</p>
+</div>
+<h2>9. Tổng kết, ôn tập</h2>
+<ul>
+<li>Loại 1: If + hiện tại, will/can/mệnh lệnh.</li>
+<li>Loại 2: If + V2/were, would + V.</li>
+<li>Loại 3: If + had V3, would have V3.</li>
+<li>unless = if … not; provided that/as long as = miễn là; otherwise = nếu không thì.</li>
+<li>Đảo ngữ: Should + S + V · Were + S + to V · Had + S + V3.</li>
+<li>whether or not, không dùng if or not.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> Should you have any questions · If you need further assistance · as long as · provided that · in case · unless otherwise noted · otherwise · whether or not.</p>

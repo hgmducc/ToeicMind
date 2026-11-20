@@ -1,0 +1,274 @@
+<!-- Bài học tương tác chủ điểm MỆNH ĐỀ QUAN HỆ (Part 5 · nhóm Ngữ pháp khác · mã relative_clause). Tiêu đề gợi ý: "Mệnh đề quan hệ: who, which, whose, where và mệnh đề rút gọn". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Mệnh đề quan hệ (relative clause)</strong> bổ nghĩa cho danh từ đứng trước nó: <em>the employees <u>who work in the lab</u></em>. Part 5 kiểm tra việc chọn đại từ quan hệ (<em>who, which, whose, whom, where, that, what</em>) và dạng rút gọn (V-ing/V3). Câu hỏi giải được bằng hai câu hỏi: danh từ đứng trước là <strong>người hay vật</strong>? Sau chỗ trống <strong>thiếu thành phần gì</strong>?</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>who (người), which (vật), that · whose + danh từ</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>whom + S + V · where/when · mệnh đề có dấu phẩy không dùng that</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>giới từ + which/whom · rút gọn V-ing/V3 · what (không có danh từ đứng trước)</td></tr>
+</tbody>
+</table>
+<h2>1. Who, which, that</h2>
+<table>
+<thead><tr><th>Đại từ</th><th>Thay cho</th><th>Theo sau</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>who</td><td>người</td><td>động từ (thiếu chủ ngữ)</td><td>the staff <u>who</u> work here</td></tr>
+<tr><td>which</td><td>vật, sự việc</td><td>động từ hoặc S + V</td><td>the report <u>which</u> was sent</td></tr>
+<tr><td>that</td><td>người hoặc vật</td><td>động từ hoặc S + V (không sau dấu phẩy)</td><td>the order <u>that</u> you placed</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">N (người) + who + V &nbsp;·&nbsp; N (vật) + which/that + V</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Employees <u>who</u> wish to attend should register. <em>(Nhân viên nào muốn tham dự nên đăng ký.)</em></p>
+<p><strong>Phân tích:</strong> tiền ngữ là người, sau chỗ trống là động từ <em>wish</em> → <em>who</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Employees ______ wish to attend the leadership seminar should register by Friday.</p>
+<ol class="grammar-options"><li>which</li><li class="grammar-correct">who</li><li>whose</li><li>whom</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. who</p>
+<p><strong>Câu hoàn chỉnh:</strong> Employees who wish to attend the leadership seminar should register by Friday.<br><strong>Dịch:</strong> Nhân viên muốn tham dự hội thảo lãnh đạo nên đăng ký trước thứ Sáu.</p>
+<p><strong>Vì sao đúng:</strong> Tiền ngữ <em>Employees</em> là người; mệnh đề thiếu chủ ngữ cho <em>wish</em> → <em>who</em>.</p>
+<ul>
+<li><strong>A. which:</strong> chỉ dùng cho vật.</li>
+<li><strong>C. whose:</strong> cần danh từ theo sau.</li>
+<li><strong>D. whom:</strong> làm tân ngữ, cần S + V theo sau.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>who/whom</em>. <strong>Ghi nhớ:</strong> người + ______ + V → who.</p>
+</div>
+</div>
+<h2>2. Whose + danh từ</h2>
+<p class="grammar-structure">N + WHOSE + danh từ + V … (= N's + danh từ)</p>
+<ul>
+<li><em>whose</em> chỉ sở hữu, dùng cho cả người và vật (công ty, sản phẩm).</li>
+<li>Dấu hiệu: sau chỗ trống là <strong>danh từ không có mạo từ</strong>, rồi đến động từ.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We hired a designer <u>whose</u> work won several awards. <em>(Chúng tôi thuê một nhà thiết kế có tác phẩm đoạt nhiều giải.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>We are looking for a supplier ______ products meet international safety standards.</p>
+<ol class="grammar-options"><li>who</li><li>which</li><li class="grammar-correct">whose</li><li>that</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. whose</p>
+<p><strong>Câu hoàn chỉnh:</strong> We are looking for a supplier whose products meet international safety standards.<br><strong>Dịch:</strong> Chúng tôi đang tìm một nhà cung cấp có sản phẩm đạt tiêu chuẩn an toàn quốc tế.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là danh từ <em>products</em> rồi động từ <em>meet</em>; quan hệ sở hữu (sản phẩm của nhà cung cấp) → <em>whose</em>.</p>
+<ul>
+<li><strong>A. who:</strong> sau <em>who</em> phải là động từ.</li>
+<li><strong>B. which:</strong> <em>which products meet</em> làm mất quan hệ sở hữu, sai cấu trúc.</li>
+<li><strong>D. that:</strong> không mang nghĩa sở hữu.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>supplier</em> là công ty nên chọn which. <strong>Ghi nhớ:</strong> ______ + N (không mạo từ) + V → whose.</p>
+</div>
+</div>
+<h2>3. Whom và mệnh đề tân ngữ</h2>
+<p class="grammar-structure">N (người) + whom/that/(lược) + S + V &nbsp;·&nbsp; N (vật) + which/that/(lược) + S + V</p>
+<ul>
+<li>Nếu sau chỗ trống đã có <strong>chủ ngữ + động từ</strong>, đại từ quan hệ làm tân ngữ: người → <em>whom</em>, vật → <em>which</em>.</li>
+<li>Đại từ quan hệ làm tân ngữ có thể lược bỏ: <em>the consultant (whom) we hired</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The candidate <u>whom</u> we interviewed yesterday accepted the offer. <em>(Ứng viên chúng tôi phỏng vấn hôm qua đã nhận lời.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The consultant ______ we hired last month has already improved our ordering process.</p>
+<ol class="grammar-options"><li class="grammar-correct">whom</li><li>whose</li><li>which</li><li>what</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. whom</p>
+<p><strong>Câu hoàn chỉnh:</strong> The consultant whom we hired last month has already improved our ordering process.<br><strong>Dịch:</strong> Chuyên gia tư vấn chúng tôi thuê tháng trước đã cải thiện quy trình đặt hàng.</p>
+<p><strong>Vì sao đúng:</strong> Tiền ngữ là người; sau chỗ trống có <em>we hired</em> (S + V) → đại từ làm tân ngữ cho người: <em>whom</em>.</p>
+<ul>
+<li><strong>B. whose:</strong> cần danh từ theo sau.</li>
+<li><strong>C. which:</strong> dùng cho vật.</li>
+<li><strong>D. what:</strong> không có tiền ngữ đứng trước.</li>
+</ul>
+<p><strong>Bẫy:</strong> động từ chính <em>has improved</em> ở xa. <strong>Ghi nhớ:</strong> người + ______ + S + V → whom (hoặc that).</p>
+</div>
+</div>
+<h2>4. Where, when, giới từ + which</h2>
+<table>
+<thead><tr><th>Đại từ</th><th>Thay cho</th><th>Theo sau</th></tr></thead>
+<tbody>
+<tr><td>where (= in/at which)</td><td>nơi chốn</td><td>mệnh đề <strong>đầy đủ</strong> S + V (+ O)</td></tr>
+<tr><td>when (= on/in which)</td><td>thời gian</td><td>mệnh đề đầy đủ</td></tr>
+<tr><td>giới từ + which/whom</td><td>vật/người</td><td>mệnh đề đầy đủ: <em>the person to whom you spoke</em></td></tr>
+</tbody>
+</table>
+<p>Không dùng <em>that</em> sau giới từ: <em>in that</em> không thay cho <em>in which</em>.</p>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> the hotel <u>where</u> we stayed (mệnh đề đầy đủ) · the hotel <u>which</u> we booked (thiếu tân ngữ của booked)</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The conference room ______ the board meeting will be held can seat up to 50 people.</p>
+<ol class="grammar-options"><li>which</li><li class="grammar-correct">where</li><li>when</li><li>whose</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. where</p>
+<p><strong>Câu hoàn chỉnh:</strong> The conference room where the board meeting will be held can seat up to 50 people.<br><strong>Dịch:</strong> Phòng hội nghị nơi cuộc họp hội đồng quản trị diễn ra có sức chứa tối đa 50 người.</p>
+<p><strong>Vì sao đúng:</strong> Tiền ngữ chỉ nơi chốn; mệnh đề sau <em>the board meeting will be held</em> đã đầy đủ (bị động, không thiếu tân ngữ) → <em>where</em> (= in which).</p>
+<ul>
+<li><strong>A. which:</strong> cần mệnh đề thiếu chủ ngữ hoặc tân ngữ.</li>
+<li><strong>C. when:</strong> chỉ thời gian.</li>
+<li><strong>D. whose:</strong> cần danh từ chỉ sở hữu.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy tiền ngữ là vật nên chọn which. <strong>Ghi nhớ:</strong> nơi chốn + mệnh đề đầy đủ → where.</p>
+</div>
+</div>
+<h2>5. Mệnh đề có dấu phẩy</h2>
+<ul>
+<li><strong>Mệnh đề không xác định</strong> (giữa hai dấu phẩy) thêm thông tin về danh từ đã xác định (tên riêng, <em>our new branch</em>).</li>
+<li>Dùng <em>who, which, whose, where</em>; <strong>không dùng that</strong>, không lược đại từ.</li>
+<li><em>, which</em> có thể thay cho cả mệnh đề phía trước: <em>Sales rose, which pleased investors.</em></li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Ms. Grant, <u>who</u> joined us in 2015, will lead the team. <em>(Cô Grant, người gia nhập năm 2015, sẽ dẫn dắt nhóm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The new Westfield branch, ______ opened in March, has already exceeded its annual sales target.</p>
+<ol class="grammar-options"><li>that</li><li>where</li><li>what</li><li class="grammar-correct">which</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. which</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new Westfield branch, which opened in March, has already exceeded its annual sales target.<br><strong>Dịch:</strong> Chi nhánh Westfield mới, khai trương hồi tháng Ba, đã vượt chỉ tiêu doanh số năm.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề nằm giữa hai dấu phẩy, tiền ngữ là vật, thiếu chủ ngữ cho <em>opened</em> → <em>which</em>.</p>
+<ul>
+<li><strong>A. that:</strong> không dùng sau dấu phẩy.</li>
+<li><strong>B. where:</strong> cần mệnh đề đầy đủ; ở đây thiếu chủ ngữ.</li>
+<li><strong>C. what:</strong> không dùng khi đã có tiền ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chi nhánh là nơi chốn nên chọn where. <strong>Ghi nhớ:</strong> , ______ + V → which/who; không dùng that sau dấu phẩy.</p>
+</div>
+</div>
+<h2>6. Rút gọn mệnh đề quan hệ</h2>
+<table>
+<thead><tr><th>Mệnh đề đầy đủ</th><th>Rút gọn</th></tr></thead>
+<tbody>
+<tr><td>who/which + V chủ động</td><td>V-ing: employees <u>working</u> overtime</td></tr>
+<tr><td>who/which + be + V3</td><td>V3: packages <u>received</u> after 3 P.M.</td></tr>
+<tr><td>the first/last/only + who…</td><td>to V: the first <u>to arrive</u></td></tr>
+</tbody>
+</table>
+<p>Dấu hiệu: câu đã có động từ chính, chỗ trống đứng ngay sau danh từ → không chọn động từ chia.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The products <u>displayed</u> in the window are on sale. <em>(Các sản phẩm trưng bày ở cửa kính đang giảm giá.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>All packages ______ after 3 P.M. will be shipped on the following business day.</p>
+<ol class="grammar-options"><li>receive</li><li>receiving</li><li>receives</li><li class="grammar-correct">received</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. received</p>
+<p><strong>Câu hoàn chỉnh:</strong> All packages received after 3 P.M. will be shipped on the following business day.<br><strong>Dịch:</strong> Mọi kiện hàng nhận sau 3 giờ chiều sẽ được gửi vào ngày làm việc kế tiếp.</p>
+<p><strong>Vì sao đúng:</strong> Động từ chính là <em>will be shipped</em>; kiện hàng <strong>được nhận</strong> → rút gọn bị động V3 (= which are received).</p>
+<ul>
+<li><strong>A. receive:</strong> thừa động từ chính.</li>
+<li><strong>B. receiving:</strong> nghĩa chủ động "kiện hàng nhận (cái gì)" – sai.</li>
+<li><strong>C. receives:</strong> thừa động từ chính, sai số.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ chỗ trống là động từ chính. <strong>Ghi nhớ:</strong> N + V3 = được…; N + V-ing = đang/có…</p>
+</div>
+</div>
+<h2>7. What và that</h2>
+<ul>
+<li><em>what</em> = the thing(s) that: <strong>không có danh từ đứng trước</strong>, mở đầu một mệnh đề danh từ (làm chủ ngữ/tân ngữ).</li>
+<li><em>that</em> (đại từ quan hệ) cần tiền ngữ; <em>that</em> (liên từ) theo sau là mệnh đề đầy đủ.</li>
+<li><em>whatever, whoever</em> = bất cứ cái gì/ai.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>What</u> customers value most is reliability. <em>(Điều khách hàng coi trọng nhất là độ tin cậy.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ our customers want most is faster delivery at no extra cost.</p>
+<ol class="grammar-options"><li>That</li><li>Which</li><li class="grammar-correct">What</li><li>Who</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. What</p>
+<p><strong>Câu hoàn chỉnh:</strong> What our customers want most is faster delivery at no extra cost.<br><strong>Dịch:</strong> Điều khách hàng mong muốn nhất là giao hàng nhanh hơn mà không tốn thêm phí.</p>
+<p><strong>Vì sao đúng:</strong> Mệnh đề <em>___ our customers want most</em> làm chủ ngữ của <em>is</em>, không có tiền ngữ, thiếu tân ngữ của <em>want</em> → <em>What</em>.</p>
+<ul>
+<li><strong>A. That:</strong> <em>That</em> mở mệnh đề chủ ngữ cần mệnh đề đầy đủ; ở đây <em>want</em> thiếu tân ngữ.</li>
+<li><strong>B. Which:</strong> cần tiền ngữ.</li>
+<li><strong>D. Who:</strong> chỉ người, sai nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn That vì quen "That + mệnh đề". <strong>Ghi nhớ:</strong> không có tiền ngữ + mệnh đề thiếu thành phần → what.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách xử lý</th></tr></thead>
+<tbody>
+<tr><td>Tiền ngữ là nơi chốn nhưng mệnh đề thiếu tân ngữ</td><td>Dùng which/that, không dùng where</td></tr>
+<tr><td>that sau dấu phẩy hoặc sau giới từ</td><td>Sai – dùng which/whom</td></tr>
+<tr><td>Động từ trong mệnh đề quan hệ</td><td>Chia theo tiền ngữ: <em>customers who <u>order</u></em></td></tr>
+<tr><td>Tiền ngữ không đứng sát</td><td><em>the manager of the store who…</em> → xét nghĩa để biết who thay cho ai</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The hotel <u>which</u> we booked is near the airport. · The hotel <u>where</u> we stayed is near the airport.</p>
+<p><strong>Phân tích:</strong> <em>booked</em> cần tân ngữ → which; <em>stayed</em> không cần → where.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The hotel ______ we booked for the sales conference is located near the international airport.</p>
+<ol class="grammar-options"><li>where</li><li>whose</li><li class="grammar-correct">which</li><li>who</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. which</p>
+<p><strong>Câu hoàn chỉnh:</strong> The hotel which we booked for the sales conference is located near the international airport.<br><strong>Dịch:</strong> Khách sạn chúng tôi đặt cho hội nghị bán hàng nằm gần sân bay quốc tế.</p>
+<p><strong>Vì sao đúng:</strong> <em>booked</em> là ngoại động từ và đang thiếu tân ngữ → đại từ quan hệ làm tân ngữ cho vật: <em>which</em>.</p>
+<ul>
+<li><strong>A. where:</strong> chỉ dùng khi mệnh đề sau đầy đủ; <em>we booked</em> thiếu tân ngữ.</li>
+<li><strong>B. whose:</strong> cần danh từ.</li>
+<li><strong>D. who:</strong> dùng cho người.</li>
+</ul>
+<p><strong>Bẫy:</strong> khách sạn là nơi chốn nên chọn where. <strong>Ghi nhớ:</strong> kiểm tra mệnh đề sau thiếu gì trước khi chọn where.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> giới thiệu nhân sự thường dùng mệnh đề không xác định: <em>Ms. Grant, who has worked here for ten years, …</em></li>
+<li><strong>Part 7:</strong> thông tin trong mệnh đề quan hệ hay là đáp án câu hỏi chi tiết (ai đã làm gì, sản phẩm có đặc điểm gì).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Mr. Ruiz, <u>whose</u> team designed the app, will present it. <em>(Anh Ruiz, người có nhóm thiết kế ứng dụng, sẽ giới thiệu nó.)</em> → "Who designed the app?" → Mr. Ruiz's team.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo nhân sự)</em> We are pleased to announce that Ms. Grant, ______ has worked in our marketing department for ten years, will lead the new digital media team.</p>
+<p>She will begin in her new role on September 1.</p>
+<ol class="grammar-options"><li class="grammar-correct">who</li><li>which</li><li>that</li><li>whom</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. who</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> We are pleased to announce that Ms. Grant, who has worked in our marketing department for ten years, will lead the new digital media team…<br><strong>Dịch:</strong> Chúng tôi vui mừng thông báo cô Grant, người đã làm việc tại phòng marketing mười năm, sẽ dẫn dắt nhóm truyền thông số mới…</p>
+<p><strong>Vì sao đúng:</strong> Tiền ngữ là người; mệnh đề giữa hai dấu phẩy thiếu chủ ngữ cho <em>has worked</em> → <em>who</em>.</p>
+<ul>
+<li><strong>B. which:</strong> dùng cho vật.</li>
+<li><strong>C. that:</strong> không dùng sau dấu phẩy.</li>
+<li><strong>D. whom:</strong> làm tân ngữ, cần S + V theo sau.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn that vì "người hoặc vật đều được". <strong>Ghi nhớ:</strong> , who + V (người) · , which + V (vật).</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Xác định tiền ngữ:</strong> người, vật, nơi chốn, thời gian hay không có.</li>
+<li><strong>Nhìn sau chỗ trống:</strong> động từ → who/which/that; danh từ + động từ → whose; S + V thiếu tân ngữ → whom/which; mệnh đề đầy đủ → where/when/giới từ + which.</li>
+<li><strong>Có dấu phẩy?</strong> Loại that.</li>
+<li><strong>Không có tiền ngữ?</strong> Chọn what.</li>
+<li><strong>Câu đã có động từ chính, chỗ trống sau danh từ</strong> → rút gọn V-ing/V3.</li>
+</ol>
+<table>
+<thead><tr><th>Sau chỗ trống</th><th>Chọn</th></tr></thead>
+<tbody>
+<tr><td>V</td><td>who (người), which (vật), that</td></tr>
+<tr><td>N + V</td><td>whose</td></tr>
+<tr><td>S + V (thiếu tân ngữ)</td><td>whom (người), which (vật), that, hoặc lược</td></tr>
+<tr><td>S + V (đầy đủ)</td><td>where, when, giới từ + which</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Thời gian luyện tập:</strong> 10–15 giây/câu. Bước quan trọng nhất là kiểm tra mệnh đề sau chỗ trống thiếu gì.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>who + V (người); which + V (vật); that (không sau dấu phẩy, không sau giới từ).</li>
+<li>whose + danh từ (sở hữu, người và vật).</li>
+<li>whom/which + S + V khi đại từ làm tân ngữ.</li>
+<li>where/when + mệnh đề đầy đủ.</li>
+<li>what = điều mà, không có tiền ngữ.</li>
+<li>Rút gọn: V-ing (chủ động), V3 (bị động), to V (the first/last/only).</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> those who · the person to whom · the reason why · the day when · the extent to which · the first to arrive · items purchased online · employees working remotely.</p>

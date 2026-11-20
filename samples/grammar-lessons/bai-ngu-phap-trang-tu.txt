@@ -1,0 +1,369 @@
+<!-- Bài học tương tác chủ điểm TRẠNG TỪ (Part 5 · nhóm Từ loại · mã adverb). Tiêu đề gợi ý: "Trạng từ trong TOEIC: vị trí, cặp từ đổi nghĩa và trạng từ liên kết". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Trạng từ (adverb)</strong> bổ nghĩa cho động từ, tính từ, trạng từ khác hoặc cả câu: <em>carefully, recently, approximately, however</em>. Trong Part 5, trạng từ thường là đáp án khi câu <strong>đã đủ thành phần</strong> (chủ ngữ, động từ, tân ngữ) mà vẫn còn chỗ trống, hoặc khi chỗ trống nằm chen giữa trợ động từ và động từ chính.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Vị trí của trạng từ · câu đã đủ thành phần → trạng từ · trạng từ trước tính từ/phân từ</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>Trạng từ thời gian, tần suất · trạng từ chỉ mức độ, con số</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Cặp đổi nghĩa hard/hardly, late/lately · trạng từ liên kết · tính từ đuôi -ly</td></tr>
+</tbody>
+</table>
+<h2>1. Vị trí của trạng từ</h2>
+<table>
+<thead><tr><th>Vị trí</th><th>Công thức</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Giữa trợ động từ và động từ chính</td><td>will/has/is + ______ + V</td><td>will <u>soon</u> open · has <u>recently</u> been</td></tr>
+<tr><td>Trước động từ thường</td><td>S + ______ + V</td><td>We <u>regularly</u> update…</td></tr>
+<tr><td>Sau tân ngữ / cuối câu</td><td>S + V + O + ______</td><td>Read the terms <u>carefully</u>.</td></tr>
+<tr><td>Giữa be và V3/V-ing</td><td>be + ______ + V3/V-ing</td><td>was <u>completely</u> renovated</td></tr>
+<tr><td>Đầu câu, có dấu phẩy</td><td>______, S + V</td><td><u>Unfortunately</u>, the flight…</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Mẹo:</strong> chỗ trống nằm giữa hai phần của một động từ (<em>will ___ open</em>, <em>has been ___ renovated</em>) gần như chắc chắn cần trạng từ, vì các vị trí này đã có đủ động từ.</p>
+</div>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The lobby has been <u>completely</u> renovated. <em>(Sảnh đã được cải tạo hoàn toàn.)</em></p>
+<p><strong>Phân tích:</strong> <em>has been renovated</em> là động từ bị động đầy đủ; từ chen giữa chỉ có thể là trạng từ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The new branch in Westport will ______ open to the public on the first of next month.</p>
+<ol class="grammar-options"><li class="grammar-correct">officially</li><li>official</li><li>officiate</li><li>office</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. officially</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new branch in Westport will officially open to the public on the first of next month.<br><strong>Dịch:</strong> Chi nhánh mới ở Westport sẽ chính thức mở cửa đón khách vào ngày mùng một tháng sau.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống nằm giữa <em>will</em> và động từ <em>open</em> → trạng từ bổ nghĩa cho động từ.</p>
+<ul>
+<li><strong>B. official:</strong> tính từ/danh từ, không chen giữa will và động từ.</li>
+<li><strong>C. officiate:</strong> động từ; câu sẽ có hai động từ nguyên mẫu.</li>
+<li><strong>D. office:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>official open</em> là cụm danh từ. <strong>Ghi nhớ:</strong> will/can/should + adv + V.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The hotel lobby has been ______ renovated and now includes a business center.</p>
+<ol class="grammar-options"><li>complete</li><li class="grammar-correct">completely</li><li>completion</li><li>completed</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. completely</p>
+<p><strong>Câu hoàn chỉnh:</strong> The hotel lobby has been completely renovated and now includes a business center.<br><strong>Dịch:</strong> Sảnh khách sạn đã được cải tạo hoàn toàn và giờ có thêm trung tâm dịch vụ văn phòng.</p>
+<p><strong>Vì sao đúng:</strong> <em>has been ______ renovated</em>: động từ bị động đã đủ → chỗ trống là trạng từ.</p>
+<ul>
+<li><strong>A. complete:</strong> tính từ/động từ.</li>
+<li><strong>C. completion:</strong> danh từ.</li>
+<li><strong>D. completed:</strong> V3; <em>has been completed renovated</em> có hai phân từ, sai.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>has been</em> nên chọn V3. <strong>Ghi nhớ:</strong> be + adv + V3: was recently updated, is currently being repaired.</p>
+</div>
+</div>
+<h2>2. Trước tính từ, phân từ</h2>
+<p class="grammar-structure">(a/the) + TRẠNG TỪ + tính từ/phân từ + danh từ &nbsp;·&nbsp; be + TRẠNG TỪ + tính từ</p>
+<ul>
+<li>Hay gặp: <em>highly qualified, extremely busy, newly opened, fully booked, reasonably priced, increasingly popular, widely used, conveniently located</em>.</li>
+<li>Thứ tự luôn là <strong>trạng từ → tính từ → danh từ</strong>. Nếu sau chỗ trống là tính từ/phân từ rồi mới tới danh từ, chỗ trống là trạng từ.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The hotel is <u>conveniently</u> located near the station. <em>(Khách sạn nằm ở vị trí thuận tiện gần nhà ga.)</em></p>
+<p><strong>Phân tích:</strong> <em>located</em> là phân từ; từ bổ nghĩa cho nó là trạng từ <em>conveniently</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Dr. Patel is an ______ qualified candidate for the senior research position.</p>
+<ol class="grammar-options"><li>exception</li><li>exceptional</li><li>except</li><li class="grammar-correct">exceptionally</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. exceptionally</p>
+<p><strong>Câu hoàn chỉnh:</strong> Dr. Patel is an exceptionally qualified candidate for the senior research position.<br><strong>Dịch:</strong> Tiến sĩ Patel là ứng viên đặc biệt đủ năng lực cho vị trí nghiên cứu cấp cao.</p>
+<p><strong>Vì sao đúng:</strong> <em>an ______ qualified candidate</em>: <em>qualified</em> là tính từ bổ nghĩa cho <em>candidate</em> → từ bổ nghĩa cho tính từ là trạng từ.</p>
+<ul>
+<li><strong>A. exception:</strong> danh từ.</li>
+<li><strong>B. exceptional:</strong> tính từ; hai tính từ <em>exceptional qualified</em> không bổ nghĩa cho nhau.</li>
+<li><strong>C. except:</strong> giới từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>an</em> nên chọn tính từ. <strong>Ghi nhớ:</strong> a/an + adv + adj + N.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The quarterly report was ______ detailed, so the board approved the budget without further questions.</p>
+<ol class="grammar-options"><li>extreme</li><li>extremes</li><li>extremity</li><li class="grammar-correct">extremely</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. extremely</p>
+<p><strong>Câu hoàn chỉnh:</strong> The quarterly report was extremely detailed, so the board approved the budget without further questions.<br><strong>Dịch:</strong> Báo cáo quý cực kỳ chi tiết, nên hội đồng phê duyệt ngân sách mà không hỏi thêm.</p>
+<p><strong>Vì sao đúng:</strong> <em>was + ______ + detailed</em>: <em>detailed</em> là tính từ bổ ngữ → trạng từ chỉ mức độ đứng trước.</p>
+<ul>
+<li><strong>A. extreme:</strong> tính từ.</li>
+<li><strong>B. extremes:</strong> danh từ số nhiều.</li>
+<li><strong>C. extremity:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>quarterly</em> (đuôi -ly) là tính từ, dễ làm rối. <strong>Ghi nhớ:</strong> be + extremely/highly/very + adj.</p>
+</div>
+</div>
+<h2>3. Câu đã đủ thành phần</h2>
+<p class="grammar-structure">S + V + (O) + ______ &nbsp;→&nbsp; câu đã đủ khung → TRẠNG TỪ</p>
+<ul>
+<li>Khi bỏ chỗ trống đi mà câu vẫn đúng ngữ pháp, chỗ trống là thành phần bổ nghĩa – thường là trạng từ.</li>
+<li>Kiểm tra: động từ có cần tân ngữ không? Nếu tân ngữ đã có, không chọn danh từ.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please read the contract <u>carefully</u> before signing. <em>(Vui lòng đọc kỹ hợp đồng trước khi ký.)</em></p>
+<p><strong>Phân tích:</strong> <em>read the contract</em> đã đủ V + O → chỗ trống phía sau là trạng từ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>All new employees are asked to complete the online safety training ______.</p>
+<ol class="grammar-options"><li>prompt</li><li>promptness</li><li class="grammar-correct">promptly</li><li>prompted</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. promptly</p>
+<p><strong>Câu hoàn chỉnh:</strong> All new employees are asked to complete the online safety training promptly.<br><strong>Dịch:</strong> Mọi nhân viên mới được yêu cầu hoàn thành khóa đào tạo an toàn trực tuyến kịp thời.</p>
+<p><strong>Vì sao đúng:</strong> <em>complete the online safety training</em> đã đủ V + O → chỗ trống cuối câu bổ nghĩa cho động từ → trạng từ.</p>
+<ul>
+<li><strong>A. prompt:</strong> tính từ/động từ; không đứng một mình sau tân ngữ để bổ nghĩa cho động từ.</li>
+<li><strong>B. promptness:</strong> danh từ; câu đã có tân ngữ.</li>
+<li><strong>D. prompted:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>training</em> cần thêm một danh từ ghép. <strong>Ghi nhớ:</strong> bỏ chỗ trống mà câu vẫn đủ → trạng từ.</p>
+</div>
+</div>
+<h2>4. Cặp đổi nghĩa</h2>
+<table>
+<thead><tr><th>Dạng không -ly</th><th>Dạng -ly (nghĩa khác)</th></tr></thead>
+<tbody>
+<tr><td>hard: chăm chỉ, vất vả</td><td>hardly: hầu như không</td></tr>
+<tr><td>late: muộn</td><td>lately: gần đây</td></tr>
+<tr><td>near: gần (khoảng cách)</td><td>nearly: gần như, suýt</td></tr>
+<tr><td>high: cao (vị trí)</td><td>highly: rất, đánh giá cao</td></tr>
+<tr><td>close: sát, gần</td><td>closely: chặt chẽ, kỹ lưỡng</td></tr>
+<tr><td>short: thiếu, ngắn</td><td>shortly: sớm, không lâu nữa</td></tr>
+<tr><td>most: nhất</td><td>mostly: chủ yếu</td></tr>
+</tbody>
+</table>
+<p><em>fast, well, early, daily</em> vừa là tính từ vừa là trạng từ; trạng từ của <em>good</em> là <em>well</em>.</p>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> The team worked <u>hard</u>. · The team <u>hardly</u> worked. <em>(Nhóm làm việc chăm chỉ. · Nhóm hầu như không làm việc.)</em></p>
+<p><strong>Phân tích:</strong> hai câu cùng đúng ngữ pháp nhưng nghĩa ngược nhau – phải dịch.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The project team worked ______ to finish the client report before the deadline.</p>
+<ol class="grammar-options"><li class="grammar-correct">hard</li><li>hardly</li><li>hardness</li><li>harden</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. hard</p>
+<p><strong>Câu hoàn chỉnh:</strong> The project team worked hard to finish the client report before the deadline.<br><strong>Dịch:</strong> Nhóm dự án làm việc chăm chỉ để hoàn thành báo cáo cho khách trước hạn.</p>
+<p><strong>Vì sao đúng:</strong> Sau <em>worked</em> cần trạng từ chỉ cách thức; nghĩa "chăm chỉ" là <em>hard</em> (trạng từ không đuôi -ly).</p>
+<ul>
+<li><strong>B. hardly:</strong> "hầu như không" – mâu thuẫn với mục đích hoàn thành trước hạn.</li>
+<li><strong>C. hardness:</strong> danh từ "độ cứng".</li>
+<li><strong>D. harden:</strong> động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> phản xạ "trạng từ phải có -ly". <strong>Ghi nhớ:</strong> work hard · hardly + động từ = hầu như không.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The new manager has ______ any experience with budget planning, so she will attend a training course.</p>
+<ol class="grammar-options"><li>hard</li><li class="grammar-correct">hardly</li><li>hardest</li><li>harder</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. hardly</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new manager has hardly any experience with budget planning, so she will attend a training course.<br><strong>Dịch:</strong> Quản lý mới hầu như không có kinh nghiệm lập ngân sách, nên cô ấy sẽ tham gia một khóa đào tạo.</p>
+<p><strong>Vì sao đúng:</strong> <em>hardly any</em> = hầu như không có; mệnh đề <em>so she will attend a training course</em> xác nhận nghĩa phủ định.</p>
+<ul>
+<li><strong>A. hard:</strong> "chăm chỉ/khó" – không đứng trước <em>any</em>.</li>
+<li><strong>C. hardest:</strong> so sánh nhất, sai cấu trúc.</li>
+<li><strong>D. harder:</strong> so sánh hơn, sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>any</em> thường đi với câu phủ định, mà <em>hardly</em> chính là từ mang nghĩa phủ định. <strong>Ghi nhớ:</strong> hardly any/ever = hầu như không.</p>
+</div>
+</div>
+<h2>5. Thời gian, tần suất</h2>
+<table>
+<thead><tr><th>Trạng từ</th><th>Cách dùng</th></tr></thead>
+<tbody>
+<tr><td>already</td><td>đã rồi (câu khẳng định, thường với hiện tại hoàn thành)</td></tr>
+<tr><td>yet</td><td>chưa (câu phủ định), đã…chưa (câu hỏi); đứng cuối câu</td></tr>
+<tr><td>still</td><td>vẫn còn (hành động tiếp diễn)</td></tr>
+<tr><td>recently, lately</td><td>gần đây (thường với hiện tại hoàn thành)</td></tr>
+<tr><td>soon, shortly</td><td>sắp, không lâu nữa (tương lai)</td></tr>
+<tr><td>always, usually, often, rarely, seldom</td><td>đứng trước động từ thường, sau <em>be</em> và trợ động từ</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The client has <u>not yet</u> signed the contract. · The client is <u>still</u> reviewing it. <em>(Khách chưa ký hợp đồng. · Khách vẫn đang xem xét.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Mr. Chen has ______ submitted his expense report, so it will be processed this afternoon.</p>
+<ol class="grammar-options"><li class="grammar-correct">already</li><li>yet</li><li>still</li><li>soon</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. already</p>
+<p><strong>Câu hoàn chỉnh:</strong> Mr. Chen has already submitted his expense report, so it will be processed this afternoon.<br><strong>Dịch:</strong> Anh Chen đã nộp báo cáo chi phí rồi, nên chiều nay báo cáo sẽ được xử lý.</p>
+<p><strong>Vì sao đúng:</strong> Câu khẳng định, hiện tại hoàn thành, nghĩa "đã làm xong rồi" → <em>already</em>.</p>
+<ul>
+<li><strong>B. yet:</strong> dùng trong câu phủ định/câu hỏi, thường đứng cuối câu.</li>
+<li><strong>C. still:</strong> "vẫn còn" – không hợp với hành động đã hoàn tất.</li>
+<li><strong>D. soon:</strong> chỉ tương lai, mâu thuẫn với <em>has submitted</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> cả bốn đều là trạng từ thời gian. <strong>Ghi nhớ:</strong> has already done · has not done yet · is still doing.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The software update will be released ______ after the final testing phase is complete.</p>
+<ol class="grammar-options"><li>short</li><li>shortage</li><li>shorten</li><li class="grammar-correct">shortly</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. shortly</p>
+<p><strong>Câu hoàn chỉnh:</strong> The software update will be released shortly after the final testing phase is complete.<br><strong>Dịch:</strong> Bản cập nhật phần mềm sẽ được phát hành ngay sau khi giai đoạn kiểm thử cuối cùng hoàn tất.</p>
+<p><strong>Vì sao đúng:</strong> Câu đã đủ (<em>will be released</em>); <em>shortly after</em> = ngay sau khi.</p>
+<ul>
+<li><strong>A. short:</strong> tính từ "ngắn, thiếu".</li>
+<li><strong>B. shortage:</strong> danh từ "sự thiếu hụt".</li>
+<li><strong>C. shorten:</strong> động từ "rút ngắn".</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>shortly</em> không có nghĩa "ngắn gọn". <strong>Ghi nhớ:</strong> shortly before/after = ngay trước/sau.</p>
+</div>
+</div>
+<h2>6. Mức độ và con số</h2>
+<ul>
+<li><strong>Trước con số:</strong> <em>approximately, nearly, almost, about, roughly, over, up to</em> + số lượng.</li>
+<li><strong>Mức độ:</strong> <em>very, extremely, highly, fairly, quite</em> + tính từ/trạng từ.</li>
+<li><strong>so + adj/adv + that</strong> · <strong>such + (a) + adj + N + that</strong> · <strong>too + adj + to V</strong> · <strong>adj + enough + to V</strong>.</li>
+<li><em>only, just, even</em> đứng trước thành phần chúng nhấn mạnh.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The renovation will cost <u>approximately</u> $50,000. <em>(Việc cải tạo sẽ tốn khoảng 50.000 đô la.)</em></p>
+<p><strong>Phân tích:</strong> trạng từ đứng trước con số để chỉ mức ước lượng.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ 200 people attended the opening ceremony of the new community library.</p>
+<ol class="grammar-options"><li>Approximate</li><li class="grammar-correct">Approximately</li><li>Approximation</li><li>Approximated</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. Approximately</p>
+<p><strong>Câu hoàn chỉnh:</strong> Approximately 200 people attended the opening ceremony of the new community library.<br><strong>Dịch:</strong> Khoảng 200 người đã dự lễ khai trương thư viện cộng đồng mới.</p>
+<p><strong>Vì sao đúng:</strong> Từ đứng trước con số để ước lượng là trạng từ <em>approximately</em>.</p>
+<ul>
+<li><strong>A. Approximate:</strong> tính từ; dùng trước danh từ (<em>the approximate cost</em>), không trước con số trơ.</li>
+<li><strong>C. Approximation:</strong> danh từ.</li>
+<li><strong>D. Approximated:</strong> V2/V3.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỗ trống đứng đầu câu nên tưởng cần danh từ chủ ngữ; chủ ngữ là <em>200 people</em>. <strong>Ghi nhớ:</strong> approximately/nearly/almost + số.</p>
+</div>
+</div>
+<h2>7. Trạng từ liên kết</h2>
+<table>
+<thead><tr><th>Ý nghĩa</th><th>Trạng từ</th></tr></thead>
+<tbody>
+<tr><td>Tương phản</td><td>however, nevertheless, on the other hand</td></tr>
+<tr><td>Kết quả</td><td>therefore, consequently, as a result, thus</td></tr>
+<tr><td>Bổ sung</td><td>moreover, furthermore, in addition, also</td></tr>
+<tr><td>Điều kiện ngược</td><td>otherwise (nếu không thì)</td></tr>
+<tr><td>Thời gian, thay thế</td><td>meanwhile, afterward, instead</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">Mệnh đề 1. / ; + TRẠNG TỪ LIÊN KẾT, + mệnh đề 2</p>
+<p>Trạng từ liên kết <strong>không nối hai mệnh đề bằng dấu phẩy</strong> như liên từ (because, although). Xem bài <strong>Liên từ, giới từ</strong>.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The venue was small; <u>however</u>, every seat was filled. <em>(Địa điểm nhỏ; tuy nhiên, mọi ghế đều kín.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The shipment was delayed by a storm; ______, all orders were delivered before the holiday weekend.</p>
+<ol class="grammar-options"><li>therefore</li><li class="grammar-correct">however</li><li>moreover</li><li>because</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. however</p>
+<p><strong>Câu hoàn chỉnh:</strong> The shipment was delayed by a storm; however, all orders were delivered before the holiday weekend.<br><strong>Dịch:</strong> Lô hàng bị bão làm chậm; tuy nhiên, mọi đơn hàng vẫn được giao trước kỳ nghỉ cuối tuần.</p>
+<p><strong>Vì sao đúng:</strong> Cấu trúc <em>; ______,</em> cần trạng từ liên kết. Hai ý trái ngược (bị chậm – vẫn giao kịp) → <em>however</em>.</p>
+<ul>
+<li><strong>A. therefore:</strong> chỉ kết quả, không hợp logic.</li>
+<li><strong>C. moreover:</strong> bổ sung ý cùng chiều.</li>
+<li><strong>D. because:</strong> liên từ, không đứng giữa <em>;</em> và <em>,</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỉ xét cấu trúc sẽ còn ba đáp án. <strong>Ghi nhớ:</strong> xét cấu trúc trước, rồi quan hệ ý (tương phản/kết quả/bổ sung).</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách nhận ra và xử lý</th></tr></thead>
+<tbody>
+<tr><td>Từ đuôi -ly là tính từ</td><td>friendly, costly, timely, likely, quarterly đứng trước danh từ – không phải trạng từ</td></tr>
+<tr><td>Sau động từ nối dùng trạng từ</td><td>be, seem, remain, look + <strong>tính từ</strong>: <em>looks good</em>, không <em>looks well</em> (khi nói về vẻ ngoài)</td></tr>
+<tr><td>Trạng từ không đuôi -ly</td><td>hard, fast, late, early, well vẫn là trạng từ</td></tr>
+<tr><td>Cặp đổi nghĩa</td><td>hard/hardly, late/lately, near/nearly, short/shortly – phải dịch</td></tr>
+<tr><td>Trạng từ liên kết nối mệnh đề bằng dấu phẩy</td><td>however, therefore cần dấu chấm/chấm phẩy trước</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Sales have increased <u>significantly</u> this quarter. <em>(Doanh số tăng đáng kể trong quý này.)</em></p>
+<p><strong>Phân tích:</strong> <em>increase</em> ở đây là nội động từ, không cần tân ngữ → từ phía sau bổ nghĩa cho động từ → trạng từ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Sales of the X5 printer have increased ______ since the price was reduced in March.</p>
+<ol class="grammar-options"><li>significant</li><li>significance</li><li class="grammar-correct">significantly</li><li>signify</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. significantly</p>
+<p><strong>Câu hoàn chỉnh:</strong> Sales of the X5 printer have increased significantly since the price was reduced in March.<br><strong>Dịch:</strong> Doanh số máy in X5 đã tăng đáng kể kể từ khi giảm giá vào tháng Ba.</p>
+<p><strong>Vì sao đúng:</strong> <em>increase</em> là nội động từ (không cần tân ngữ); câu đã đủ khung → trạng từ bổ nghĩa cho động từ.</p>
+<ul>
+<li><strong>A. significant:</strong> tính từ, không bổ nghĩa cho động từ.</li>
+<li><strong>B. significance:</strong> danh từ; nội động từ không có tân ngữ.</li>
+<li><strong>D. signify:</strong> động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>increased</em> cần tân ngữ danh từ. <strong>Ghi nhớ:</strong> increase/rise/decline/grow + adv (significantly, sharply, steadily).</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> trạng từ liên kết đầu câu (<em>However, Therefore, In addition</em>) phải khớp quan hệ với câu trước; trạng từ thời gian phải khớp với thì (<em>temporarily, currently, previously</em>).</li>
+<li><strong>Part 7:</strong> trạng từ thường mang chi tiết được hỏi: <em>temporarily closed</em> (đóng tạm thời), <em>previously</em> (trước đây), <em>only</em> (giới hạn).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The parking garage is <u>temporarily</u> closed. <em>(Nhà để xe tạm thời đóng cửa.)</em></p>
+<p><strong>Phân tích:</strong> Part 7 hỏi "What is suggested about the garage?" → It will reopen.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo)</em> Our Riverside location is ______ closed for renovations.</p>
+<p>It will reopen on May 1 with an expanded seating area.</p>
+<ol class="grammar-options"><li>temporary</li><li>temporariness</li><li class="grammar-correct">temporarily</li><li>temporaries</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. temporarily</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> Our Riverside location is temporarily closed for renovations. It will reopen on May 1 with an expanded seating area.<br><strong>Dịch:</strong> Cơ sở Riverside tạm thời đóng cửa để cải tạo. Cơ sở sẽ mở lại vào ngày 1/5 với khu vực chỗ ngồi rộng hơn.</p>
+<p><strong>Vì sao đúng:</strong> <em>is + ______ + closed</em>: <em>closed</em> là tính từ/phân từ → trạng từ đứng trước. Câu sau (<em>will reopen</em>) xác nhận nghĩa "tạm thời".</p>
+<ul>
+<li><strong>A. temporary:</strong> tính từ; hai tính từ <em>temporary closed</em> không bổ nghĩa cho nhau.</li>
+<li><strong>B. temporariness:</strong> danh từ.</li>
+<li><strong>D. temporaries:</strong> danh từ số nhiều (nhân viên tạm thời).</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn tính từ vì nghĩ "tạm thời đóng" là một tính chất. <strong>Ghi nhớ:</strong> be + adv + V3/adj: temporarily closed, fully booked.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> cùng gốc → từ loại; các trạng từ khác nghĩa → nghĩa/thì; liên từ lẫn trạng từ liên kết → cấu trúc câu.</li>
+<li><strong>Tìm vị trí:</strong> chen giữa trợ động từ và động từ, giữa be và V3, trước tính từ/phân từ → trạng từ.</li>
+<li><strong>Kiểm tra câu đã đủ chưa:</strong> bỏ chỗ trống, câu vẫn đúng → trạng từ.</li>
+<li><strong>Loại trừ:</strong> động từ nối + tính từ (không phải trạng từ).</li>
+<li><strong>Dịch</strong> khi gặp cặp đổi nghĩa hoặc trạng từ liên kết.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Hành động</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>will/has/be + ______ + V/V3</td><td>Chọn trạng từ</td><td>5 giây</td></tr>
+<tr><td>a/the + ______ + adj + N</td><td>Chọn trạng từ</td><td>5–10 giây</td></tr>
+<tr><td>S + V + O + ______</td><td>Chọn trạng từ</td><td>10 giây</td></tr>
+<tr><td>; ______, hoặc ______, đầu câu nối ý</td><td>Trạng từ liên kết, xét quan hệ ý</td><td>15–20 giây</td></tr>
+<tr><td>hard/hardly, already/yet…</td><td>Dịch, xét thì và phủ định</td><td>20–30 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> "câu đã đủ thì chọn trạng từ" chỉ đúng khi bạn đã kiểm tra động từ có cần tân ngữ hay không.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Trạng từ chen giữa trợ động từ – động từ chính và giữa be – V3/V-ing.</li>
+<li>Trạng từ đứng trước tính từ/phân từ: a highly qualified applicant.</li>
+<li>Câu đã đủ thành phần → trạng từ; sau động từ nối → tính từ.</li>
+<li>Cặp đổi nghĩa: hard/hardly, late/lately, near/nearly, short/shortly, high/highly, close/closely.</li>
+<li>Trạng từ liên kết (however, therefore) không nối hai mệnh đề bằng dấu phẩy.</li>
+</ul>
+<table>
+<thead><tr><th>Tính từ</th><th>Trạng từ</th><th>Cụm hay gặp</th></tr></thead>
+<tbody>
+<tr><td>convenient</td><td>conveniently</td><td>conveniently located</td></tr>
+<tr><td>reasonable</td><td>reasonably</td><td>reasonably priced</td></tr>
+<tr><td>significant</td><td>significantly</td><td>increase significantly</td></tr>
+<tr><td>temporary</td><td>temporarily</td><td>temporarily closed</td></tr>
+<tr><td>prompt</td><td>promptly</td><td>respond promptly</td></tr>
+<tr><td>good</td><td>well</td><td>well received</td></tr>
+</tbody>
+</table>
+<p><strong>Collocation:</strong> highly recommended · fully booked · newly opened · widely used · closely monitor · carefully review · steadily increase · shortly after · approximately + số · not yet · already + V3.</p>

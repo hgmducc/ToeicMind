@@ -1,0 +1,338 @@
+<!-- Bài học tương tác chủ điểm HÒA HỢP CHỦ NGỮ, ĐỘNG TỪ (Part 5 · nhóm Động từ · mã subject_verb_agreement). Tiêu đề gợi ý: "Hòa hợp chủ ngữ – động từ: tìm đúng chủ ngữ, chia đúng động từ". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Hòa hợp chủ ngữ – động từ (subject-verb agreement)</strong> là quy tắc chia động từ theo số ít/số nhiều của <strong>chủ ngữ chính</strong>. Part 5 thường tách chủ ngữ khỏi động từ bằng một cụm dài chứa danh từ có số lượng ngược lại để gây nhiễu. Kỹ năng cốt lõi: tìm đúng danh từ chính, bỏ qua phần bổ nghĩa.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Số ít → V-s/is/was/has · số nhiều → V/are/were/have · chủ ngữ bị tách xa</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>each/every/one of · most of/some of · a number of/the number of</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>either/neither…or/nor · chủ ngữ V-ing, there is/are · động từ trong mệnh đề quan hệ</td></tr>
+</tbody>
+</table>
+<h2>1. Quy tắc cơ bản</h2>
+<table>
+<thead><tr><th>Chủ ngữ</th><th>Hiện tại đơn</th><th>be</th><th>have</th></tr></thead>
+<tbody>
+<tr><td>Số ít, không đếm được (he, she, it, the manager, information)</td><td>V-s/es</td><td>is / was</td><td>has</td></tr>
+<tr><td>Số nhiều (they, we, the managers)</td><td>V</td><td>are / were</td><td>have</td></tr>
+</tbody>
+</table>
+<ul>
+<li>Chỉ <strong>hiện tại đơn, hiện tại hoàn thành và be</strong> thay đổi theo số. Quá khứ đơn (trừ was/were), will, can, must… không đổi.</li>
+<li>Vì vậy khi bốn đáp án gồm <em>review / reviews / reviewing / to review</em>, hòa hợp là chìa khóa.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The manager <u>reviews</u> every report. · The managers <u>review</u> every report. <em>(Quản lý xem xét mọi báo cáo.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The finance manager ______ all expense reports before they are sent to the accounting department.</p>
+<ol class="grammar-options"><li>review</li><li class="grammar-correct">reviews</li><li>reviewing</li><li>to review</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. reviews</p>
+<p><strong>Câu hoàn chỉnh:</strong> The finance manager reviews all expense reports before they are sent to the accounting department.<br><strong>Dịch:</strong> Quản lý tài chính xem xét mọi báo cáo chi phí trước khi gửi sang phòng kế toán.</p>
+<p><strong>Vì sao đúng:</strong> Câu thiếu động từ chính; chủ ngữ số ít <em>manager</em> + việc lặp lại → <em>reviews</em>.</p>
+<ul>
+<li><strong>A. review:</strong> dạng dùng cho chủ ngữ số nhiều.</li>
+<li><strong>C. reviewing:</strong> không phải động từ chia.</li>
+<li><strong>D. to review:</strong> không phải động từ chia.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>reports</em> số nhiều ngay sau chỗ trống. <strong>Ghi nhớ:</strong> chủ ngữ số ít + hiện tại đơn → V-s.</p>
+</div>
+</div>
+<h2>2. Chủ ngữ bị tách xa</h2>
+<p class="grammar-structure">DANH TỪ CHÍNH [of… / for… / V-ing… / V3… / who… / along with…] + ĐỘNG TỪ</p>
+<ul>
+<li>Bỏ qua cụm giới từ, cụm phân từ, mệnh đề quan hệ khi chia động từ.</li>
+<li><em>as well as, along with, together with, in addition to, accompanied by</em> <strong>không</strong> biến chủ ngữ thành số nhiều; thường đặt giữa hai dấu phẩy.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The <u>cost</u> of the new machines <u>is</u> higher than expected. <em>(Chi phí của các máy mới cao hơn dự kiến.)</em></p>
+<p><strong>Phân tích:</strong> danh từ chính <em>cost</em> số ít; <em>machines</em> chỉ nằm trong cụm <em>of…</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The quality of the products manufactured at our new plant ______ improved significantly.</p>
+<ol class="grammar-options"><li class="grammar-correct">has</li><li>have</li><li>are</li><li>being</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. has</p>
+<p><strong>Câu hoàn chỉnh:</strong> The quality of the products manufactured at our new plant has improved significantly.<br><strong>Dịch:</strong> Chất lượng sản phẩm sản xuất tại nhà máy mới đã cải thiện đáng kể.</p>
+<p><strong>Vì sao đúng:</strong> Danh từ chính <em>quality</em> (số ít) → <em>has improved</em>.</p>
+<ul>
+<li><strong>B. have:</strong> chia theo <em>products</em> – sai chủ ngữ.</li>
+<li><strong>C. are:</strong> <em>are improved</em> là bị động, sai nghĩa; cũng sai số.</li>
+<li><strong>D. being:</strong> không phải động từ chia.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>products</em> và <em>manufactured</em> nằm giữa. <strong>Ghi nhớ:</strong> the quality/cost/list/number of + N-s → số ít.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The sales director, along with her two assistants, ______ attending the trade fair in Berlin this week.</p>
+<ol class="grammar-options"><li>are</li><li>were</li><li class="grammar-correct">is</li><li>have</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. is</p>
+<p><strong>Câu hoàn chỉnh:</strong> The sales director, along with her two assistants, is attending the trade fair in Berlin this week.<br><strong>Dịch:</strong> Giám đốc kinh doanh cùng hai trợ lý tuần này đang dự hội chợ thương mại ở Berlin.</p>
+<p><strong>Vì sao đúng:</strong> <em>along with…</em> không tính vào chủ ngữ; chủ ngữ chính <em>director</em> số ít; <em>this week</em> → hiện tại tiếp diễn → <em>is attending</em>.</p>
+<ul>
+<li><strong>A. are:</strong> coi chủ ngữ là số nhiều – sai.</li>
+<li><strong>B. were:</strong> số nhiều và quá khứ.</li>
+<li><strong>D. have:</strong> <em>have attending</em> sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ "giám đốc cùng hai trợ lý" là ba người. <strong>Ghi nhớ:</strong> A, along with/as well as B, + động từ theo A.</p>
+</div>
+</div>
+<h2>3. Each, every, one of</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Động từ</th></tr></thead>
+<tbody>
+<tr><td>each/every + N số ít; everyone, anyone, someone, no one, nothing</td><td>Số ít</td></tr>
+<tr><td>each of / one of / neither of / either of + the + N số nhiều</td><td>Số ít</td></tr>
+<tr><td>both, several, many, a few + N số nhiều</td><td>Số nhiều</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Each of the rooms <u>has</u> a private balcony. <em>(Mỗi phòng đều có ban công riêng.)</em></p>
+<p><strong>Phân tích:</strong> danh từ chính là <em>Each</em>; <em>rooms</em> nằm trong cụm <em>of the…</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>One of our senior engineers ______ been selected to lead the bridge renovation project.</p>
+<ol class="grammar-options"><li>have</li><li class="grammar-correct">has</li><li>are</li><li>were</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. has</p>
+<p><strong>Câu hoàn chỉnh:</strong> One of our senior engineers has been selected to lead the bridge renovation project.<br><strong>Dịch:</strong> Một trong các kỹ sư cấp cao của chúng tôi đã được chọn để dẫn dắt dự án cải tạo cây cầu.</p>
+<p><strong>Vì sao đúng:</strong> Chủ ngữ là <em>One</em> (số ít); sau chỗ trống là <em>been</em> → cần <em>has</em>.</p>
+<ul>
+<li><strong>A. have:</strong> chia theo <em>engineers</em> – sai.</li>
+<li><strong>C. are:</strong> số nhiều và không đi với <em>been</em>.</li>
+<li><strong>D. were:</strong> số nhiều và không đi với <em>been</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>engineers</em> đứng sát chỗ trống. <strong>Ghi nhớ:</strong> one of the + N số nhiều + V số ít.</p>
+</div>
+</div>
+<h2>4. Lượng từ + of</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Động từ chia theo</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>most/some/all/half/the rest/50 percent of + N</td><td>Danh từ sau <em>of</em></td><td>Most of the staff <u>are</u>… · Most of the equipment <u>is</u>…</td></tr>
+<tr><td>a number of + N số nhiều</td><td>Số nhiều</td><td>A number of orders <u>were</u> delayed.</td></tr>
+<tr><td>the number of + N số nhiều</td><td>Số ít</td><td>The number of orders <u>has</u> doubled.</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Half of the budget <u>has</u> been spent. · Half of the tickets <u>have</u> been sold. <em>(Một nửa ngân sách đã được chi. · Một nửa số vé đã bán.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Most of the equipment in the research laboratory ______ replaced last year.</p>
+<ol class="grammar-options"><li>were</li><li>are</li><li class="grammar-correct">was</li><li>have</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. was</p>
+<p><strong>Câu hoàn chỉnh:</strong> Most of the equipment in the research laboratory was replaced last year.<br><strong>Dịch:</strong> Phần lớn thiết bị trong phòng thí nghiệm đã được thay vào năm ngoái.</p>
+<p><strong>Vì sao đúng:</strong> <em>Most of + N</em> → chia theo <em>equipment</em> (không đếm được → số ít); <em>last year</em> → quá khứ → <em>was replaced</em>.</p>
+<ul>
+<li><strong>A. were:</strong> số nhiều.</li>
+<li><strong>B. are:</strong> số nhiều và hiện tại.</li>
+<li><strong>D. have:</strong> <em>have replaced</em> chủ động, sai nghĩa, sai số và sai thì.</li>
+</ul>
+<p><strong>Bẫy:</strong> "phần lớn" nghe như số nhiều. <strong>Ghi nhớ:</strong> most of + N không đếm được → V số ít.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>A number of customers ______ about the new return policy since it was introduced.</p>
+<ol class="grammar-options"><li>has complained</li><li>complains</li><li class="grammar-correct">have complained</li><li>is complaining</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. have complained</p>
+<p><strong>Câu hoàn chỉnh:</strong> A number of customers have complained about the new return policy since it was introduced.<br><strong>Dịch:</strong> Nhiều khách hàng đã phàn nàn về chính sách đổi trả mới kể từ khi nó được áp dụng.</p>
+<p><strong>Vì sao đúng:</strong> <em>A number of</em> = nhiều → động từ số nhiều; <em>since…</em> → hiện tại hoàn thành.</p>
+<ul>
+<li><strong>A. has complained:</strong> số ít (dùng cho <em>the number of</em>).</li>
+<li><strong>B. complains:</strong> số ít, sai thì.</li>
+<li><strong>D. is complaining:</strong> số ít, không đi với <em>since</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>a number of</em> với <em>the number of</em>. <strong>Ghi nhớ:</strong> a number of + V số nhiều; the number of + V số ít.</p>
+</div>
+</div>
+<h2>5. Either…or, neither…nor</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Động từ</th></tr></thead>
+<tbody>
+<tr><td>both A and B</td><td>Số nhiều</td></tr>
+<tr><td>either A or B · neither A nor B · not only A but also B · A or B</td><td>Chia theo <strong>B</strong> (danh từ gần động từ)</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Either the manager or her assistants <u>are</u> available. · Either the assistants or the manager <u>is</u> available.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Neither the store manager nor the sales assistants ______ aware of the schedule change.</p>
+<ol class="grammar-options"><li>was</li><li>is</li><li>has been</li><li class="grammar-correct">were</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. were</p>
+<p><strong>Câu hoàn chỉnh:</strong> Neither the store manager nor the sales assistants were aware of the schedule change.<br><strong>Dịch:</strong> Cả quản lý cửa hàng lẫn nhân viên bán hàng đều không biết về thay đổi lịch.</p>
+<p><strong>Vì sao đúng:</strong> <em>neither A nor B</em> → chia theo B = <em>assistants</em> (số nhiều) → <em>were</em>.</p>
+<ul>
+<li><strong>A. was:</strong> chia theo <em>manager</em> – sai vế.</li>
+<li><strong>B. is:</strong> số ít.</li>
+<li><strong>C. has been:</strong> số ít.</li>
+</ul>
+<p><strong>Bẫy:</strong> chia theo vế đầu. <strong>Ghi nhớ:</strong> either/neither/not only… → nhìn danh từ sát động từ.</p>
+</div>
+</div>
+<h2>6. Chủ ngữ đặc biệt</h2>
+<table>
+<thead><tr><th>Chủ ngữ</th><th>Động từ</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>V-ing, To V, mệnh đề that/what</td><td>Số ít</td><td><u>Reviewing</u> contracts <u>takes</u> time.</td></tr>
+<tr><td>Danh từ không đếm được, news</td><td>Số ít</td><td>The news <u>was</u> encouraging.</td></tr>
+<tr><td>Số tiền, thời gian, khoảng cách (một khối)</td><td>Số ít</td><td>Fifty dollars <u>is</u> the fee.</td></tr>
+<tr><td>There + be + N</td><td>Theo danh từ <strong>sau</strong> be</td><td>There <u>are</u> two issues.</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Meeting tight deadlines <u>is</u> part of the job. <em>(Đáp ứng hạn chót gấp là một phần công việc.)</em></p>
+<p><strong>Phân tích:</strong> chủ ngữ là hành động <em>Meeting…</em> (một việc) → số ít, dù <em>deadlines</em> số nhiều.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Reviewing customer feedback ______ an essential part of our product design process.</p>
+<ol class="grammar-options"><li class="grammar-correct">is</li><li>are</li><li>were</li><li>being</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. is</p>
+<p><strong>Câu hoàn chỉnh:</strong> Reviewing customer feedback is an essential part of our product design process.<br><strong>Dịch:</strong> Xem xét phản hồi của khách hàng là một phần thiết yếu trong quy trình thiết kế sản phẩm.</p>
+<p><strong>Vì sao đúng:</strong> Chủ ngữ là cụm V-ing (một hoạt động) → động từ số ít <em>is</em>.</p>
+<ul>
+<li><strong>B. are:</strong> số nhiều.</li>
+<li><strong>C. were:</strong> số nhiều, quá khứ.</li>
+<li><strong>D. being:</strong> không phải động từ chia.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ "phản hồi" là nhiều. <strong>Ghi nhớ:</strong> V-ing/To V làm chủ ngữ → số ít.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>There ______ several issues to discuss at today's department meeting.</p>
+<ol class="grammar-options"><li>is</li><li class="grammar-correct">are</li><li>has</li><li>was</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. are</p>
+<p><strong>Câu hoàn chỉnh:</strong> There are several issues to discuss at today's department meeting.<br><strong>Dịch:</strong> Có một số vấn đề cần thảo luận tại cuộc họp phòng hôm nay.</p>
+<p><strong>Vì sao đúng:</strong> <em>There + be</em> chia theo danh từ phía sau: <em>several issues</em> (số nhiều); <em>today's</em> → hiện tại → <em>are</em>.</p>
+<ul>
+<li><strong>A. is:</strong> số ít.</li>
+<li><strong>C. has:</strong> <em>There has</em> không đi với danh từ theo nghĩa "có".</li>
+<li><strong>D. was:</strong> số ít, quá khứ.</li>
+</ul>
+<p><strong>Bẫy:</strong> coi <em>There</em> là chủ ngữ số ít. <strong>Ghi nhớ:</strong> There is + N số ít/không đếm được; There are + N số nhiều.</p>
+</div>
+</div>
+<h2>7. Trong mệnh đề quan hệ</h2>
+<p class="grammar-structure">N (tiền ngữ) + who/which/that + ĐỘNG TỪ chia theo N</p>
+<ul>
+<li>Động từ sau <em>who/which/that</em> (làm chủ ngữ) chia theo danh từ đứng trước nó.</li>
+<li>Câu có hai động từ: một trong mệnh đề quan hệ, một là động từ chính – mỗi động từ chia theo chủ ngữ của mình.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The <u>employee</u> who <u>works</u> the night shift <u>receives</u> extra pay. <em>(Nhân viên làm ca đêm được trả thêm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Customers who ______ online before Friday will receive free express shipping.</p>
+<ol class="grammar-options"><li class="grammar-correct">order</li><li>orders</li><li>ordering</li><li>has ordered</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. order</p>
+<p><strong>Câu hoàn chỉnh:</strong> Customers who order online before Friday will receive free express shipping.<br><strong>Dịch:</strong> Khách hàng đặt hàng trực tuyến trước thứ Sáu sẽ được giao hàng nhanh miễn phí.</p>
+<p><strong>Vì sao đúng:</strong> <em>who</em> thay cho <em>Customers</em> (số nhiều) → động từ trong mệnh đề quan hệ chia số nhiều <em>order</em>.</p>
+<ul>
+<li><strong>B. orders:</strong> số ít.</li>
+<li><strong>C. ordering:</strong> sau <em>who</em> cần động từ chia.</li>
+<li><strong>D. has ordered:</strong> số ít.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>who</em> luôn đi với động từ số ít. <strong>Ghi nhớ:</strong> động từ sau who/which/that chia theo tiền ngữ.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách xử lý</th></tr></thead>
+<tbody>
+<tr><td>Danh từ gần động từ ngược số với chủ ngữ</td><td>Đặt ngoặc cụm bổ nghĩa</td></tr>
+<tr><td>along with / as well as</td><td>Bỏ qua, chia theo chủ ngữ đầu</td></tr>
+<tr><td>Each of the / one of the + N-s</td><td>Động từ số ít</td></tr>
+<tr><td>most of, half of…</td><td>Xét danh từ sau of</td></tr>
+<tr><td>Danh từ tận cùng -s nhưng số ít</td><td>news, economics, a series of + số ít</td></tr>
+<tr><td>Danh từ tập hợp</td><td><em>personnel, police</em> thường số nhiều; nếu đề cho chỉ số ít/số nhiều rõ ràng, theo manh mối khác</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Each of the new laptops <u>comes</u> with a two-year warranty. <em>(Mỗi máy tính xách tay mới đều kèm bảo hành hai năm.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Each of the new laptops purchased for the design team ______ with a two-year warranty.</p>
+<ol class="grammar-options"><li>come</li><li>coming</li><li>have come</li><li class="grammar-correct">comes</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. comes</p>
+<p><strong>Câu hoàn chỉnh:</strong> Each of the new laptops purchased for the design team comes with a two-year warranty.<br><strong>Dịch:</strong> Mỗi máy tính xách tay mua cho nhóm thiết kế đều kèm bảo hành hai năm.</p>
+<p><strong>Vì sao đúng:</strong> Chủ ngữ chính <em>Each</em> → số ít; <em>purchased…</em> là phân từ bổ nghĩa → <em>comes</em>.</p>
+<ul>
+<li><strong>A. come:</strong> số nhiều.</li>
+<li><strong>B. coming:</strong> không phải động từ chia.</li>
+<li><strong>C. have come:</strong> số nhiều.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>laptops</em> và <em>team</em> đều gần động từ; <em>purchased</em> trông như động từ chính. <strong>Ghi nhớ:</strong> Each of the + N-s + V số ít.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> chủ ngữ đôi khi là danh từ ở câu trước được thay bằng đại từ (<em>they, it, this</em>) → xác định đại từ thay cho gì rồi chia động từ.</li>
+<li><strong>Part 7:</strong> hòa hợp giúp xác định đúng "cái gì" làm gì trong câu dài: động từ số ít <em>is</em> → chủ ngữ là danh từ số ít, không phải danh từ số nhiều đứng gần.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> All employees, including part-time staff, <u>are</u> required to attend. <em>(Mọi nhân viên, kể cả bán thời gian, đều phải tham dự.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo nội bộ)</em> A fire safety training session will be held on May 3.</p>
+<p>All employees, including part-time staff, ______ required to attend.</p>
+<ol class="grammar-options"><li>is</li><li>was</li><li>has</li><li class="grammar-correct">are</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. are</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> A fire safety training session will be held on May 3. All employees, including part-time staff, are required to attend.<br><strong>Dịch:</strong> Buổi huấn luyện an toàn phòng cháy sẽ diễn ra ngày 3/5. Mọi nhân viên, kể cả bán thời gian, đều phải tham dự.</p>
+<p><strong>Vì sao đúng:</strong> Chủ ngữ <em>All employees</em> số nhiều; <em>including…</em> là phần chèn; quy định hiện hành → <em>are required</em>.</p>
+<ul>
+<li><strong>A. is:</strong> số ít.</li>
+<li><strong>B. was:</strong> số ít, quá khứ.</li>
+<li><strong>C. has:</strong> <em>has required</em> chủ động và số ít.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>staff</em> sát động từ. <strong>Ghi nhớ:</strong> bỏ phần giữa hai dấu phẩy khi chia động từ.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> có cả dạng số ít và số nhiều (is/are, has/have, V/V-s) → câu hòa hợp.</li>
+<li><strong>Tìm chủ ngữ chính:</strong> từ đầu câu đến dấu hiệu bổ nghĩa đầu tiên (of, for, who, V-ing, V3, along with…).</li>
+<li><strong>Xét trường hợp đặc biệt:</strong> each/one of, most of, a number of, either/neither, V-ing, there is/are.</li>
+<li><strong>Kiểm tra thì và chủ động/bị động</strong> sau khi chọn số.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Động từ</th></tr></thead>
+<tbody>
+<tr><td>The N of + N-s</td><td>theo N đầu</td></tr>
+<tr><td>each/every/one of/V-ing/To V</td><td>số ít</td></tr>
+<tr><td>most/some/half of + N</td><td>theo N sau of</td></tr>
+<tr><td>a number of</td><td>số nhiều</td></tr>
+<tr><td>either/neither…or/nor</td><td>theo vế gần động từ</td></tr>
+<tr><td>There + be + N</td><td>theo N sau be</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Thời gian luyện tập:</strong> 10–20 giây/câu. Đừng chia theo danh từ đứng sát chỗ trống – đó là cách đề tạo bẫy.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Danh từ chính quyết định động từ; bỏ qua cụm of/for/who/V-ing/V3/along with.</li>
+<li>each/every/one of the/V-ing → số ít; both…and → số nhiều.</li>
+<li>most/some/half of + N → theo N; a number of → số nhiều; the number of → số ít.</li>
+<li>either/neither/not only…but also → theo vế sau.</li>
+<li>There is/are và động từ trong mệnh đề quan hệ chia theo danh từ liên quan.</li>
+</ul>
+<table>
+<thead><tr><th>Chủ ngữ</th><th>Ví dụ đúng</th></tr></thead>
+<tbody>
+<tr><td>The list of names</td><td>is</td></tr>
+<tr><td>One of the managers</td><td>has</td></tr>
+<tr><td>Most of the information</td><td>is</td></tr>
+<tr><td>Most of the staff members</td><td>are</td></tr>
+<tr><td>A number of complaints</td><td>have</td></tr>
+<tr><td>The number of complaints</td><td>has</td></tr>
+</tbody>
+</table>

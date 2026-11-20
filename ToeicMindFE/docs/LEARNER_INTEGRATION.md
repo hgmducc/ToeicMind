@@ -128,7 +128,7 @@ Kiểm tra hai mục trên: `npm test` 83/83, lint sạch, build đạt; `check-
 **Đáp án chi tiết dạng không gian học (18/11/2026):** `/review/:id` dùng lại bố cục của Luyện tập, chạy toàn màn hình (thêm vào `FOCUS_ROUTES`), mỗi lần một nhóm câu:
 - **Thanh trên:** nút "Kết quả", tên đề "· Xem lại kết quả", "Câu x/N", số câu đúng/sai/bỏ trống.
 - **Khung trái:** câu dẫn, thanh âm thanh (sóng âm, tua 3s/5s, nghe lại, tốc độ; không tự phát), hình, đoạn văn.
-- **Khung phải:** từng câu có nhãn Đúng/Sai/Bỏ trống; đáp án đúng tô xanh, lựa chọn sai tô đỏ, câu bỏ trống vẫn tô đáp án đúng; nút báo lỗi và đánh dấu; các khối bật/tắt Script & bản dịch / Giải thích chi tiết / Từ vựng nên học (`RevealPanels`).
+- **Khung phải:** từng câu có nhãn Đúng/Sai/Bỏ trống; đáp án đúng tô xanh, lựa chọn sai tô đỏ, câu bỏ trống vẫn tô đáp án đúng; nút báo lỗi và đánh dấu; công tắc Giải thích chi tiết nằm trong từng thẻ câu hỏi. Script & bản dịch và Từ vựng nên học dùng chung cho nhóm (`RevealPanels`).
 - **Thanh dưới:** Báo lỗi, Từ của tôi, bộ lọc Tất cả/Sai/Đúng/Bỏ trống/Đánh dấu kèm số câu, nút câu trước/sau và nút "x/N" mở bảng chọn câu (`QuestionNavigator` chế độ `review`, nhóm ngoài bộ lọc bị làm mờ).
 - **Phím tắt:** ←/→ chuyển câu, P/J/R điều khiển âm thanh.
 - **Vị trí:** giữ trên URL `#q-{questionId}`; liên kết từ bảng đáp án ở trang kết quả mở đúng nhóm.
@@ -179,10 +179,10 @@ Kiểm tra hai mục trên: `npm test` 83/83, lint sạch, build đạt; `check-
   - Phím tắt: ←/→ đổi nhóm câu; P phát/dừng; J lùi 3s; R nghe lại; 1–4 hoặc A–D chọn đáp án.
   - Part 1–2 chỉ hiện (A)–(D); nút "Hiện chữ Part 1–2" hiện nội dung đáp án.
   - Đánh dấu sao từng câu.
-  - Sau khi xem đáp án có 3 công tắc, trạng thái được nhớ:
-    - "Script & bản dịch" (Reading: "Bản dịch");
-    - "Giải thích chi tiết" (Giải thích + Phân tích các đáp án), bật sẵn;
-    - "Từ vựng nên học".
+  - Bôi chọn chữ trong đoạn tiếng Anh và dùng nút "Tô sáng" hoặc "Bỏ tô sáng" ngay cạnh vùng chọn. Lượt Luyện tập, Luyện thi và trang Xem lại bài dùng dấu tô theo từng đoạn của cùng lượt trên trình duyệt hiện tại.
+  - Khi có kết quả, phân tích hiển thị dưới từng phương án trong thẻ câu hỏi ở Luyện tập và Đáp án chi tiết. Văn bản không ghép được với từng phương án hiển thị trong khối "Phân tích các đáp án" của thẻ câu hỏi.
+  - Sau khi xem đáp án, thẻ của từng câu có công tắc "Giải thích chi tiết" (các bước giải và mẹo), bật sẵn. Mỗi câu trong nhóm nhớ trạng thái công tắc riêng.
+  - Nhóm có công tắc "Script & bản dịch", "Bản dịch" hoặc "Từ vựng nên học" tùy nội dung. Với Part 6–7 có bản dịch, công tắc "Bản dịch đoạn văn" nằm ngay dưới đoạn gốc. Luyện tập mở được bản dịch sau khi chấm một câu trong nhóm, còn Xem lại bài dùng bản dịch trong kết quả đã nộp. Trạng thái công tắc được nhớ.
   - Bảng câu hỏi bấm được để chuyển câu.
   - Nhớ vị trí đang làm khi tải lại.
 - **Luyện thi** (`ExamRunner`): logic không đổi; hướng dẫn tự phát/tự chuyển, không quay lại, hết giờ tự nộp.

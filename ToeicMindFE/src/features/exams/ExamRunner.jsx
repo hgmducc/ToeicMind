@@ -31,7 +31,7 @@ function Counter({ label, onOpen }) {
 }
 
 // Một bước của bài thi (hướng dẫn / nhóm câu / kết thúc). Component có `key` theo bước nên mọi state âm thanh tự reset khi đổi bước.
-function ExamStep({ step, index, steps, total, numbering, selected, answeredCount, busy, engine, options, partNos, media, counter, onOpenNav, onChoose, onNext, onSubmit }) {
+function ExamStep({ attemptId, step, index, steps, total, numbering, selected, answeredCount, busy, engine, options, partNos, media, counter, onOpenNav, onChoose, onNext, onSubmit }) {
   const [audio, setAudio] = useState(IDLE)
   const [note, setNote] = useState('')
   const listening = step.t === 'grp' && step.part <= 4
@@ -166,7 +166,7 @@ function ExamStep({ step, index, steps, total, numbering, selected, answeredCoun
       <div className="study-body">
         <StudySplit
           left={<ContextPane instruction={groupInstruction(step.part, first, last)} audio={listening && audioUrls(groupMedia).length > 0 && <ExamAudio seed={step.g.groupId} audio={audio} />}
-            shortcuts={[['1–4', 'Chọn đáp án'], ['Enter', 'Câu tiếp']]} media={groupMedia} passageHtml={step.g.passageHtml} />}
+            shortcuts={[['1–4', 'Chọn đáp án'], ['Enter', 'Câu tiếp']]} media={groupMedia} passageHtml={step.g.passageHtml} passageKey={`${attemptId}_${step.g.groupId}`} />}
           right={<>
             <div className="study-q-toolbar">
               <h2 className="study-group-label">{first === last ? `Câu ${first}` : <>Câu {first}–{last} <span className="muted">({numbers.length} câu hỏi)</span></>}</h2>
@@ -417,7 +417,7 @@ export default function ExamRunner({ attempt: initial, title }) {
     >
       <div className="study-progress" role="progressbar" aria-label="Tiến độ bài thi" aria-valuemin={0} aria-valuemax={100} aria-valuenow={allGroups ? Math.round((doneGroups * 100) / allGroups) : 0}><i style={{ width: `${allGroups ? Math.min(100, Math.round((doneGroups * 100) / allGroups)) : 0}%` }} /></div>
       <ExamStep
-        key={index} step={step} index={index} steps={steps} total={total} numbering={numbering} selected={selected} answeredCount={answeredCount} busy={busy}
+        key={index} attemptId={id} step={step} index={index} steps={steps} total={total} numbering={numbering} selected={selected} answeredCount={answeredCount} busy={busy}
         engine={engine} options={options} partNos={partNos} media={media} counter={counter} onOpenNav={() => setNavOpen(true)} onChoose={choose} onNext={next} onSubmit={submit}
       />
       {navOpen && (

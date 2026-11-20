@@ -1,0 +1,283 @@
+<!-- Bài học tương tác chủ điểm DẠNG ĐỘNG TỪ (Part 5 · nhóm Động từ · mã verb_form). Tiêu đề gợi ý: "Dạng động từ: động từ chính, to V, V nguyên mẫu và phân từ". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Dạng động từ (verb form)</strong> là câu hỏi cho bốn dạng của cùng một động từ (<em>allow / allows / allowing / to allow</em>) và yêu cầu chọn dạng đúng theo vị trí: động từ chính, <em>to V</em>, V nguyên mẫu hay phân từ (V-ing/V3). Kỹ năng then chốt: kiểm tra câu <strong>đã có động từ chính chưa</strong>. Danh động từ sau giới từ được học riêng trong bài <strong>Danh động từ</strong>.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Mỗi mệnh đề một động từ chính · modal + V · to V sau động từ, tính từ</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>V + O + to V (ask, allow, enable…) · to V chỉ mục đích</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Phân từ V-ing/V3 bổ nghĩa, mệnh đề phân từ đầu câu · cấu trúc song song</td></tr>
+</tbody>
+</table>
+<h2>1. Có động từ chính chưa?</h2>
+<ul>
+<li>Mỗi mệnh đề cần <strong>đúng một động từ chính</strong> (động từ chia thì: <em>allows, allowed, will allow, is allowed</em>).</li>
+<li><em>V-ing, to V, V3</em> đứng một mình <strong>không</strong> làm động từ chính.</li>
+<li>Câu chưa có động từ chính → chọn dạng chia thì; câu đã có → chọn dạng không chia (to V, V-ing, V3).</li>
+</ul>
+<p class="grammar-structure">S + ĐỘNG TỪ CHÍNH (chia thì, hợp số) + …</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The new policy <u>allows</u> employees to work from home. <em>(Chính sách mới cho phép nhân viên làm việc tại nhà.)</em></p>
+<p><strong>Phân tích:</strong> <em>allows</em> là động từ chính; <em>to work</em> là dạng không chia đi sau.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The revised travel policy ______ employees to book flights directly through the company portal.</p>
+<ol class="grammar-options"><li>allow</li><li class="grammar-correct">allows</li><li>allowing</li><li>to allow</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. allows</p>
+<p><strong>Câu hoàn chỉnh:</strong> The revised travel policy allows employees to book flights directly through the company portal.<br><strong>Dịch:</strong> Chính sách công tác sửa đổi cho phép nhân viên đặt vé máy bay trực tiếp qua cổng thông tin công ty.</p>
+<p><strong>Vì sao đúng:</strong> Câu chưa có động từ chính (<em>to book</em> không chia); chủ ngữ số ít <em>policy</em> → <em>allows</em>.</p>
+<ul>
+<li><strong>A. allow:</strong> dạng số nhiều.</li>
+<li><strong>C. allowing:</strong> không phải động từ chính.</li>
+<li><strong>D. to allow:</strong> không phải động từ chính.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>employees</em> số nhiều ngay sau chỗ trống. <strong>Ghi nhớ:</strong> tìm động từ chính trước khi chọn dạng.</p>
+</div>
+</div>
+<h2>2. To V</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Từ thường gặp</th></tr></thead>
+<tbody>
+<tr><td>V + to V</td><td>plan, decide, agree, hope, expect, intend, want, need, offer, refuse, fail, manage, aim, seek, strive, afford, hesitate</td></tr>
+<tr><td>V + O + to V</td><td>ask, allow, enable, encourage, require, advise, invite, remind, permit, urge, expect</td></tr>
+<tr><td>be + adj + to V</td><td>be able/likely/eager/pleased/ready/willing/reluctant to</td></tr>
+<tr><td>N + to V</td><td>plan, effort, ability, decision, opportunity, attempt, way to</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The app enables users <u>to track</u> their orders. <em>(Ứng dụng cho phép người dùng theo dõi đơn hàng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Grantley Industries plans ______ its manufacturing operations to Southeast Asia next year.</p>
+<ol class="grammar-options"><li>expand</li><li>expanding</li><li class="grammar-correct">to expand</li><li>expanded</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. to expand</p>
+<p><strong>Câu hoàn chỉnh:</strong> Grantley Industries plans to expand its manufacturing operations to Southeast Asia next year.<br><strong>Dịch:</strong> Grantley Industries dự định mở rộng hoạt động sản xuất sang Đông Nam Á vào năm tới.</p>
+<p><strong>Vì sao đúng:</strong> <em>plan + to V</em>; động từ chính đã là <em>plans</em>.</p>
+<ul>
+<li><strong>A. expand:</strong> hai động từ chính liền nhau.</li>
+<li><strong>B. expanding:</strong> <em>plan</em> không đi với V-ing.</li>
+<li><strong>D. expanded:</strong> V2/V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm với nhóm consider + V-ing. <strong>Ghi nhớ:</strong> plan/decide/hope/intend + to V.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The new accounting software enables users ______ detailed financial reports in just a few minutes.</p>
+<ol class="grammar-options"><li class="grammar-correct">to create</li><li>create</li><li>creating</li><li>created</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. to create</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new accounting software enables users to create detailed financial reports in just a few minutes.<br><strong>Dịch:</strong> Phần mềm kế toán mới giúp người dùng tạo báo cáo tài chính chi tiết chỉ trong vài phút.</p>
+<p><strong>Vì sao đúng:</strong> <em>enable + O + to V</em>.</p>
+<ul>
+<li><strong>B. create:</strong> <em>enable</em> không đi với V nguyên mẫu (khác <em>let</em>).</li>
+<li><strong>C. creating:</strong> sai cấu trúc với <em>enable</em>.</li>
+<li><strong>D. created:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>enable</em> với <em>let/help</em>. <strong>Ghi nhớ:</strong> enable/allow/encourage/require + O + to V.</p>
+</div>
+</div>
+<h2>3. V nguyên mẫu</h2>
+<p class="grammar-structure">can / will / should / must / may / might + V &nbsp;·&nbsp; do/does/did + V &nbsp;·&nbsp; let/make/have + O + V</p>
+<ul>
+<li>Sau modal <strong>không</strong> thêm -s, không dùng to (trừ <em>ought to, have to, be able to</em>).</li>
+<li><em>had better + V</em>, <em>would rather + V</em>; <em>help + O + (to) V</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Visitors must <u>sign</u> in at the front desk. <em>(Khách phải đăng ký ở quầy lễ tân.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Applicants should ______ a copy of their academic transcripts with the application form.</p>
+<ol class="grammar-options"><li>including</li><li class="grammar-correct">include</li><li>to include</li><li>included</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. include</p>
+<p><strong>Câu hoàn chỉnh:</strong> Applicants should include a copy of their academic transcripts with the application form.<br><strong>Dịch:</strong> Ứng viên nên gửi kèm bản sao bảng điểm cùng với đơn ứng tuyển.</p>
+<p><strong>Vì sao đúng:</strong> <em>should + V nguyên mẫu</em>.</p>
+<ul>
+<li><strong>A. including:</strong> không đứng sau modal.</li>
+<li><strong>C. to include:</strong> modal không đi với to V.</li>
+<li><strong>D. included:</strong> <em>should included</em> sai; bị động phải là <em>should be included</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>should</em> với <em>ought to</em>. <strong>Ghi nhớ:</strong> modal + V nguyên mẫu.</p>
+</div>
+</div>
+<h2>4. Chỉ mục đích</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Theo sau</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>to / in order to / so as to</td><td>V nguyên mẫu</td><td><u>In order to</u> qualify, …</td></tr>
+<tr><td>so that / in order that</td><td>mệnh đề (S + can/will + V)</td><td>so that we <u>can</u> finish</td></tr>
+<tr><td>for</td><td>danh từ</td><td><u>for</u> safety reasons</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We extended our hours <u>to serve</u> more customers. <em>(Chúng tôi kéo dài giờ mở cửa để phục vụ thêm khách.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ qualify for the discount, customers must present a valid membership card at checkout.</p>
+<ol class="grammar-options"><li class="grammar-correct">In order to</li><li>So that</li><li>Because</li><li>For</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. In order to</p>
+<p><strong>Câu hoàn chỉnh:</strong> In order to qualify for the discount, customers must present a valid membership card at checkout.<br><strong>Dịch:</strong> Để được giảm giá, khách hàng phải xuất trình thẻ thành viên hợp lệ khi thanh toán.</p>
+<p><strong>Vì sao đúng:</strong> Sau chỗ trống là V nguyên mẫu <em>qualify</em> và ý chỉ mục đích → <em>In order to</em>.</p>
+<ul>
+<li><strong>B. So that:</strong> cần mệnh đề có chủ ngữ.</li>
+<li><strong>C. Because:</strong> cần mệnh đề, chỉ lý do.</li>
+<li><strong>D. For:</strong> giới từ, cần danh từ/V-ing.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>So that</em> cũng mang nghĩa mục đích. <strong>Ghi nhớ:</strong> in order to + V; so that + S + V.</p>
+</div>
+</div>
+<h2>5. Phân từ V-ing và V3</h2>
+<table>
+<thead><tr><th>Dạng</th><th>Nghĩa</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>N + V-ing</td><td>chủ động (người/vật làm)</td><td>Employees <u>wishing</u> to attend…</td></tr>
+<tr><td>N + V3</td><td>bị động (được làm)</td><td>Forms <u>submitted</u> late…</td></tr>
+<tr><td>V-ing…, S + V</td><td>chủ ngữ tự làm hành động</td><td><u>Using</u> the new app, staff can…</td></tr>
+<tr><td>V3…, S + V</td><td>chủ ngữ nhận hành động</td><td><u>Founded</u> in 1985, the firm…</td></tr>
+</tbody>
+</table>
+<p>Mệnh đề phân từ đầu câu có chủ ngữ ngầm là <strong>chủ ngữ của mệnh đề chính</strong>: xét chủ ngữ đó tự làm (V-ing) hay được làm (V3).</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>Located</u> near the airport, the hotel is popular with business travelers. <em>(Nằm gần sân bay, khách sạn được khách công tác ưa chuộng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Employees ______ to attend the leadership workshop should register with Ms. Chen by Friday.</p>
+<ol class="grammar-options"><li>wish</li><li>wished</li><li>wishes</li><li class="grammar-correct">wishing</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. wishing</p>
+<p><strong>Câu hoàn chỉnh:</strong> Employees wishing to attend the leadership workshop should register with Ms. Chen by Friday.<br><strong>Dịch:</strong> Nhân viên muốn tham dự hội thảo lãnh đạo nên đăng ký với cô Chen trước thứ Sáu.</p>
+<p><strong>Vì sao đúng:</strong> Động từ chính là <em>should register</em>; chỗ trống bổ nghĩa cho <em>Employees</em> theo nghĩa chủ động (nhân viên muốn) → V-ing (= who wish).</p>
+<ul>
+<li><strong>A. wish:</strong> tạo hai động từ chính.</li>
+<li><strong>B. wished:</strong> nghĩa bị động "được mong muốn" – sai.</li>
+<li><strong>C. wishes:</strong> động từ chia, thừa động từ chính và sai số.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ chỗ trống là động từ chính. <strong>Ghi nhớ:</strong> those/people/employees wishing to + V.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>______ in 1985, Halvorsen Foods now operates more than 200 grocery stores nationwide.</p>
+<ol class="grammar-options"><li>Founding</li><li>To found</li><li class="grammar-correct">Founded</li><li>Found</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. Founded</p>
+<p><strong>Câu hoàn chỉnh:</strong> Founded in 1985, Halvorsen Foods now operates more than 200 grocery stores nationwide.<br><strong>Dịch:</strong> Được thành lập năm 1985, Halvorsen Foods hiện vận hành hơn 200 cửa hàng tạp hóa trên toàn quốc.</p>
+<p><strong>Vì sao đúng:</strong> Chủ ngữ ngầm là <em>Halvorsen Foods</em>; công ty <strong>được</strong> thành lập → V3.</p>
+<ul>
+<li><strong>A. Founding:</strong> nghĩa chủ động "công ty thành lập (cái gì)" – sai.</li>
+<li><strong>B. To found:</strong> chỉ mục đích, không hợp nghĩa.</li>
+<li><strong>D. Found:</strong> nguyên mẫu (hoặc quá khứ của <em>find</em>) – sai.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>found</em> (thành lập) và <em>found</em> (quá khứ của find) gây rối. <strong>Ghi nhớ:</strong> found – founded – founded (thành lập).</p>
+</div>
+</div>
+<h2>6. Cấu trúc song song</h2>
+<p class="grammar-structure">V1 + and/or/but + V2 (cùng dạng) &nbsp;·&nbsp; both / either / not only … cùng dạng</p>
+<ul>
+<li>Hai động từ nối bằng <em>and/or</em> có cùng chủ ngữ và cùng dạng: <em>will review and <u>approve</u></em>, <em>to review and (to) <u>approve</u></em>.</li>
+<li>Nhìn động từ phía trước <em>and</em> để chọn dạng động từ phía sau.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please complete the form and <u>return</u> it by Friday. <em>(Vui lòng điền mẫu và gửi lại trước thứ Sáu.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Ms. Kim will review the three proposals and ______ a final decision by the end of the week.</p>
+<ol class="grammar-options"><li>makes</li><li>making</li><li>made</li><li class="grammar-correct">make</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. make</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Kim will review the three proposals and make a final decision by the end of the week.<br><strong>Dịch:</strong> Cô Kim sẽ xem xét ba đề xuất và đưa ra quyết định cuối cùng trước cuối tuần.</p>
+<p><strong>Vì sao đúng:</strong> <em>will review and (will) make</em>: hai động từ song song sau <em>will</em> → V nguyên mẫu.</p>
+<ul>
+<li><strong>A. makes:</strong> chia theo chủ ngữ, nhưng đang nằm dưới <em>will</em>.</li>
+<li><strong>B. making:</strong> không song song với <em>review</em>.</li>
+<li><strong>C. made:</strong> quá khứ, không song song.</li>
+</ul>
+<p><strong>Bẫy:</strong> chia theo <em>Ms. Kim</em> số ít. <strong>Ghi nhớ:</strong> V and V: dạng thứ hai giống dạng thứ nhất.</p>
+</div>
+</div>
+<h2>7. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Dạng đúng</th></tr></thead>
+<tbody>
+<tr><td>would like / would love</td><td>+ to V</td></tr>
+<tr><td>used to (thói quen quá khứ)</td><td>+ V nguyên mẫu</td></tr>
+<tr><td>be used to / look forward to (to là giới từ)</td><td>+ V-ing</td></tr>
+<tr><td>let / make / have + O</td><td>+ V nguyên mẫu</td></tr>
+<tr><td>allow / ask / require / enable + O</td><td>+ to V</td></tr>
+<tr><td>help + O</td><td>+ V hoặc to V</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We would like <u>to thank</u> all volunteers. <em>(Chúng tôi xin cảm ơn tất cả tình nguyện viên.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The branch manager would like ______ all staff for their hard work during the store renovation.</p>
+<ol class="grammar-options"><li>thank</li><li>thanking</li><li class="grammar-correct">to thank</li><li>thanked</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. to thank</p>
+<p><strong>Câu hoàn chỉnh:</strong> The branch manager would like to thank all staff for their hard work during the store renovation.<br><strong>Dịch:</strong> Quản lý chi nhánh muốn cảm ơn toàn thể nhân viên vì đã làm việc chăm chỉ trong thời gian cải tạo cửa hàng.</p>
+<p><strong>Vì sao đúng:</strong> <em>would like + to V</em>.</p>
+<ul>
+<li><strong>A. thank:</strong> <em>would like</em> không đi trực tiếp với V nguyên mẫu.</li>
+<li><strong>B. thanking:</strong> <em>would like</em> không đi với V-ing.</li>
+<li><strong>D. thanked:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy modal <em>would</em> nên chọn V nguyên mẫu. <strong>Ghi nhớ:</strong> would like to V (khác would + V).</p>
+</div>
+</div>
+<h2>8. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> câu mở thông báo: <em>We are pleased to announce…, We regret to inform you…, I am writing to confirm…</em> → to V.</li>
+<li><strong>Part 7:</strong> mệnh đề phân từ chứa thông tin phụ thường được hỏi: <em>Founded in 1985…</em> → "What is indicated about the company?" → It has been in business for many years.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> I am writing <u>to request</u> a refund. <em>(Tôi viết thư để yêu cầu hoàn tiền.)</em> → "Why was the e-mail written?" → To request a refund.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Bản tin nội bộ)</em> We are pleased ______ that Ms. Park has been promoted to director of regional sales.</p>
+<p>She will begin her new role on July 1.</p>
+<ol class="grammar-options"><li>announce</li><li>announcing</li><li>announced</li><li class="grammar-correct">to announce</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. to announce</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> We are pleased to announce that Ms. Park has been promoted to director of regional sales. She will begin her new role on July 1.<br><strong>Dịch:</strong> Chúng tôi vui mừng thông báo cô Park đã được thăng chức giám đốc kinh doanh khu vực. Cô sẽ nhận nhiệm vụ từ ngày 1/7.</p>
+<p><strong>Vì sao đúng:</strong> <em>be pleased + to V</em>.</p>
+<ul>
+<li><strong>A. announce:</strong> sai cấu trúc sau tính từ.</li>
+<li><strong>B. announcing:</strong> <em>pleased</em> không đi với V-ing ở đây.</li>
+<li><strong>C. announced:</strong> V3 sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>are pleased</em> trông như bị động cần thêm V3. <strong>Ghi nhớ:</strong> be pleased/happy/delighted to announce.</p>
+</div>
+</div>
+<h2>9. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Tìm động từ chính:</strong> chưa có → chọn dạng chia; đã có → loại dạng chia.</li>
+<li><strong>Nhìn từ đứng trước:</strong> modal/do/let → V; plan/decide/would like → to V; consider/avoid/giới từ → V-ing; allow/enable + O → to V.</li>
+<li><strong>Sau danh từ, câu đã có động từ chính:</strong> V-ing (chủ động) hay V3 (bị động).</li>
+<li><strong>Đầu câu, trước dấu phẩy:</strong> xét chủ ngữ mệnh đề chính tự làm hay được làm.</li>
+<li><strong>Có and/or:</strong> giữ cấu trúc song song.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Chọn</th></tr></thead>
+<tbody>
+<tr><td>S + ______ + O (chưa có động từ chính)</td><td>Động từ chia thì</td></tr>
+<tr><td>modal / do / let + O + ______</td><td>V nguyên mẫu</td></tr>
+<tr><td>plan / would like / be able + ______</td><td>to V</td></tr>
+<tr><td>N + ______ + … + động từ chính</td><td>V-ing hoặc V3</td></tr>
+<tr><td>______ …, S + V</td><td>V-ing (chủ động) / V3 (bị động) / To V (mục đích)</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Thời gian luyện tập:</strong> 5–10 giây với dấu hiệu modal/to V; 15–20 giây với phân từ và mệnh đề đầu câu.</p>
+</div>
+<h2>10. Tổng kết, ôn tập</h2>
+<ul>
+<li>Mỗi mệnh đề một động từ chính chia thì; V-ing/to V/V3 không làm động từ chính.</li>
+<li>Modal, do, let/make/have + O → V nguyên mẫu.</li>
+<li>plan/decide/hope/would like/be able → to V; allow/enable/require + O → to V.</li>
+<li>N + V-ing = chủ động; N + V3 = bị động; mệnh đề phân từ đầu câu theo chủ ngữ mệnh đề chính.</li>
+<li>in order to + V (mục đích); so that + mệnh đề; for + danh từ.</li>
+<li>V and V cùng dạng.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> be pleased to announce · regret to inform · be able to · be likely to · be eager to · in an effort to · the ability to · enable/allow/encourage + O + to V · those wishing to · Founded/Located/Established in…</p>

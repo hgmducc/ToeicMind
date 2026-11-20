@@ -1,0 +1,296 @@
+<!-- Bài học tương tác chủ điểm ĐẠI TỪ (Part 5 · nhóm Ngữ pháp khác · mã pronoun). Tiêu đề gợi ý: "Đại từ trong TOEIC: nhân xưng, sở hữu, phản thân và bất định". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Đại từ (pronoun)</strong> thay cho danh từ để khỏi lặp lại: <em>Ms. Han → she/her/hers/herself</em>. Câu hỏi đại từ trong Part 5 thường cho bốn dạng của cùng một đại từ và kiểm tra <strong>vị trí</strong> (chủ ngữ, tân ngữ, trước danh từ, không có danh từ theo sau). Một số câu kiểm tra đại từ bất định (<em>another, others, the other</em>) và <em>that/those</em>.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Bảng đại từ nhân xưng · chủ ngữ/tân ngữ/tính từ sở hữu</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>Đại từ sở hữu (theirs) · phản thân (himself, by oneself)</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>that/those of · another/other/others/the other · its/their theo danh từ được thay</td></tr>
+</tbody>
+</table>
+<h2>1. Bảng đại từ nhân xưng</h2>
+<table>
+<thead><tr><th>Chủ ngữ</th><th>Tân ngữ</th><th>Tính từ sở hữu (+ N)</th><th>Đại từ sở hữu (không N)</th><th>Phản thân</th></tr></thead>
+<tbody>
+<tr><td>I</td><td>me</td><td>my</td><td>mine</td><td>myself</td></tr>
+<tr><td>you</td><td>you</td><td>your</td><td>yours</td><td>yourself/yourselves</td></tr>
+<tr><td>he / she</td><td>him / her</td><td>his / her</td><td>his / hers</td><td>himself / herself</td></tr>
+<tr><td>it</td><td>it</td><td>its</td><td>—</td><td>itself</td></tr>
+<tr><td>we</td><td>us</td><td>our</td><td>ours</td><td>ourselves</td></tr>
+<tr><td>they</td><td>them</td><td>their</td><td>theirs</td><td>themselves</td></tr>
+</tbody>
+</table>
+<p class="grammar-structure">TÍNH TỪ SỞ HỮU + (adj) + DANH TỪ: her assistant, their new office</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Ms. Han asked <u>her</u> assistant to reschedule the meeting. <em>(Cô Han nhờ trợ lý của mình dời lịch họp.)</em></p>
+<p><strong>Phân tích:</strong> trước danh từ <em>assistant</em> → tính từ sở hữu.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Ms. Han asked ______ assistant to reschedule Thursday's meeting with the suppliers.</p>
+<ol class="grammar-options"><li>she</li><li class="grammar-correct">her</li><li>hers</li><li>herself</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. her</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Han asked her assistant to reschedule Thursday's meeting with the suppliers.<br><strong>Dịch:</strong> Cô Han nhờ trợ lý của mình dời cuộc họp thứ Năm với các nhà cung cấp.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống đứng trước danh từ <em>assistant</em> → tính từ sở hữu <em>her</em>.</p>
+<ul>
+<li><strong>A. she:</strong> đại từ chủ ngữ, không đứng trước danh từ.</li>
+<li><strong>C. hers:</strong> đại từ sở hữu, không có danh từ theo sau.</li>
+<li><strong>D. herself:</strong> phản thân, không đứng trước danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>her</em> vừa là tân ngữ vừa là tính từ sở hữu. <strong>Ghi nhớ:</strong> ______ + danh từ → my/your/his/her/its/our/their.</p>
+</div>
+</div>
+<h2>2. Chủ ngữ hay tân ngữ?</h2>
+<ul>
+<li><strong>Trước động từ</strong> → đại từ chủ ngữ (I, he, she, we, they).</li>
+<li><strong>Sau động từ, sau giới từ</strong> → đại từ tân ngữ (me, him, her, us, them).</li>
+<li>Với hai thành phần nối bằng <em>and/or</em>, bỏ thành phần kia đi để thử: <em>contact Mr. Diaz or <u>me</u></em> → <em>contact me</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The report was written by Ms. Ito and <u>me</u>. <em>(Báo cáo do cô Ito và tôi viết.)</em></p>
+<p><strong>Phân tích:</strong> sau giới từ <em>by</em> → tân ngữ <em>me</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>If you have any questions about the new benefits plan, please contact Mr. Diaz or ______ in the human resources office.</p>
+<ol class="grammar-options"><li>I</li><li>my</li><li class="grammar-correct">me</li><li>mine</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. me</p>
+<p><strong>Câu hoàn chỉnh:</strong> If you have any questions about the new benefits plan, please contact Mr. Diaz or me in the human resources office.<br><strong>Dịch:</strong> Nếu có thắc mắc về chương trình phúc lợi mới, vui lòng liên hệ anh Diaz hoặc tôi ở phòng nhân sự.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống là tân ngữ của <em>contact</em> (bỏ <em>Mr. Diaz or</em> → <em>contact me</em>).</p>
+<ul>
+<li><strong>A. I:</strong> đại từ chủ ngữ.</li>
+<li><strong>B. my:</strong> cần danh từ theo sau.</li>
+<li><strong>D. mine:</strong> "của tôi" – sai nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> "Mr. Diaz or I" nghe trang trọng. <strong>Ghi nhớ:</strong> bỏ thành phần đi kèm để thử vị trí.</p>
+</div>
+</div>
+<h2>3. Đại từ sở hữu</h2>
+<p class="grammar-structure">mine / yours / his / hers / ours / theirs = tính từ sở hữu + danh từ đã nhắc</p>
+<ul>
+<li>Đứng <strong>một mình</strong>, không có danh từ theo sau.</li>
+<li>Hay gặp sau <em>than</em>, sau <em>be</em>, hoặc làm chủ ngữ/tân ngữ: <em>Our office is larger than <u>theirs</u></em> (= their office).</li>
+<li><em>a friend of mine</em>, <em>a colleague of hers</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> This laptop is <u>mine</u>; <u>yours</u> is on the desk. <em>(Máy này của tôi; máy của bạn ở trên bàn.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Our proposal was selected because it was more detailed than ______.</p>
+<ol class="grammar-options"><li>their</li><li>them</li><li class="grammar-correct">theirs</li><li>they</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. theirs</p>
+<p><strong>Câu hoàn chỉnh:</strong> Our proposal was selected because it was more detailed than theirs.<br><strong>Dịch:</strong> Đề xuất của chúng tôi được chọn vì chi tiết hơn đề xuất của họ.</p>
+<p><strong>Vì sao đúng:</strong> So sánh hai đề xuất: <em>our proposal</em> với <em>their proposal</em> → thay bằng <em>theirs</em> (không có danh từ theo sau).</p>
+<ul>
+<li><strong>A. their:</strong> cần danh từ theo sau.</li>
+<li><strong>B. them:</strong> so sánh đề xuất với "họ" – sai đối tượng.</li>
+<li><strong>D. they:</strong> cũng so sánh với người, và cần động từ theo sau (<em>than they did</em>).</li>
+</ul>
+<p><strong>Bẫy:</strong> so sánh vật với người. <strong>Ghi nhớ:</strong> so sánh cùng loại: our proposal – theirs.</p>
+</div>
+</div>
+<h2>4. Đại từ phản thân</h2>
+<table>
+<thead><tr><th>Cách dùng</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Tân ngữ trùng chủ ngữ</td><td>She introduced <u>herself</u>.</td></tr>
+<tr><td>Nhấn mạnh "chính người đó"</td><td>The CEO <u>himself</u> answered. · He reviewed it <u>himself</u>.</td></tr>
+<tr><td>by + phản thân = một mình, tự mình</td><td>They finished it <u>by themselves</u>.</td></tr>
+</tbody>
+</table>
+<p>Không dùng phản thân khi tân ngữ khác chủ ngữ: <em>Please contact <u>me</u></em>, không dùng <em>contact myself</em>.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Mr. Lee prefers to check the contracts <u>himself</u>. <em>(Ông Lee thích tự mình kiểm tra hợp đồng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Mr. Lee prefers to review all client contracts ______ before sending them out.</p>
+<ol class="grammar-options"><li>him</li><li>his</li><li class="grammar-correct">himself</li><li>he</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. himself</p>
+<p><strong>Câu hoàn chỉnh:</strong> Mr. Lee prefers to review all client contracts himself before sending them out.<br><strong>Dịch:</strong> Ông Lee thích tự mình xem xét mọi hợp đồng khách hàng trước khi gửi đi.</p>
+<p><strong>Vì sao đúng:</strong> Câu đã đủ (<em>review all client contracts</em>); chỗ trống nhấn mạnh "tự mình" → phản thân.</p>
+<ul>
+<li><strong>A. him:</strong> tân ngữ, nhưng động từ đã có tân ngữ.</li>
+<li><strong>B. his:</strong> cần danh từ theo sau.</li>
+<li><strong>D. he:</strong> đại từ chủ ngữ, sai vị trí.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ chỗ trống cuối câu cần tân ngữ. <strong>Ghi nhớ:</strong> câu đủ thành phần + nhấn mạnh → phản thân.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The summer interns completed the market analysis by ______ without any assistance from their supervisors.</p>
+<ol class="grammar-options"><li>theirs</li><li>them</li><li>their</li><li class="grammar-correct">themselves</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. themselves</p>
+<p><strong>Câu hoàn chỉnh:</strong> The summer interns completed the market analysis by themselves without any assistance from their supervisors.<br><strong>Dịch:</strong> Các thực tập sinh mùa hè tự hoàn thành bản phân tích thị trường mà không có sự trợ giúp của người giám sát.</p>
+<p><strong>Vì sao đúng:</strong> <em>by + phản thân</em> = tự mình, một mình; <em>without any assistance</em> xác nhận nghĩa.</p>
+<ul>
+<li><strong>A. theirs:</strong> "của họ" – sai nghĩa.</li>
+<li><strong>B. them:</strong> <em>by them</em> = bởi họ (người khác) – không hợp.</li>
+<li><strong>C. their:</strong> cần danh từ theo sau.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>by them</em> nghe như bị động. <strong>Ghi nhớ:</strong> by oneself = on one's own = một mình.</p>
+</div>
+</div>
+<h2>5. That of, those of</h2>
+<p class="grammar-structure">N số ít … that of … &nbsp;·&nbsp; N số nhiều … those of/for … &nbsp;·&nbsp; those who + V số nhiều</p>
+<ul>
+<li><em>that/those</em> thay cho danh từ đã nhắc để so sánh đúng đối tượng.</li>
+<li><em>one/ones</em> thay cho danh từ đếm được: <em>the blue one, the new ones</em>.</li>
+<li><em>those who</em> = những người mà: <em>Those who register early get a discount.</em></li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The price of our product is lower than <u>that</u> of our competitor. <em>(Giá sản phẩm của chúng tôi thấp hơn giá của đối thủ.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The sales figures for this quarter are significantly higher than ______ for the previous quarter.</p>
+<ol class="grammar-options"><li>that</li><li class="grammar-correct">those</li><li>these</li><li>this</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. those</p>
+<p><strong>Câu hoàn chỉnh:</strong> The sales figures for this quarter are significantly higher than those for the previous quarter.<br><strong>Dịch:</strong> Số liệu doanh thu quý này cao hơn đáng kể so với số liệu của quý trước.</p>
+<p><strong>Vì sao đúng:</strong> Thay cho <em>sales figures</em> (số nhiều) trong phép so sánh → <em>those</em>.</p>
+<ul>
+<li><strong>A. that:</strong> thay cho danh từ số ít.</li>
+<li><strong>C. these:</strong> không dùng để thay danh từ trong cấu trúc so sánh <em>than … for/of</em>.</li>
+<li><strong>D. this:</strong> số ít.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>quarter</em> số ít gần chỗ trống. <strong>Ghi nhớ:</strong> that (of) thay N số ít; those (of) thay N số nhiều.</p>
+</div>
+</div>
+<h2>6. Đại từ bất định</h2>
+<table>
+<thead><tr><th>Từ</th><th>Cách dùng</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>another</td><td>một cái khác (+ N số ít)</td><td>another option</td></tr>
+<tr><td>other</td><td>khác (+ N số nhiều/không đếm được)</td><td>other options</td></tr>
+<tr><td>others</td><td>những người/cái khác (không có N)</td><td>Some prefer tea; <u>others</u> prefer coffee.</td></tr>
+<tr><td>the other</td><td>cái còn lại (trong hai) (+ N)</td><td>the other branch</td></tr>
+<tr><td>the others</td><td>những cái còn lại (không có N)</td><td>Two arrived; <u>the others</u> are late.</td></tr>
+<tr><td>each other / one another</td><td>lẫn nhau</td><td>help each other</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> One of the printers works; <u>the other</u> needs repair. <em>(Một máy in chạy được; máy còn lại cần sửa.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Some employees prefer to start work early in the morning, while ______ prefer to work later in the day.</p>
+<ol class="grammar-options"><li class="grammar-correct">others</li><li>another</li><li>other</li><li>the other</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. others</p>
+<p><strong>Câu hoàn chỉnh:</strong> Some employees prefer to start work early in the morning, while others prefer to work later in the day.<br><strong>Dịch:</strong> Một số nhân viên thích bắt đầu làm việc sớm, trong khi những người khác thích làm muộn hơn.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống là chủ ngữ của <em>prefer</em> (số nhiều), không có danh từ theo sau; đối lập với <em>Some</em> → <em>others</em>.</p>
+<ul>
+<li><strong>B. another:</strong> số ít, sai với <em>prefer</em>.</li>
+<li><strong>C. other:</strong> cần danh từ theo sau.</li>
+<li><strong>D. the other:</strong> số ít, chỉ "cái còn lại" trong hai.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn <em>other</em> vì nhớ "other + số nhiều". <strong>Ghi nhớ:</strong> Some…, others… (không có danh từ sau others).</p>
+</div>
+</div>
+<h2>7. Đại từ khớp danh từ</h2>
+<ul>
+<li>Đại từ phải khớp với danh từ nó thay thế: công ty, tổ chức số ít → <em>it/its</em>; người số nhiều → <em>they/their</em>.</li>
+<li><em>its</em> (sở hữu) ≠ <em>it's</em> (= it is/it has).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The company reported that <u>its</u> profits rose. <em>(Công ty báo cáo lợi nhuận của mình đã tăng.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Dalton Electronics announced that ______ profits had increased by 15 percent over the previous year.</p>
+<ol class="grammar-options"><li>it</li><li>it's</li><li>itself</li><li class="grammar-correct">its</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. its</p>
+<p><strong>Câu hoàn chỉnh:</strong> Dalton Electronics announced that its profits had increased by 15 percent over the previous year.<br><strong>Dịch:</strong> Dalton Electronics thông báo lợi nhuận của công ty đã tăng 15% so với năm trước.</p>
+<p><strong>Vì sao đúng:</strong> Trước danh từ <em>profits</em> cần tính từ sở hữu; thay cho công ty (số ít) → <em>its</em>.</p>
+<ul>
+<li><strong>A. it:</strong> không đứng trước danh từ.</li>
+<li><strong>B. it's:</strong> = it is/it has – sai cấu trúc.</li>
+<li><strong>C. itself:</strong> phản thân, không đứng trước danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nhầm <em>its</em> và <em>it's</em>. <strong>Ghi nhớ:</strong> its + N (của nó); it's = it is.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách xử lý</th></tr></thead>
+<tbody>
+<tr><td>her = tân ngữ hoặc tính từ sở hữu</td><td>Có danh từ theo sau → sở hữu</td></tr>
+<tr><td>Dùng phản thân thay tân ngữ (<em>contact myself</em>)</td><td>Chỉ dùng phản thân khi trùng chủ ngữ hoặc nhấn mạnh</td></tr>
+<tr><td>so sánh sai đối tượng (<em>than them</em>)</td><td>Thay bằng theirs/that of/those of</td></tr>
+<tr><td>other / others</td><td>others đứng một mình; other cần danh từ</td></tr>
+<tr><td>none of / no</td><td><em>None of the + N</em>; <em>no + N</em> (không có of)</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>None</u> of the applicants met the requirements. · <u>No</u> applicants met the requirements.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>______ of the applicants had the required experience, so the position was advertised again.</p>
+<ol class="grammar-options"><li class="grammar-correct">None</li><li>No</li><li>Nothing</li><li>Nobody</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. None</p>
+<p><strong>Câu hoàn chỉnh:</strong> None of the applicants had the required experience, so the position was advertised again.<br><strong>Dịch:</strong> Không ứng viên nào có kinh nghiệm theo yêu cầu, nên vị trí được đăng tuyển lại.</p>
+<p><strong>Vì sao đúng:</strong> <em>None of the + N</em> = không ai/không cái nào trong số đó.</p>
+<ul>
+<li><strong>B. No:</strong> là từ hạn định, đi trực tiếp với danh từ (<em>No applicants</em>), không đi với <em>of</em>.</li>
+<li><strong>C. Nothing:</strong> chỉ vật, không đi với <em>of the applicants</em>.</li>
+<li><strong>D. Nobody:</strong> không đi với <em>of the</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "không ai" nên chọn <em>Nobody</em>. <strong>Ghi nhớ:</strong> none of the + N · no + N.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> đại từ phải khớp danh từ ở câu trước (số ít/số nhiều, người/vật). Đây là dạng chỉ giải được khi đọc ngữ cảnh.</li>
+<li><strong>Part 7:</strong> xác định <em>they, it, this</em> thay cho ai/cái gì để trả lời câu hỏi chi tiết.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The new chairs arrived yesterday. <u>They</u> will be assembled on Monday. <em>(Ghế mới đến hôm qua. Chúng sẽ được lắp vào thứ Hai.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Email giao hàng)</em> Your new laptop was shipped from our warehouse this morning.</p>
+<p>______ should arrive within three business days. A tracking number is included below.</p>
+<ol class="grammar-options"><li>They</li><li>Its</li><li>Them</li><li class="grammar-correct">It</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. It</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> Your new laptop was shipped from our warehouse this morning. It should arrive within three business days…<br><strong>Dịch:</strong> Máy tính xách tay mới của quý khách đã được gửi đi từ kho sáng nay. Máy sẽ đến trong vòng ba ngày làm việc…</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống là chủ ngữ của <em>should arrive</em>, thay cho <em>your new laptop</em> (số ít, vật) → <em>It</em>.</p>
+<ul>
+<li><strong>A. They:</strong> số nhiều, không khớp <em>laptop</em>.</li>
+<li><strong>B. Its:</strong> tính từ sở hữu, cần danh từ.</li>
+<li><strong>C. Them:</strong> tân ngữ, không làm chủ ngữ.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ đến "hàng hóa" (số nhiều). <strong>Ghi nhớ:</strong> đại từ khớp với danh từ cụ thể ở câu trước.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> các dạng của một đại từ → câu vị trí.</li>
+<li><strong>Có danh từ theo sau?</strong> Có → tính từ sở hữu; không → xét tiếp.</li>
+<li><strong>Trước động từ</strong> → chủ ngữ; <strong>sau động từ/giới từ</strong> → tân ngữ.</li>
+<li><strong>Câu đã đủ + nhấn mạnh/by…</strong> → phản thân; <strong>đứng một mình thay "của ai"</strong> → đại từ sở hữu.</li>
+<li><strong>So sánh</strong> → that/those of hoặc đại từ sở hữu.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Chọn</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>______ + danh từ</td><td>my/his/her/its/their</td><td>5 giây</td></tr>
+<tr><td>V/giới từ + ______</td><td>me/him/her/them</td><td>5 giây</td></tr>
+<tr><td>by + ______ / câu đủ + ______</td><td>phản thân</td><td>5–10 giây</td></tr>
+<tr><td>than + ______ (so sánh vật)</td><td>theirs / that of / those of</td><td>10–15 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> Part 6 thường không giải được bằng vị trí; phải tìm danh từ được thay thế ở câu trước.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Tính từ sở hữu + danh từ; đại từ sở hữu đứng một mình.</li>
+<li>Chủ ngữ trước động từ; tân ngữ sau động từ/giới từ.</li>
+<li>Phản thân khi trùng chủ ngữ, nhấn mạnh, hoặc by oneself.</li>
+<li>that of (số ít), those of (số nhiều), those who + V số nhiều.</li>
+<li>another + N số ít; other + N; others / the others đứng một mình.</li>
+<li>Công ty, tổ chức → it/its.</li>
+</ul>
+<p><strong>Cụm cần nhớ:</strong> by oneself · on one's own · a colleague of mine · each other · those who · that of · None of the + N · Some…, others…</p>

@@ -1,0 +1,409 @@
+<!-- Bài học tương tác chủ điểm TÍNH TỪ (Part 5 · nhóm Từ loại · mã adjective). Tiêu đề gợi ý: "Tính từ trong TOEIC: vị trí, hình thức và cặp từ dễ nhầm". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>Tính từ (adjective)</strong> mô tả tính chất của danh từ: <em>reliable supplier, available room, detailed report</em>. Trong Part 5, tính từ thường xuất hiện ở câu từ loại (chọn tính từ giữa danh từ, động từ, trạng từ cùng gốc), câu V-ing/V-ed và câu chọn giữa các tính từ gần nghĩa hoặc gần hình thức.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Hai vị trí của tính từ · hậu tố tính từ · tính từ sau động từ nối</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>V-ing hay V-ed · tính từ + giới từ · tính từ ghép</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>Cặp tính từ dễ nhầm · tính từ đuôi -ly · find/keep/make + O + adj</td></tr>
+</tbody>
+</table>
+<h2>1. Vị trí của tính từ</h2>
+<p class="grammar-structure">(a/the/my…) + (trạng từ) + TÍNH TỪ + DANH TỪ &nbsp;·&nbsp; S + động từ nối + (trạng từ) + TÍNH TỪ</p>
+<table>
+<thead><tr><th>Vị trí</th><th>Dấu hiệu</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Trước danh từ</td><td>từ hạn định + ______ + danh từ</td><td>a <u>reliable</u> supplier</td></tr>
+<tr><td>Sau động từ nối</td><td>be, become, remain, seem, appear, stay, prove, look, sound</td><td>The room is <u>available</u>.</td></tr>
+<tr><td>Sau tân ngữ</td><td>find / keep / make / consider + O + ______</td><td>keep the area <u>clean</u></td></tr>
+<tr><td>Sau đại từ bất định</td><td>something / anything / nothing + ______</td><td>something <u>unusual</u></td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Ghi nhớ:</strong> động từ nối không mô tả hành động mà nối chủ ngữ với tính chất của nó, nên sau nó là <strong>tính từ</strong>, không phải trạng từ: <em>The plan seems <u>reasonable</u></em> (không dùng <em>reasonably</em>).</p>
+<p><strong>Trạng từ chen giữa không làm đổi vị trí:</strong> <em>be + highly/very/extremely + tính từ</em>.</p>
+</div>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The new strategy proved highly <u>effective</u>. <em>(Chiến lược mới tỏ ra rất hiệu quả.)</em></p>
+<p><strong>Phân tích:</strong> <em>prove</em> là động từ nối; <em>highly</em> là trạng từ bổ nghĩa cho tính từ phía sau.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The new marketing strategy proved highly ______ in attracting younger customers.</p>
+<ol class="grammar-options"><li>effect</li><li class="grammar-correct">effective</li><li>effectively</li><li>effectiveness</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. effective</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new marketing strategy proved highly effective in attracting younger customers.<br><strong>Dịch:</strong> Chiến lược marketing mới tỏ ra rất hiệu quả trong việc thu hút khách hàng trẻ.</p>
+<p><strong>Vì sao đúng:</strong> <em>proved</em> là động từ nối, sau nó cần tính từ; <em>highly</em> là trạng từ bổ nghĩa cho tính từ đó → <em>effective</em>.</p>
+<ul>
+<li><strong>A. effect:</strong> danh từ; <em>highly</em> không bổ nghĩa cho danh từ.</li>
+<li><strong>C. effectively:</strong> trạng từ; sau động từ nối không dùng trạng từ.</li>
+<li><strong>D. effectiveness:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>highly</em> (đuôi -ly) nên chọn thêm một trạng từ. <strong>Ghi nhớ:</strong> be/prove/remain + (adv) + adj.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>After reviewing the budget, the director found the proposal ______ and approved it immediately.</p>
+<ol class="grammar-options"><li class="grammar-correct">impressive</li><li>impressively</li><li>impression</li><li>impress</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. impressive</p>
+<p><strong>Câu hoàn chỉnh:</strong> After reviewing the budget, the director found the proposal impressive and approved it immediately.<br><strong>Dịch:</strong> Sau khi xem ngân sách, giám đốc thấy đề xuất rất ấn tượng và phê duyệt ngay.</p>
+<p><strong>Vì sao đúng:</strong> <em>find + tân ngữ + tính từ</em> = thấy cái gì thế nào. Tính từ <em>impressive</em> mô tả <em>the proposal</em>.</p>
+<ul>
+<li><strong>B. impressively:</strong> trạng từ, không mô tả danh từ <em>proposal</em>.</li>
+<li><strong>C. impression:</strong> danh từ; "thấy đề xuất là ấn tượng (danh từ)" sai cấu trúc.</li>
+<li><strong>D. impress:</strong> động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỗ trống đứng sau một danh từ nên người học nghĩ cần trạng từ. <strong>Ghi nhớ:</strong> find/keep/make/consider + O + adj.</p>
+</div>
+</div>
+<h2>2. Hậu tố tính từ</h2>
+<table>
+<thead><tr><th>Hậu tố</th><th>Ví dụ TOEIC</th></tr></thead>
+<tbody>
+<tr><td>-ful, -less</td><td>successful, helpful, careless, wireless</td></tr>
+<tr><td>-ous, -ive</td><td>various, numerous, extensive, competitive</td></tr>
+<tr><td>-able, -ible</td><td>available, affordable, reliable, eligible, flexible</td></tr>
+<tr><td>-al, -ic</td><td>additional, annual, financial, economic, specific</td></tr>
+<tr><td>-ant, -ent, -ary, -ory</td><td>relevant, efficient, necessary, mandatory, satisfactory</td></tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Tính từ đuôi -ly</strong> (không phải trạng từ): <em>friendly, costly, timely, likely, orderly, lively, daily, weekly, monthly, quarterly</em>.</li>
+<li><strong>Danh từ đuôi -al, -ive</strong> (không phải tính từ): <em>approval, proposal, representative, alternative</em> – xem bài <strong>Danh từ</strong>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We provide <u>friendly</u> and <u>timely</u> service. <em>(Chúng tôi cung cấp dịch vụ thân thiện và kịp thời.)</em></p>
+<p><strong>Phân tích:</strong> hai từ đuôi -ly đứng trước danh từ <em>service</em> → đây là tính từ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Our hotel staff are trained to provide ______ service to every guest.</p>
+<ol class="grammar-options"><li>friend</li><li>friendship</li><li class="grammar-correct">friendly</li><li>friendliness</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. friendly</p>
+<p><strong>Câu hoàn chỉnh:</strong> Our hotel staff are trained to provide friendly service to every guest.<br><strong>Dịch:</strong> Nhân viên khách sạn được đào tạo để phục vụ mọi khách một cách thân thiện.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống đứng trước danh từ <em>service</em> → cần tính từ; <em>friendly</em> là tính từ dù có đuôi -ly.</p>
+<ul>
+<li><strong>A. friend:</strong> danh từ chỉ người.</li>
+<li><strong>B. friendship:</strong> danh từ; <em>friendship service</em> không phải cụm có nghĩa.</li>
+<li><strong>D. friendliness:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> loại <em>friendly</em> vì nghĩ đuôi -ly là trạng từ. <strong>Ghi nhớ:</strong> danh từ + ly → tính từ (friendly, costly, timely, orderly).</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Applicants for the position must have ______ experience in software development.</p>
+<ol class="grammar-options"><li>substantially</li><li>substance</li><li>substantiate</li><li class="grammar-correct">substantial</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. substantial</p>
+<p><strong>Câu hoàn chỉnh:</strong> Applicants for the position must have substantial experience in software development.<br><strong>Dịch:</strong> Ứng viên cho vị trí này phải có nhiều kinh nghiệm phát triển phần mềm.</p>
+<p><strong>Vì sao đúng:</strong> <em>have + ______ + experience</em> → chỗ trống bổ nghĩa cho danh từ <em>experience</em> → tính từ <em>substantial</em> (đáng kể).</p>
+<ul>
+<li><strong>A. substantially:</strong> trạng từ, không bổ nghĩa cho danh từ.</li>
+<li><strong>B. substance:</strong> danh từ "chất, thực chất".</li>
+<li><strong>C. substantiate:</strong> động từ "chứng minh".</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ <em>have</em> cần tân ngữ là danh từ nên chọn <em>substance</em>; tân ngữ đã là <em>experience</em>. <strong>Ghi nhớ:</strong> extensive/substantial/considerable/relevant experience.</p>
+</div>
+</div>
+<h2>3. V-ing hay V-ed?</h2>
+<table>
+<thead><tr><th>Dạng</th><th>Ý nghĩa</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>V-ing</td><td>Gây ra cảm xúc; mang nghĩa chủ động (vật/người <strong>làm</strong> việc đó)</td><td>an <u>exciting</u> offer, <u>rising</u> costs, the <u>remaining</u> seats</td></tr>
+<tr><td>V-ed (V3)</td><td>Người <strong>cảm thấy</strong>; mang nghĩa bị động (được/bị làm)</td><td><u>satisfied</u> customers, the <u>revised</u> schedule, the <u>attached</u> file</td></tr>
+</tbody>
+</table>
+<p>Hay gặp: <em>qualified</em> applicants, <em>experienced</em> staff, <em>detailed</em> report, <em>enclosed</em> form, <em>updated</em> version · <em>existing</em> customers, <em>leading</em> company, <em>demanding</em> job, <em>missing</em> items.</p>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> The results were <u>disappointing</u>. · The manager was <u>disappointed</u> with the results. <em>(Kết quả đáng thất vọng. · Quản lý thất vọng về kết quả.)</em></p>
+<p><strong>Phân tích:</strong> kết quả gây ra cảm xúc → -ing; người cảm thấy → -ed.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Customers who are not ______ with their purchase may return it within 30 days.</p>
+<ol class="grammar-options"><li>satisfy</li><li>satisfying</li><li class="grammar-correct">satisfied</li><li>satisfaction</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. satisfied</p>
+<p><strong>Câu hoàn chỉnh:</strong> Customers who are not satisfied with their purchase may return it within 30 days.<br><strong>Dịch:</strong> Khách hàng không hài lòng với sản phẩm đã mua có thể trả lại trong 30 ngày.</p>
+<p><strong>Vì sao đúng:</strong> Sau <em>are not</em> cần tính từ; chủ ngữ là người <strong>cảm thấy</strong> hài lòng → <em>satisfied with</em>.</p>
+<ul>
+<li><strong>A. satisfy:</strong> động từ nguyên mẫu, không đứng sau <em>are</em>.</li>
+<li><strong>B. satisfying:</strong> "gây hài lòng" – dùng cho vật/trải nghiệm, không cho khách hàng.</li>
+<li><strong>D. satisfaction:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn -ing vì thấy giống tiếp diễn. <strong>Ghi nhớ:</strong> be satisfied/pleased/impressed with; be interested in.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Please review the ______ document before Friday's budget meeting.</p>
+<ol class="grammar-options"><li>attach</li><li>attaching</li><li>attachment</li><li class="grammar-correct">attached</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. attached</p>
+<p><strong>Câu hoàn chỉnh:</strong> Please review the attached document before Friday's budget meeting.<br><strong>Dịch:</strong> Vui lòng xem tài liệu đính kèm trước cuộc họp ngân sách thứ Sáu.</p>
+<p><strong>Vì sao đúng:</strong> Chỗ trống bổ nghĩa cho <em>document</em>; tài liệu <strong>được</strong> đính kèm → phân từ bị động <em>attached</em>.</p>
+<ul>
+<li><strong>A. attach:</strong> động từ nguyên mẫu.</li>
+<li><strong>B. attaching:</strong> nghĩa chủ động "tài liệu đang đính kèm (cái gì đó)" – sai logic.</li>
+<li><strong>C. attachment:</strong> danh từ; <em>attachment document</em> không phải cụm chuẩn.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn danh từ <em>attachment</em> vì quen trong email. <strong>Ghi nhớ:</strong> the attached file / the enclosed form / the revised schedule.</p>
+</div>
+</div>
+<h2>4. Tính từ + giới từ</h2>
+<table>
+<thead><tr><th>Giới từ</th><th>Tính từ</th></tr></thead>
+<tbody>
+<tr><td>for</td><td>responsible, eligible, suitable, famous, ready</td></tr>
+<tr><td>of</td><td>aware, capable, representative, typical</td></tr>
+<tr><td>with</td><td>familiar, compatible, consistent, satisfied, pleased</td></tr>
+<tr><td>to</td><td>subject, comparable, similar, accessible, open</td></tr>
+<tr><td>on / in</td><td>dependent on, reliant on · interested in, involved in, experienced in</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> All prices are <u>subject to</u> change without notice. <em>(Mọi mức giá có thể thay đổi mà không báo trước.)</em></p>
+<p><strong>Phân tích:</strong> <em>subject to</em> là cụm cố định; giới từ đi kèm thường là manh mối để chọn tính từ.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Full-time employees are ______ for the annual performance bonus after one year of service.</p>
+<ol class="grammar-options"><li>capable</li><li class="grammar-correct">eligible</li><li>responsible</li><li>aware</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. eligible</p>
+<p><strong>Câu hoàn chỉnh:</strong> Full-time employees are eligible for the annual performance bonus after one year of service.<br><strong>Dịch:</strong> Nhân viên toàn thời gian đủ điều kiện nhận thưởng hiệu suất hằng năm sau một năm làm việc.</p>
+<p><strong>Vì sao đúng:</strong> <em>be eligible for + quyền lợi</em> = đủ điều kiện nhận; khớp cả giới từ <em>for</em> lẫn nghĩa.</p>
+<ul>
+<li><strong>A. capable:</strong> đi với <em>of</em> (capable of doing).</li>
+<li><strong>C. responsible:</strong> <em>responsible for</em> = chịu trách nhiệm; "chịu trách nhiệm về tiền thưởng" sai nghĩa.</li>
+<li><strong>D. aware:</strong> đi với <em>of</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>responsible for</em> cũng đúng giới từ. <strong>Ghi nhớ:</strong> eligible for + quyền lợi; responsible for + nhiệm vụ.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The upgraded accounting software is fully compatible ______ older operating systems.</p>
+<ol class="grammar-options"><li class="grammar-correct">with</li><li>to</li><li>for</li><li>of</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. with</p>
+<p><strong>Câu hoàn chỉnh:</strong> The upgraded accounting software is fully compatible with older operating systems.<br><strong>Dịch:</strong> Phần mềm kế toán nâng cấp tương thích hoàn toàn với các hệ điều hành cũ.</p>
+<p><strong>Vì sao đúng:</strong> <em>compatible</em> luôn đi với <em>with</em>.</p>
+<ul>
+<li><strong>B. to:</strong> dùng với comparable/similar, không dùng với compatible.</li>
+<li><strong>C. for:</strong> dùng với suitable/eligible.</li>
+<li><strong>D. of:</strong> dùng với capable/aware.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "tương thích đối với" rồi chọn <em>for/to</em>. <strong>Ghi nhớ:</strong> compatible/consistent/familiar with.</p>
+</div>
+</div>
+<h2>5. Cặp tính từ dễ nhầm</h2>
+<table>
+<thead><tr><th>Cặp</th><th>Nghĩa</th></tr></thead>
+<tbody>
+<tr><td>economic / economical</td><td>thuộc kinh tế / tiết kiệm</td></tr>
+<tr><td>considerable / considerate</td><td>đáng kể / chu đáo, ân cần</td></tr>
+<tr><td>reliable / reliant (on)</td><td>đáng tin cậy / phụ thuộc vào</td></tr>
+<tr><td>successful / successive</td><td>thành công / liên tiếp</td></tr>
+<tr><td>respectful / respectable / respective</td><td>lễ phép / đáng kính / tương ứng, riêng của mỗi người</td></tr>
+<tr><td>confident / confidential</td><td>tự tin / bảo mật</td></tr>
+<tr><td>comprehensive / comprehensible</td><td>toàn diện / dễ hiểu</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The managers returned to their <u>respective</u> offices. <em>(Các quản lý trở về văn phòng của riêng mình.)</em></p>
+<p><strong>Phân tích:</strong> cả ba từ đều là tính từ đúng vị trí; chỉ nghĩa mới quyết định.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Ms. Ruiz has made ______ progress on the merger negotiations in just two weeks.</p>
+<ol class="grammar-options"><li>considerate</li><li>considering</li><li class="grammar-correct">considerable</li><li>consideration</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. considerable</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Ruiz has made considerable progress on the merger negotiations in just two weeks.<br><strong>Dịch:</strong> Cô Ruiz đã đạt tiến triển đáng kể trong đàm phán sáp nhập chỉ sau hai tuần.</p>
+<p><strong>Vì sao đúng:</strong> Cần tính từ trước <em>progress</em>; nghĩa "đáng kể" → <em>considerable</em>.</p>
+<ul>
+<li><strong>A. considerate:</strong> "chu đáo" – mô tả người, không mô tả tiến độ.</li>
+<li><strong>B. considering:</strong> giới từ/liên từ "xét đến".</li>
+<li><strong>D. consideration:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>considerate</em> và <em>considerable</em> cùng là tính từ. <strong>Ghi nhớ:</strong> considerable amount/progress/effort.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>Due to rising fuel prices, many customers now prefer smaller, more ______ vehicles.</p>
+<ol class="grammar-options"><li>economic</li><li class="grammar-correct">economical</li><li>economics</li><li>economy</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. economical</p>
+<p><strong>Câu hoàn chỉnh:</strong> Due to rising fuel prices, many customers now prefer smaller, more economical vehicles.<br><strong>Dịch:</strong> Do giá nhiên liệu tăng, nhiều khách hàng giờ chuộng xe nhỏ, tiết kiệm hơn.</p>
+<p><strong>Vì sao đúng:</strong> Ngữ cảnh giá nhiên liệu tăng → xe "tiết kiệm" = <em>economical</em>.</p>
+<ul>
+<li><strong>A. economic:</strong> "thuộc kinh tế" (economic growth), không mô tả xe tiết kiệm.</li>
+<li><strong>C. economics:</strong> danh từ "kinh tế học".</li>
+<li><strong>D. economy:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>economic</em> quen hơn. <strong>Ghi nhớ:</strong> economic growth/policy · economical car/use of resources.</p>
+</div>
+</div>
+<h2>6. Tính từ ghép</h2>
+<p class="grammar-structure">số + danh từ SỐ ÍT (có gạch nối) + danh từ: a five-year contract, a two-day workshop</p>
+<ul>
+<li>Khi đứng trước danh từ, cụm số + danh từ là tính từ nên <strong>không thêm -s</strong>: <em>a 30-minute break</em> (không dùng <em>30-minutes</em>).</li>
+<li>So sánh: <em>The contract lasts five <u>years</u></em> (danh từ thường, có -s).</li>
+<li>Tính từ ghép khác hay gặp: <em>well-known, high-quality, long-term, state-of-the-art, user-friendly, time-consuming</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> All new staff attend a <u>two-day</u> orientation. <em>(Nhân viên mới tham gia buổi định hướng hai ngày.)</em></p>
+<p><strong>Phân tích:</strong> <em>two-day</em> bổ nghĩa cho <em>orientation</em> nên <em>day</em> ở số ít.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Pinewood Foods has signed a ______ contract with its main packaging supplier.</p>
+<ol class="grammar-options"><li class="grammar-correct">five-year</li><li>five-years</li><li>five years</li><li>fifth-year</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. five-year</p>
+<p><strong>Câu hoàn chỉnh:</strong> Pinewood Foods has signed a five-year contract with its main packaging supplier.<br><strong>Dịch:</strong> Pinewood Foods đã ký hợp đồng năm năm với nhà cung cấp bao bì chính.</p>
+<p><strong>Vì sao đúng:</strong> Cụm đứng giữa <em>a</em> và danh từ <em>contract</em> là tính từ ghép: số + danh từ số ít + gạch nối.</p>
+<ul>
+<li><strong>B. five-years:</strong> tính từ ghép không thêm -s.</li>
+<li><strong>C. five years:</strong> cụm danh từ số nhiều, không đứng sau <em>a</em> để bổ nghĩa cho danh từ.</li>
+<li><strong>D. fifth-year:</strong> "năm thứ năm" – sai nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> "năm năm" là số nhiều nên chọn -s. <strong>Ghi nhớ:</strong> a 10-minute walk, a three-day conference.</p>
+</div>
+</div>
+<h2>7. Tính từ hay trạng từ?</h2>
+<table>
+<thead><tr><th>Chỗ trống</th><th>Cần</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>Trước danh từ</td><td>Tính từ</td><td>a <u>careful</u> review</td></tr>
+<tr><td>Sau động từ nối (be, become, remain…)</td><td>Tính từ</td><td>become <u>popular</u></td></tr>
+<tr><td>Trước tính từ khác</td><td>Trạng từ</td><td><u>increasingly</u> popular</td></tr>
+<tr><td>Bổ nghĩa cho động từ thường</td><td>Trạng từ</td><td>review <u>carefully</u></td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Online banking has become increasingly <u>popular</u>. <em>(Ngân hàng trực tuyến ngày càng phổ biến.)</em></p>
+<p><strong>Phân tích:</strong> <em>become</em> là động từ nối → tính từ; <em>increasingly</em> là trạng từ bổ nghĩa cho tính từ. Xem thêm bài <strong>Trạng từ</strong>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Online sales have become increasingly ______ among younger consumers.</p>
+<ol class="grammar-options"><li>popularity</li><li>popularly</li><li>popularize</li><li class="grammar-correct">popular</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. popular</p>
+<p><strong>Câu hoàn chỉnh:</strong> Online sales have become increasingly popular among younger consumers.<br><strong>Dịch:</strong> Bán hàng trực tuyến ngày càng phổ biến với người tiêu dùng trẻ.</p>
+<p><strong>Vì sao đúng:</strong> <em>have become</em> + (trạng từ) + tính từ → <em>popular</em>.</p>
+<ul>
+<li><strong>A. popularity:</strong> danh từ; <em>increasingly</em> không bổ nghĩa cho danh từ.</li>
+<li><strong>B. popularly:</strong> trạng từ; sau động từ nối không dùng trạng từ.</li>
+<li><strong>C. popularize:</strong> động từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> chọn trạng từ vì đứng sau một trạng từ. <strong>Ghi nhớ:</strong> become/remain/seem + increasingly/highly + adj.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách nhận ra và xử lý</th></tr></thead>
+<tbody>
+<tr><td>Đuôi -ly là tính từ</td><td>friendly, costly, timely, likely đứng trước danh từ hoặc sau be</td></tr>
+<tr><td>Động từ nối "ẩn"</td><td>look, sound, seem, remain, stay, prove, appear + tính từ: <em>looks <u>good</u></em></td></tr>
+<tr><td>Chỗ trống sau tân ngữ</td><td>keep/find/make + O + <strong>tính từ</strong>, không dùng trạng từ</td></tr>
+<tr><td>Danh từ ghép</td><td>Trước danh từ có thể là danh từ (<em>safety regulations</em>) – xét nghĩa</td></tr>
+<tr><td>Tính từ cùng gốc khác nghĩa</td><td>economic/economical, confident/confidential… phải dịch cụm</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Please keep these documents <u>confidential</u>. <em>(Vui lòng giữ bí mật các tài liệu này.)</em></p>
+<p><strong>Phân tích:</strong> <em>keep + O + tính từ</em>; nghĩa "bảo mật" là <em>confidential</em>, không phải <em>confident</em>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>All employee salary records must be kept strictly ______.</p>
+<ol class="grammar-options"><li>confident</li><li class="grammar-correct">confidential</li><li>confidentially</li><li>confidence</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. confidential</p>
+<p><strong>Câu hoàn chỉnh:</strong> All employee salary records must be kept strictly confidential.<br><strong>Dịch:</strong> Mọi hồ sơ lương của nhân viên phải được bảo mật nghiêm ngặt.</p>
+<p><strong>Vì sao đúng:</strong> Bị động của <em>keep + O + adj</em> → <em>be kept + adj</em>; <em>strictly</em> bổ nghĩa cho tính từ. Nghĩa "bảo mật" → <em>confidential</em>.</p>
+<ul>
+<li><strong>A. confident:</strong> "tự tin" – không dùng cho hồ sơ.</li>
+<li><strong>C. confidentially:</strong> trạng từ; sau <em>be kept</em> cần tính từ chỉ trạng thái.</li>
+<li><strong>D. confidence:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy động từ <em>kept</em> nên chọn trạng từ. <strong>Ghi nhớ:</strong> keep something confidential/secure/clean.</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The assembly instructions included with the bookshelf are very ______ to follow.</p>
+<ol class="grammar-options"><li>easily</li><li>ease</li><li>easiness</li><li class="grammar-correct">easy</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. easy</p>
+<p><strong>Câu hoàn chỉnh:</strong> The assembly instructions included with the bookshelf are very easy to follow.<br><strong>Dịch:</strong> Hướng dẫn lắp ráp đi kèm kệ sách rất dễ làm theo.</p>
+<p><strong>Vì sao đúng:</strong> <em>be + very + tính từ + to V</em>; chủ ngữ chính <em>instructions</em>, động từ <em>are</em> → tính từ <em>easy</em>.</p>
+<ul>
+<li><strong>A. easily:</strong> trạng từ, không đứng sau <em>be very</em> làm bổ ngữ.</li>
+<li><strong>B. ease:</strong> danh từ/động từ.</li>
+<li><strong>C. easiness:</strong> danh từ.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>included</em> trông như động từ chính. <strong>Ghi nhớ:</strong> S + be + adj + to V: easy/difficult/convenient to use.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> tính từ phải khớp ngữ cảnh của câu sau: hết hàng → <em>unavailable</em>; sắp tới → <em>upcoming</em>; trước đó → <em>previous</em>.</li>
+<li><strong>Part 7:</strong> tính từ mang thông tin được hỏi (<em>mandatory</em> = bắt buộc, <em>optional</em> = tùy chọn, <em>complimentary</em> = miễn phí, <em>tentative</em> = tạm thời).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Breakfast is <u>complimentary</u> for all guests. <em>(Bữa sáng miễn phí cho mọi khách.)</em></p>
+<p><strong>Phân tích:</strong> câu hỏi Part 7 "What is indicated about breakfast?" → It is free.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Email trả lời khách hàng)</em> Thank you for your recent order. Unfortunately, the desk lamp you requested is currently ______.</p>
+<p>We expect new stock to arrive next week and will ship your item as soon as possible.</p>
+<ol class="grammar-options"><li class="grammar-correct">unavailable</li><li>available</li><li>availability</li><li>availably</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. unavailable</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> … Unfortunately, the desk lamp you requested is currently unavailable. We expect new stock to arrive next week…<br><strong>Dịch:</strong> Rất tiếc, chiếc đèn bàn quý khách đặt hiện đang hết hàng. Chúng tôi dự kiến hàng mới về tuần sau…</p>
+<p><strong>Vì sao đúng:</strong> Sau <em>is currently</em> cần tính từ; <em>Unfortunately</em> và câu sau (chờ hàng mới) cho thấy sản phẩm đang hết → <em>unavailable</em>.</p>
+<ul>
+<li><strong>B. available:</strong> đúng từ loại nhưng mâu thuẫn ngữ cảnh.</li>
+<li><strong>C. availability:</strong> danh từ.</li>
+<li><strong>D. availably:</strong> không phải từ thông dụng.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỉ xét từ loại rồi chọn <em>available</em>. <strong>Ghi nhớ:</strong> Part 6 phải đọc câu sau để chọn nghĩa khẳng định/phủ định.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> cùng gốc → từ loại; tính từ gần nghĩa/gần hình thức → nghĩa; V-ing/V-ed → chủ động/bị động.</li>
+<li><strong>Nhìn hai bên:</strong> có danh từ bên phải → tính từ; trước là động từ nối → tính từ.</li>
+<li><strong>Xét V-ing/V-ed:</strong> người cảm thấy/vật được làm → V-ed; gây ra/tự làm → V-ing.</li>
+<li><strong>Xét giới từ đi sau:</strong> eligible for, aware of, compatible with…</li>
+<li><strong>Dịch cụm nhỏ</strong> khi các đáp án đều là tính từ.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Hành động</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>a/the + ______ + danh từ</td><td>Chọn tính từ (hoặc xét danh từ ghép)</td><td>5–10 giây</td></tr>
+<tr><td>be/become/remain + (adv) + ______</td><td>Chọn tính từ</td><td>5–10 giây</td></tr>
+<tr><td>keep/find/make + O + ______</td><td>Chọn tính từ</td><td>10 giây</td></tr>
+<tr><td>Hai phân từ -ing/-ed</td><td>Xét ai gây ra, ai cảm thấy</td><td>10–20 giây</td></tr>
+<tr><td>Bốn tính từ khác nghĩa</td><td>Dịch cụm, xét giới từ đi kèm</td><td>20–30 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> đừng loại từ đuôi -ly theo phản xạ; kiểm tra xem nó có phải tính từ (friendly, costly, timely) hay không.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>Tính từ đứng trước danh từ hoặc sau động từ nối (be, become, remain, seem, prove, look…).</li>
+<li>keep/find/make/consider + O + tính từ.</li>
+<li>-ing: gây ra, chủ động · -ed: cảm thấy, bị động.</li>
+<li>Tính từ ghép số + danh từ không thêm -s.</li>
+<li>Tính từ cùng gốc khác nghĩa phải dịch cụm.</li>
+</ul>
+<table>
+<thead><tr><th>Động từ</th><th>Danh từ</th><th>Tính từ</th><th>Trạng từ</th></tr></thead>
+<tbody>
+<tr><td>succeed</td><td>success</td><td>successful</td><td>successfully</td></tr>
+<tr><td>rely</td><td>reliability</td><td>reliable</td><td>reliably</td></tr>
+<tr><td>compete</td><td>competition</td><td>competitive</td><td>competitively</td></tr>
+<tr><td>inform</td><td>information</td><td>informative</td><td>—</td></tr>
+<tr><td>afford</td><td>—</td><td>affordable</td><td>affordably</td></tr>
+<tr><td>satisfy</td><td>satisfaction</td><td>satisfactory, satisfied</td><td>satisfactorily</td></tr>
+</tbody>
+</table>
+<p><strong>Collocation:</strong> eligible for · responsible for · aware of · capable of · compatible with · familiar with · subject to · similar to · dependent on · interested in · complimentary breakfast · competitive salary · extensive experience · considerable effort.</p>

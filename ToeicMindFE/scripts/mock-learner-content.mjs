@@ -19,8 +19,8 @@ const question = (qid, no, text, correctLabel = 'B') => ({ questionId: qid, ques
 export const EXAM_PARTS = {
   1: [{ groupId: 101, partNo: 1, questions: [question(1001, 1, null)] }, { groupId: 102, partNo: 1, questions: [question(1002, 2, null)] }],
   2: [{ groupId: 103, partNo: 2, questions: [question(1003, 3, 'When is the meeting?')] }],
-  5: [{ groupId: 105, partNo: 5, questions: [question(1005, 4, 'The manager ____ the schedule.')] }, { groupId: 106, partNo: 5, questions: [question(1006, 5, 'Please ____ the invoice.')] }],
-  7: [{ groupId: 107, partNo: 7, passageHtml: '<p>Notice to all staff: the office closes early.</p><script>window.__xss = 1</script><img src=x onerror="window.__xss = 2">', questions: [question(1008, 6, 'What is the notice about?'), question(1009, 7, 'When does the office close?')] }],
+  5: [{ groupId: 105, partNo: 5, translationVi: 'Người quản lý ____ lịch làm việc.', questions: [question(1005, 4, 'The manager ____ the schedule.')] }, { groupId: 106, partNo: 5, questions: [question(1006, 5, 'Please ____ the invoice.')] }],
+  7: [{ groupId: 107, partNo: 7, passageHtml: '<p>Notice to <strong>all staff</strong>: the office closes early.</p><script>window.__xss = 1</script><img src=x onerror="window.__xss = 2">', translationVi: 'Thông báo gửi toàn thể nhân viên.\nVăn phòng sẽ đóng cửa sớm.', questions: [question(1008, 6, 'What is the notice about?'), question(1009, 7, 'When does the office close?')] }],
 }
 const PART_NAMES = { 1: 'Mô tả tranh', 2: 'Hỏi – đáp', 5: 'Điền câu', 7: 'Đọc hiểu' }
 const SKILL = (p) => (p <= 4 ? 'LISTENING' : 'READING')
@@ -47,7 +47,9 @@ const directions = () => [
 
 // Giải thích giả theo đúng định dạng dữ liệu thật: các bước "Bước N:", "Mẹo:", phân tích từng phương án "A: … - Sai: …".
 const explanationFor = (q) => `Bước 1: Xác định dạng câu hỏi ${q.questionNo}.\nBước 2: Loại các phương án không phù hợp.\nBước 3: Chọn đáp án ${q.options.find((o) => o.isCorrect).optionLabel}. Mẹo: Tập trung vào từ khóa chính.`
-const analysisFor = (q) => q.options.map((o) => `${o.optionLabel}: ${o.optionText}. - ${o.isCorrect ? 'Đúng' : 'Sai'}: Lý do cho phương án ${o.optionLabel}.`).join('\n')
+const analysisFor = (q) => q.questionId === 1009
+  ? 'Nhận xét chung cho các lựa chọn.\nĐọc lại đoạn văn để xác định chi tiết.'
+  : q.options.map((o) => `${o.optionLabel}: ${o.optionText}. - ${o.isCorrect ? 'Đúng' : 'Sai'}: Lý do cho phương án ${o.optionLabel}.`).join('\n')
 export const TRANSCRIPT = { en: 'The woman is wiping off the table.\nThe woman is holding a glass.\nThe woman is pouring a drink.\nThe woman is paying the bill.', vi: '(A) Người phụ nữ đang lau bàn.\n\n(B) Người phụ nữ đang cầm một chiếc ly.\n\n(C) Người phụ nữ đang rót đồ uống.\n\n(D) Người phụ nữ đang thanh toán hóa đơn.' }
 const VOCABS = [
   { vocabId: 3, term: 'manager', pos: 'n', ipa: 'mæn', cefr: 'B1', meaningBase: 'quản lý', termMeaningVi: 'quản lý', exampleEn: 'The manager agreed.', exampleVi: 'Quản lý đồng ý.' },
@@ -56,9 +58,11 @@ const VOCABS = [
 ]
 const feedbackFor = (q, optionId) => {
   const correct = q.options.find((o) => o.isCorrect)
+  const group = EXAM_PARTS[q.partNo].find((g) => g.groupId === q.groupId)
   return {
     isCorrect: optionId === correct.optionId, correctOptionId: correct.optionId, explanation: explanationFor(q), optionExplanations: analysisFor(q),
-    transcriptEn: TRANSCRIPT.en, translationVi: TRANSCRIPT.vi,
+    transcriptEn: q.partNo <= 4 ? TRANSCRIPT.en : null,
+    translationVi: q.partNo <= 4 ? TRANSCRIPT.vi : group?.translationVi ?? null,
     vocabularies: VOCABS,
   }
 }
@@ -202,7 +206,7 @@ export function contentHandler(state, method, url, body, auth) {
       const labelOf = (qid, pick) => ALL_QUESTIONS.find((x) => x.questionId === qid)?.options.find(pick)?.optionLabel ?? null
       result.questions = attempt.questions.map((x) => ({ questionId: x.questionId, partNo: x.partNo, questionNo: x.questionNo, selectedOptionId: x.selectedOptionId, isCorrect: !!x.isCorrect,
         selectedLabel: x.selectedOptionId ? labelOf(x.questionId, (o) => o.optionId === x.selectedOptionId) : null, correctLabel: labelOf(x.questionId, (o) => o.isCorrect) }))
-      if (include) result.groups = Object.values(EXAM_PARTS).flat().filter((g) => attempt.partNos.includes(g.partNo)).map((g) => ({ groupId: g.groupId, partNo: g.partNo, passageHtml: g.passageHtml || null, media: mediaOf(g), transcriptEn: g.partNo <= 4 ? TRANSCRIPT.en : null, translationVi: g.partNo <= 4 ? TRANSCRIPT.vi : null, questions: g.questions.map((x) => { const item = attempt.questions.find((y) => y.questionId === x.questionId); return { ...x, selectedOptionId: item?.selectedOptionId ?? null, isCorrect: !!item?.isCorrect, explanation: explanationFor(x), optionExplanations: analysisFor(x), vocabularies: feedbackFor(x, 0).vocabularies } }) }))
+      if (include) result.groups = Object.values(EXAM_PARTS).flat().filter((g) => attempt.partNos.includes(g.partNo)).map((g) => ({ groupId: g.groupId, partNo: g.partNo, passageHtml: g.passageHtml || null, media: mediaOf(g), transcriptEn: g.partNo <= 4 ? TRANSCRIPT.en : null, translationVi: g.partNo <= 4 ? TRANSCRIPT.vi : g.translationVi ?? null, questions: g.questions.map((x) => { const item = attempt.questions.find((y) => y.questionId === x.questionId); return { ...x, selectedOptionId: item?.selectedOptionId ?? null, isCorrect: !!item?.isCorrect, explanation: explanationFor(x), optionExplanations: analysisFor(x), vocabularies: VOCABS } }) }))
       return ok(result)
     }
   }

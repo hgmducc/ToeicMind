@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useId, useRef } from 'react'
 import { Icon } from '../../../components/ui/Icon.jsx'
 import { useStoredState } from '../../../hooks/useStoredState.js'
 import { clampSplit } from './studyModel.js'
@@ -73,5 +73,15 @@ export function Switch({ checked, onChange, label, icon, disabled = false }) {
       <span>{label}</span>
       <span className="study-switch-track" aria-hidden="true"><i /></span>
     </button>
+  )
+}
+
+export function StudyPanel({ icon, label, open, onToggle, children, tone }) {
+  const labelId = useId()
+  return (
+    <section className="study-panel" data-tone={tone} data-open={open} aria-labelledby={labelId}>
+      <div className="study-panel-head" id={labelId}><Switch checked={open} onChange={onToggle} icon={icon} label={label} /></div>
+      {open && <div className="study-panel-body">{children}</div>}
+    </section>
   )
 }

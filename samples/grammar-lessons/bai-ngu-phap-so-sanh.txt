@@ -1,0 +1,292 @@
+<!-- Bài học tương tác chủ điểm SO SÁNH (Part 5 · nhóm Ngữ pháp khác · mã comparison). Tiêu đề gợi ý: "So sánh trong TOEIC: dấu hiệu than, the, as…as và từ nhấn mạnh". Dán toàn bộ file vào ô "Mã nguồn HTML". -->
+<p><strong>So sánh (comparison)</strong> gồm so sánh hơn (<em>faster than</em>), so sánh nhất (<em>the fastest</em>) và so sánh bằng (<em>as fast as</em>). Câu hỏi so sánh trong Part 5 thường cho bốn dạng của cùng một tính từ/trạng từ. Cách giải nhanh: tìm <strong>dấu hiệu</strong> <em>than, the, as…as, of/in + nhóm</em>, rồi kiểm tra tính từ hay trạng từ.</p>
+<table>
+<thead><tr><th>Mức độ</th><th>Nội dung trọng tâm</th></tr></thead>
+<tbody>
+<tr><td><strong>Bắt buộc</strong></td><td>Dạng -er/-est, more/most · than → hơn · the … in/of → nhất · as … as</td></tr>
+<tr><td><strong>Nên nắm</strong></td><td>much/far/even + so sánh hơn · one of the + nhất + N số nhiều</td></tr>
+<tr><td><strong>Nâng cao</strong></td><td>the + hơn, the + hơn · superior/prior to · of the two · tính từ hay trạng từ trong so sánh</td></tr>
+</tbody>
+</table>
+<h2>1. Dạng so sánh</h2>
+<table>
+<thead><tr><th>Loại từ</th><th>Hơn</th><th>Nhất</th></tr></thead>
+<tbody>
+<tr><td>Ngắn (1 âm tiết, 2 âm tiết đuôi -y)</td><td>cheaper, larger, easier</td><td>the cheapest, the largest, the easiest</td></tr>
+<tr><td>Dài (2 âm tiết trở lên, trạng từ -ly)</td><td>more efficient, more quickly</td><td>the most efficient, the most quickly</td></tr>
+<tr><td>Bất quy tắc</td><td>better, worse, further/farther, less, more</td><td>the best, the worst, the furthest, the least, the most</td></tr>
+</tbody>
+</table>
+<p>Không dùng cả hai: <em>more cheaper</em>, <em>most largest</em> luôn sai.</p>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The new model is <u>lighter</u> than the old one. <em>(Mẫu mới nhẹ hơn mẫu cũ.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The new laptop model is considerably ______ than the previous one, making it easier to carry.</p>
+<ol class="grammar-options"><li>light</li><li class="grammar-correct">lighter</li><li>lightest</li><li>lightly</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. lighter</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new laptop model is considerably lighter than the previous one, making it easier to carry.<br><strong>Dịch:</strong> Mẫu máy tính xách tay mới nhẹ hơn đáng kể so với mẫu trước, nên dễ mang theo hơn.</p>
+<p><strong>Vì sao đúng:</strong> Dấu hiệu <em>than</em> → so sánh hơn; sau <em>is</em> cần tính từ → <em>lighter</em>.</p>
+<ul>
+<li><strong>A. light:</strong> dạng nguyên, không đi với <em>than</em>.</li>
+<li><strong>C. lightest:</strong> so sánh nhất, không đi với <em>than</em>.</li>
+<li><strong>D. lightly:</strong> trạng từ, không đứng sau <em>is</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>considerably</em> làm che khuất dấu hiệu <em>than</em>. <strong>Ghi nhớ:</strong> than → -er/more.</p>
+</div>
+</div>
+<h2>2. So sánh hơn</h2>
+<p class="grammar-structure">adj-er / more + adj + (N) + THAN &nbsp;·&nbsp; less + adj + than &nbsp;·&nbsp; more/fewer + N + than</p>
+<ul>
+<li><em>more</em> dùng cả với danh từ: <em>more participants, more information</em>.</li>
+<li><em>fewer</em> + danh từ đếm được; <em>less</em> + danh từ không đếm được.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> We received <u>more</u> applications this year <u>than</u> last year. <em>(Năm nay chúng tôi nhận nhiều hồ sơ hơn năm ngoái.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>This year's trade fair attracted ______ participants than last year's event.</p>
+<ol class="grammar-options"><li>most</li><li>much</li><li>many</li><li class="grammar-correct">more</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. more</p>
+<p><strong>Câu hoàn chỉnh:</strong> This year's trade fair attracted more participants than last year's event.<br><strong>Dịch:</strong> Hội chợ thương mại năm nay thu hút nhiều người tham gia hơn sự kiện năm ngoái.</p>
+<p><strong>Vì sao đúng:</strong> <em>than</em> → so sánh hơn; <em>more + N số nhiều + than</em>.</p>
+<ul>
+<li><strong>A. most:</strong> so sánh nhất.</li>
+<li><strong>B. much:</strong> dùng với danh từ không đếm được, không so sánh.</li>
+<li><strong>C. many:</strong> dạng nguyên, không đi với <em>than</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩ "nhiều" là <em>many</em>. <strong>Ghi nhớ:</strong> more/fewer/less + N + than.</p>
+</div>
+</div>
+<h2>3. Nhấn mạnh so sánh hơn</h2>
+<p class="grammar-structure">much / far / even / still / a lot / significantly / considerably + SO SÁNH HƠN</p>
+<ul>
+<li><strong>Không</strong> dùng <em>very</em> trước so sánh hơn: <em>very larger</em> sai.</li>
+<li><em>by far the + nhất</em>: nhấn mạnh so sánh nhất.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Online orders are <u>far</u> more convenient. <em>(Đặt hàng trực tuyến tiện hơn nhiều.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The new distribution center is ______ larger than the old warehouse on Route 9.</p>
+<ol class="grammar-options"><li>very</li><li>most</li><li class="grammar-correct">much</li><li>more</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. much</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new distribution center is much larger than the old warehouse on Route 9.<br><strong>Dịch:</strong> Trung tâm phân phối mới lớn hơn nhiều so với nhà kho cũ trên đường số 9.</p>
+<p><strong>Vì sao đúng:</strong> Trước so sánh hơn <em>larger</em> dùng từ nhấn mạnh <em>much</em>.</p>
+<ul>
+<li><strong>A. very:</strong> không bổ nghĩa cho so sánh hơn.</li>
+<li><strong>B. most:</strong> không đứng trước dạng -er.</li>
+<li><strong>D. more:</strong> <em>more larger</em> là so sánh kép, sai.</li>
+</ul>
+<p><strong>Bẫy:</strong> dịch "rất lớn hơn" thành <em>very</em>. <strong>Ghi nhớ:</strong> much/far/even/still + -er/more.</p>
+</div>
+</div>
+<h2>4. So sánh nhất</h2>
+<p class="grammar-structure">the + adj-est / the most + adj + (N) + in/of/among + nhóm &nbsp;·&nbsp; … ever</p>
+<ul>
+<li>Dấu hiệu: <em>the</em> hoặc sở hữu (<em>our, its</em>), <em>in the region, of all, among, ever, so far</em>.</li>
+<li><em>one of the + so sánh nhất + N số nhiều</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> It is <u>the most popular</u> hotel in the city. <em>(Đây là khách sạn được ưa chuộng nhất thành phố.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Ms. Ortega is one of the ______ consultants the firm has ever hired.</p>
+<ol class="grammar-options"><li>experienced</li><li>more experienced</li><li class="grammar-correct">most experienced</li><li>experience</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. most experienced</p>
+<p><strong>Câu hoàn chỉnh:</strong> Ms. Ortega is one of the most experienced consultants the firm has ever hired.<br><strong>Dịch:</strong> Cô Ortega là một trong những chuyên gia tư vấn giàu kinh nghiệm nhất mà công ty từng tuyển.</p>
+<p><strong>Vì sao đúng:</strong> <em>one of the + so sánh nhất + N số nhiều</em>; <em>has ever hired</em> (từng…) là dấu hiệu bắt buộc của so sánh nhất.</p>
+<ul>
+<li><strong>A. experienced:</strong> dạng nguyên không đi với <em>ever</em> trong cấu trúc này.</li>
+<li><strong>B. more experienced:</strong> so sánh hơn, không có <em>than</em>.</li>
+<li><strong>D. experience:</strong> danh từ, sai vị trí bổ nghĩa.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>the</em> rồi chọn tính từ nguyên. <strong>Ghi nhớ:</strong> one of the + most/-est + N-s + in/of…</p>
+</div>
+</div>
+<h2>5. So sánh bằng</h2>
+<p class="grammar-structure">as + adj/adv + as &nbsp;·&nbsp; not as/so + adj + as &nbsp;·&nbsp; the same + N + as &nbsp;·&nbsp; twice/three times as … as</p>
+<ul>
+<li>Giữa <em>as … as</em> là dạng <strong>nguyên</strong> (không -er/more).</li>
+<li>Chọn tính từ hay trạng từ theo từ đứng trước <em>as</em>: <em>is as reliable as</em> (be + adj), <em>works as efficiently as</em> (V thường + adv).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The new printer is <u>twice as fast as</u> the old one. <em>(Máy in mới nhanh gấp đôi máy cũ.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The upgraded printer produces color copies twice as ______ as the previous model.</p>
+<ol class="grammar-options"><li class="grammar-correct">fast</li><li>faster</li><li>fastest</li><li>more fast</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. fast</p>
+<p><strong>Câu hoàn chỉnh:</strong> The upgraded printer produces color copies twice as fast as the previous model.<br><strong>Dịch:</strong> Máy in nâng cấp in bản màu nhanh gấp đôi mẫu trước.</p>
+<p><strong>Vì sao đúng:</strong> <em>twice as … as</em> → dạng nguyên; <em>fast</em> vừa là tính từ vừa là trạng từ, bổ nghĩa cho <em>produces</em>.</p>
+<ul>
+<li><strong>B. faster:</strong> so sánh hơn không đứng giữa as…as.</li>
+<li><strong>C. fastest:</strong> so sánh nhất.</li>
+<li><strong>D. more fast:</strong> dạng sai.</li>
+</ul>
+<p><strong>Bẫy:</strong> "nhanh gấp đôi" nghe như so sánh hơn. <strong>Ghi nhớ:</strong> twice/three times as + dạng nguyên + as.</p>
+</div>
+</div>
+<h2>6. Cấu trúc đặc biệt</h2>
+<table>
+<thead><tr><th>Cấu trúc</th><th>Nghĩa</th><th>Ví dụ</th></tr></thead>
+<tbody>
+<tr><td>The + hơn …, the + hơn …</td><td>càng… càng…</td><td>The earlier you book, the more you save.</td></tr>
+<tr><td>hơn + and + hơn</td><td>ngày càng</td><td>more and more popular</td></tr>
+<tr><td>superior / inferior / senior / junior / prior + <strong>to</strong></td><td>so sánh không dùng than</td><td>superior to the original</td></tr>
+<tr><td>prefer A to B · than ever</td><td>thích A hơn B · hơn bao giờ hết</td><td>busier than ever</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> <u>The more</u> carefully you plan, <u>the fewer</u> problems you will face. <em>(Bạn lên kế hoạch càng kỹ, càng ít gặp vấn đề.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The ______ you register for the conference, the more you will save on admission fees.</p>
+<ol class="grammar-options"><li>earliest</li><li>early</li><li>more early</li><li class="grammar-correct">earlier</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. earlier</p>
+<p><strong>Câu hoàn chỉnh:</strong> The earlier you register for the conference, the more you will save on admission fees.<br><strong>Dịch:</strong> Bạn đăng ký hội nghị càng sớm, càng tiết kiệm được phí vào cửa.</p>
+<p><strong>Vì sao đúng:</strong> Cấu trúc <em>The + so sánh hơn…, the + so sánh hơn…</em>; vế sau đã có <em>the more</em>.</p>
+<ul>
+<li><strong>A. earliest:</strong> so sánh nhất không dùng trong cấu trúc "càng… càng".</li>
+<li><strong>B. early:</strong> dạng nguyên.</li>
+<li><strong>C. more early:</strong> <em>early</em> là từ ngắn đuôi -y → <em>earlier</em>.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>The</em> đầu câu nên chọn so sánh nhất. <strong>Ghi nhớ:</strong> The + -er/more…, the + -er/more…</p>
+</div>
+</div>
+<div class="grammar-exercise">
+<p>The quality of the new fabric is clearly superior ______ that of the original material.</p>
+<ol class="grammar-options"><li>than</li><li class="grammar-correct">to</li><li>from</li><li>with</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> B. to</p>
+<p><strong>Câu hoàn chỉnh:</strong> The quality of the new fabric is clearly superior to that of the original material.<br><strong>Dịch:</strong> Chất lượng vải mới rõ ràng vượt trội so với chất liệu ban đầu.</p>
+<p><strong>Vì sao đúng:</strong> <em>superior</em> đi với <em>to</em>, không dùng <em>than</em>.</p>
+<ul>
+<li><strong>A. than:</strong> chỉ dùng với dạng -er/more.</li>
+<li><strong>C. from:</strong> dùng với different from.</li>
+<li><strong>D. with:</strong> dùng với compared with.</li>
+</ul>
+<p><strong>Bẫy:</strong> nghĩa "hơn" khiến chọn <em>than</em>. <strong>Ghi nhớ:</strong> superior/inferior/prior/senior/junior + to.</p>
+</div>
+</div>
+<h2>7. Tính từ hay trạng từ?</h2>
+<ul>
+<li>So sánh <strong>tính chất của danh từ</strong> (sau be/become, trước danh từ) → tính từ: <em>is more efficient</em>.</li>
+<li>So sánh <strong>cách thực hiện hành động</strong> (bổ nghĩa động từ thường) → trạng từ: <em>works more efficiently</em>.</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Đối chiếu:</strong> The new system is <u>more efficient</u>. · The new system processes orders <u>more efficiently</u>.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p>The new software processes customer orders more ______ than the old system did.</p>
+<ol class="grammar-options"><li>efficient</li><li>efficiency</li><li class="grammar-correct">efficiently</li><li>efficiencies</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> C. efficiently</p>
+<p><strong>Câu hoàn chỉnh:</strong> The new software processes customer orders more efficiently than the old system did.<br><strong>Dịch:</strong> Phần mềm mới xử lý đơn hàng hiệu quả hơn hệ thống cũ.</p>
+<p><strong>Vì sao đúng:</strong> <em>processes customer orders</em> đã đủ V + O; so sánh cách xử lý → trạng từ <em>more efficiently</em>.</p>
+<ul>
+<li><strong>A. efficient:</strong> tính từ, không bổ nghĩa cho động từ <em>processes</em>.</li>
+<li><strong>B. efficiency:</strong> danh từ.</li>
+<li><strong>D. efficiencies:</strong> danh từ số nhiều.</li>
+</ul>
+<p><strong>Bẫy:</strong> chỉ nhìn <em>more … than</em> mà quên xét từ loại. <strong>Ghi nhớ:</strong> V + O + more + adv + than.</p>
+</div>
+</div>
+<h2>8. Bẫy và ngoại lệ</h2>
+<table>
+<thead><tr><th>Bẫy</th><th>Cách xử lý</th></tr></thead>
+<tbody>
+<tr><td>So sánh kép: more cheaper</td><td>Chọn một trong hai: cheaper / more expensive</td></tr>
+<tr><td>very + so sánh hơn</td><td>Dùng much/far/even</td></tr>
+<tr><td>of the two → so sánh hơn</td><td>the + -er/more of the two</td></tr>
+<tr><td>most (hầu hết) / the most (nhất) / mostly (chủ yếu)</td><td>Xét nghĩa và vị trí</td></tr>
+<tr><td>fewer / less</td><td>fewer + N đếm được; less + N không đếm được</td></tr>
+</tbody>
+</table>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> Of the two proposals, the second is <u>the more</u> practical. <em>(Trong hai đề xuất, đề xuất thứ hai thực tế hơn.)</em></p>
+</blockquote>
+<div class="grammar-exercise">
+<p>Of the two final candidates, Mr. Shah is the ______ qualified for the regional manager role.</p>
+<ol class="grammar-options"><li class="grammar-correct">more</li><li>most</li><li>much</li><li>many</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> A. more</p>
+<p><strong>Câu hoàn chỉnh:</strong> Of the two final candidates, Mr. Shah is the more qualified for the regional manager role.<br><strong>Dịch:</strong> Trong hai ứng viên cuối cùng, anh Shah là người đủ năng lực hơn cho vai trò quản lý khu vực.</p>
+<p><strong>Vì sao đúng:</strong> So sánh giữa <strong>hai</strong> đối tượng (<em>Of the two</em>) → <em>the + so sánh hơn</em>.</p>
+<ul>
+<li><strong>B. most:</strong> theo chuẩn ngữ pháp, so sánh nhất dùng cho ba đối tượng trở lên.</li>
+<li><strong>C. much:</strong> không đứng giữa <em>the</em> và tính từ.</li>
+<li><strong>D. many:</strong> sai cấu trúc.</li>
+</ul>
+<p><strong>Bẫy:</strong> thấy <em>the</em> nên chọn <em>most</em>. <strong>Ghi nhớ:</strong> of the two → the + -er/more.</p>
+</div>
+</div>
+<h2>9. Ứng dụng Part 6–7</h2>
+<ul>
+<li><strong>Part 6:</strong> so sánh phải khớp với thông tin trong đoạn: chuyển đến văn phòng mới <em>closer to</em> ga, giá <em>lower than</em> năm trước…</li>
+<li><strong>Part 7:</strong> câu hỏi "What is suggested about the new product?" thường dựa vào câu so sánh (<em>lighter, cheaper, more durable than</em>).</li>
+</ul>
+<blockquote class="grammar-example">
+<p><strong>Ví dụ:</strong> The X2 is <u>more durable than</u> earlier models. <em>(X2 bền hơn các mẫu trước.)</em> → What is indicated about the X2? → It is more durable.</p>
+</blockquote>
+<div class="grammar-exercise">
+<p><em>(Thông báo chuyển văn phòng)</em> On June 1, we will move to our new office on Pine Avenue.</p>
+<p>The new location is ______ to the train station than our current office, making it easier for clients to visit us.</p>
+<ol class="grammar-options"><li>closest</li><li>close</li><li>closely</li><li class="grammar-correct">closer</li></ol>
+<div class="grammar-explain">
+<p><strong>Đáp án đúng:</strong> D. closer</p>
+<p><strong>Đoạn hoàn chỉnh:</strong> On June 1, we will move to our new office on Pine Avenue. The new location is closer to the train station than our current office…<br><strong>Dịch:</strong> Ngày 1/6, chúng tôi sẽ chuyển đến văn phòng mới trên đại lộ Pine. Địa điểm mới gần ga tàu hơn văn phòng hiện tại…</p>
+<p><strong>Vì sao đúng:</strong> <em>than</em> → so sánh hơn; sau <em>is</em> cần tính từ → <em>closer to</em>.</p>
+<ul>
+<li><strong>A. closest:</strong> so sánh nhất.</li>
+<li><strong>B. close:</strong> dạng nguyên không đi với <em>than</em>.</li>
+<li><strong>C. closely:</strong> trạng từ "chặt chẽ" – sai nghĩa và vị trí.</li>
+</ul>
+<p><strong>Bẫy:</strong> <em>than</em> nằm xa chỗ trống. <strong>Ghi nhớ:</strong> close to (gần) → closer to … than.</p>
+</div>
+</div>
+<h2>10. Mẹo và quy trình</h2>
+<ol>
+<li><strong>Nhìn 4 đáp án:</strong> nguyên / -er / -est / -ly → câu so sánh.</li>
+<li><strong>Tìm dấu hiệu:</strong> than → hơn; the/in/of/ever → nhất; as…as → bằng; of the two → hơn.</li>
+<li><strong>Xét tính từ hay trạng từ</strong> theo từ được bổ nghĩa.</li>
+<li><strong>Kiểm tra từ nhấn mạnh:</strong> much/far/even + hơn; không dùng very.</li>
+</ol>
+<table>
+<thead><tr><th>Dấu hiệu</th><th>Chọn</th><th>Thời gian luyện tập</th></tr></thead>
+<tbody>
+<tr><td>… than</td><td>-er / more</td><td>5 giây</td></tr>
+<tr><td>the … in/of/among/ever</td><td>-est / most</td><td>5 giây</td></tr>
+<tr><td>as … as</td><td>dạng nguyên</td><td>5 giây</td></tr>
+<tr><td>The …, the …</td><td>hơn – hơn</td><td>10 giây</td></tr>
+<tr><td>superior/prior ______</td><td>to</td><td>5 giây</td></tr>
+</tbody>
+</table>
+<div class="grammar-tip">
+<p><strong>Lưu ý:</strong> dấu hiệu <em>than</em> có thể nằm xa, sau một cụm danh từ dài; hãy đọc hết câu trước khi chọn.</p>
+</div>
+<h2>11. Tổng kết, ôn tập</h2>
+<ul>
+<li>than → so sánh hơn; the + phạm vi → so sánh nhất; as…as → dạng nguyên.</li>
+<li>much/far/even/still + so sánh hơn; không dùng very.</li>
+<li>one of the + nhất + N số nhiều; of the two → the + hơn.</li>
+<li>The + hơn…, the + hơn… = càng… càng.</li>
+<li>superior/inferior/prior/senior + to.</li>
+<li>Bổ nghĩa động từ thường → trạng từ: more efficiently.</li>
+</ul>
+<table>
+<thead><tr><th>Nguyên</th><th>Hơn</th><th>Nhất</th></tr></thead>
+<tbody>
+<tr><td>good / well</td><td>better</td><td>the best</td></tr>
+<tr><td>bad / badly</td><td>worse</td><td>the worst</td></tr>
+<tr><td>many / much</td><td>more</td><td>the most</td></tr>
+<tr><td>little</td><td>less</td><td>the least</td></tr>
+<tr><td>far</td><td>further / farther</td><td>the furthest / farthest</td></tr>
+</tbody>
+</table>
