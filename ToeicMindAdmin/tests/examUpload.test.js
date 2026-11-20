@@ -158,6 +158,26 @@ test('convertRowsToGroups links audio and image references from Excel columns', 
   assert.equal(g2.imagePreviewUrls[0], 'blob:img-q62')
 })
 
+test('convertRowsToGroups removes blank lines from the Vietnamese translation', () => {
+  const row = {
+    question_no: 1,
+    part: 1,
+    group_id: 'p1-q1',
+    option_a: 'A text',
+    option_b: 'B text',
+    option_c: 'C text',
+    option_d: 'D text',
+    correct_answer: 'A',
+    script_en: '(A) He is putting on a coat.\r\n\r\n(B) He is holding an umbrella.',
+    script_vi: '\r\n(A) Một người đàn ông đang khoác áo.\r\n\r\n  \r\n(B) Một người đàn ông đang cầm ô.  \r\n\r\n',
+  }
+
+  const [group] = convertRowsToGroups([row], new Map())
+  assert.equal(group.translationVi, '(A) Một người đàn ông đang khoác áo.\n(B) Một người đàn ông đang cầm ô.')
+  // Chỉ bản dịch được làm sạch; transcript giữ nguyên như file nguồn.
+  assert.equal(group.transcriptEn, row.script_en)
+})
+
 test('parseFolderFiles and convertRowsToGroups correctly link audio_split segments', () => {
   const fakeFiles = [
     { name: 'Test_3_split.xlsx', webkitRelativePath: 'Test_3/Test_3_split.xlsx', size: 1024 },

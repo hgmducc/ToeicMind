@@ -43,7 +43,7 @@ public class ExamContentService : IExamContentService
             GroupLevelNo = dto.GroupLevelNo,
             PassageHtml = Optional(dto.PassageHtml) is { } passage ? _html.Sanitize(passage) : null,
             TranscriptEn = Optional(dto.TranscriptEn),
-            TranslationVi = Optional(dto.TranslationVi),
+            TranslationVi = Lines(dto.TranslationVi),
             CreatedAt = now,
             UpdatedAt = now,
             Tags = dto.SpecialTagIds.Select(id => new QuestionGroupTag { SpecialTagId = id, PartNo = dto.PartNo }).ToList(),
@@ -54,7 +54,7 @@ public class ExamContentService : IExamContentService
                 Clips = dto.AudioSegments.Select(s => new ListeningClip
                 {
                     ClipId = s.ClipId ?? 0, PartNo = dto.PartNo, SeqNo = s.Seq, ClipKey = s.ClipKey.Trim(),
-                    ClipRole = s.Role, TranscriptEn = s.Text.Trim(), TranslationVi = Optional(s.TranslationVi),
+                    ClipRole = s.Role, TranscriptEn = s.Text.Trim(), TranslationVi = Lines(s.TranslationVi),
                     Speaker = Optional(s.Speaker), SourceAudio = Optional(s.SourceAudio), ClipAudio = Optional(s.ClipAudio),
                     TextSource = Optional(s.TextSource), StartSec = s.StartSec, EndSec = s.EndSec, DurationSec = s.DurationSec, CreatedAt = now
                 }).ToList()
@@ -210,4 +210,9 @@ public class ExamContentService : IExamContentService
     }
 
     private static string? Optional(string? text) => string.IsNullOrWhiteSpace(text) ? null : text.Trim();
+
+    /// <summary>Văn bản nhiều dòng (bản dịch): bỏ dòng trắng và khoảng trắng đầu/cuối mỗi dòng, xuống dòng chuẩn hóa thành \n.
+    /// File Excel thường có dòng trống giữa các đáp án (A), (B)… làm bản dịch hiển thị thừa khoảng trống.</summary>
+    private static string? Lines(string? text) =>
+        Optional(text is null ? null : string.Join('\n', text.ReplaceLineEndings("\n").Split('\n').Select(line => line.Trim()).Where(line => line.Length > 0)));
 }

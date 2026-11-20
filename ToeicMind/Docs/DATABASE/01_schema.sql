@@ -1213,6 +1213,29 @@ WHERE o.[Status] = 'PAID' AND o.DurationDays BETWEEN 1 AND 3660
   AND NOT EXISTS (SELECT 1 FROM dbo.VipHistory h WHERE h.OrderId = o.OrderId);
 GO
 
+/* ===================== PHẦN G. BỎ DÒNG TRẮNG TRONG BẢN DỊCH (20/11/2026) ===================== */
+-- File Excel cũ có dòng trống giữa các đáp án (A), (B)… nên bản dịch hiển thị thừa khoảng trống.
+-- Cùng quy tắc với backend khi nhập mới: bỏ dòng trắng, bỏ khoảng trắng đầu/cuối mỗi dòng, xuống dòng thành LF.
+-- Chỉ ghi các dòng thật sự có dòng trắng (số dòng giảm); chạy lại không đổi gì. Transcript giữ nguyên.
+DECLARE @lf NCHAR(1) = NCHAR(10), @cr NCHAR(1) = NCHAR(13), @ws NVARCHAR(3) = N' ' + NCHAR(9) + NCHAR(160);
+DECLARE @edge NVARCHAR(20) = N'%[' + @ws + N']' + @lf + N'%', @next NVARCHAR(20) = N'%' + @lf + N'[' + @ws + @lf + N']%';
+DECLARE @vi TABLE (Kind CHAR(1) NOT NULL, Id INT NOT NULL, Orig NVARCHAR(MAX) NOT NULL, T NVARCHAR(MAX) NOT NULL, PRIMARY KEY (Kind, Id));
+INSERT INTO @vi (Kind, Id, Orig, T)
+SELECT 'G', GroupId, TranslationVi, REPLACE(REPLACE(TranslationVi, @cr + @lf, @lf), @cr, @lf) FROM dbo.QuestionGroup WHERE TranslationVi LIKE N'%[' + @cr + @lf + N']%'
+UNION ALL
+SELECT 'C', ClipId, TranslationVi, REPLACE(REPLACE(TranslationVi, @cr + @lf, @lf), @cr, @lf) FROM dbo.ListeningClip WHERE TranslationVi LIKE N'%[' + @cr + @lf + N']%';
+WHILE EXISTS (SELECT 1 FROM @vi WHERE T LIKE @edge OR T LIKE @next)
+    UPDATE @vi SET T = REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(T,
+        N' ' + @lf, @lf), NCHAR(9) + @lf, @lf), NCHAR(160) + @lf, @lf), @lf + N' ', @lf), @lf + NCHAR(9), @lf), @lf + NCHAR(160), @lf), @lf + @lf, @lf)
+    WHERE T LIKE @edge OR T LIKE @next;
+UPDATE @vi SET T = TRIM(@ws + @lf FROM T);
+-- Giữ lại hàng có số ký tự xuống dòng giảm (DATALENGTH vì LEN bỏ qua khoảng trắng cuối chuỗi).
+DELETE FROM @vi WHERE DATALENGTH(T) - DATALENGTH(REPLACE(T, @lf, N''))
+    >= DATALENGTH(REPLACE(Orig, @cr + @lf, @lf)) - DATALENGTH(REPLACE(REPLACE(Orig, @cr + @lf, @lf), @lf, N''));
+UPDATE g SET TranslationVi = NULLIF(v.T, N'') FROM dbo.QuestionGroup g JOIN @vi v ON v.Kind = 'G' AND v.Id = g.GroupId;
+UPDATE c SET TranslationVi = NULLIF(v.T, N'') FROM dbo.ListeningClip c JOIN @vi v ON v.Kind = 'C' AND v.Id = c.ClipId;
+GO
+
 COMMIT;
 GO
 PRINT N'01_schema.sql: baseline 38 bảng, gồm CHG-006 VIP/VNPay, CHG-007 (4 bảng cá nhân hóa/kiểm tra đầu vào) và CHG-008 (VipHistory); cập nhật tại chỗ, giữ nguyên dữ liệu/ID đã có.';

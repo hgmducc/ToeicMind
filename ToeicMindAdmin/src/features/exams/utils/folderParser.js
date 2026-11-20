@@ -2,6 +2,13 @@ const normalizePath = (path = '') => String(path).replace(/\\/g, '/').toLowerCas
 const basename = (path) => normalizePath(path).split('/').at(-1)
 const groupKey = (value) => normalizePath(value).replace(/^grp-/, '')
 const text = (value) => (value == null ? '' : String(value).trim())
+// Bản dịch nhiều dòng: bỏ dòng trắng (Excel hay để trống giữa các đáp án) và khoảng trắng đầu/cuối mỗi dòng.
+export const lines = (value) =>
+  text(value)
+    .split(/\r\n|\r|\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .join('\n')
 const nullableNumber = (value) => (value == null || value === '' ? null : Number(value))
 const escapeHtml = (value) =>
   text(value).replace(
@@ -153,7 +160,7 @@ export function convertRowsToGroups(
           text(row.passage_html) ||
           (row.passage_text ? `<p>${escapeHtml(row.passage_text).replace(/\n/g, '<br>')}</p>` : null),
         transcriptEn: text(row.script_en || row.transcript_en) || null,
-        translationVi: text(row.script_vi || row.translation_vi) || null,
+        translationVi: lines(row.script_vi || row.translation_vi) || null,
         specialCodes: [],
         specialTagIds: [],
         audioRef: null,
@@ -175,7 +182,7 @@ export function convertRowsToGroups(
       ['transcriptEn', row.script_en || row.transcript_en],
       ['translationVi', row.script_vi || row.translation_vi],
     ]) {
-      if (!group[field] && value) group[field] = text(value)
+      if (!group[field] && value) group[field] = field === 'translationVi' ? lines(value) : text(value)
     }
     if (!group.audioRef && row.audio) group.audioRef = text(row.audio)
     group.imageRefs = [
